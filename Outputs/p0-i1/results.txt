@@ -1,0 +1,1 @@
+{'train_set_before_training': 0.40625, 'global_step': 251, 'average_loss': 0.03982127668368745, 'train_set_after_training': 1.0}
