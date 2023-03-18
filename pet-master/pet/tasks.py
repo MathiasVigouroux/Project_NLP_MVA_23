@@ -805,13 +805,13 @@ class AllocineProcessor(DataProcessor):
     LABELS = ["0", "1"]
 
     # Set this to the column of the train/test csv files containing the input's text a
-    TEXT_A_COLUMN = 1
+    TEXT_A_COLUMN = 0
 
     # Set this to the column of the train/test csv files containing the input's text b or to -1 if there is no text b
     TEXT_B_COLUMN = -1 #je sais pas si laisser cette ligne de code sert
 
     # Set this to the column of the train/test csv files containing the input's gold label
-    LABEL_COLUMN = 0
+    LABEL_COLUMN = 1 ### de mémoire c'est ça mais vérifie j'a&i pas le fichier sous la main ###
 
     def get_train_examples(self, data_dir: str) -> List[InputExample]:
         """
