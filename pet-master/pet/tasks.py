@@ -779,16 +779,6 @@ be added. The DataProcessor is responsible for loading training and test data.
 This file shows an example of a DataProcessor for a new task.
 """
 
-import csv
-import os
-from typing import List
-
-from pet.task_helpers import MultiMaskTaskHelper
-from pet.tasks import DataProcessor, PROCESSORS, TASK_HELPERS
-from pet.utils import InputExample
-
-import pyarrow.parquet as pq
-import json
 
 
 class AllocineProcessor(DataProcessor):
@@ -859,23 +849,18 @@ class AllocineProcessor(DataProcessor):
         """This method returns all possible labels for the task."""
         return AllocineProcessor.LABELS
 
+    @staticmethod
     def _create_examples(self, path, set_type, max_examples=-1, skip_first=0):
         """Creates examples for the training and dev sets."""
         examples = []
 
         with open(path) as f:
-
-                      # Read the parquet file
-            table = pq.read_table('allocine-test.parquet')
-            # Convert to a dictionary
-            data = table.to_pydict()
-
-            
-            for idx, row in enumerate(data):
+            reader = csv.reader(f, delimiter=',')
+            for idx, row in enumerate(reader):
                 guid = "%s-%s" % (set_type, idx)
-  
                 label = row[AllocineProcessor.LABEL_COLUMN]
                 text_a = row[AllocineProcessor.TEXT_A_COLUMN]
+                text_b = None
                 example = InputExample(guid=guid, text_a=text_a, label=label)
                 examples.append(example)
 
@@ -883,7 +868,7 @@ class AllocineProcessor(DataProcessor):
 
 
 # register the processor for this task with its name
-PROCESSORS[MyTaskDataProcessor.TASK_NAME] = MyTaskDataProcessor
+PROCESSORS[AllocineProcessor.TASK_NAME] = AllocineProcessor
 
 # optional: if you have to use verbalizers that correspond to multiple tokens, uncomment the following line
 # TASK_HELPERS[MyTaskDataProcessor.TASK_NAME] = MultiMaskTaskHelper
