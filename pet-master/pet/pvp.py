@@ -618,6 +618,62 @@ class RecordPVP(PVP):
         return []
 
 
+from typing import List
+
+from pet.pvp import PVP, PVPS
+from pet.utils import InputExample
+
+
+class AllocinePVP(PVP):
+    """
+    Example for a pattern-verbalizer pair (PVP).
+    """
+
+    # Set this to the name of the task
+    TASK_NAME = "allociné"
+
+    # Set this to the verbalizer for the given task: a mapping from the task's labels (which can be obtained using
+    # the corresponding DataProcessor's get_labels method) to tokens from the language model's vocabulary
+    VERBALIZER = {
+        "0": ["mauvais"],
+        "1": ["bon"],
+    }
+
+    def get_parts(self, example: InputExample):
+        """
+        This function defines the actual patterns: It takes as input an example and outputs the result of applying a
+        pattern to it. To allow for multiple patterns, a pattern_id can be passed to the PVP's constructor. This
+        method must implement the application of all patterns.
+        """
+
+        # We tell the tokenizer that both text_a and text_b can be truncated if the resulting sequence is longer than
+        # our language model's max sequence length.
+        text_a = self.shortenable(example.text_a)
+        
+        
+        ### PAREIL JSP SI Y FAUT UN TEXT_B###
+
+        # For each pattern_id, we define the corresponding pattern and return a pair of text a and text b (where text b
+        # can also be empty).
+        if self.pattern_id == 0:
+            # this corresponds to the pattern : [MASK] ! a
+            return [self.mask, '!', text_a, []
+        elif self.pattern_id == 1:
+            # this corresponds to the pattern : a En résumé, ce film est [MASK]
+            return [text_a, 'En résumé, ce film est :', self.mask],
+        else:
+            raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
+
+    def verbalize(self, label) -> List[str]:
+        return AllocinePVP.VERBALIZER[label]
+
+
+# register the PVP for this task with its name
+PVPS[AllocinePVP.TASK_NAME] = AllocinePVP 
+
+
+    
+
 PVPS = {
     'agnews': AgnewsPVP,
     'mnli': MnliPVP,
@@ -637,4 +693,5 @@ PVPS = {
     'record': RecordPVP,
     'ax-b': RtePVP,
     'ax-g': RtePVP,
+    'allocine': AllocinePVP,
 }
