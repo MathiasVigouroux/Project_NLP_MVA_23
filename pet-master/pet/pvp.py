@@ -620,8 +620,6 @@ class RecordPVP(PVP):
 
 from typing import List
 
-from pet.pvp import PVP, PVPS
-from pet.utils import InputExample
 
 
 class AllocinePVP(PVP):
@@ -669,7 +667,7 @@ class AllocinePVP(PVP):
 
 
 # register the PVP for this task with its name
-PVPS[AllocinePVP.TASK_NAME] = AllocinePVP 
+#PVPS[AllocinePVP.TASK_NAME] = AllocinePVP the pvop is defined after
 
 
     
