@@ -633,7 +633,7 @@ class AllocinePVP(PVP):
     # Set this to the verbalizer for the given task: a mapping from the task's labels (which can be obtained using
     # the corresponding DataProcessor's get_labels method) to tokens from the language model's vocabulary
     VERBALIZER = {
-        "0": ["mauvais"],
+        "0": ["nul"], #["mauvais"], pour le moment ... AssertionError: Verbalization "mauvais" does not correspond to a single token, got ['ma', '##u', '##va', '##is']
         "1": ["bon"],
     }
 
