@@ -787,7 +787,7 @@ class AllocineProcessor(DataProcessor):
     """
 
     # Set this to the name of the task
-    TASK_NAME = "allociné"
+    TASK_NAME = "allocine"
 
     # Set this to the name of the file containing the train examples
     TRAIN_FILE_NAME = "train.csv"
