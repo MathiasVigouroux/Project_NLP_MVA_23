@@ -630,7 +630,7 @@ class AllocinePVP(PVP):
     """
 
     # Set this to the name of the task
-    TASK_NAME = "allociné"
+    TASK_NAME = "allocine"
 
     # Set this to the verbalizer for the given task: a mapping from the task's labels (which can be obtained using
     # the corresponding DataProcessor's get_labels method) to tokens from the language model's vocabulary
