@@ -819,7 +819,7 @@ class AllocineProcessor(DataProcessor):
         :param data_dir: the directory in which the training data can be found
         :return: a list of train examples
         """
-        return self._create_examples(os.path.join(data_dir, AllocineProcessor.TRAIN_FILE_NAME), "train")
+        return self._create_examples(self,os.path.join(data_dir, AllocineProcessor.TRAIN_FILE_NAME), "train")
 
     def get_dev_examples(self, data_dir: str) -> List[InputExample]:
         """
@@ -827,7 +827,7 @@ class AllocineProcessor(DataProcessor):
         :param data_dir: the directory in which the dev data can be found
         :return: a list of dev examples
         """
-        return self._create_examples(os.path.join(data_dir, AllocineProcessor.DEV_FILE_NAME), "dev")
+        return self._create_examples(self,os.path.join(data_dir, AllocineProcessor.DEV_FILE_NAME), "dev")
 
     def get_test_examples(self, data_dir) -> List[InputExample]:
         """
@@ -835,7 +835,7 @@ class AllocineProcessor(DataProcessor):
         :param data_dir: the directory in which the test data can be found
         :return: a list of test examples
         """
-        return self._create_examples(os.path.join(data_dir, AllocineProcessor.TEST_FILE_NAME), "test")
+        return self._create_examples(self,os.path.join(data_dir, AllocineProcessor.TEST_FILE_NAME), "test")
 
     def get_unlabeled_examples(self, data_dir) -> List[InputExample]:
         """
@@ -843,7 +843,7 @@ class AllocineProcessor(DataProcessor):
         :param data_dir: the directory in which the unlabeled data can be found
         :return: a list of unlabeled examples
         """
-        return self._create_examples(os.path.join(data_dir, AllocineProcessor.UNLABELED_FILE_NAME), "unlabeled")
+        return self._create_examples(self,os.path.join(data_dir, AllocineProcessor.UNLABELED_FILE_NAME), "unlabeled")
 
     def get_labels(self) -> List[str]:
         """This method returns all possible labels for the task."""
@@ -868,7 +868,7 @@ class AllocineProcessor(DataProcessor):
 
 
 # register the processor for this task with its name
-PROCESSORS[AllocineProcessor.TASK_NAME] = AllocineProcessor
+#PROCESSORS[AllocineProcessor.TASK_NAME] = AllocineProcessor
 
 # optional: if you have to use verbalizers that correspond to multiple tokens, uncomment the following line
 # TASK_HELPERS[MyTaskDataProcessor.TASK_NAME] = MultiMaskTaskHelper
