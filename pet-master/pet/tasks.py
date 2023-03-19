@@ -819,7 +819,7 @@ class AllocineProcessor(DataProcessor):
         :param data_dir: the directory in which the training data can be found
         :return: a list of train examples
         """
-        return self._create_examples(self,os.path.join(data_dir, AllocineProcessor.TRAIN_FILE_NAME), "train")
+        return self._create_examples(os.path.join(data_dir, AllocineProcessor.TRAIN_FILE_NAME), "train")
 
     def get_dev_examples(self, data_dir: str) -> List[InputExample]:
         """
@@ -827,7 +827,7 @@ class AllocineProcessor(DataProcessor):
         :param data_dir: the directory in which the dev data can be found
         :return: a list of dev examples
         """
-        return self._create_examples(self,os.path.join(data_dir, AllocineProcessor.DEV_FILE_NAME), "dev")
+        return self._create_examples(os.path.join(data_dir, AllocineProcessor.DEV_FILE_NAME), "dev")
 
     def get_test_examples(self, data_dir) -> List[InputExample]:
         """
@@ -835,7 +835,7 @@ class AllocineProcessor(DataProcessor):
         :param data_dir: the directory in which the test data can be found
         :return: a list of test examples
         """
-        return self._create_examples(self,os.path.join(data_dir, AllocineProcessor.TEST_FILE_NAME), "test")
+        return self._create_examples(os.path.join(data_dir, AllocineProcessor.TEST_FILE_NAME), "test")
 
     def get_unlabeled_examples(self, data_dir) -> List[InputExample]:
         """
@@ -843,14 +843,14 @@ class AllocineProcessor(DataProcessor):
         :param data_dir: the directory in which the unlabeled data can be found
         :return: a list of unlabeled examples
         """
-        return self._create_examples(self,os.path.join(data_dir, AllocineProcessor.UNLABELED_FILE_NAME), "unlabeled")
+        return self._create_examples(os.path.join(data_dir, AllocineProcessor.UNLABELED_FILE_NAME), "unlabeled")
 
     def get_labels(self) -> List[str]:
         """This method returns all possible labels for the task."""
         return AllocineProcessor.LABELS
 
     @staticmethod
-    def _create_examples(self, path, set_type, max_examples=-1, skip_first=0):
+    def _create_examples( path, set_type, max_examples=-1, skip_first=0):
         """Creates examples for the training and dev sets."""
         examples = []
 
@@ -859,9 +859,9 @@ class AllocineProcessor(DataProcessor):
             for idx, row in enumerate(reader):
                 guid = "%s-%s" % (set_type, idx)
                 label = row[AllocineProcessor.LABEL_COLUMN]
-                text_a = row[AllocineProcessor.TEXT_A_COLUMN]
+                text = row[AllocineProcessor.TEXT_A_COLUMN]
                 text_b = None
-                example = InputExample(guid=guid, text_a=text_a, label=label)
+                example = InputExample(guid=guid, text_a=text, label=label)
                 examples.append(example)
 
         return examples

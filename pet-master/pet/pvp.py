@@ -633,11 +633,11 @@ class AllocinePVP(PVP):
     # Set this to the verbalizer for the given task: a mapping from the task's labels (which can be obtained using
     # the corresponding DataProcessor's get_labels method) to tokens from the language model's vocabulary
     VERBALIZER = {
-        "0": ["nul"], #["mauvais"], pour le moment ... AssertionError: Verbalization "mauvais" does not correspond to a single token, got ['ma', '##u', '##va', '##is']
-        "1": ["bon"],
+        "0": ["no"], #["mauvais"], pour le moment ... AssertionError: Verbalization "mauvais" does not correspond to a single token, got ['ma', '##u', '##va', '##is']
+        "1": ["bo"],
     }
 
-    def get_parts(self, example: InputExample):
+    def get_parts(self, example: InputExample)  -> FilledPattern:
         """
         This function defines the actual patterns: It takes as input an example and outputs the result of applying a
         pattern to it. To allow for multiple patterns, a pattern_id can be passed to the PVP's constructor. This
@@ -646,7 +646,7 @@ class AllocinePVP(PVP):
 
         # We tell the tokenizer that both text_a and text_b can be truncated if the resulting sequence is longer than
         # our language model's max sequence length.
-        text_a = self.shortenable(example.text_a)
+        text = self.shortenable(example.text_a)
         
         
         ### PAREIL JSP SI Y FAUT UN TEXT_B###
@@ -655,10 +655,10 @@ class AllocinePVP(PVP):
         # can also be empty).
         if self.pattern_id == 0:
             # this corresponds to the pattern : [MASK] ! a
-            return [self.mask, '!', text_a]
+            return [self.mask, '!', text]
         elif self.pattern_id == 1:
             # this corresponds to the pattern : a En résumé, ce film est [MASK]
-            return [text_a, 'En résumé, ce film est :', self.mask]
+            return [text, 'En résumé, ce film est :', self.mask]
         else:
             raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
 
