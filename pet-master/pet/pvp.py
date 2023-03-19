@@ -657,7 +657,7 @@ class AllocinePVP(PVP):
         # can also be empty).
         if self.pattern_id == 0:
             # this corresponds to the pattern : [MASK] ! a
-            return [self.mask, '!', text_a, []
+            return [self.mask, '!', text_a]
         elif self.pattern_id == 1:
             # this corresponds to the pattern : a En résumé, ce film est [MASK]
             return [text_a, 'En résumé, ce film est :', self.mask],
