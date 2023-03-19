@@ -660,7 +660,7 @@ class AllocinePVP(PVP):
             return [self.mask, '!', text_a]
         elif self.pattern_id == 1:
             # this corresponds to the pattern : a En résumé, ce film est [MASK]
-            return [text_a, 'En résumé, ce film est :', self.mask],
+            return [text_a, 'En résumé, ce film est :', self.mask]
         else:
             raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
 
