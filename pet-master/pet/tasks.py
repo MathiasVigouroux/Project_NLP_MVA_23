@@ -861,7 +861,7 @@ class AllocineProcessor(DataProcessor):
                 label = row[AllocineProcessor.LABEL_COLUMN]
                 text = row[AllocineProcessor.TEXT_A_COLUMN]
                 text_b = None
-                example = InputExample(guid=guid, text_a=text, text_b = text_b label=label)
+                example = InputExample(guid=guid, text_a=text, text_b = text_b, label=label)
                 examples.append(example)
 
         return examples
