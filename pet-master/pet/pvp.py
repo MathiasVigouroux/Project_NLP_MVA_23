@@ -439,6 +439,35 @@ class RtePVP(PVP):
         if self.pattern_id == 4:
             return ['true'] if label == 'entailment' else ['false']
         return RtePVP.VERBALIZER[label]
+    
+class HuRtePVP(PVP):
+    VERBALIZER = {
+        "0": ["Nem"],
+        "1": ["Igen"]
+    }
+
+    def get_parts(self, example: InputExample) -> FilledPattern:
+        # switch text_a and text_b to get the correct order
+        text_a = self.shortenable(example.text_a)
+        text_b = self.shortenable(example.text_b.rstrip(string.punctuation))
+
+        if self.pattern_id == 0:
+            return ['"', text_b, '" ?'], [self.mask, ', "', text_a, '"']
+        elif self.pattern_id == 1:
+            return [text_b, '?'], [self.mask, ',', text_a]
+        if self.pattern_id == 2:
+            return ['"', text_b, '" ?'], [self.mask, '. "', text_a, '"']
+        elif self.pattern_id == 3:
+            return [text_b, '?'], [self.mask, '.', text_a]
+        elif self.pattern_id == 4:
+            return [text_a, ' kérdes: ', self.shortenable(example.text_b), ' True or False? answer:', self.mask], []
+        else:
+            raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
+
+    def verbalize(self, label) -> List[str]:
+        if self.pattern_id == 4:
+            return ['true'] if label == 'entailment' else ['false']
+        return RtePVP.VERBALIZER[label]
 
 
 class CbPVP(RtePVP):
@@ -687,6 +716,9 @@ class HuSSTPVP(PVP):
         elif self.pattern_id == 1:
             # this corresponds to the pattern : a En résumé, ce film est [MASK]
             return [text, 'Összefoglalva, ez a film', self.mask], []
+        elif self.pattern_id == 2:
+            # this corresponds to the pattern : a En résumé, ce film est [MASK]
+            return [text, 'A vélemény a filmről', self.mask], []
         else:
             raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
 
@@ -715,5 +747,6 @@ PVPS = {
     'ax-b': RtePVP,
     'ax-g': RtePVP,
     'allocine': AllocinePVP,
-    'husst':HuSSTPVP
+    'husst':HuSSTPVP,
+    'hurte':HuRTE
 }
