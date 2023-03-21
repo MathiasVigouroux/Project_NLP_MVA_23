@@ -940,6 +940,7 @@ PROCESSORS = {
     "ax-g": AxGProcessor,
     "ax-b": AxBProcessor,
     "allocine": AllocineProcessor,
+    "husst": HuSSTProcessor
 }  # type: Dict[str,Callable[[],DataProcessor]]
 
 TASK_HELPERS = {
