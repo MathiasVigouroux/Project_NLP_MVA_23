@@ -864,6 +864,7 @@ class AllocineProcessor(DataProcessor):
                 example = InputExample(guid=guid, text_a=text, text_b = text_b, label=label)
                 examples.append(example)
 
+
         return examples
 
 
@@ -874,7 +875,49 @@ class AllocineProcessor(DataProcessor):
 # TASK_HELPERS[MyTaskDataProcessor.TASK_NAME] = MultiMaskTaskHelper
     
     
-    
+
+class HuSST(DataProcessor):
+    TASK_NAME = "husst"
+    TRAIN_FILE_NAME = "sst_train.json"
+    DEV_FILE_NAME = "sst_dev.json"    
+    TEST_FILE_NAME = "sst_test.json"   
+    UNLABELED_FILE_NAME = "sst_unlabeled.json"
+
+    LABELS = ["positive", "neutral","negative"]
+ 
+    def get_train_examples(self, data_dir: str) -> List[InputExample]:
+      return self._create_examples(os.path.join(data_dir, AllocineProcessor.TRAIN_FILE_NAME), "train")
+
+    def get_dev_examples(self, data_dir: str) -> List[InputExample]:
+       return self._create_examples(os.path.join(data_dir, AllocineProcessor.DEV_FILE_NAME), "dev")
+
+    def get_test_examples(self, data_dir) -> List[InputExample]:
+       return self._create_examples(os.path.join(data_dir, AllocineProcessor.TEST_FILE_NAME), "test")
+
+    def get_unlabeled_examples(self, data_dir) -> List[InputExample]:
+       return self._create_examples(os.path.join(data_dir, AllocineProcessor.UNLABELED_FILE_NAME), "unlabeled")
+
+    def get_labels(self) -> List[str]:
+        return AllocineProcessor.LABELS
+
+    @staticmethod
+    def _create_examples( path, set_type, max_examples=-1, skip_first=0):
+        """Creates examples for the training and dev sets."""
+        examples = []
+        with open(path, encoding='utf8') as json_file:
+            json_data = json.load(json_file)
+            for example_json in json_data:
+                idx = example_json['id']
+                guid = "%s-%s" % (set_type, idx)
+                label = example_json['label']
+                text = example_json['Sent']
+                text_b=None
+                example = InputExample(guid=guid, text_a=text, text_b = text_b, label=label)
+                examples.append(example)
+
+
+
+        return examples
     
 PROCESSORS = {
     "mnli": MnliProcessor,

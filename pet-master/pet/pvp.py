@@ -669,8 +669,31 @@ class AllocinePVP(PVP):
 # register the PVP for this task with its name
 #PVPS[AllocinePVP.TASK_NAME] = AllocinePVP the pvop is defined after
 
+class HuSSTPVP(PVP):
 
-    
+    TASK_NAME = "husst"
+    VERBALIZER = {
+        "negative": ["negatív","rossz"], #["mauvais"], pour le moment ... AssertionError: Verbalization "mauvais" does not correspond to a single token, got ['ma', '##u', '##va', '##is']
+        "neutral": ["semleges"],
+        "positive":["positív", "jó"]
+    }
+
+    def get_parts(self, example: InputExample)  -> FilledPattern:
+        text = self.shortenable(example.text_a)
+
+        if self.pattern_id == 0:
+            # this corresponds to the pattern : a En résumé, ce film est [MASK]
+            return [text, 'Röviden, ez a mondat :', self.mask], []
+        elif self.pattern_id == 1:
+            # this corresponds to the pattern : a En résumé, ce film est [MASK]
+            return [text, 'Összefoglalva, ez a mondat :', self.mask], []
+        else:
+            raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
+
+    def verbalize(self, label) -> List[str]:
+        return HuSSTPVP.VERBALIZER[label]
+
+
 
 PVPS = {
     'agnews': AgnewsPVP,
@@ -692,4 +715,5 @@ PVPS = {
     'ax-b': RtePVP,
     'ax-g': RtePVP,
     'allocine': AllocinePVP,
+    'husst':HuSSTPVP
 }
