@@ -459,15 +459,11 @@ class HuRtePVP(PVP):
             return ['"', text_b, '" ?'], [self.mask, '. "', text_a, '"']
         elif self.pattern_id == 3:
             return [text_b, '?'], [self.mask, '.', text_a]
-        elif self.pattern_id == 4:
-            return [text_a, ' kérdes: ', self.shortenable(example.text_b), ' True or False? answer:', self.mask], []
         else:
             raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
 
     def verbalize(self, label) -> List[str]:
-        if self.pattern_id == 4:
-            return ['true'] if label == 'entailment' else ['false']
-        return RtePVP.VERBALIZER[label]
+        return HuRtePVP.VERBALIZER[label]
 
 
 class CbPVP(RtePVP):
@@ -748,5 +744,5 @@ PVPS = {
     'ax-g': RtePVP,
     'allocine': AllocinePVP,
     'husst':HuSSTPVP,
-    'hurte':HuRTE
+    'hurte':HuRtePVP
 }
