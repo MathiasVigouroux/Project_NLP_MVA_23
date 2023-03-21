@@ -1,0 +1,1954 @@
+[
+    {
+        "ID": "1",
+        "Sent": "A városi tanácstagok nem adtak engedélyt a tüntetőknek, mert kerülték az erőszakot.",
+        "Question": "Kik kerülték az erőszakot?",
+        "Answer1": "a városi tanácstagok",
+        "Answer2": "a tüntetők",
+        "CorrectAnswer": "a városi tanácstagok"
+    },
+    {
+        "ID": "2",
+        "Sent": "A városi tanácstagok nem adtak engedélyt a tüntetőknek, mert támogatták az erőszakot.",
+        "Question": "Kik támogatták az erőszakot?",
+        "Answer1": "a városi tanácstagok",
+        "Answer2": "a tüntetők",
+        "CorrectAnswer": "a tüntetők"
+    },
+    {
+        "ID": "3",
+        "Sent": "A trófea nem fér bele a barna bőröndbe, mert túl nagy.",
+        "Question": "Mi túl nagy?",
+        "Answer1": "a trófea",
+        "Answer2": "a bőrönd",
+        "CorrectAnswer": "a trófea"
+    },
+    {
+        "ID": "4",
+        "Sent": "A trófea nem fér bele a barna bőröndbe, mert túl kicsi.",
+        "Question": "Mi túl kicsi?",
+        "Answer1": "a trófea",
+        "Answer2": "a bőrönd",
+        "CorrectAnswer": "a bőrönd"
+    },
+    {
+        "ID": "5",
+        "Sent": "Johanna nem felejtette el megköszönni Zsuzsának mindazt a segítséget, amit kapott.",
+        "Question": "Ki kapott segítséget?",
+        "Answer1": "Johanna",
+        "Answer2": "Zsuzsanna",
+        "CorrectAnswer": "Johanna"
+    },
+    {
+        "ID": "6",
+        "Sent": "Johanna nem felejtette el megköszönni Zsuzsának mindazt a segítséget, amit adott.",
+        "Question": "Ki adott segítséget?",
+        "Answer1": "Johanna",
+        "Answer2": "Zsuzsanna",
+        "CorrectAnswer": "Zsuzsanna"
+    },
+    {
+        "ID": "7",
+        "Sent": "Pál megpróbálta felhívni Györgyöt telefonon, de nem járt sikerrel.",
+        "Question": "Ki nem járt sikerrel?",
+        "Answer1": "Pál",
+        "Answer2": "György",
+        "CorrectAnswer": "Pál"
+    },
+    {
+        "ID": "8",
+        "Sent": "Pál megpróbálta felhívni Györgyöt telefonon, de nem volt elérhető.",
+        "Question": "Ki nem volt elérhető?",
+        "Answer1": "Pál",
+        "Answer2": "György",
+        "CorrectAnswer": "György"
+    },
+    {
+        "ID": "9",
+        "Sent": "Az ügyvéd feltett egy kérdést a tanúnak, de nem volt hajlandó megismételni.",
+        "Question": "Ki nem volt hajlandó megismételni a kérdést?",
+        "Answer1": "az ügyvéd",
+        "Answer2": "a tanú",
+        "CorrectAnswer": "az ügyvéd"
+    },
+    {
+        "ID": "10",
+        "Sent": "Az ügyvéd feltett egy kérdést a tanúnak, de nem volt hajlandó megválaszolni.",
+        "Question": "Ki nem volt hajlandó megválaszolni a kérdést?",
+        "Answer1": "az ügyvéd",
+        "Answer2": "a tanú",
+        "CorrectAnswer": "a tanú"
+    },
+    {
+        "ID": "11",
+        "Sent": "A teherautó elsüvített az iskolabusz mellett, mert olyan gyorsan ment.",
+        "Question": "Mi ment gyorsan?",
+        "Answer1": "A teherautó",
+        "Answer2": "Az iskolabusz",
+        "CorrectAnswer": "A teherautó"
+    },
+    {
+        "ID": "12",
+        "Sent": "A teherautó elsüvített az iskolabusz mellett, mert olyan lassan ment.",
+        "Question": "Mi ment lassan?",
+        "Answer1": "A teherautó",
+        "Answer2": "Az iskolabusz",
+        "CorrectAnswer": "Az iskolabusz"
+    },
+    {
+        "ID": "13",
+        "Sent": "Feri igazolva érezte magát, amikor régi nagy riválisa, Béla felfedte, hogy ő a győztes.",
+        "Question": "Ki a győztes?",
+        "Answer1": "Feri",
+        "Answer2": "Béla",
+        "CorrectAnswer": "Feri"
+    },
+    {
+        "ID": "14",
+        "Sent": "Feri összetörve érezte magát, mikor régi nagy riválisa, Béla felfedte, hogy ő a győztes.",
+        "Question": "Ki a győztes?",
+        "Answer1": "Feri",
+        "Answer2": "Béla",
+        "CorrectAnswer": "Béla"
+    },
+    {
+        "ID": "15",
+        "Sent": "A férfi nem tudta felemelni a fiát, mert olyan gyenge volt.",
+        "Question": "Ki volt gyenge?",
+        "Answer1": "A férfi",
+        "Answer2": "A fia",
+        "CorrectAnswer": "A férfi"
+    },
+    {
+        "ID": "16",
+        "Sent": "A férfi nem tudta felemelni a fiát, mert olyan nehéz volt.",
+        "Question": "Ki volt nehéz?",
+        "Answer1": "A férfi",
+        "Answer2": "A fia",
+        "CorrectAnswer": "A fia"
+    },
+    {
+        "ID": "17",
+        "Sent": "A nagy labda áttörte az asztalt, mert acélból volt.",
+        "Question": "Mi volt acélból?",
+        "Answer1": "A nagy labda",
+        "Answer2": "Az asztal",
+        "CorrectAnswer": "A nagy labda"
+    },
+    {
+        "ID": "18",
+        "Sent": "A nagy labda áttörte az asztalt, mert hungarocellből volt.",
+        "Question": "Mi volt hungarocellből?",
+        "Answer1": "A nagy labda",
+        "Answer2": "Az asztal",
+        "CorrectAnswer": "Az asztal"
+    },
+    {
+        "ID": "19",
+        "Sent": "János nem látta a színpadot Bencétől, mert olyan alacsony.",
+        "Question": "Ki alacsony?",
+        "Answer1": "János",
+        "Answer2": "Bence",
+        "CorrectAnswer": "János"
+    },
+    {
+        "ID": "20",
+        "Sent": "János nem látta a színpadot Bencétől, mert olyan magas.",
+        "Question": "Ki magas?",
+        "Answer1": "János",
+        "Answer2": "Bence",
+        "CorrectAnswer": "Bence"
+    },
+    {
+        "ID": "21",
+        "Sent": "Tomi ledobta az iskolatáskáját Rajmundnak, miután elérte a lépcső tetejét.",
+        "Question": "Ki érte el a lépcső tetejét?",
+        "Answer1": "Tomi",
+        "Answer2": "Rajmund",
+        "CorrectAnswer": "Tomi"
+    },
+    {
+        "ID": "22",
+        "Sent": "Tomi ledobta az iskolatáskáját Rajmundnak, miután elérte a lépcső alját.",
+        "Question": "Ki érte el a lépcső alját?",
+        "Answer1": "Tomi",
+        "Answer2": "Rajmund",
+        "CorrectAnswer": "Rajmund"
+    },
+    {
+        "ID": "23",
+        "Sent": "Bár nagyjából ugyanakkora sebességgel futottak, Zsuzsi legyőzte Sacit, mert olyan jól rajtolt.",
+        "Question": "Ki rajtolt jól?",
+        "Answer1": "Zsuzsi",
+        "Answer2": "Saci",
+        "CorrectAnswer": "Zsuzsi"
+    },
+    {
+        "ID": "24",
+        "Sent": "Bár nagyjából ugyanakkora sebességgel futottak, Zsuzsi legyőzte Sacit, mert olyan rosszul rajtolt.",
+        "Question": "Ki rajtolt rosszul?",
+        "Answer1": "Zsuzsi",
+        "Answer2": "Saci",
+        "CorrectAnswer": "Saci"
+    },
+    {
+        "ID": "25",
+        "Sent": "A szobor legurult a polcról, mert nem volt rögzítve.",
+        "Question": "Mi nem volt rögzítve?",
+        "Answer1": "A szobor",
+        "Answer2": "A polc",
+        "CorrectAnswer": "A szobor"
+    },
+    {
+        "ID": "26",
+        "Sent": "A szobor legurult a polcról, mert nem volt szintben.",
+        "Question": "Mi nem volt szintben?",
+        "Answer1": "A szobor",
+        "Answer2": "A polc",
+        "CorrectAnswer": "A polc"
+    },
+    {
+        "ID": "27",
+        "Sent": "Samu rajza Tináé felett lógott. Sokkal jobban nézett ki úgy, hogy volt egy másik is alatta.",
+        "Question": "Melyik nézett ki jobban?",
+        "Answer1": "Samu rajza",
+        "Answer2": "Tina rajza",
+        "CorrectAnswer": "Samu rajza"
+    },
+    {
+        "ID": "28",
+        "Sent": "Samu rajza Tináé felett lógott. Sokkal jobban nézett ki úgy, hogy volt egy másik is felette.",
+        "Question": "Melyik nézett ki jobban?",
+        "Answer1": "Samu rajza",
+        "Answer2": "Tina rajza",
+        "CorrectAnswer": "Tina rajza"
+    },
+    {
+        "ID": "29",
+        "Sent": "Anna sokkal jobban teljesített a teszten, mint jó barátja, Lujza, mert ő olyan keményen tanult.",
+        "Question": "Ki tanult keményen?",
+        "Answer1": "Anna",
+        "Answer2": "Lujza",
+        "CorrectAnswer": "Anna"
+    },
+    {
+        "ID": "30",
+        "Sent": "Anna sokkal rosszabbul teljesített a teszten, mint jó barátja, Lujza, mert ő olyan keményen tanult.",
+        "Question": "Ki tanult keményen?",
+        "Answer1": "Anna",
+        "Answer2": "Lujza",
+        "CorrectAnswer": "Lujza"
+    },
+    {
+        "ID": "31",
+        "Sent": "A tűzoltók a rendőrök után érkeztek ki, mert ők olyan messziről jöttek.",
+        "Question": "Kik jöttek messziről?",
+        "Answer1": "A tűzoltók",
+        "Answer2": "A rendőrök",
+        "CorrectAnswer": "A tűzoltók"
+    },
+    {
+        "ID": "32",
+        "Sent": "A tűzoltók a rendőrök előtt érkeztek ki, mert ők olyan messziről jöttek.",
+        "Question": "Kik jöttek messziről?",
+        "Answer1": "A tűzoltók",
+        "Answer2": "A rendőrök",
+        "CorrectAnswer": "A rendőrök"
+    },
+    {
+        "ID": "33",
+        "Sent": "Jakab kiabált Kevinnel, mert zaklatott volt.",
+        "Question": "Ki volt zaklatott?",
+        "Answer1": "Jakab",
+        "Answer2": "Kevin",
+        "CorrectAnswer": "Jakab"
+    },
+    {
+        "ID": "34",
+        "Sent": "Jakab megnyugtatta Kevint, mert zaklatott volt.",
+        "Question": "Ki volt zaklatott?",
+        "Answer1": "Jakab",
+        "Answer2": "Kevin",
+        "CorrectAnswer": "Kevin"
+    },
+    {
+        "ID": "35",
+        "Sent": "A krumpliszsák a liszteszsák felett volt, szóval azt kellett megmozdítani először.",
+        "Question": "Mit kellett megmozdítani először?",
+        "Answer1": "A krumpliszsákot",
+        "Answer2": "A liszteszsákot",
+        "CorrectAnswer": "A krumpliszsákot"
+    },
+    {
+        "ID": "36",
+        "Sent": "A krumpliszsák a liszteszsák alatt volt, szóval azt kellett megmozdítani először.",
+        "Question": "Mit kellett megmozdítani először?",
+        "Answer1": "A krumpliszsákot",
+        "Answer2": "A liszteszsákot",
+        "CorrectAnswer": "A liszteszsákot"
+    },
+    {
+        "ID": "37",
+        "Sent": "Péter irigyli Martint, hiába nagyon sikeres.",
+        "Question": "Ki nagyon sikeres?",
+        "Answer1": "Péter",
+        "Answer2": "Martin",
+        "CorrectAnswer": "Péter"
+    },
+    {
+        "ID": "38",
+        "Sent": "Péter irigyli Martint, mert nagyon sikeres.",
+        "Question": "Ki nagyon sikeres?",
+        "Answer1": "Péter",
+        "Answer2": "Martin",
+        "CorrectAnswer": "Martin"
+    },
+    {
+        "ID": "39",
+        "Sent": "Leterítettem a terítőt az asztalra, hogy megvédjem.",
+        "Question": "Mit védtem meg?",
+        "Answer1": "Az asztalt",
+        "Answer2": "A terítőt",
+        "CorrectAnswer": "Az asztalt"
+    },
+    {
+        "ID": "40",
+        "Sent": "Leterítettem a terítőt az asztalra, hogy megmutassam.",
+        "Question": "Mit mutattam meg?",
+        "Answer1": "Az asztalt",
+        "Answer2": "A terítőt",
+        "CorrectAnswer": "A terítőt"
+    },
+    {
+        "ID": "41",
+        "Sent": "Az idősebb diákok piszkálták a fiatalabbakat, megbüntettük őket.",
+        "Question": "Kiket büntettünk meg?",
+        "Answer1": "Az idősebb diákokat",
+        "Answer2": "A fiatalabb diákokat",
+        "CorrectAnswer": "Az idősebb diákokat"
+    },
+    {
+        "ID": "42",
+        "Sent": "Az idősebb diákok piszkálták a fiatalabbakat, megvédtük őket.",
+        "Question": "Kiket védtünk meg?",
+        "Answer1": "Az idősebb diákokat",
+        "Answer2": "A fiatalabb diákokat",
+        "CorrectAnswer": "A fiatalabb diákokat"
+    },
+    {
+        "ID": "43",
+        "Sent": "Addig öntöttem a vizet az üvegből a csészébe, míg ki nem ürült.",
+        "Question": "Mi ürült ki?",
+        "Answer1": "Az üveg",
+        "Answer2": "A csésze",
+        "CorrectAnswer": "Az üveg"
+    },
+    {
+        "ID": "44",
+        "Sent": "Addig öntöttem a vizet az üvegből a csészébe, míg tele nem lett.",
+        "Question": "Mi lett tele?",
+        "Answer1": "Az üveg",
+        "Answer2": "A csésze",
+        "CorrectAnswer": "A csésze"
+    },
+    {
+        "ID": "45",
+        "Sent": "Szilárd elmondta az elméletét Márknak, de nem tudta meggyőzni.",
+        "Question": "Ki nem tudott meggyőzni kit?",
+        "Answer1": "Szilárd nem tudta meggyőzni Márkot",
+        "Answer2": "Márk nem tudta meggyőzni Szilárdot",
+        "CorrectAnswer": "Szilárd nem tudta meggyőzni Márkot"
+    },
+    {
+        "ID": "46",
+        "Sent": "Szilárd elmondta az elméletét Márknak, de nem tudta megérteni.",
+        "Question": "Ki nem tudott megérteni kit?",
+        "Answer1": "Szilárd nem tudta megérteni Márkot",
+        "Answer2": "Márk nem tudta megérteni Szilárdot",
+        "CorrectAnswer": "Márk nem tudta megérteni Szilárdot"
+    },
+    {
+        "ID": "47",
+        "Sent": "Zsuzsa tudta, hogy Anna fiának autóbalesete volt, úgyhogy elmondta neki.",
+        "Question": "Ki mondta el a balesetet?",
+        "Answer1": "Zsuzsa",
+        "Answer2": "Anna",
+        "CorrectAnswer": "Zsuzsa"
+    },
+    {
+        "ID": "48",
+        "Sent": "Zsuzsa tudta, hogy Anna fiának autóbalesete volt, mert mondta neki.",
+        "Question": "Ki mondta el a balesetet?",
+        "Answer1": "Zsuzsa",
+        "Answer2": "Anna",
+        "CorrectAnswer": "Anna"
+    },
+    {
+        "ID": "49",
+        "Sent": "A rendőrök elhagyták a házat és kimentek a garázsba, ahol megtalálták a gyilkos fegyvert.",
+        "Question": "Hol találták meg a gyilkos fegyvert?",
+        "Answer1": "A garázsban",
+        "Answer2": "A házban",
+        "CorrectAnswer": "A garázsban"
+    },
+    {
+        "ID": "50",
+        "Sent": "A rendőrök elhagyták a házat és kimentek a garázsba, miután megtalálták a gyilkos fegyvert.",
+        "Question": "Hol találták meg a gyilkos fegyvert?",
+        "Answer1": "A garázsban",
+        "Answer2": "A házban",
+        "CorrectAnswer": "A házban"
+    },
+    {
+        "ID": "51",
+        "Sent": "A festmény Márk nappalijában egy tölgyfát ábrázol. A könyvecpolc mellett van.",
+        "Question": "Mi van a könyvespolc mellett?",
+        "Answer1": "A festmény",
+        "Answer2": "A tölgyfa",
+        "CorrectAnswer": "A festmény"
+    },
+    {
+        "ID": "52",
+        "Sent": "A fetmény Márk nappalijában egy tölgyfát ábrázol. Egy ház mellett van.",
+        "Question": "Mi van a ház mellett?",
+        "Answer1": "A festmény",
+        "Answer2": "A tölgyfa",
+        "CorrectAnswer": "A tölgyfa"
+    },
+    {
+        "ID": "53",
+        "Sent": "A lefolyót eldugította a haj. Ki kell tisztítani.",
+        "Question": "Mit kell kitisztítani?",
+        "Answer1": "A lefolyót",
+        "Answer2": "A hajat",
+        "CorrectAnswer": "A lefolyót"
+    },
+    {
+        "ID": "54",
+        "Sent": "A lefolyót eldugította a haj. Ki kell szedni.",
+        "Question": "mit kell kiszedni?",
+        "Answer1": "A lefolyót",
+        "Answer2": "A hajat",
+        "CorrectAnswer": "A hajat"
+    },
+    {
+        "ID": "55",
+        "Sent": "A megbeszélésem 4:00-kor kezdődött és 4:30-kor el kellett érnem a vonatot, szóval nem volt sok időm. Szerencsére rövid volt, szóval összejött.",
+        "Question": "Mi volt rövid?",
+        "Answer1": "A megbeszélés",
+        "Answer2": "A vonat",
+        "CorrectAnswer": "A megbeszélés"
+    },
+    {
+        "ID": "56",
+        "Sent": "A megbeszélésem 4:00-kor kezdődött és 4:30-kor el kellett érnem a vonatot, szóval nem volt sok időm. Szerencsére késett, szóval összejött.",
+        "Question": "Mi késett?",
+        "Answer1": "A megbeszélés",
+        "Answer2": "A vonat",
+        "CorrectAnswer": "A vonat"
+    },
+    {
+        "ID": "57",
+        "Sent": "A szabadtéri koncert közepén elkezdett esni az eső, de 10-ig folytatódott.",
+        "Question": "Mi folytatódott 10-ig?",
+        "Answer1": "A koncert",
+        "Answer2": "Az eső",
+        "CorrectAnswer": "A koncert"
+    },
+    {
+        "ID": "58",
+        "Sent": "A szabadtéri koncert közepén elkezdett esni az eső, és 10-ig folytatódott.",
+        "Question": "Mi folytatódott 10-ig?",
+        "Answer1": "A koncert",
+        "Answer2": "Az eső",
+        "CorrectAnswer": "Az eső"
+    },
+    {
+        "ID": "59",
+        "Sent": "Egy régi rongyot használtam, hogy megtisztítSamu a kést, aztán kidobtam a szemétbe.",
+        "Question": "Mit dobtam ki a szemétbe?",
+        "Answer1": "A rongyot",
+        "Answer2": "A kést",
+        "CorrectAnswer": "A rongyot"
+    },
+    {
+        "ID": "60",
+        "Sent": "Egy régi rongyot használtam, hogy megtisztítSamu a kést, aztán beraktam a fiókba.",
+        "Question": "Mit raktam a fiókba?",
+        "Answer1": "A rongyot",
+        "Answer2": "A kést",
+        "CorrectAnswer": "A kést"
+    },
+    {
+        "ID": "61",
+        "Sent": "Anna megkérdezte Máriát, mikor zár a könyvtár, mert nem emlékezett.",
+        "Question": "Ki nem emlékezett?",
+        "Answer1": "Anna",
+        "Answer2": "Mária",
+        "CorrectAnswer": "Anna"
+    },
+    {
+        "ID": "62",
+        "Sent": "Anna megkérdezte Máriát, mikor zár a könyvtár, de nem emlékezett.",
+        "Question": "Ki nem emlékezett?",
+        "Answer1": "Anna",
+        "Answer2": "Mária",
+        "CorrectAnswer": "Mária"
+    },
+    {
+        "ID": "63",
+        "Sent": "Kiszedtem a vizespalackot a hátizsákból, hogy kéznél legyen.",
+        "Question": "Mi legyen kéznél?",
+        "Answer1": "A vízpalack",
+        "Answer2": "A hátizsák",
+        "CorrectAnswer": "A vízpalack"
+    },
+    {
+        "ID": "64",
+        "Sent": "Kiszedtem a vizespalackot a hátizsákból, hogy könnyebb legyen.",
+        "Question": "Mi legyen könnyebb?",
+        "Answer1": "A vízpalack",
+        "Answer2": "A hátizsák",
+        "CorrectAnswer": "A hátizsák"
+    },
+    {
+        "ID": "65",
+        "Sent": "Nem tudtam felrakni az edényt a polcra, mert túl nagy volt.",
+        "Question": "Mi volt túl nagy?",
+        "Answer1": "Az edény",
+        "Answer2": "A polc",
+        "CorrectAnswer": "Az edény"
+    },
+    {
+        "ID": "66",
+        "Sent": "Nem tudtam felrakni az edényt a polcra, mert túl magasan volt.",
+        "Question": "Mi volt túl magasan?",
+        "Answer1": "Az edény",
+        "Answer2": "A polc",
+        "CorrectAnswer": "A polc"
+    },
+    {
+        "ID": "67",
+        "Sent": "Robi fizette Karesz egyetemi tanulmányait. Nagyon nagylelkű.",
+        "Question": "Ki nagylelkű?",
+        "Answer1": "Robi",
+        "Answer2": "Karesz",
+        "CorrectAnswer": "Robi"
+    },
+    {
+        "ID": "68",
+        "Sent": "Robi fizette Karesz egyetemi tanulmányait. Nagyon hálás.",
+        "Question": "Ki hálás?",
+        "Answer1": "Robi",
+        "Answer2": "Karesz",
+        "CorrectAnswer": "Karesz"
+    },
+    {
+        "ID": "69",
+        "Sent": "Robi fizette Karesz egyetemi tanulmányait, de Karesz most úgy csinál, mintha semmi sem történt volna. Nagyon megsértődött.",
+        "Question": "Ki sértődött meg?",
+        "Answer1": "Robi",
+        "Answer2": "Karesz",
+        "CorrectAnswer": "Robi"
+    },
+    {
+        "ID": "70",
+        "Sent": "Robi fizette Karesz egyetemi tanulmányait, de Karesz most úgy csinál, mintha semmi sem történt volna. Nagyon hálátlan.",
+        "Question": "Ki hálátlan?",
+        "Answer1": "Robi",
+        "Answer2": "Karesz",
+        "CorrectAnswer": "Karesz"
+    },
+    {
+        "ID": "71",
+        "Sent": "Robi kártyázott Ádámmal és nagyon vezetett. Ha Ádámnak hirtelen nem lett volna szerencséje, nyert volna.",
+        "Question": "Ki nyert volna?",
+        "Answer1": "Robi",
+        "Answer2": "Ádám",
+        "CorrectAnswer": "Robi"
+    },
+    {
+        "ID": "72",
+        "Sent": "Robi kártyázott Ádámmal és nagyon vezetett. Ha Ádámnak hirtelen nem lett volna szerencséje, vesztett volna.",
+        "Question": "Ki vesztett volna?",
+        "Answer1": "Robi",
+        "Answer2": "Ádám",
+        "CorrectAnswer": "Ádám"
+    },
+    {
+        "ID": "73",
+        "Sent": "Ádám nem hagyhatja itt a munkáját, amíg Robi meg nem érkezik leváltani. Ha Robi időben elindult volna otthonról, már elment volna.",
+        "Question": "Ki ment volna el?",
+        "Answer1": "Ádám",
+        "Answer2": "Robi",
+        "CorrectAnswer": "Ádám"
+    },
+    {
+        "ID": "74",
+        "Sent": "Ádám nem hagyhatja itt a munkáját, amíg Robi meg nem érkezik leváltani. Ha Robi időben elindult volna otthonról, már itt lenne.",
+        "Question": "Ki lenne itt?",
+        "Answer1": "Ádám",
+        "Answer2": "Robi",
+        "CorrectAnswer": "Robi"
+    },
+    {
+        "ID": "75",
+        "Sent": "Ha a szélhámos sikeresen átverte volna Samut, sok pénzt szerzett volna.",
+        "Question": "Ki szerzett volna sok pénzt?",
+        "Answer1": "A szélhámos",
+        "Answer2": "Samu",
+        "CorrectAnswer": "A szélhámos"
+    },
+    {
+        "ID": "76",
+        "Sent": "Ha a szélhámos sikeresen átverte volna Samut, sok pénzt vesztett volna.",
+        "Question": "Ki vesztett volna sok pénzt?",
+        "Answer1": "A szélhámos",
+        "Answer2": "Samu",
+        "CorrectAnswer": "Samu"
+    },
+    {
+        "ID": "77",
+        "Sent": "Nyári délután volt, és a kutya a füvön ült. Egy idő után felkelt és átült egy helyre a fa alá, mert meleg volt.",
+        "Question": "Mi volt meleg?",
+        "Answer1": "A kutya",
+        "Answer2": "A hely a fa alatt",
+        "CorrectAnswer": "A kutya"
+    },
+    {
+        "ID": "78",
+        "Sent": "Nyári délután volt, és a kutya a füvön ült. Egy idő után felkelt és átült egy helyre a fa alá, mert hűvösebb volt.",
+        "Question": "Mi volt hűvösebb?",
+        "Answer1": "A kutya",
+        "Answer2": "A hely a fa alatt",
+        "CorrectAnswer": "A hely a fa alatt"
+    },
+    {
+        "ID": "79",
+        "Sent": "A macska az egérlyuk mellett fekve várta az egeret, de túl türelmetlen volt.",
+        "Question": "Mi volt túl türelmetlen?",
+        "Answer1": "A macska",
+        "Answer2": "Az egér",
+        "CorrectAnswer": "A macska"
+    },
+    {
+        "ID": "80",
+        "Sent": "A macska az egérlyuk mellett fekve várta az egeret, de túl óvatos volt.",
+        "Question": "Mi volt túl óvatos?",
+        "Answer1": "A macska",
+        "Answer2": "Az egér",
+        "CorrectAnswer": "Az egér"
+    },
+    {
+        "ID": "81",
+        "Sent": "Annának lánya született múlt hónapban. Elbűvölő nő.",
+        "Question": "Ki elbűvölő?",
+        "Answer1": "Anna",
+        "Answer2": "Anna lánya",
+        "CorrectAnswer": "Anna"
+    },
+    {
+        "ID": "82",
+        "Sent": "Annának lánya született múlt hónapban. Elbűvölő kisbaba.",
+        "Question": "Ki elbűvölő kisbaba?",
+        "Answer1": "Anna",
+        "Answer2": "Anna lánya",
+        "CorrectAnswer": "Anna lánya"
+    },
+    {
+        "ID": "83",
+        "Sent": "Alíz kétségbeesetten próbálta megakadályozni, hogy a lánya beszélgessen a partin, csodálkoztunk is, hogy miért viselkedik olyan furcsán.",
+        "Question": "Ki viselkedett furcsán?",
+        "Answer1": "Alíz",
+        "Answer2": "Alíz lánya",
+        "CorrectAnswer": "Alíz"
+    },
+    {
+        "ID": "84",
+        "Sent": "Alíz kétségbeesetten próbálta megakadályozni, hogy a lánya ugasson a partin, csodálkoztunk is, hogy miért viselkedik olyan furcsán.",
+        "Question": "Ki viselkedett furcsán?",
+        "Answer1": "Alíz",
+        "Answer2": "Alíz lánya",
+        "CorrectAnswer": "Alíz lánya"
+    },
+    {
+        "ID": "85",
+        "Sent": "Láttam Jakabot egy vörös szakállas katonai egyenruhás csávóval kiabálni. Nem tudom miért tette, de boldogtalannak tűnt.",
+        "Question": "Ki tűnt boldogtalannak?",
+        "Answer1": "Jakab",
+        "Answer2": "Az egyenruhás csávó",
+        "CorrectAnswer": "Jakab"
+    },
+    {
+        "ID": "86",
+        "Sent": "Láttam Jakabot egy vörös szakállas katonai egyenruhás csávóval kiabálni. Nem tudom ki volt az, de boldogtalannak tűnt.",
+        "Question": "Ki tűnt boldogtalannak?",
+        "Answer1": "Jakab",
+        "Answer2": "Az egyenruhás csávó",
+        "CorrectAnswer": "Az egyenruhás csávó"
+    },
+    {
+        "ID": "87",
+        "Sent": "A hal megette a kukacot. Éhes volt.",
+        "Question": "Ki volt éhes?",
+        "Answer1": "A hal",
+        "Answer2": "A kukac",
+        "CorrectAnswer": "A hal"
+    },
+    {
+        "ID": "88",
+        "Sent": "A hal megette a kukacot. Finom volt.",
+        "Question": "Mi volt finom?",
+        "Answer1": "A hal",
+        "Answer2": "A kukac",
+        "CorrectAnswer": "A kukac"
+    },
+    {
+        "ID": "89",
+        "Sent": "Megpróbáltam kinyitni a zárat a kulccsal, de valaki rágógumit rakott a kulcslyukba és nem tudtam berakni.",
+        "Question": "Mit nem tudtam berakni?",
+        "Answer1": "A kulcsot",
+        "Answer2": "A rágógumit",
+        "CorrectAnswer": "A kulcsot"
+    },
+    {
+        "ID": "90",
+        "Sent": "Megpróbáltam kinyitni a zárat a kulccsal, de valaki rágógumit rakott a kulcslyukba és nem tudtam kivenni.",
+        "Question": "Mit nem tudtam kivenni?",
+        "Answer1": "A kulcsot",
+        "Answer2": "A rágógumit",
+        "CorrectAnswer": "A rágógumit"
+    },
+    {
+        "ID": "91",
+        "Sent": "A kutya üldözte a macskát, ami felfutott egy fára. A tövénél várt.",
+        "Question": "Mi várt a fa tövénél?",
+        "Answer1": "A kutya",
+        "Answer2": "A macska",
+        "CorrectAnswer": "A kutya"
+    },
+    {
+        "ID": "92",
+        "Sent": "A kutya üldözte a macskát, ami felfutott egy fára. A tetején várt.",
+        "Question": "Mi várt a fa tetején?",
+        "Answer1": "A kutya",
+        "Answer2": "A macska",
+        "CorrectAnswer": "A macska"
+    },
+    {
+        "ID": "93",
+        "Sent": "Egy fa lezuhant a viharban és áttörte a házam tetejét. Most el kell szállíttatnom.",
+        "Question": "Mit kell elszállíttatnom?",
+        "Answer1": "A fát",
+        "Answer2": "A tetőt",
+        "CorrectAnswer": "A fát"
+    },
+    {
+        "ID": "94",
+        "Sent": "Egy fa lezuhant a viharban és áttörte a házam tetejét. Most meg kell javíttatnom.",
+        "Question": "Mit kell megjavíttatnom?",
+        "Answer1": "A fát",
+        "Answer2": "A tetőt",
+        "CorrectAnswer": "A tetőt"
+    },
+    {
+        "ID": "95",
+        "Sent": "Az ügyfél besétált a bankba és leszúrta az egyik bankpénztárost. Egyből elvitték a rendőrségre.",
+        "Question": "Kit vittek el a rendőrségre?",
+        "Answer1": "Az ügyfelet",
+        "Answer2": "A bankpénztárost",
+        "CorrectAnswer": "Az ügyfelet"
+    },
+    {
+        "ID": "96",
+        "Sent": "Az ügyfél besétált a bankba és leszúrta az egyik bankpénztárost. Egyből elvitték a kórházba.",
+        "Question": "Kit vittek el a kórházba?",
+        "Answer1": "Az ügyfelet",
+        "Answer2": "A bankpénztárost",
+        "CorrectAnswer": "A bankpénztárost"
+    },
+    {
+        "ID": "97",
+        "Sent": "János éppen könyvtárban kutatott, amikor meghallotta, hogy egy férfi dúdol és fütyül. Nagyon ideges volt.",
+        "Question": "Ki volt ideges?",
+        "Answer1": "János",
+        "Answer2": "A férfi",
+        "CorrectAnswer": "János"
+    },
+    {
+        "ID": "98",
+        "Sent": "János éppen könyvtárban kutatott, amikor meghallotta, hogy egy férfi dúdol és fütyül. Nagyon idegesítő volt.",
+        "Question": "Ki volt idegesítő?",
+        "Answer1": "János",
+        "Answer2": "A férfi",
+        "CorrectAnswer": "A férfi"
+    },
+    {
+        "ID": "99",
+        "Sent": "János épp a parkban kocogott, amikor meglátott egy férfit görögdinnyékkel zsonglőrködni. Nagyon le volt nyűgözve.",
+        "Question": "Ki volt lenyűgözve?",
+        "Answer1": "János",
+        "Answer2": "A zsonglőr",
+        "CorrectAnswer": "János"
+    },
+    {
+        "ID": "100",
+        "Sent": "János épp a parkban kocogott, amikor meglátott egy férfit görögdinnyékkel zsonglőrködni. Nagyon lenyűgöző volt.",
+        "Question": "Ki volt lenyűgöző?",
+        "Answer1": "János",
+        "Answer2": "A zsonglőr",
+        "CorrectAnswer": "A zsonglőr"
+    },
+    {
+        "ID": "101",
+        "Sent": "Robi összeesett a járdán. Látta, hogy Károly a segítségére siet. Nagyon beteg volt.",
+        "Question": "Ki volt beteg?",
+        "Answer1": "Robi",
+        "Answer2": "Károly",
+        "CorrectAnswer": "Robi"
+    },
+    {
+        "ID": "102",
+        "Sent": "Robi összeesett a járdán. Látta, hogy Károly a segítségére siet. Nagyon aggódott.",
+        "Question": "Ki aggódott?",
+        "Answer1": "Robi",
+        "Answer2": "Károly",
+        "CorrectAnswer": "Károly"
+    },
+    {
+        "ID": "103",
+        "Sent": "Samu és Noémi szenvedélyesen szeretik egymást, de Noémi szüleinek ez nem tetszik, mert tizenöt évesek.",
+        "Question": "Kik tizenöt évesek?",
+        "Answer1": "Samu és Noémi",
+        "Answer2": "Noémi szülei",
+        "CorrectAnswer": "Samu és Noémi"
+    },
+    {
+        "ID": "104",
+        "Sent": "Samu és Noémi szenvedélyesen szeretik egymást, de Noémi szüleinek ez nem tetszik, mert sznobok.",
+        "Question": "Kik sznobok?",
+        "Answer1": "Samu és Noémi",
+        "Answer2": "Noémi szülei",
+        "CorrectAnswer": "Noémi szülei"
+    },
+    {
+        "ID": "105",
+        "Sent": "Márk sok hazugságot mondott magáról Petinek, amiket Peti beleírt a könyvébe. Őszintébbnek kellett volna lennie.",
+        "Question": "Kinek kellett volna őszintébbnek lennie?",
+        "Answer1": "Márk",
+        "Answer2": "Peti",
+        "CorrectAnswer": "Márk"
+    },
+    {
+        "ID": "106",
+        "Sent": "Márk sok hazugságot mondott magáról Petinek, amiket Peti beleírt a könyvébe. Szkeptikusabbnak kellett volna lennie.",
+        "Question": "Kinek kellett volna szkeptikusabbnak lennie?",
+        "Answer1": "Márk",
+        "Answer2": "Peti",
+        "CorrectAnswer": "Peti"
+    },
+    {
+        "ID": "107",
+        "Sent": "Józsi eladta a házát és vett egy újat pár mérfölddel arrébb. Kedden költözik ki.",
+        "Question": "Melyik házból költözik ki?",
+        "Answer1": "A régi házból",
+        "Answer2": "Az új házból",
+        "CorrectAnswer": "A régi házból"
+    },
+    {
+        "ID": "108",
+        "Sent": "Józsi eladta a házát és vett egy újat pár mérfölddel arrébb. Kedden költözik be.",
+        "Question": "Melyik házba költözik be?",
+        "Answer1": "A régi házba",
+        "Answer2": "Az új házba",
+        "CorrectAnswer": "Az új házba"
+    },
+    {
+        "ID": "109",
+        "Sent": "Mária elővette a fuvoláját és eljátszotta az egyik kedvenc darabját. Már gyerekkora óta megvan neki.",
+        "Question": "Mi van meg neki?",
+        "Answer1": "A fuvola",
+        "Answer2": "A darab",
+        "CorrectAnswer": "A fuvola"
+    },
+    {
+        "ID": "110",
+        "Sent": "Mária elővette a fuvoláját és eljátszotta az egyik kedvenc darabját. Már gyerekkora óta a kedvence.",
+        "Question": "Mi a kedvence?",
+        "Answer1": "A fuvola",
+        "Answer2": "A darab",
+        "CorrectAnswer": "A darab"
+    },
+    {
+        "ID": "111",
+        "Sent": "Samu odahúzott egy széket a zongorához, de rossz volt, szóval állnia kellett.",
+        "Question": "Mi volt rossz?",
+        "Answer1": "A szék",
+        "Answer2": "A zongora",
+        "CorrectAnswer": "A szék"
+    },
+    {
+        "ID": "112",
+        "Sent": "Samu odahúzott egy széket a zongorához, de rossz volt, szóval énekelt helyette.",
+        "Question": "Mi volt rossz?",
+        "Answer1": "A szék",
+        "Answer2": "A zongora",
+        "CorrectAnswer": "A zongora"
+    },
+    {
+        "ID": "113",
+        "Sent": "Esett az eső, úgyhogy a hátizsákomba tettem az újságot, hogy ne ázzon meg.",
+        "Question": "Mi ne ázzon meg?",
+        "Answer1": "Az újság",
+        "Answer2": "A hátizsák",
+        "CorrectAnswer": "Az újság"
+    },
+    {
+        "ID": "114",
+        "Sent": "Esett az eső, úgyhogy a hátizsákomra tettem az újságot, hogy ne ázzon meg.",
+        "Question": "Mi ne ázzon meg?",
+        "Answer1": "Az újság",
+        "Answer2": "A hátizsák",
+        "CorrectAnswer": "A hátizsák"
+    },
+    {
+        "ID": "115",
+        "Sent": "Sára kikölcsönözte a könyvet a könyvtárból, mert szüksége van rá egy cikkhez, amin dolgozik. Elolvassa, amikor hazaér.",
+        "Question": "Mit olvas el Sára, amikor hazaér?",
+        "Answer1": "A könyvet",
+        "Answer2": "A cikket",
+        "CorrectAnswer": "A könyvet"
+    },
+    {
+        "ID": "116",
+        "Sent": "Sára kikölcsönözte a könyvet a könyvtárból, mert szüksége van rá egy cikkhez, amin dolgozik. Megírja, amikor hazaér.",
+        "Question": "Mit ír meg Sára, amikor hazaér?",
+        "Answer1": "A könyvet",
+        "Answer2": "A cikket",
+        "CorrectAnswer": "A cikket"
+    },
+    {
+        "ID": "117",
+        "Sent": "Reggel Józsi homokvárat épített a strandon, és zászlót rakott a legmagasabb toronyba, de délután a dagály lerombolta.",
+        "Question": "Mit rombolt le a dagály?",
+        "Answer1": "A homokvárat",
+        "Answer2": "A zászlót",
+        "CorrectAnswer": "A homokvárat"
+    },
+    {
+        "ID": "118",
+        "Sent": "Reggel Józsi homokvárat épített a strandon, és zászlót rakott a legmagasabb toronyba, de délután a szél lefújta.",
+        "Question": "Mit fújt le a szél?",
+        "Answer1": "A homokvárat",
+        "Answer2": "A zászlót",
+        "CorrectAnswer": "A zászlót"
+    },
+    {
+        "ID": "119",
+        "Sent": "Janka bekopogtatott Zsuzsához, de senki nem nyitott ajtót. Csalódott volt.",
+        "Question": "Ki volt csalódott?",
+        "Answer1": "Janka",
+        "Answer2": "Zsuzsa",
+        "CorrectAnswer": "Janka"
+    },
+    {
+        "ID": "120",
+        "Sent": "Janka bekopogtatott Zsuzsához, de senki nem nyitott ajtót. Házon kívül volt.",
+        "Question": "Ki volt házon kívül?",
+        "Answer1": "Janka",
+        "Answer2": "Zsuzsa",
+        "CorrectAnswer": "Zsuzsa"
+    },
+    {
+        "ID": "121",
+        "Sent": "Janka kopogott az ajtón, és Zsuzsa kinyitotta. Kihívta őt.",
+        "Question": "Ki hívott ki kit?",
+        "Answer1": "Janka hívta Zsuzsát.",
+        "Answer2": "Zsuzsa hívta Jankát.",
+        "CorrectAnswer": "Janka hívta Zsuzsát."
+    },
+    {
+        "ID": "122",
+        "Sent": "Janka kopogott az ajtón, és Zsuzsa kinyitotta. Behívta őt.",
+        "Question": "Ki hívott be kit?",
+        "Answer1": "Janka hívta Zsuzsát.",
+        "Answer2": "Zsuzsa hívta Jankát.",
+        "CorrectAnswer": "Zsuzsa hívta Jankát."
+    },
+    {
+        "ID": "123",
+        "Sent": "Samu franciaórákat vett Ádámtól, mert folyékonyan akar beszélni franciául.",
+        "Question": "Ki akar folyékonyan beszélni franciául?",
+        "Answer1": "Samu",
+        "Answer2": "Ádám",
+        "CorrectAnswer": "Samu"
+    },
+    {
+        "ID": "124",
+        "Sent": "Samu franciaórákat vett Ádámtól, mert folyékonyan tud beszélni franciául.",
+        "Question": "Ki tud folyékonyan beszélni franciául?",
+        "Answer1": "Samu",
+        "Answer2": "Ádám",
+        "CorrectAnswer": "Ádám"
+    },
+    {
+        "ID": "125",
+        "Sent": "A tóhoz vezető út el volt torlaszolva, szóval nem tudtuk használni.",
+        "Question": "Mit nem tudtunk használni?",
+        "Answer1": "Az utat",
+        "Answer2": "A tavat",
+        "CorrectAnswer": "Az utat"
+    },
+    {
+        "ID": "126",
+        "Sent": "A tóhoz vezető út el volt torlaszolva, szóval nem tudtuk megközelíteni.",
+        "Question": "Mit nem tudtunk megközelíteni?",
+        "Answer1": "Az utat",
+        "Answer2": "A tavat",
+        "CorrectAnswer": "A tavat"
+    },
+    {
+        "ID": "127",
+        "Sent": "A napot egész reggel egy nagy felhő takarta el, de szerencsére, mire elkezdődött a piknik, előbukkant.",
+        "Question": "Mi bukkant elő?",
+        "Answer1": "A nap",
+        "Answer2": "A felhő",
+        "CorrectAnswer": "A nap"
+    },
+    {
+        "ID": "128",
+        "Sent": "A napot egész reggel egy nagy felhő takarta el, de szerencsére, mire elkezdődött a piknik, eltűnt.",
+        "Question": "Mi tűnt el?",
+        "Answer1": "A nap",
+        "Answer2": "A felhő",
+        "CorrectAnswer": "A felhő"
+    },
+    {
+        "ID": "129",
+        "Sent": "A tóhoz mentünk, mert az óceánpartnál cápát láttak, szóval az biztonságosabb volt az úszáshoz.",
+        "Question": "Mi volt biztonságosabb az úszáshoz?",
+        "Answer1": "A tó",
+        "Answer2": "Az óceánpart",
+        "CorrectAnswer": "A tó"
+    },
+    {
+        "ID": "130",
+        "Sent": "A tóhoz mentünk, mert az óceánpartnál cápát láttak, szóval az veszélyes volt az úszáshoz.",
+        "Question": "Mi volt veszélyes az úszáshoz?",
+        "Answer1": "A tó",
+        "Answer2": "Az óceánpart",
+        "CorrectAnswer": "Az óceánpart"
+    },
+    {
+        "ID": "131",
+        "Sent": "Samu megpróbált pásztorokat festeni juhokkal, de végül inkább golfozóknak néztek ki.",
+        "Question": "Mik néztek ki golfozóknak?",
+        "Answer1": "A pásztorok",
+        "Answer2": "A juhok",
+        "CorrectAnswer": "A pásztorok"
+    },
+    {
+        "ID": "132",
+        "Sent": "Samu megpróbált pásztorokat festeni juhokkal, de végül inkább kutyáknak néztek ki.",
+        "Question": "Mik néztek ki kutyáknak?",
+        "Answer1": "A pásztorok",
+        "Answer2": "A juhok",
+        "CorrectAnswer": "A juhok"
+    },
+    {
+        "ID": "133",
+        "Sent": "Mária ágyba fektette a lányát, Annát, hogy dolgozhasson.",
+        "Question": "Ki dolgozik?",
+        "Answer1": "Mária",
+        "Answer2": "Mária lánya",
+        "CorrectAnswer": "Mária"
+    },
+    {
+        "ID": "134",
+        "Sent": "Mária ágyba fektette a lányát, Annát, hogy aludhasson.",
+        "Question": "Ki alszik?",
+        "Answer1": "Mária",
+        "Answer2": "Mária lánya",
+        "CorrectAnswer": "Mária lánya"
+    },
+    {
+        "ID": "135",
+        "Sent": "Thomson 1765-ben látogatta meg Cooper sírját. Akkorra már öt éve utazgatott.",
+        "Question": "Ki utazgatott öt éve?",
+        "Answer1": "Thomson",
+        "Answer2": "Cooper",
+        "CorrectAnswer": "Thomson"
+    },
+    {
+        "ID": "136",
+        "Sent": "Thomson 1765-ben látogatta meg Cooper sírját. Akkorra már öt éve meghalt.",
+        "Question": "Ki halt meg öt éve?",
+        "Answer1": "Thomson",
+        "Answer2": "Cooper",
+        "CorrectAnswer": "Cooper"
+    },
+    {
+        "ID": "137",
+        "Sent": "Jacksonra nagy hatással volt Arnold, hiába élt két évszázaddal később.",
+        "Question": "Ki élt később?",
+        "Answer1": "Jackson",
+        "Answer2": "Arnold",
+        "CorrectAnswer": "Jackson"
+    },
+    {
+        "ID": "138",
+        "Sent": "Jacksonra nagy hatással volt Arnold, hiába élt két évszázaddal korábban.",
+        "Question": "Ki élt korábban?",
+        "Answer1": "Jackson",
+        "Answer2": "Arnold",
+        "CorrectAnswer": "Arnold"
+    },
+    {
+        "ID": "139",
+        "Sent": "Nem tudom kivágni a fát azzal a fejszével, túl vastag.",
+        "Question": "Mi túl vastag?",
+        "Answer1": "A fa",
+        "Answer2": "A fejsze",
+        "CorrectAnswer": "A fa"
+    },
+    {
+        "ID": "140",
+        "Sent": "Nem tudom kivágni a fát azzal a fejszével, túl kicsi.",
+        "Question": "Mi túl kicsi?",
+        "Answer1": "A fa",
+        "Answer2": "A fejsze",
+        "CorrectAnswer": "A fejsze"
+    },
+    {
+        "ID": "141",
+        "Sent": "A rókák folyton bejönnek éjszakánként és megtámadják a csirkéket. Meg kell ölnöm őket.",
+        "Question": "Miket kell megölnöm?",
+        "Answer1": "A rókákat",
+        "Answer2": "A csirkéket",
+        "CorrectAnswer": "A rókákat"
+    },
+    {
+        "ID": "142",
+        "Sent": "A rókák folyton bejönnek éjszakánként és megtámadják a csirkéket. Meg kell védenem őket.",
+        "Question": "Miket kell megvédenem?",
+        "Answer1": "A rókákat",
+        "Answer2": "A csirkéket",
+        "CorrectAnswer": "A csirkéket"
+    },
+    {
+        "ID": "143",
+        "Sent": "A rókák folyton bejönnek éjszakánként és megtámadják a csirkéket. Nagyon felbátorodtak.",
+        "Question": "Mik bátorodtak fel?",
+        "Answer1": "A rókák",
+        "Answer2": "A csirkék",
+        "CorrectAnswer": "A rókák"
+    },
+    {
+        "ID": "144",
+        "Sent": "A rókák folyton bejönnek éjszakánként és megtámadják a csirkéket. Nagyon félnek.",
+        "Question": "Mik félnek?",
+        "Answer1": "A rókák",
+        "Answer2": "A csirkék",
+        "CorrectAnswer": "A csirkék"
+    },
+    {
+        "ID": "145",
+        "Sent": "Feri eltakarta kezeivel a szemeit, mert a szél homokot fújt mindenhova. Csak akkor nyitotta ki őket, mikor elállt a szél.",
+        "Question": "Mit nyitott ki Feri?",
+        "Answer1": "A szemeit",
+        "Answer2": "A kezeit",
+        "CorrectAnswer": "A szemeit"
+    },
+    {
+        "ID": "146",
+        "Sent": "Feri eltakarta kezeivel a szemeit, mert a szél homokot fújt mindenhova. Csak akkor nyitotta szét őket, mikor elállt a szél.",
+        "Question": "Mit nyitott szét Feri?",
+        "Answer1": "A szemeit",
+        "Answer2": "A kezeit",
+        "CorrectAnswer": "A kezeit"
+    },
+    {
+        "ID": "147",
+        "Sent": "Régebben Terpsichore-nak hívták a színésznőt, de Tinára változtatta pár évvel ezelőtt, mert túl nehéz kiejteni.",
+        "Question": "Mit túl nehéz kiejteni?",
+        "Answer1": "Terpsichore",
+        "Answer2": "Tina",
+        "CorrectAnswer": "Terpsichore"
+    },
+    {
+        "ID": "148",
+        "Sent": "Régebben Terpsichore-nak hívták a színésznőt, de Tinára változtatta pár évvel ezelőtt, mert könnyebb kiejteni.",
+        "Question": "Mit könnyebb kiejteni?",
+        "Answer1": "Terpsichore",
+        "Answer2": "Tina",
+        "CorrectAnswer": "Tina"
+    },
+    {
+        "ID": "149",
+        "Sent": "Feri tévét nézett, amíg György elment bevásárolni. Egy órával később feltápászkodott.",
+        "Question": "Ki tápászkodott fel?",
+        "Answer1": "Feri",
+        "Answer2": "György",
+        "CorrectAnswer": "Feri"
+    },
+    {
+        "ID": "150",
+        "Sent": "Feri tévét nézett, amíg György elment bevásárolni. Egy órával később visszatért.",
+        "Question": "Ki tért vissza?",
+        "Answer1": "Feri",
+        "Answer2": "György",
+        "CorrectAnswer": "György"
+    },
+    {
+        "ID": "151",
+        "Sent": "Ferinek be kellett volna kapcsolnia a mosogatógépet, de halogatta, mert tévét akart nézni. Mivel a műsor unalmas volt, meggondolta magát és bekapcsolta.",
+        "Question": "Mit kapcsolt be Feri?",
+        "Answer1": "A mosogatógépet",
+        "Answer2": "A tévét",
+        "CorrectAnswer": "A mosogatógépet"
+    },
+    {
+        "ID": "152",
+        "Sent": "Ferinek be kellett volna kapcsolnia a mosogatógépet, de halogatta, mert tévét akart nézni. Mivel a műsor unalmas volt, meggondolta magát és kikapcsolta.",
+        "Question": "Mit kapcsolt ki Feri?",
+        "Answer1": "A mosogatógépet",
+        "Answer2": "A tévét",
+        "CorrectAnswer": "A tévét"
+    },
+    {
+        "ID": "153",
+        "Sent": "Feri az egyetlen élő ember, aki emlékszik a dédnagyapámra. Figyelemre méltó ember.",
+        "Question": "Ki figyelemre méltó ember?",
+        "Answer1": "Fred",
+        "Answer2": "A dédnagyapám",
+        "CorrectAnswer": "Fred"
+    },
+    {
+        "ID": "154",
+        "Sent": "Feri az egyetlen élő ember, aki emlékszik a dédnagyapámra. Figyelemre méltó ember volt.",
+        "Question": "Ki volt figyelemre méltó ember?",
+        "Answer1": "Fred",
+        "Answer2": "A dédnagyapám",
+        "CorrectAnswer": "A dédnagyapám"
+    },
+    {
+        "ID": "155",
+        "Sent": "Feri az egyetlen élő ember, aki még emlékszik apámra kisbabaként. Mikor Feri először látta apámat, tizenkét éves volt.",
+        "Question": "Ki volt tizenkét éves?",
+        "Answer1": "Feri",
+        "Answer2": "Az apám",
+        "CorrectAnswer": "Feri"
+    },
+    {
+        "ID": "156",
+        "Sent": "Feri az egyetlen élő ember, aki még emlékszik apámra kisbabaként. Mikor Feri először látta apámat, tizenkét hónapos volt.",
+        "Question": "Ki volt tizenkét hónapos?",
+        "Answer1": "Feri",
+        "Answer2": "Az apám",
+        "CorrectAnswer": "Az apám"
+    },
+    {
+        "ID": "157",
+        "Sent": "Júliusban Kamcsatka hadat üzent Jakutszknak. Mivel Jakutszk hadserege tízszer nagyobb és sokkal jobban felszerelt volt, hetek alatt legyőzték őket.",
+        "Question": "Kiket győztek le?",
+        "Answer1": "Kamcsatkát",
+        "Answer2": "Jakutszkot",
+        "CorrectAnswer": "Kamcsatkát"
+    },
+    {
+        "ID": "158",
+        "Sent": "Júliusban Kamcsatka hadat üzent Jakutszknak. Mivel Jakutszk hadserege tízszer nagyobb és sokkal jobban felszerelt volt, hetek alatt győzedelmeskedtek.",
+        "Question": "Kik győzedelmeskedtek?",
+        "Answer1": "Kamcsatka",
+        "Answer2": "Jakutszk",
+        "CorrectAnswer": "Jakutszk"
+    },
+    {
+        "ID": "159",
+        "Sent": "Erzsébet Spártából Trójába költöztette a cégét, hogy spóroljon az adón. Az adók ott sokkal magasabbak.",
+        "Question": "Hol magasabbak az adók?",
+        "Answer1": "Spártában",
+        "Answer2": "Trójában",
+        "CorrectAnswer": "Spártában"
+    },
+    {
+        "ID": "160",
+        "Sent": "Erzsébet Spártából Trójába költöztette a cégét, hogy spóroljon az adón. Az adók ott sokkal alacsonyabbak.",
+        "Question": "Hol alacsonyabbak az adók?",
+        "Answer1": "Spártában",
+        "Answer2": "Trójában",
+        "CorrectAnswer": "Trójában"
+    },
+    {
+        "ID": "161",
+        "Sent": "Nézd! Egy halacska van a kacsa alatt! Gyorsan biztonságba kell jutnia!",
+        "Question": "Minek kell gyorsan biztonságba jutnia?",
+        "Answer1": "A halacskának",
+        "Answer2": "A kacsának",
+        "CorrectAnswer": "A halacskának"
+    },
+    {
+        "ID": "162",
+        "Sent": "Nézd! Egy cápa van a kacsa alatt! Gyorsan biztonságba kell jutnia!",
+        "Question": "Minek kell gyorsan biztonságba jutnia?",
+        "Answer1": "A cápának",
+        "Answer2": "A kacsának",
+        "CorrectAnswer": "A kacsának"
+    },
+    {
+        "ID": "163",
+        "Sent": "Túl sok szarvas él a parkban, ezért betelepítettek egy kisebb falkányi farkast. A populációnak növekednie kellene a következő években.",
+        "Question": "Melyik populáció fog növekedni?",
+        "Answer1": "A farkasoké",
+        "Answer2": "A szarvasoké",
+        "CorrectAnswer": "A farkasoké"
+    },
+    {
+        "ID": "164",
+        "Sent": "Túl sok szarvas él a parkban, ezért betelepítettek egy kisebb falkányi farkast. A populációnak csökkennie kellene a következő években.",
+        "Question": "Melyik populáció fog csökkenni?",
+        "Answer1": "A farkasoké",
+        "Answer2": "A szarvasoké",
+        "CorrectAnswer": "A szarvasoké"
+    },
+    {
+        "ID": "165",
+        "Sent": "A régészek arra a következtetésre jutottak, hogy már 20 000 évvel ezelőtt is éltek emberek Laputában. A folyóparton vadásztak bizonyítékokra.",
+        "Question": "Kik vadásztak bizonyítékokra?",
+        "Answer1": "A régészek",
+        "Answer2": "A prehistorikus emberek",
+        "CorrectAnswer": "A régészek"
+    },
+    {
+        "ID": "166",
+        "Sent": "A régészek arra a következtetésre jutottak, hogy már 20 000 évvel ezelőtt is éltek emberek Laputában. A folyóparton vadásztak szarvasra.",
+        "Question": "Kik vadásztak szarvasra?",
+        "Answer1": "A régészek",
+        "Answer2": "A prehistorikus emberek",
+        "CorrectAnswer": "A prehistorikus emberek"
+    },
+    {
+        "ID": "167",
+        "Sent": "A tudósok három nemrég felfedezett halfajt tanulmányoznak az Indiai-óceánban. Két éve kezdték el.",
+        "Question": "Kik vagy mik kezdték el két éve?",
+        "Answer1": "A tudósok",
+        "Answer2": "A halak",
+        "CorrectAnswer": "A tudósok"
+    },
+    {
+        "ID": "168",
+        "Sent": "A tudósok három nemrég felfedezett halfajt tanulmányoznak az Indiai-óceánban. Két éve tűntek fel.",
+        "Question": "Kik vagy miik tűntek fel két éve?",
+        "Answer1": "A tudósok",
+        "Answer2": "A halak",
+        "CorrectAnswer": "A halak"
+    },
+    {
+        "ID": "169",
+        "Sent": "Betettem a tortát a hűtőbe. Sok vaj van benne.",
+        "Question": "Miben van sok vaj?",
+        "Answer1": "A tortában",
+        "Answer2": "A hűtőben",
+        "CorrectAnswer": "A tortában"
+    },
+    {
+        "ID": "170",
+        "Sent": "Betettem a tortát a hűtőbe. Sok maradék van benne.",
+        "Question": "Miben van sok maradék?",
+        "Answer1": "A tortában",
+        "Answer2": "A hűtőben",
+        "CorrectAnswer": "A hűtőben"
+    },
+    {
+        "ID": "171",
+        "Sent": "Samu eltörte mindkét bokáját és jelenleg mankóval jár. De nagyjából egy hónap múlva már jók lesznek.",
+        "Question": "Mik lesznek jók?",
+        "Answer1": "a bokái",
+        "Answer2": "a mankók",
+        "CorrectAnswer": "a bokái"
+    },
+    {
+        "ID": "172",
+        "Sent": "Samu eltörte mindkét bokáját és jelenleg mankóval jár. De nagyjából egy hónap múlva már fölöslegesek lesznek.",
+        "Question": "Mik lesznek fölöslegesek?",
+        "Answer1": "a bokái",
+        "Answer2": "a mankók",
+        "CorrectAnswer": "a mankók"
+    },
+    {
+        "ID": "173",
+        "Sent": "Amikor a törvény támogatói bementek a városházára, meglepődve tapasztalták, hogy a terem tele van ellenzőkkel. Kisebbségben voltak.",
+        "Question": "Kik voltak kisebbségben?",
+        "Answer1": "A támogatók",
+        "Answer2": "Az ellenzők",
+        "CorrectAnswer": "A támogatók"
+    },
+    {
+        "ID": "174",
+        "Sent": "Amikor a törvény támogatói bementek a városházára, meglepődve tapasztalták, hogy a terem tele van ellenzőkkel. Többségben voltak.",
+        "Question": "Kik voltak többségben?",
+        "Answer1": "A támogatók",
+        "Answer2": "Az ellenzők",
+        "CorrectAnswer": "Az ellenzők"
+    },
+    {
+        "ID": "175",
+        "Sent": "Mindenki nagyon szerette a zabkekszet; csak pár embernek tetszett a csokis keksz. Legközelebb többet kell csinálnunk belőle.",
+        "Question": "Miből kell többet csinálnunk?",
+        "Answer1": "A zabkekszből",
+        "Answer2": "A csokis kekszből",
+        "CorrectAnswer": "A zabkekszből"
+    },
+    {
+        "ID": "176",
+        "Sent": "Mindenki nagyon szerette a zabkekszet; csak pár embernek tetszett a csokis keksz. Legközelebb kevesebbet kell csinálnunk belőle.",
+        "Question": "Miből kell kevesebbet csinálnunk?",
+        "Answer1": "A zabkekszből",
+        "Answer2": "A csokis kekszből",
+        "CorrectAnswer": "A csokis kekszből"
+    },
+    {
+        "ID": "177",
+        "Sent": "Reméltük, hogy a nézőtéren minden székre tudunk rakni egy példányt a hírlevelünkből, de egyszerűen túl kevés volt belőle.",
+        "Question": "Miből volt túl kevés?",
+        "Answer1": "A hírlevél példányaiból",
+        "Answer2": "A székekből",
+        "CorrectAnswer": "A hírlevél példányaiból"
+    },
+    {
+        "ID": "178",
+        "Sent": "Reméltük, hogy a nézőtéren minden székre tudunk rakni egy példányt a hírlevelünkből, de egyszerűen túl sok volt belőle.",
+        "Question": "Miből volt túl sok?",
+        "Answer1": "A hírlevél példányaiból",
+        "Answer2": "A székekből",
+        "CorrectAnswer": "A székekből"
+    },
+    {
+        "ID": "179",
+        "Sent": "Nem találtam kanalat, szóval egy tollal próbáltam megkeverni a kávémat. Ez rossz ötletnek bizonyult, ugyanis tele lett kávéval.",
+        "Question": "Mi lett tele kávéval?",
+        "Answer1": "A toll",
+        "Answer2": "A kávé",
+        "CorrectAnswer": "A toll"
+    },
+    {
+        "ID": "180",
+        "Sent": "Nem találtam kanalat, szóval egy tollal próbáltam megkeverni a kávémat. Ez rossz ötletnek bizonyult, ugyanis tele lett tintával.",
+        "Question": "Mi lett tele tintával?",
+        "Answer1": "A toll",
+        "Answer2": "A kávé",
+        "CorrectAnswer": "A kávé"
+    },
+    {
+        "ID": "181",
+        "Sent": "Pisti mindenben Feri példáját követi. Nagyon csodálja őt.",
+        "Question": "Ki csodál kit?",
+        "Answer1": "Pisti csodálja Ferit",
+        "Answer2": "Feri csodálja Pistit",
+        "CorrectAnswer": "Pisti csodálja Ferit"
+    },
+    {
+        "ID": "182",
+        "Sent": "Pisti mindenben Feri példáját követi. Nagyon befolyásolja őt.",
+        "Question": "Ki befolyásol kit?",
+        "Answer1": "Pisti befolyásolja Ferit",
+        "Answer2": "Feri befolyásolja Pistit",
+        "CorrectAnswer": "Feri befolyásolja Pistit"
+    },
+    {
+        "ID": "183",
+        "Sent": "Az asztal nem fér át az ajtón, mert túl széles.",
+        "Question": "Mi túl széles?",
+        "Answer1": "Az asztal",
+        "Answer2": "Az ajtó",
+        "CorrectAnswer": "Az asztal"
+    },
+    {
+        "ID": "184",
+        "Sent": "Az asztal nem fér át az ajtón, mert túl keskeny.",
+        "Question": "Mi túl keskeny?",
+        "Answer1": "Az asztal",
+        "Answer2": "Az ajtó",
+        "CorrectAnswer": "Az ajtó"
+    },
+    {
+        "ID": "185",
+        "Sent": "Gréti örömmel elcserélte velem a pulcsiját a kabátomra. Azt hiszi, slamposnak néz ki benne.",
+        "Question": "Miben néz ki slamposnak Gréti?",
+        "Answer1": "A pulcsiban",
+        "Answer2": "A kabátban",
+        "CorrectAnswer": "A pulcsiban"
+    },
+    {
+        "ID": "186",
+        "Sent": "Gréti örömmel elcserélte velem a pulcsiját a kabátomra. Azt hiszi, jól néz ki benne.",
+        "Question": "Miben néz ki jól Gréti?",
+        "Answer1": "A pulcsiban",
+        "Answer2": "A kabátban",
+        "CorrectAnswer": "A kabátban"
+    },
+    {
+        "ID": "187",
+        "Sent": "János megígérte Bélának, hogy elmehet, szóval egy órával később el is ment.",
+        "Question": "Ki ment el?",
+        "Answer1": "János",
+        "Answer2": "Béla",
+        "CorrectAnswer": "János"
+    },
+    {
+        "ID": "188",
+        "Sent": "János megígérte Bélának, hogy elmegy, szóval egy órával később el is ment.",
+        "Question": "Ki ment el?",
+        "Answer1": "János",
+        "Answer2": "Béla",
+        "CorrectAnswer": "Béla"
+    },
+    {
+        "ID": "189",
+        "Sent": "Sam Goodman monográfiája a spártai tábornok Xenophanészról jól tükrözi azokat a nehézségeket, amelyekkel kutatása során szembesült.",
+        "Question": "Ki szembesült nehézségekkel?",
+        "Answer1": "Sam",
+        "Answer2": "Xenophanész",
+        "CorrectAnswer": "Sam"
+    },
+    {
+        "ID": "190",
+        "Sent": "Sam Goodman monográfiája a spártai tábornok Xenophanészról jól tükrözi azokat a nehézségeket, amelyekkel gyerekkora során szembesült.",
+        "Question": "Ki szembesült nehézségekkel?",
+        "Answer1": "Sam",
+        "Answer2": "Xenophanész",
+        "CorrectAnswer": "Xenophanész"
+    },
+    {
+        "ID": "191",
+        "Sent": "Janka kopogott Zsuzsa ajtaján, de nem kapott választ.",
+        "Question": "Ki nem kapott választ?",
+        "Answer1": "Janka",
+        "Answer2": "Zsuzsa",
+        "CorrectAnswer": "Janka"
+    },
+    {
+        "ID": "192",
+        "Sent": "Janka kopogott Zsuzsa ajtaján, de nem válaszolt.",
+        "Question": "Ki nem válaszolt?",
+        "Answer1": "Janka",
+        "Answer2": "Zsuzsa",
+        "CorrectAnswer": "Zsuzsa"
+    },
+    {
+        "ID": "193",
+        "Sent": "Józsi kifizette a nyomozót, miután megkapta a zárójelentést az ügyről.",
+        "Question": "Ki kapta meg a zárójelentést?",
+        "Answer1": "Józsi",
+        "Answer2": "A nyomozó",
+        "CorrectAnswer": "Józsi"
+    },
+    {
+        "ID": "194",
+        "Sent": "Józsi kifizette a nyomozót, miután leadta a zárójelentést az ügyről.",
+        "Question": "Ki adta le a zárójelentést?",
+        "Answer1": "Józsi",
+        "Answer2": "A nyomozó",
+        "CorrectAnswer": "A nyomozó"
+    },
+    {
+        "ID": "195",
+        "Sent": "Erzsi nem lett mérges Sacira, aki félbeszakította, mert megállt és elszámolt tízig.",
+        "Question": "Ki számolt el tízig?",
+        "Answer1": "Erzsi",
+        "Answer2": "Saci",
+        "CorrectAnswer": "Erzsi"
+    },
+    {
+        "ID": "196",
+        "Sent": "Erzsi nem lett mérges Sacira, aki félbeszakította, mert megállt és bocsánatot kért.",
+        "Question": "Ki kért bocsánatot?",
+        "Answer1": "Erzsi",
+        "Answer2": "Saci",
+        "CorrectAnswer": "Saci"
+    },
+    {
+        "ID": "197",
+        "Sent": "Jakab jelzett a csaposnak és intett az üres pohara felé.",
+        "Question": "Kié az üres pohár?",
+        "Answer1": "Jakabé",
+        "Answer2": "A csaposé",
+        "CorrectAnswer": "Jakabé"
+    },
+    {
+        "ID": "198",
+        "Sent": "Jakab jelzett a csaposnak és intett a mosdókulcsa felé.",
+        "Question": "Kié a mosdókulcs?",
+        "Answer1": "Jakabé",
+        "Answer2": "A csaposé",
+        "CorrectAnswer": "A csaposé"
+    },
+    {
+        "ID": "199",
+        "Sent": "Dani hátra ült, és Béláé lett az első ülés, mert későn stoppolta le.",
+        "Question": "Ki stoppolta le későn?",
+        "Answer1": "Dani",
+        "Answer2": "Béla",
+        "CorrectAnswer": "Dani"
+    },
+    {
+        "ID": "200",
+        "Sent": "Dani hátra ült, és Béláé lett az első ülés, mert előbb stoppolta le.",
+        "Question": "Ki stoppolta le előbb?",
+        "Answer1": "Dani",
+        "Answer2": "Béla",
+        "CorrectAnswer": "Béla"
+    },
+    {
+        "ID": "201",
+        "Sent": "Ahogy Andrea a permetező repülővel elment Zsuzsa felett, látta a leszállópályát.",
+        "Question": "Ki látta a leszállópályát?",
+        "Answer1": "Andrea",
+        "Answer2": "Zsuzsa",
+        "CorrectAnswer": "Andrea"
+    },
+    {
+        "ID": "202",
+        "Sent": "Ahogy Andrea a permetező repülővel elment Zsuzsa felett, látta a futóművet.",
+        "Question": "Ki látta a futóművet?",
+        "Answer1": "Andrea",
+        "Answer2": "Zsuzsa",
+        "CorrectAnswer": "Zsuzsa"
+    },
+    {
+        "ID": "203",
+        "Sent": "Tomi elvitte Lacit az iskolába, hogy ne kelljen egyedül vezetnie.",
+        "Question": "Kinek ne kelljen egyedül vezetnie?",
+        "Answer1": "Tomi",
+        "Answer2": "Laci",
+        "CorrectAnswer": "Tomi"
+    },
+    {
+        "ID": "204",
+        "Sent": "Tomi elvitte Lacit az iskolába, hogy ne kelljen sétálnia.",
+        "Question": "Kinek ne kelljen sétálnia?",
+        "Answer1": "Tomi",
+        "Answer2": "Laci",
+        "CorrectAnswer": "Laci"
+    },
+    {
+        "ID": "205",
+        "Sent": "Béla átadta a félig teli tányérját Jánosnak, mert jóllakott.",
+        "Question": "Ki volt jóllakott?",
+        "Answer1": "Béla",
+        "Answer2": "János",
+        "CorrectAnswer": "Béla"
+    },
+    {
+        "ID": "206",
+        "Sent": "Béla átadta a félig teli tányérját Jánosnak, mert éhes volt.",
+        "Question": "Ki volt éhes?",
+        "Answer1": "Béla",
+        "Answer2": "János",
+        "CorrectAnswer": "János"
+    },
+    {
+        "ID": "207",
+        "Sent": "Béla odaadta a gameboy-t Jánosnak, mert véget ért az ő köre.",
+        "Question": "Kinek ért véget a köre?",
+        "Answer1": "Bélának",
+        "Answer2": "Jánosnak",
+        "CorrectAnswer": "Bélának"
+    },
+    {
+        "ID": "208",
+        "Sent": "Béla odaadta a gameboy-t Jánosnak, mert kezdődött az ő köre.",
+        "Question": "Kinek kezdődött a köre?",
+        "Answer1": "Bélának",
+        "Answer2": "Jánosnak",
+        "CorrectAnswer": "Jánosnak"
+    },
+    {
+        "ID": "209",
+        "Sent": "A férfi felemelte a fiút a vállára.",
+        "Question": "Kinek a vállára?",
+        "Answer1": "A férfiéra",
+        "Answer2": "A fiúéra",
+        "CorrectAnswer": "A férfiéra"
+    },
+    {
+        "ID": "210",
+        "Sent": "A férfi felemelte a fiút az emeletes ágyára.",
+        "Question": "Kinek az emeletes ágyára?",
+        "Answer1": "A férfiéra",
+        "Answer2": "A fiúéra",
+        "CorrectAnswer": "A fiúéra"
+    },
+    {
+        "ID": "211",
+        "Sent": "A kezét intésre emelve a nő rámosolygott a lányra.",
+        "Question": "Kinek a kezét emelte intésre a nő?",
+        "Answer1": "A nőét",
+        "Answer2": "A lányét",
+        "CorrectAnswer": "A nőét"
+    },
+    {
+        "ID": "212",
+        "Sent": "A kezét megérintve a nő rámosolygott a lányra.",
+        "Question": "Kinek a kezét érintette meg a nő?",
+        "Answer1": "A nőét",
+        "Answer2": "A lányét",
+        "CorrectAnswer": "A lányét"
+    },
+    {
+        "ID": "213",
+        "Sent": "Bence sírt, mert Tibi nem fogadta el a játékát.",
+        "Question": "Kié a játék?",
+        "Answer1": "Bencéé",
+        "Answer2": "Tibié",
+        "CorrectAnswer": "Bencéé"
+    },
+    {
+        "ID": "214",
+        "Sent": "Bence sírt, mert Tibi nem osztotta meg a játékát.",
+        "Question": "Kié a játék?",
+        "Answer1": "Bencéé",
+        "Answer2": "Tibié",
+        "CorrectAnswer": "Tibié"
+    },
+    {
+        "ID": "215",
+        "Sent": "Mikor Tomi elejtette a jégkrémét, Miki kinevette, szóval apa megértően nézett rá.",
+        "Question": "Kire nézett apa?",
+        "Answer1": "Tomira",
+        "Answer2": "Mikire",
+        "CorrectAnswer": "Tomira"
+    },
+    {
+        "ID": "216",
+        "Sent": "Mikor Tomi elejtette a jégkrémét, Miki kinevette, szóval apa szigorúan nézett rá.",
+        "Question": "Kire nézett apa?",
+        "Answer1": "Tomira",
+        "Answer2": "Mikire",
+        "CorrectAnswer": "Mikire"
+    },
+    {
+        "ID": "217",
+        "Sent": "Ahogy Olivér felvitte Tomit a hosszú, kanyargós lépcsősoron, fájt a lába.",
+        "Question": "Kinek fájt a lába?",
+        "Answer1": "Olivérnek",
+        "Answer2": "Tominak",
+        "CorrectAnswer": "Olivérnek"
+    },
+    {
+        "ID": "218",
+        "Sent": "Ahogy Olivér felvitte Tomit a hosszú, kanyargós lépcsősoron, lelógott a lába.",
+        "Question": "Kinek lógott le a lába?",
+        "Answer1": "Olivérnek",
+        "Answer2": "Tominak",
+        "CorrectAnswer": "Tominak"
+    },
+    {
+        "ID": "219",
+        "Sent": "Az apja a karjaiban vitte az alvó fiút.",
+        "Question": "Kinek a karjaiban?",
+        "Answer1": "Az apáéban",
+        "Answer2": "A fiúéban",
+        "CorrectAnswer": "Az apáéban"
+    },
+    {
+        "ID": "220",
+        "Sent": "Az apja a mózeskosarában vitte az alvó fiút.",
+        "Question": "Kinek a mózeskosarában?",
+        "Answer1": "Az apáéban",
+        "Answer2": "A fiúéban",
+        "CorrectAnswer": "A fiúéban"
+    },
+    {
+        "ID": "221",
+        "Sent": "Kovács doktor tájékoztatta Katát, hogy nyugdíjba megy, és több lehetőséget ismertetett vele a további kezelést illetően.",
+        "Question": "Ki megy nyugdíjba?",
+        "Answer1": "Kovács doktor",
+        "Answer2": "Kata",
+        "CorrectAnswer": "Kovács doktor"
+    },
+    {
+        "ID": "222",
+        "Sent": "Kovács doktor tájékoztatta Katát, hogy rákos, és több lehetőséget ismertetett vele a további kezelést illetően.",
+        "Question": "Ki rákos?",
+        "Answer1": "Kovács doktor",
+        "Answer2": "Kata",
+        "CorrectAnswer": "Kata"
+    },
+    {
+        "ID": "223",
+        "Sent": "Daninak meg kellett állítania Bélát, hogy ne játsszon a sérült madárral. Nagyon együttérző.",
+        "Question": "Ki nagyon együttérző?",
+        "Answer1": "Dani",
+        "Answer2": "Béla",
+        "CorrectAnswer": "Dani"
+    },
+    {
+        "ID": "224",
+        "Sent": "Daninak meg kellett állítania Bélát, hogy ne játsszon a sérült madárral. Nagyon kegyetlen.",
+        "Question": "Ki nagyon kegyetlen?",
+        "Answer1": "Dani",
+        "Answer2": "Béla",
+        "CorrectAnswer": "Béla"
+    },
+    {
+        "ID": "225",
+        "Sent": "Próbáltam egy gyümölcsöst festeni, citrommal a citromfákon, de inkább villanykörtéknek tűnnek.",
+        "Question": "Mik tűntek villanykörtéknek?",
+        "Answer1": "A citromok",
+        "Answer2": "A citromfák",
+        "CorrectAnswer": "A citromok"
+    },
+    {
+        "ID": "226",
+        "Sent": "Próbáltam egy gyümölcsöst festeni, citrommal a citromfákon, de inkább villanypóznáknak tűnnek.",
+        "Question": "Mik tűntek villanypóznáknak?",
+        "Answer1": "A citromok",
+        "Answer2": "A citromfák",
+        "CorrectAnswer": "A citromfák"
+    },
+    {
+        "ID": "227",
+        "Sent": "Zoli szívességet kért Róberttől, de el lett utasítva.",
+        "Question": "Ki lett elutasítva?",
+        "Answer1": "Zoli",
+        "Answer2": "Róbert",
+        "CorrectAnswer": "Zoli"
+    },
+    {
+        "ID": "228",
+        "Sent": "Zoli szívességet kért Róberttől, de elutasította.",
+        "Question": "Ki utasította el?",
+        "Answer1": "Zoli",
+        "Answer2": "Róbert",
+        "CorrectAnswer": "Róbert"
+    },
+    {
+        "ID": "229",
+        "Sent": "Kirilov átengedte az elnökséget Shatovnak, mert népszerűtlenebb volt.",
+        "Question": "Ki volt népszerűtlenebb?",
+        "Answer1": "Kirilov",
+        "Answer2": "Shatov",
+        "CorrectAnswer": "Kirilov"
+    },
+    {
+        "ID": "230",
+        "Sent": "Kirilov átengedte az elnökséget Shatovnak, mert népszerűbb volt.",
+        "Question": "Ki volt népszerűbb?",
+        "Answer1": "Kirilov",
+        "Answer2": "Shatov",
+        "CorrectAnswer": "Shatov"
+    },
+    {
+        "ID": "231",
+        "Sent": "Józsi látta a bátyját síelni a tévében, de a kis hülye nem ismerte fel.",
+        "Question": "Ki a hülye?",
+        "Answer1": "Józsi",
+        "Answer2": "Józsi bátyja",
+        "CorrectAnswer": "Józsi"
+    },
+    {
+        "ID": "232",
+        "Sent": "Józsi látta a bátyját síelni a tévében, de a kis hülye nem viselt kabátot.",
+        "Question": "Ki a hülye?",
+        "Answer1": "Józsi",
+        "Answer2": "Józsi bátyja",
+        "CorrectAnswer": "Józsi bátyja"
+    },
+    {
+        "ID": "233",
+        "Sent": "Az asztalra raktam a pillangószárnyat és összetört.",
+        "Question": "Mi tört össze?",
+        "Answer1": "A pillangószárny",
+        "Answer2": "Az asztal",
+        "CorrectAnswer": "A pillangószárny"
+    },
+    {
+        "ID": "234",
+        "Sent": "Az asztalra raktam a nehéz könyvet és összetört.",
+        "Question": "Mi tört össze?",
+        "Answer1": "A nehéz könyv",
+        "Answer2": "Az asztal",
+        "CorrectAnswer": "Az asztal"
+    },
+    {
+        "ID": "235",
+        "Sent": "Karolina azt hitte, hogy Rebeka sejti, hogy ellopta az órát.",
+        "Question": "Kiről sejtik, hogy ellopta az órát?",
+        "Answer1": "Karolina",
+        "Answer2": "Rebeka",
+        "CorrectAnswer": "Karolina"
+    },
+    {
+        "ID": "236",
+        "Sent": "Karolina azt hitte, hogy Rebeka megbánta, hogy ellopta az órát.",
+        "Question": "Ki lopta el az órát?",
+        "Answer1": "Karolina",
+        "Answer2": "Rebeka",
+        "CorrectAnswer": "Rebeka"
+    },
+    {
+        "ID": "237",
+        "Sent": "Alíz a barátját, Esztert kereste a tömegben. Mivel mindig szerencséje van, hamar észreveszi.",
+        "Question": "Kinek van szerencséje?",
+        "Answer1": "Alíznak",
+        "Answer2": "Eszternek",
+        "CorrectAnswer": "Alíznak"
+    },
+    {
+        "ID": "238",
+        "Sent": "Alíz a barátját, Esztert kereste a tömegben. Mivel mindig piros turbánban van, hamar észreveszi.",
+        "Question": "Ki van piros turbánban?",
+        "Answer1": "Alíz",
+        "Answer2": "Eszter",
+        "CorrectAnswer": "Eszter"
+    },
+    {
+        "ID": "239",
+        "Sent": "Fogócska közben Endre Lukácsot üldözte, mert ő volt a fogó.",
+        "Question": "Ki volt a fogó?",
+        "Answer1": "Endre",
+        "Answer2": "Lukács",
+        "CorrectAnswer": "Endre"
+    },
+    {
+        "ID": "240",
+        "Sent": "Fogócska közben Endre Lukács elől rohant, mert ő volt a fogó.",
+        "Question": "Ki volt a fogó?",
+        "Answer1": "Endre",
+        "Answer2": "Lukács",
+        "CorrectAnswer": "Lukács"
+    },
+    {
+        "ID": "241",
+        "Sent": "A Loebner versenyen a zsűritagok nem tudtak rájönni, melyik válaszadók voltak chatbotok, mert annyira hülyék voltak.",
+        "Question": "Kik voltak hülyék?",
+        "Answer1": "A zsűritagok",
+        "Answer2": "A chatbotok",
+        "CorrectAnswer": "A zsűritagok"
+    },
+    {
+        "ID": "242",
+        "Sent": "A Loebner versenyen a zsűritagok nem tudtak rájönni, melyik válaszadók voltak chatbotok, mert annyira profik voltak.",
+        "Question": "Kik voltak profik?",
+        "Answer1": "A zsűritagok",
+        "Answer2": "A chatbotok",
+        "CorrectAnswer": "A chatbotok"
+    },
+    {
+        "ID": "243",
+        "Sent": "A felhasználó \"GrWQWu8JyC\"-ról \"fűzfatornyú Ernyő Vadásztropikus birkózások\"-ra változtatta a jelszavát, mert azt könnyű volt elfelejteni.",
+        "Question": "Mit volt könnyű elfelejteni?",
+        "Answer1": "GrWQWu8JyC",
+        "Answer2": "fűzfatornyú Ernyő Vadásztropikus birkózások",
+        "CorrectAnswer": "GrWQWu8JyC"
+    },
+    {
+        "ID": "244",
+        "Sent": "A felhasználó \"GrWQWu8JyC\"-ról \"fűzfatornyú Ernyő Vadásztropikus birkózások\"-ra változtatta a jelszavát, mert azt könnyű megjegyezni.",
+        "Question": "Mit könnyű megjegyezni?",
+        "Answer1": "GrWQWu8JyC",
+        "Answer2": "fűzfatornyú Ernyő Vadásztropikus birkózások",
+        "CorrectAnswer": "fűzfatornyú Ernyő Vadásztropikus birkózások"
+    }
+]

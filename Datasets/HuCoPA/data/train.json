@@ -1,0 +1,3202 @@
+[
+    {
+        "id": "0",
+        "question": "cause",
+        "premise": "A felhajtón parkoltam.",
+        "choice1": "A garázs nyitva volt.",
+        "choice2": "A garázs tele volt.",
+        "label": "2"
+    },
+    {
+        "id": "1",
+        "question": "cause",
+        "premise": "A fürdőt elöntötte a víz.",
+        "choice1": "A WC túlcsordult.",
+        "choice2": "Elromlott a bojler.",
+        "label": "1"
+    },
+    {
+        "id": "2",
+        "question": "effect",
+        "premise": "A futó megérezte a versenytársa közeledését.",
+        "choice1": "Kiesett a versenyből.",
+        "choice2": "Felgyorsította a tempót.",
+        "label": "2"
+    },
+    {
+        "id": "3",
+        "question": "effect",
+        "label": "1",
+        "premise": "A csap alá tettem a kezem.",
+        "choice1": "Leöblítettem a kezemről a szappant.",
+        "choice2": "A víz az arcomba spriccelt."
+    },
+    {
+        "id": "4",
+        "question": "effect",
+        "label": "2",
+        "premise": "A beteg kiszáradt.",
+        "choice1": "A nővér tesztelte a reflexeit.",
+        "choice2": "A nővér infúziót adott neki."
+    },
+    {
+        "id": "5",
+        "question": "effect",
+        "premise": "A férj bűnösnek érezte magát, amiért megcsalta a feleségét.",
+        "choice1": "Hűtlenséggel vádolta.",
+        "choice2": "Bevallotta neki a hűtlenségét.",
+        "label": "2"
+    },
+    {
+        "id": "6",
+        "question": "effect",
+        "label": "1",
+        "premise": "Láttam egy nőt, akit kiraboltak az utcán.",
+        "choice1": "Hívtam a 911-et.",
+        "choice2": "Hívtam egy taxit."
+    },
+    {
+        "id": "7",
+        "question": "cause",
+        "premise": "A balerina ínszalagszakadást szenvedett.",
+        "choice1": "Lábujjhegyre állt.",
+        "choice2": "Kificamította a bokáját.",
+        "label": "2"
+    },
+    {
+        "id": "8",
+        "question": "effect",
+        "label": "1",
+        "premise": "Bűz árasztotta el a szobát.",
+        "choice1": "Befogtam az orrom.",
+        "choice2": "Felvettem a gumikesztyűt."
+    },
+    {
+        "id": "9",
+        "question": "effect",
+        "premise": "A bíróság helybenhagyta az ellentmondásos ítéletet.",
+        "choice1": "Lázadás tört ki a bíróság előtt.",
+        "choice2": "Egy pár esküt tett a bíróság előtt.",
+        "label": "1"
+    },
+    {
+        "id": "10",
+        "question": "effect",
+        "label": "2",
+        "premise": "A nő szégyellte a sebhelyet az arcán.",
+        "choice1": "Megmagyarázta a sebhelyet idegeneknek.",
+        "choice2": "Sminkkel rejtette el a sebhelyet."
+    },
+    {
+        "id": "11",
+        "question": "effect",
+        "premise": "A darázs a fiú felé repült.",
+        "choice1": "A fiú elfutott.",
+        "choice2": "A fiú szedett egy virágot.",
+        "label": "1"
+    },
+    {
+        "id": "12",
+        "question": "effect",
+        "premise": "A baleset az én hibám volt.",
+        "choice1": "Bűntudatom volt.",
+        "choice2": "Vádat emeltem.",
+        "label": "1"
+    },
+    {
+        "id": "13",
+        "question": "effect",
+        "premise": "A férfi elvesztette az egyensúlyát a létrán.",
+        "choice1": "Felmászott a létrán.",
+        "choice2": "Leesett a létráról.",
+        "label": "2"
+    },
+    {
+        "id": "14",
+        "question": "effect",
+        "premise": "A hullámvasút megindult a meredek lejtőn.",
+        "choice1": "Az utasok kuncogtak.",
+        "choice2": "Az utasok sikoltoztak.",
+        "label": "2"
+    },
+    {
+        "id": "15",
+        "question": "effect",
+        "premise": "A felszólaló politikailag inkorrekt megjegyzéseket tett.",
+        "choice1": "Untatta a közönséget.",
+        "choice2": "Megsértette a közönséget.",
+        "label": "2"
+    },
+    {
+        "id": "16",
+        "question": "cause",
+        "premise": "A férfi kitűnt a tömegből.",
+        "choice1": "Egy hátizsák volt nála.",
+        "choice2": "Neonmellényt viselt.",
+        "label": "2"
+    },
+    {
+        "id": "17",
+        "question": "cause",
+        "label": "1",
+        "premise": "A gyerekek felborítottak egy lámpát.",
+        "choice1": "Párnacsatáztak.",
+        "choice2": "Felugrottak az ágyra."
+    },
+    {
+        "id": "18",
+        "question": "cause",
+        "premise": "Megvakartam a bőrömet.",
+        "choice1": "Izzadt volt.",
+        "choice2": "Viszketett.",
+        "label": "2"
+    },
+    {
+        "id": "19",
+        "question": "effect",
+        "label": "1",
+        "premise": "A fiú izmos akart lenni.",
+        "choice1": "Súlyzózott.",
+        "choice2": "Számítógépes játékokat játszott."
+    },
+    {
+        "id": "20",
+        "question": "cause",
+        "premise": "A kisfiú sírt a bébiszitterének.",
+        "choice1": "Hiányoztak neki a szülei.",
+        "choice2": "Uzsonnaidő volt.",
+        "label": "1"
+    },
+    {
+        "id": "21",
+        "question": "effect",
+        "premise": "A fiú sárba lépett.",
+        "choice1": "A sár ráragadt a cipőjére.",
+        "choice2": "A sár az arcába csapódott.",
+        "label": "1"
+    },
+    {
+        "id": "22",
+        "question": "effect",
+        "label": "2",
+        "premise": "A jégkockát meleg víz alá tettem.",
+        "choice1": "A jégkocka ráragadt az ujjaimra.",
+        "choice2": "A jégkocka eltűnt."
+    },
+    {
+        "id": "23",
+        "question": "cause",
+        "premise": "A férfi mentőmellényt viselt a vízben.",
+        "choice1": "Nem tudott úszni.",
+        "choice2": "A víz sekély volt.",
+        "label": "1"
+    },
+    {
+        "id": "24",
+        "question": "effect",
+        "premise": "A férfi kinyújtotta felém a kezét.",
+        "choice1": "Kezet fogtam vele.",
+        "choice2": "Megpofoztam.",
+        "label": "1"
+    },
+    {
+        "id": "25",
+        "question": "effect",
+        "premise": "Egyre nagyobb lett a tömeg.",
+        "choice1": "Az apa pénzt adott a fiának.",
+        "choice2": "Az apa megfogta a fia kezét.",
+        "label": "2"
+    },
+    {
+        "id": "26",
+        "question": "effect",
+        "premise": "A fogoly éhezett.",
+        "choice1": "Meghalt.",
+        "choice2": "Elmenekült.",
+        "label": "1"
+    },
+    {
+        "id": "27",
+        "question": "effect",
+        "premise": "A férfi háta megsérült.",
+        "choice1": "Pszichiáterhez ment.",
+        "choice2": "Több napig ágyban maradt.",
+        "label": "2"
+    },
+    {
+        "id": "28",
+        "question": "effect",
+        "label": "1",
+        "premise": "A szobában félhomály volt.",
+        "choice1": "Felhúztam a redőnyt.",
+        "choice2": "Lemostam az ablakokat."
+    },
+    {
+        "id": "29",
+        "question": "effect",
+        "premise": "Az orrom alá tettem a virágot.",
+        "choice1": "A szirmok lehullottak a virágról.",
+        "choice2": "Megéreztem a virág illatát.",
+        "label": "2"
+    },
+    {
+        "id": "30",
+        "question": "cause",
+        "premise": "Leszedtem a paradicsomot.",
+        "choice1": "Megért.",
+        "choice2": "Meglocsoltam.",
+        "label": "1"
+    },
+    {
+        "id": "31",
+        "question": "effect",
+        "label": "1",
+        "premise": "A barátok úgy döntöttek, hogy megosztják a hamburgert.",
+        "choice1": "Félbevágták a hamburgert.",
+        "choice2": "Sült krumplit rendeltek a hamburgerhez."
+    },
+    {
+        "id": "32",
+        "question": "cause",
+        "premise": "Rábólintottam a barátom kijelentésére.",
+        "choice1": "Összezavarodtam.",
+        "choice2": "Egyetértettem vele.",
+        "label": "2"
+    },
+    {
+        "id": "33",
+        "question": "cause",
+        "premise": "A könyvek kiestek a könyvszekrényből.",
+        "choice1": "A polcokat por borította.",
+        "choice2": "Egy földrengés rázta meg a könyvszekrényt.",
+        "label": "2"
+    },
+    {
+        "id": "34",
+        "question": "effect",
+        "label": "1",
+        "premise": "A férfi szerelmet vallott a nőnek.",
+        "choice1": "A nő visszautasította.",
+        "choice2": "A nő irigyelte őt."
+    },
+    {
+        "id": "35",
+        "question": "effect",
+        "label": "2",
+        "premise": "A teáskannában forrni kezdett a víz.",
+        "choice1": "A teáskanna kihűlt.",
+        "choice2": "A teáskanna fütyült."
+    },
+    {
+        "id": "36",
+        "question": "effect",
+        "premise": "Fizettem a vámszedőnek.",
+        "choice1": "Átengedett a fizetőkapun.",
+        "choice2": "Őrizetbe vett a fizetőkapunál.",
+        "label": "1"
+    },
+    {
+        "id": "37",
+        "question": "effect",
+        "premise": "Tegnap edzettem az edzőteremben.",
+        "choice1": "Fájó izmokkal ébredtem ma.",
+        "choice2": "Ma torokfájással ébredtem.",
+        "label": "1"
+    },
+    {
+        "id": "38",
+        "question": "effect",
+        "label": "2",
+        "premise": "A szakács megkeverte a hozzávalókat a tálban.",
+        "choice1": "Az összetevők megolvadtak.",
+        "choice2": "A hozzávalók összekeveredtek."
+    },
+    {
+        "id": "39",
+        "question": "cause",
+        "premise": "A tanár széttépte a tanuló dolgozatát.",
+        "choice1": "Puskázáson kapta a diákot.",
+        "choice2": "A diák válaszai tévesek voltak.",
+        "label": "1"
+    },
+    {
+        "id": "40",
+        "question": "effect",
+        "label": "1",
+        "premise": "A nő késztetést érzett arra, hogy segítsen egy rászorulónak.",
+        "choice1": "Vért adott.",
+        "choice2": "Írt egy verset."
+    },
+    {
+        "id": "41",
+        "question": "cause",
+        "label": "1",
+        "premise": "A vezető dicséretet kapott.",
+        "choice1": "Harcolt a szegénység ellen.",
+        "choice2": "Megemelte az adókat."
+    },
+    {
+        "id": "42",
+        "question": "effect",
+        "premise": "A diák halogatta a dolgozat megírását.",
+        "choice1": "Korán beadta a dolgozatot.",
+        "choice2": "Hiányosan adta be a dolgozatot.",
+        "label": "2"
+    },
+    {
+        "id": "43",
+        "question": "effect",
+        "label": "1",
+        "premise": "Az orvos megröntgenezte a beteg karját.",
+        "choice1": "Kiderítette, hogy a beteg karja eltört.",
+        "choice2": "Begipszelte a beteg karját."
+    },
+    {
+        "id": "44",
+        "question": "cause",
+        "premise": "A nő kint ült a tornácon.",
+        "choice1": "Meg akarta nézni a naplementét.",
+        "choice2": "Azt hitte, hogy villámot látott.",
+        "label": "1"
+    },
+    {
+        "id": "45",
+        "question": "cause",
+        "premise": "Tanácsot kértem a barátomtól.",
+        "choice1": "Becsültem a véleményét.",
+        "choice2": "Tudtam, hogy igazam van.",
+        "label": "1"
+    },
+    {
+        "id": "46",
+        "question": "cause",
+        "label": "2",
+        "premise": "A szék nyikorgott.",
+        "choice1": "A férfi az irodájába vitte a széket.",
+        "choice2": "A férfi közelebb húzta a széket az asztalhoz."
+    },
+    {
+        "id": "47",
+        "question": "cause",
+        "label": "1",
+        "premise": "A gyermek elkapott egy életveszélyes betegséget.",
+        "choice1": "Nem oltották be.",
+        "choice2": "Örökbe fogadták."
+    },
+    {
+        "id": "48",
+        "question": "cause",
+        "premise": "Javasoltam a vendégemnek, hogy menjünk el vacsorázni.",
+        "choice1": "Túl fáradt voltam, hogy bármit is elkészítsek.",
+        "choice2": "A vendégem tovább maradt, mint kellett volna.",
+        "label": "1"
+    },
+    {
+        "id": "49",
+        "question": "effect",
+        "label": "1",
+        "premise": "A szörfös elkapta a hullámot.",
+        "choice1": "A hullám a partra sodorta.",
+        "choice2": "Beúsztatta a deszkáját az óceánba."
+    },
+    {
+        "id": "50",
+        "question": "cause",
+        "premise": "A fagyasztott étel kiolvadt.",
+        "choice1": "Betettem a mikróba.",
+        "choice2": "Műanyag fóliával takartam le.",
+        "label": "1"
+    },
+    {
+        "id": "51",
+        "question": "cause",
+        "label": "1",
+        "premise": "A férfi észrevette, hogy a nő másképp néz ki.",
+        "choice1": "A nő levágatta a haját.",
+        "choice2": "A nő karkötőt viselt."
+    },
+    {
+        "id": "52",
+        "question": "cause",
+        "label": "1",
+        "premise": "Letettem a telefont.",
+        "choice1": "A hívó elköszönt tőlem.",
+        "choice2": "A hívó bemutatkozott."
+    },
+    {
+        "id": "53",
+        "question": "effect",
+        "label": "1",
+        "premise": "A baba sírt a bölcsőjében.",
+        "choice1": "Az anya felvette a babát.",
+        "choice2": "A baba odakúszott az anyához."
+    },
+    {
+        "id": "54",
+        "question": "cause",
+        "premise": "A tengerész karanténba került.",
+        "choice1": "Ki volt téve a betegségnek.",
+        "choice2": "Kigyógyult a betegségből.",
+        "label": "1"
+    },
+    {
+        "id": "55",
+        "question": "effect",
+        "premise": "Egy ismeretlen autó parkolt a házam előtt.",
+        "choice1": "Gyanakodni kezdtem.",
+        "choice2": "Hívtam a rendőrséget.",
+        "label": "1"
+    },
+    {
+        "id": "56",
+        "question": "effect",
+        "premise": "A barátom kutyája meghalt.",
+        "choice1": "Forgattam a szemem, ahogy ránéztem.",
+        "choice2": "Megöleltem.",
+        "label": "2"
+    },
+    {
+        "id": "57",
+        "question": "effect",
+        "premise": "A bevándorlók illegálisan tartózkodtak az országban.",
+        "choice1": "Találtak munkát.",
+        "choice2": "Deportálták őket.",
+        "label": "2"
+    },
+    {
+        "id": "58",
+        "question": "effect",
+        "label": "2",
+        "premise": "Sírni kezdett a kisgyerek.",
+        "choice1": "A szülei elvették a játékát.",
+        "choice2": "A szülei játékot adtak neki."
+    },
+    {
+        "id": "59",
+        "question": "effect",
+        "premise": "Kicsavartam a nedves szivacsot.",
+        "choice1": "Felszívta a vizet.",
+        "choice2": "Víz csorgott belőle.",
+        "label": "2"
+    },
+    {
+        "id": "60",
+        "question": "cause",
+        "premise": "A baba elaludt.",
+        "choice1": "Az apa kicserélte a baba pelenkáját.",
+        "choice2": "Az apa finoman ringatta a babát.",
+        "label": "2"
+    },
+    {
+        "id": "61",
+        "question": "cause",
+        "label": "1",
+        "premise": "A férfi hálás volt, hogy életben maradt.",
+        "choice1": "Kigyógyult a rákból.",
+        "choice2": "A feleségénél rákot diagnosztizáltak."
+    },
+    {
+        "id": "62",
+        "question": "effect",
+        "premise": "A férfi átpörgette a lapokat.",
+        "choice1": "Elvágta az ujját egy papírlap.",
+        "choice2": "Darabokra tépte a lapokat.",
+        "label": "1"
+    },
+    {
+        "id": "63",
+        "question": "cause",
+        "label": "2",
+        "premise": "Összepakoltam a holmimat.",
+        "choice1": "Új lakást kerestem.",
+        "choice2": "Kiköltöztem a lakásomból."
+    },
+    {
+        "id": "64",
+        "question": "cause",
+        "label": "1",
+        "premise": "A lánynak fájt a szája.",
+        "choice1": "Kiesett egy foga.",
+        "choice2": "Lenyelte a rágóját."
+    },
+    {
+        "id": "65",
+        "question": "effect",
+        "premise": "A tollból kifogyott a tinta.",
+        "choice1": "Ceruzát használtam.",
+        "choice2": "Aláírtam a nevem.",
+        "label": "1"
+    },
+    {
+        "id": "66",
+        "question": "effect",
+        "label": "1",
+        "premise": "Szereznem kellett némi készpénzt.",
+        "choice1": "Elmentem a bankba.",
+        "choice2": "Vettem egy pénztárcát."
+    },
+    {
+        "id": "67",
+        "question": "cause",
+        "label": "2",
+        "premise": "Az ing összement.",
+        "choice1": "Fehérítőt öntöttem rá.",
+        "choice2": "Betettem a szárítóba."
+    },
+    {
+        "id": "68",
+        "question": "effect",
+        "label": "2",
+        "premise": "A kertész azt akarta, hogy virágozzanak a növényei.",
+        "choice1": "Sokféle magot vetett.",
+        "choice2": "Műtrágyát szórt a talajba."
+    },
+    {
+        "id": "69",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő eltűrte a barátja kezelhetetlen viselkedését.",
+        "choice1": "A nő tudta, hogy a barátja nehéz időszakon megy keresztül.",
+        "choice2": "A nő úgy érezte, hogy a barátja kihasználta a kedvességét."
+    },
+    {
+        "id": "70",
+        "question": "effect",
+        "label": "2",
+        "premise": "A varrónő beleszúrta a befűzött tűt a szövetbe.",
+        "choice1": "A cérna a tű köré tekeredett.",
+        "choice2": "A cérna áthatolt a szöveten."
+    },
+    {
+        "id": "71",
+        "question": "cause",
+        "label": "1",
+        "premise": "A lány udvariasan visszautasította a hamburgert.",
+        "choice1": "Vegetáriánus volt.",
+        "choice2": "Szerette a gyorskaját."
+    },
+    {
+        "id": "72",
+        "question": "cause",
+        "premise": "A férfi haja kiszőkült.",
+        "choice1": "Hajszőkítőt kent rá.",
+        "choice2": "Besamponozta.",
+        "label": "1"
+    },
+    {
+        "id": "73",
+        "question": "effect",
+        "label": "2",
+        "premise": "A lány találkozott a kedvenc színészével.",
+        "choice1": "Elment megnézni az új filmjét.",
+        "choice2": "Autogramot kért tőle."
+    },
+    {
+        "id": "74",
+        "question": "cause",
+        "premise": "A tinédzser kiszökött a házból.",
+        "choice1": "Hazudott a szüleinek.",
+        "choice2": "A szülei szobafogságra ítélték.",
+        "label": "2"
+    },
+    {
+        "id": "75",
+        "question": "effect",
+        "premise": "Alaposan átgondoltam a problémát.",
+        "choice1": "Tanácsot kértem.",
+        "choice2": "Kitaláltam egy megoldást.",
+        "label": "2"
+    },
+    {
+        "id": "76",
+        "question": "effect",
+        "premise": "A gyár tulajdonosa nem volt hajlandó megemelni az alkalmazottak bérét.",
+        "choice1": "A tulajdonos új menedzsert nevezett ki.",
+        "choice2": "Az alkalmazottak sztrájkba kezdtek.",
+        "label": "2"
+    },
+    {
+        "id": "77",
+        "question": "effect",
+        "premise": "Nyitva volt az irodám ajtaja.",
+        "choice1": "Beszélgettem a kollégámmal az asztalomnál.",
+        "choice2": "Hallottam a beszélgetést a folyosón.",
+        "label": "2"
+    },
+    {
+        "id": "78",
+        "question": "cause",
+        "label": "2",
+        "premise": "A férfi egy cigarettára vágyott.",
+        "choice1": "Családja arra ösztönözte, hogy szokjon le a dohányzásról.",
+        "choice2": "Nikotinfüggő volt."
+    },
+    {
+        "id": "79",
+        "question": "cause",
+        "label": "2",
+        "premise": "A közösség tudomást szerzett a férfi haláláról.",
+        "choice1": "A családja a eltemette a temetőben.",
+        "choice2": "Megjelent az újságban a gyászjelentése."
+    },
+    {
+        "id": "80",
+        "question": "effect",
+        "premise": "Az alkalmazott műszakja véget ért.",
+        "choice1": "Hazament mára.",
+        "choice2": "Felmondással fenyegetőzött.",
+        "label": "1"
+    },
+    {
+        "id": "81",
+        "question": "cause",
+        "premise": "A kiskutya a gazdája közelében maradt.",
+        "choice1": "A tulajdonos nyakörvet tett a kiskutyára.",
+        "choice2": "A tulajdonos pórázon tartotta a kiskutyát.",
+        "label": "2"
+    },
+    {
+        "id": "82",
+        "question": "effect",
+        "label": "2",
+        "premise": "Ügyetlenül belebotlottam az idegenbe.",
+        "choice1": "Elfutottam.",
+        "choice2": "Bocsánatot kértem tőle."
+    },
+    {
+        "id": "83",
+        "question": "effect",
+        "premise": "A férfi feje lüktetett a fájdalomtól.",
+        "choice1": "Köhögés elleni szirupot kapott.",
+        "choice2": "Aszpirint vett be.",
+        "label": "2"
+    },
+    {
+        "id": "84",
+        "question": "cause",
+        "label": "1",
+        "premise": "A férfi arcán rúzsfolt virított.",
+        "choice1": "A nő megcsókolta.",
+        "choice2": "A nő miatt elpirult."
+    },
+    {
+        "id": "85",
+        "question": "effect",
+        "premise": "Belenéztem a napba.",
+        "choice1": "A nap elvakított.",
+        "choice2": "Lebarnultam a napon.",
+        "label": "1"
+    },
+    {
+        "id": "86",
+        "question": "effect",
+        "label": "1",
+        "premise": "A férfi sokat ivott a partin.",
+        "choice1": "Másnap fájt a feje.",
+        "choice2": "Másnap folyt az orra."
+    },
+    {
+        "id": "87",
+        "question": "cause",
+        "label": "1",
+        "premise": "Szétloccsant a tojás.",
+        "choice1": "Elejtettem.",
+        "choice2": "Megfőztem."
+    },
+    {
+        "id": "88",
+        "question": "effect",
+        "premise": "A két gyermek egyszerre nyúlt le, hogy visszaszerezze a labdát.",
+        "choice1": "A labda elgurult.",
+        "choice2": "Összekoccant a fejük.",
+        "label": "2"
+    },
+    {
+        "id": "89",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő megadta a telefonszámát a férfinak.",
+        "choice1": "Vonzódott hozzá.",
+        "choice2": "Visszataszítónak találta."
+    },
+    {
+        "id": "90",
+        "question": "effect",
+        "premise": "A férfi és a nő egymásba szerettek.",
+        "choice1": "Főiskolára jártak.",
+        "choice2": "Összeházasodtak.",
+        "label": "2"
+    },
+    {
+        "id": "91",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő kitörölte az e-mailt.",
+        "choice1": "A feladó pénzt akart tőle.",
+        "choice2": "A feladó választ várt tőle."
+    },
+    {
+        "id": "92",
+        "question": "cause",
+        "premise": "A férfinak könnyes volt a szeme.",
+        "choice1": "Por került a szemébe.",
+        "choice2": "Védőszemüveget vett fel.",
+        "label": "1"
+    },
+    {
+        "id": "93",
+        "question": "cause",
+        "premise": "Az ügyvéd felment a lépcsőn az irodájába.",
+        "choice1": "A titkárnő hazament mára.",
+        "choice2": "A lift nem működött.",
+        "label": "2"
+    },
+    {
+        "id": "94",
+        "question": "effect",
+        "label": "1",
+        "premise": "A lány megtalálta a hiányzó kirakódarabot.",
+        "choice1": "Befejezte a kirakót.",
+        "choice2": "Szétszedte a kirakót."
+    },
+    {
+        "id": "95",
+        "question": "effect",
+        "label": "2",
+        "premise": "A lány nem volt hajlandó megenni a zöldségeket.",
+        "choice1": "Az apja mondta neki, hogy igya meg a tejét.",
+        "choice2": "Az apja elvette a desszertjét."
+    },
+    {
+        "id": "96",
+        "question": "effect",
+        "label": "2",
+        "premise": "A férfi órája elromlott.",
+        "choice1": "A buszmegállóban várt.",
+        "choice2": "Megkérdezte egy idegentől, hogy mennyi az idő."
+    },
+    {
+        "id": "97",
+        "question": "effect",
+        "premise": "Csengettek.",
+        "choice1": "A látogató kopogtatott az ajtón.",
+        "choice2": "A nő kikukucskált az ajtó kulcslyukán.",
+        "label": "2"
+    },
+    {
+        "id": "98",
+        "question": "effect",
+        "label": "1",
+        "premise": "A könyv hatalmas bestseller lett.",
+        "choice1": "Filmet is készítettek belőle.",
+        "choice2": "A szerző feledésbe merült."
+    },
+    {
+        "id": "99",
+        "question": "effect",
+        "premise": "A nő üzlete sikeres volt.",
+        "choice1": "Kirúgta az alkalmazottait.",
+        "choice2": "Meggazdagodott.",
+        "label": "2"
+    },
+    {
+        "id": "100",
+        "question": "cause",
+        "premise": "A férfi szitkozódott.",
+        "choice1": "Levágta a körmét.",
+        "choice2": "Beütötte a lábujját.",
+        "label": "2"
+    },
+    {
+        "id": "101",
+        "question": "cause",
+        "label": "2",
+        "premise": "A fiú félt lefeküdni.",
+        "choice1": "Felkapcsolta az éjjeli lámpát.",
+        "choice2": "Horrorfilmet nézett."
+    },
+    {
+        "id": "102",
+        "question": "effect",
+        "label": "1",
+        "premise": "A férfi megöregedett.",
+        "choice1": "Megőszült.",
+        "choice2": "Eladta a holmiját."
+    },
+    {
+        "id": "103",
+        "question": "cause",
+        "label": "2",
+        "premise": "Az újságíró írt egy életrajzot a humanitárius életéről.",
+        "choice1": "Az újságírónak nehéz volt interjút készítenie a humanitáriussal.",
+        "choice2": "Az újságírót lenyűgözte a humanitárius munkája."
+    },
+    {
+        "id": "104",
+        "question": "effect",
+        "premise": "A fiút kizárták a házából.",
+        "choice1": "Bemászott egy nyitott ablakon.",
+        "choice2": "Felmászott a tetőre.",
+        "label": "1"
+    },
+    {
+        "id": "105",
+        "question": "cause",
+        "label": "1",
+        "premise": "A férfi elvesztette a versenyt.",
+        "choice1": "A versenyt szabotálták.",
+        "choice2": "Megfélemlítette a versenytársait."
+    },
+    {
+        "id": "106",
+        "question": "effect",
+        "label": "1",
+        "premise": "A séf a tál oldalához ütötte a tojást.",
+        "choice1": "A tojás megrepedt.",
+        "choice2": "A tojás megrohadt."
+    },
+    {
+        "id": "107",
+        "question": "cause",
+        "premise": "Az orvos diagnosztizálta a beteget.",
+        "choice1": "Azonosította a beteg tüneteit.",
+        "choice2": "Gyógyszereket írt fel a betegnek.",
+        "label": "1"
+    },
+    {
+        "id": "108",
+        "question": "cause",
+        "label": "2",
+        "premise": "Kiköptem a rágómat.",
+        "choice1": "Buborékot fújtam a rágóból.",
+        "choice2": "A rágógumi elvesztette az ízét."
+    },
+    {
+        "id": "109",
+        "question": "effect",
+        "premise": "Az apát megbotránkoztatta a fia alkoholizmusa.",
+        "choice1": "Az apa vett a fiának egy sört.",
+        "choice2": "Az apa kirúgta a fiát a házból.",
+        "label": "2"
+    },
+    {
+        "id": "110",
+        "question": "effect",
+        "premise": "A főiskolai hallgató találkozni akart más diákokkal az egyetemen.",
+        "choice1": "Kollégista lett.",
+        "choice2": "Mérnöknek tanult.",
+        "label": "1"
+    },
+    {
+        "id": "111",
+        "question": "cause",
+        "label": "2",
+        "premise": "Tévesen ítélték el a nőt.",
+        "choice1": "Az esküdtszék igazságos volt.",
+        "choice2": "Bemártották."
+    },
+    {
+        "id": "112",
+        "question": "effect",
+        "premise": "A háborúzó országok békét akartak.",
+        "choice1": "Nukleáris fegyvereket fejlesztettek ki.",
+        "choice2": "Egyezséget kötöttek.",
+        "label": "2"
+    },
+    {
+        "id": "113",
+        "question": "effect",
+        "label": "1",
+        "premise": "A szőlőlé megerjedt.",
+        "choice1": "A gyümölcsléből bor lett.",
+        "choice2": "A gyümölcslé elpárolgott."
+    },
+    {
+        "id": "114",
+        "question": "cause",
+        "label": "2",
+        "premise": "A férfi gyászolt.",
+        "choice1": "A felesége kritizálta.",
+        "choice2": "Az anyja meghalt."
+    },
+    {
+        "id": "115",
+        "question": "effect",
+        "premise": "Bedobtam egy érmét a forrásba.",
+        "choice1": "Az érme lesüllyedt az aljára.",
+        "choice2": "Az érme kettétört.",
+        "label": "1"
+    },
+    {
+        "id": "116",
+        "question": "cause",
+        "label": "1",
+        "premise": "A férfit összecsípték a szúnyogok.",
+        "choice1": "Kempingezni ment az erdőbe.",
+        "choice2": "Elaludt a kanapén."
+    },
+    {
+        "id": "117",
+        "question": "effect",
+        "premise": "Elfogyott a tojás.",
+        "choice1": "A nő elment a farmra.",
+        "choice2": "A nő elment a szupermarketbe.",
+        "label": "2"
+    },
+    {
+        "id": "118",
+        "question": "effect",
+        "label": "1",
+        "premise": "Pénzt dobtam a mosógépbe a mosodában.",
+        "choice1": "A gép bekapcsolt.",
+        "choice2": "Elfogyott a mosószerem."
+    },
+    {
+        "id": "119",
+        "question": "cause",
+        "label": "1",
+        "premise": "Hazaküldték a beteget a kórházból.",
+        "choice1": "A beteg tünetei elmúltak.",
+        "choice2": "Meglátogatta a betetget a családja."
+    },
+    {
+        "id": "120",
+        "question": "cause",
+        "premise": "Gőz szállt fel a fazék vízről.",
+        "choice1": "Felforrt a víz.",
+        "choice2": "Lefedtem a fazekat.",
+        "label": "1"
+    },
+    {
+        "id": "121",
+        "question": "cause",
+        "premise": "A férfi hallgatott, amikor a barátja befejezte a beszédet.",
+        "choice1": "Támogatni akarta a barátját.",
+        "choice2": "A barátja szavain gondolkodott.",
+        "label": "2"
+    },
+    {
+        "id": "122",
+        "question": "effect",
+        "premise": "A fiú homloka forró volt.",
+        "choice1": "Az anyja megmérte a lázát.",
+        "choice2": "Az anyja elvitte a parkba.",
+        "label": "1"
+    },
+    {
+        "id": "123",
+        "question": "effect",
+        "label": "2",
+        "premise": "Eltört a váza.",
+        "choice1": "Stencileztem.",
+        "choice2": "Összeragasztottam."
+    },
+    {
+        "id": "124",
+        "question": "cause",
+        "premise": "Edzettem.",
+        "choice1": "Energikusnak éreztem magam.",
+        "choice2": "Megijedtem.",
+        "label": "1"
+    },
+    {
+        "id": "125",
+        "question": "effect",
+        "label": "1",
+        "premise": "A térdem begörcsölt a lépcsőn.",
+        "choice1": "Megkapaszkodtam a korlátban.",
+        "choice2": "A korlát kilazult a falból."
+    },
+    {
+        "id": "126",
+        "question": "cause",
+        "premise": "Kivittem a szemetet.",
+        "choice1": "A szeméttől büdös lett a konyha.",
+        "choice2": "Véletlenül kidobtam a bevásárlólistámat.",
+        "label": "1"
+    },
+    {
+        "id": "127",
+        "question": "effect",
+        "premise": "A művész összekeverte a sárga és a kék festéket.",
+        "choice1": "A festék szétkenődött mindenhol.",
+        "choice2": "A festék zöld lett.",
+        "label": "2"
+    },
+    {
+        "id": "128",
+        "question": "effect",
+        "label": "1",
+        "premise": "Belenyomtam a kezem a nedves cementbe.",
+        "choice1": "A kézlenyomatom megszáradt a cementben.",
+        "choice2": "Repedések keletkeztek a cementben."
+    },
+    {
+        "id": "129",
+        "question": "cause",
+        "premise": "A nő küszködött a járással.",
+        "choice1": "Magassarkút viselt.",
+        "choice2": "Levette a cipőjét.",
+        "label": "1"
+    },
+    {
+        "id": "130",
+        "question": "effect",
+        "premise": "A család szerette volna megismerni az új szomszédokat.",
+        "choice1": "A család áthívta a szomszédokat vacsorára.",
+        "choice2": "A család integetett a szomszédoknak a kertjükből.",
+        "label": "1"
+    },
+    {
+        "id": "131",
+        "question": "cause",
+        "premise": "A sütő felmelegedett.",
+        "choice1": "Bekapcsoltam a sütőt.",
+        "choice2": "Betettem az edényt a sütőbe.",
+        "label": "1"
+    },
+    {
+        "id": "132",
+        "question": "effect",
+        "premise": "A motorom kereke leeresztett.",
+        "choice1": "Felpumpáltam a kereket.",
+        "choice2": "Sebességet váltottam a motoron.",
+        "label": "1"
+    },
+    {
+        "id": "133",
+        "question": "cause",
+        "label": "1",
+        "premise": "A tinédzser magasabb lett, mint az apja.",
+        "choice1": "Nagyon nagyot nőtt.",
+        "choice2": "Belépett a kosárcsapatba."
+    },
+    {
+        "id": "134",
+        "question": "cause",
+        "premise": "Láva tört elő a vulkánból.",
+        "choice1": "A vulkán kitört.",
+        "choice2": "A vulkán szunnyadt.",
+        "label": "1"
+    },
+    {
+        "id": "135",
+        "question": "effect",
+        "premise": "A fiú megcsípte a lány könyökét.",
+        "choice1": "A lány megvonta a vállát.",
+        "choice2": "A lány elrántotta tőle a karját.",
+        "label": "2"
+    },
+    {
+        "id": "136",
+        "question": "effect",
+        "label": "2",
+        "premise": "A lány fellépett egy táncesten.",
+        "choice1": "A szülei megmutatták neki, hogyan kell táncolni.",
+        "choice2": "A szülei elmentek megnézni a fellépést."
+    },
+    {
+        "id": "137",
+        "question": "cause",
+        "label": "1",
+        "premise": "Megtanultam a társassal játszani.",
+        "choice1": "A barátom elmagyarázta a szabályokat.",
+        "choice2": "A barátom félreértette a szabályokat."
+    },
+    {
+        "id": "138",
+        "question": "cause",
+        "label": "2",
+        "premise": "Az alkalmazott nem ment be dolgozni.",
+        "choice1": "Felkereste a családja.",
+        "choice2": "Haláleset történt a családjában."
+    },
+    {
+        "id": "139",
+        "question": "effect",
+        "premise": "Megszólalt az időzítő a konyhában.",
+        "choice1": "A férfi bepakolta az élelmiszert a hűtőbe.",
+        "choice2": "A férfi kivette a pizzát a sütőből.",
+        "label": "2"
+    },
+    {
+        "id": "140",
+        "question": "effect",
+        "label": "1",
+        "premise": "A nő nyugdíjba vonult.",
+        "choice1": "Megkapta a nyugdíját.",
+        "choice2": "Kifizette a jelzálogot."
+    },
+    {
+        "id": "141",
+        "question": "effect",
+        "label": "1",
+        "premise": "A diák elírta a szót.",
+        "choice1": "A tanár kijavította.",
+        "choice2": "A tanár hazaküldte."
+    },
+    {
+        "id": "142",
+        "question": "cause",
+        "label": "2",
+        "premise": "A két diákot a tanár alapos megfigyelés alatt tartotta.",
+        "choice1": "A diákok kiváló minősítést kaptak.",
+        "choice2": "A feladatra adott válaszaik megegyeztek."
+    },
+    {
+        "id": "143",
+        "question": "cause",
+        "label": "2",
+        "premise": "Ágyban maradtam ébredés után.",
+        "choice1": "Éhes voltam.",
+        "choice2": "Szombat volt."
+    },
+    {
+        "id": "144",
+        "question": "cause",
+        "premise": "A férfi túlélte a halálos betegséget.",
+        "choice1": "Aláírta a végrendeletét.",
+        "choice2": "Szervátültetésen esett át.",
+        "label": "2"
+    },
+    {
+        "id": "145",
+        "question": "effect",
+        "label": "1",
+        "premise": "A prospektuson kicsik voltak a betűk.",
+        "choice1": "A férfi felvette a szemüvegét.",
+        "choice2": "A férfi elővett egy tollat a zsebéből."
+    },
+    {
+        "id": "146",
+        "question": "cause",
+        "premise": "Begörcsölt a kezem.",
+        "choice1": "Kézzel írtam az esszét.",
+        "choice2": "A feleségemmel fogtuk egymás kezét.",
+        "label": "1"
+    },
+    {
+        "id": "147",
+        "question": "cause",
+        "label": "1",
+        "premise": "Az anya leszidta a lányát.",
+        "choice1": "A lánya a konyhaasztalnál böfögött.",
+        "choice2": "A lánya megterítette a konyhaasztalt."
+    },
+    {
+        "id": "148",
+        "question": "effect",
+        "label": "1",
+        "premise": "A nőnek fertőzése volt.",
+        "choice1": "Antibiotikumot szedett.",
+        "choice2": "Megmosta a kezét."
+    },
+    {
+        "id": "149",
+        "question": "cause",
+        "premise": "Jobb kedvem lett.",
+        "choice1": "Zenét hallgattam.",
+        "choice2": "Elmosogattam.",
+        "label": "1"
+    },
+    {
+        "id": "150",
+        "question": "cause",
+        "premise": "A gyerek gyorsan visszarántotta a kezét.",
+        "choice1": "Megérintette a forró tűzhelyet.",
+        "choice2": "Megsimogatta a kiskutya fejét.",
+        "label": "1"
+    },
+    {
+        "id": "151",
+        "question": "cause",
+        "label": "2",
+        "premise": "Lehiggadtam a dührohamból.",
+        "choice1": "A szívem kalapált.",
+        "choice2": "Mély lélegzetet vettem."
+    },
+    {
+        "id": "152",
+        "question": "effect",
+        "premise": "A könyvelő rosszul kezelte a cég pénzét.",
+        "choice1": "Kirúgták a pozíciójából.",
+        "choice2": "Szülési szabadságra ment.",
+        "label": "1"
+    },
+    {
+        "id": "153",
+        "question": "effect",
+        "premise": "Az ország hadat üzent a szomszédos területeknek.",
+        "choice1": "Katonákat küldtek ki harcolni.",
+        "choice2": "A katonák újra találkoztak a családjukkal.",
+        "label": "1"
+    },
+    {
+        "id": "154",
+        "question": "effect",
+        "premise": "A férfi romantikusan akart viselkedni.",
+        "choice1": "A volt barátnőjével ebédelt.",
+        "choice2": "Csokit vett a barátnőjének.",
+        "label": "2"
+    },
+    {
+        "id": "155",
+        "question": "cause",
+        "premise": "A nő külföldre utazott.",
+        "choice1": "Meg akart tanulni rajzolni.",
+        "choice2": "Más kultúrákról akart tanulni.",
+        "label": "2"
+    },
+    {
+        "id": "156",
+        "question": "effect",
+        "label": "2",
+        "premise": "A fiú mormolta a válaszát az anyjának.",
+        "choice1": "Az anyja azt mondta neki, hogy suttogjon.",
+        "choice2": "Az anyja azt mondta neki, hogy beszéljen hangosabban."
+    },
+    {
+        "id": "157",
+        "question": "cause",
+        "label": "1",
+        "premise": "A fiú leejtette a szappant.",
+        "choice1": "Csúszós volt a szappan.",
+        "choice2": "Illatos volt a szappan."
+    },
+    {
+        "id": "158",
+        "question": "cause",
+        "premise": "A nő letiltotta a hitelkártyáját.",
+        "choice1": "Észrevette, hogy elveszett a kártya.",
+        "choice2": "Észrevette, hogy lejárt a kártya.",
+        "label": "1"
+    },
+    {
+        "id": "159",
+        "question": "cause",
+        "premise": "A tulajdonos kártevőirtót hívott a házához.",
+        "choice1": "Patkányokat fedezett fel a pincében.",
+        "choice2": "Egy hangyafarmot tartott a szobájában.",
+        "label": "1"
+    },
+    {
+        "id": "160",
+        "question": "effect",
+        "premise": "A szél befújt a nyitott ablakon.",
+        "choice1": "Csengettek.",
+        "choice2": "A függöny meglibbent.",
+        "label": "2"
+    },
+    {
+        "id": "161",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő befogta a fülét.",
+        "choice1": "Megszólalt a tűzjelző.",
+        "choice2": "A nő füstöt érzett."
+    },
+    {
+        "id": "162",
+        "question": "effect",
+        "premise": "A férfinak plasztikai műtéte volt.",
+        "choice1": "Megöregedett.",
+        "choice2": "Fiatalabbnak tűnt.",
+        "label": "2"
+    },
+    {
+        "id": "163",
+        "question": "cause",
+        "label": "1",
+        "premise": "A városban romlott a légszennyezés.",
+        "choice1": "A gyárak növelték a termelést.",
+        "choice2": "A gyárak leálltak."
+    },
+    {
+        "id": "164",
+        "question": "effect",
+        "label": "1",
+        "premise": "A pár boldog volt, hogy látja egymást.",
+        "choice1": "Csókolóztak.",
+        "choice2": "Kipihenték magukat."
+    },
+    {
+        "id": "165",
+        "question": "cause",
+        "premise": "A diák igyekezett befejezni a könyvet.",
+        "choice1": "Ideje volt visszavinni a könyvtárba.",
+        "choice2": "Kölcsönkérte egy barátjától.",
+        "label": "1"
+    },
+    {
+        "id": "166",
+        "question": "effect",
+        "label": "2",
+        "premise": "A férfi ingujja beakadt a kerítés léceibe.",
+        "choice1": "Átugrott a kerítésen.",
+        "choice2": "Elszakadt az ingujja."
+    },
+    {
+        "id": "167",
+        "question": "cause",
+        "premise": "Összetört a szíve.",
+        "choice1": "A felesége szült.",
+        "choice2": "A felesége elhagyta.",
+        "label": "2"
+    },
+    {
+        "id": "168",
+        "question": "effect",
+        "premise": "Kiürítettem a zsebeimet.",
+        "choice1": "Előhúztam egy jegyet.",
+        "choice2": "Találtam egy fegyvert.",
+        "label": "1"
+    },
+    {
+        "id": "169",
+        "question": "cause",
+        "label": "1",
+        "premise": "Az ablakon nem lehetett átlátni.",
+        "choice1": "Koszos volt az üveg.",
+        "choice2": "A sötétítő szét volt húzva."
+    },
+    {
+        "id": "170",
+        "question": "cause",
+        "label": "1",
+        "premise": "Az emberrablók elengedték a túszt.",
+        "choice1": "Elfogadták a váltságdíjat.",
+        "choice2": "Megszöktek a börtönből."
+    },
+    {
+        "id": "171",
+        "question": "effect",
+        "premise": "A fiú eltévedt az erdőben.",
+        "choice1": "Felállított egy sátrat.",
+        "choice2": "Segítségért kiáltott.",
+        "label": "2"
+    },
+    {
+        "id": "172",
+        "question": "effect",
+        "premise": "A pilóta radarja vihart észlelt.",
+        "choice1": "A pilóta elnavigált a vihar elől.",
+        "choice2": "A pilóta átrepült a viharon.",
+        "label": "1"
+    },
+    {
+        "id": "173",
+        "question": "effect",
+        "label": "1",
+        "premise": "A fiú meglökte a húgát.",
+        "choice1": "A nővére árulkodott róla.",
+        "choice2": "Bújócskáztak."
+    },
+    {
+        "id": "174",
+        "question": "effect",
+        "premise": "A nemzet gazdasága hanyatlott.",
+        "choice1": "Sokan megbetegedtek.",
+        "choice2": "Sok ember lett munkanélküli.",
+        "label": "2"
+    },
+    {
+        "id": "175",
+        "question": "effect",
+        "premise": "Égett a lámpa a barátom lakásában.",
+        "choice1": "Kíváncsi voltam, otthon van-e.",
+        "choice2": "Úgy döntöttem, meglátogatom.",
+        "label": "2"
+    },
+    {
+        "id": "176",
+        "question": "effect",
+        "premise": "A lány meg akarta ismerni a Naprendszert.",
+        "choice1": "Elment a könyvtárba.",
+        "choice2": "Nézte a csillagokat.",
+        "label": "1"
+    },
+    {
+        "id": "177",
+        "question": "effect",
+        "label": "1",
+        "premise": "A terméket erősen reklámozták.",
+        "choice1": "A fogyasztók felismerték a terméket.",
+        "choice2": "A termék elavulttá vált."
+    },
+    {
+        "id": "178",
+        "question": "effect",
+        "premise": "Cukrot tettem a kávéba.",
+        "choice1": "A kávénak erős illata lett.",
+        "choice2": "A kávénak édes íze lett.",
+        "label": "2"
+    },
+    {
+        "id": "179",
+        "question": "effect",
+        "label": "2",
+        "premise": "A medencénél töltöttem a napot.",
+        "choice1": "Kificamodott a bokám.",
+        "choice2": "Leégett az arcom."
+    },
+    {
+        "id": "180",
+        "question": "cause",
+        "label": "1",
+        "premise": "A rendőrség lezárta a nyomozást.",
+        "choice1": "Elfogták a gyanúsítottat.",
+        "choice2": "Az áldozat felépült."
+    },
+    {
+        "id": "181",
+        "question": "cause",
+        "label": "1",
+        "premise": "A fociedző elvesztette a hangját a meccs után.",
+        "choice1": "Mindig kiabált, ahányszor csak egy játékos elejtette a labdát.",
+        "choice2": "Mindig fütyült, ha egy játékos touchdownt szerzett."
+    },
+    {
+        "id": "182",
+        "question": "effect",
+        "label": "1",
+        "premise": "A borz lespriccelte a kutyát.",
+        "choice1": "A kutya büdös lett.",
+        "choice2": "A borz bebarangolta az erdőt."
+    },
+    {
+        "id": "183",
+        "question": "cause",
+        "label": "1",
+        "premise": "A férfi becsukta a könyvet.",
+        "choice1": "Kiolvasta.",
+        "choice2": "Gondolkodásra ösztönözte."
+    },
+    {
+        "id": "184",
+        "question": "effect",
+        "label": "2",
+        "premise": "A barátom lábadozott a műtét után.",
+        "choice1": "Elvittem a kórházba.",
+        "choice2": "Képeslapot és virágot vittem neki."
+    },
+    {
+        "id": "185",
+        "question": "effect",
+        "premise": "Beütöttem a kódot a zárba.",
+        "choice1": "Bezártam a zárat.",
+        "choice2": "A zár kinyílt.",
+        "label": "2"
+    },
+    {
+        "id": "186",
+        "question": "cause",
+        "label": "1",
+        "premise": "A ló meghátrált.",
+        "choice1": "Egy légy megcsípte a lovat.",
+        "choice2": "A lovas megsimogatta a lovat."
+    },
+    {
+        "id": "187",
+        "question": "effect",
+        "premise": "A nő azt állította, hogy szellemet látott.",
+        "choice1": "Az ismerősei szkeptikusak voltak.",
+        "choice2": "Az ismerősei egyetértettek vele.",
+        "label": "1"
+    },
+    {
+        "id": "188",
+        "question": "effect",
+        "premise": "Várakoznom kellett.",
+        "choice1": "Leültem.",
+        "choice2": "Átfutottam egy magazint.",
+        "label": "2"
+    },
+    {
+        "id": "189",
+        "question": "cause",
+        "label": "2",
+        "premise": "A lánynak kutyafóbiája volt.",
+        "choice1": "Befogadott egy kóbor kutyát.",
+        "choice2": "Megharapta egy kutya."
+    },
+    {
+        "id": "190",
+        "question": "cause",
+        "label": "2",
+        "premise": "A hajó felborult.",
+        "choice1": "A kapitány felvonta a vitorlát.",
+        "choice2": "Forgószélbe került."
+    },
+    {
+        "id": "191",
+        "question": "effect",
+        "label": "1",
+        "premise": "A kisgyerek nyűgös lett.",
+        "choice1": "Az anyja letette pihenni.",
+        "choice2": "Az anyja copfot csinált a hajából."
+    },
+    {
+        "id": "192",
+        "question": "cause",
+        "label": "2",
+        "premise": "A tengeri élővilág megcsappant.",
+        "choice1": "Hajók szelték át az óceánt.",
+        "choice2": "Olaj ömlött az óceánba."
+    },
+    {
+        "id": "193",
+        "question": "cause",
+        "premise": "A pattogatott kukorica elkezdett kipattogni a zacskóban.",
+        "choice1": "Vajat öntöttem a zacskóba.",
+        "choice2": "A mikróban melegítettem.",
+        "label": "2"
+    },
+    {
+        "id": "194",
+        "question": "cause",
+        "premise": "A szurkolók fújoltak a meccsen.",
+        "choice1": "A meccset meghosszabbították.",
+        "choice2": "A bíró rossz döntést hozott.",
+        "label": "2"
+    },
+    {
+        "id": "195",
+        "question": "effect",
+        "premise": "Hideg fuvallat jött be az ablakon.",
+        "choice1": "Pihentem.",
+        "choice2": "Reszkettem.",
+        "label": "2"
+    },
+    {
+        "id": "196",
+        "question": "cause",
+        "premise": "A bogár összenyomódott.",
+        "choice1": "Befújtam magam rovarriasztóval.",
+        "choice2": "Ráléptem a bogárra.",
+        "label": "2"
+    },
+    {
+        "id": "197",
+        "question": "cause",
+        "label": "1",
+        "premise": "Ittam az ivókútból.",
+        "choice1": "Szomjas voltam.",
+        "choice2": "Hányingerem volt."
+    },
+    {
+        "id": "198",
+        "question": "cause",
+        "label": "2",
+        "premise": "A rendőrség levette a nőt a gyanúsítottak listájáról.",
+        "choice1": "A rendőrség kihallgatta.",
+        "choice2": "Jó volt az alibije."
+    },
+    {
+        "id": "199",
+        "question": "cause",
+        "label": "1",
+        "premise": "A sofőr dudált.",
+        "choice1": "Egy másik kocsi kanyarodott a sávjába.",
+        "choice2": "Jobbra fordult a lámpánál."
+    },
+    {
+        "id": "200",
+        "question": "cause",
+        "premise": "Felporszívóztam a szőnyeget.",
+        "choice1": "A szobatársam kiöntötte a puncsot.",
+        "choice2": "A kutyám sok szőrt hullatott.",
+        "label": "2"
+    },
+    {
+        "id": "201",
+        "question": "cause",
+        "label": "1",
+        "premise": "A fiú felmászott a fára.",
+        "choice1": "Egy macska fennragadt a fán.",
+        "choice2": "Egy madár fészket rakott a fán."
+    },
+    {
+        "id": "202",
+        "question": "effect",
+        "label": "1",
+        "premise": "A lány szédült.",
+        "choice1": "Elvesztette az egyensúlyát.",
+        "choice2": "Nyújtott."
+    },
+    {
+        "id": "203",
+        "question": "cause",
+        "premise": "A lánc szétszakadt.",
+        "choice1": "A láncot egy kerék köré tekerték.",
+        "choice2": "Volt egy törött szem a láncban.",
+        "label": "2"
+    },
+    {
+        "id": "204",
+        "question": "cause",
+        "label": "1",
+        "premise": "A sofőr rátaposott a fékre.",
+        "choice1": "Egy szarvas jelent meg az úton.",
+        "choice2": "Az autórádió kikapcsolt."
+    },
+    {
+        "id": "205",
+        "question": "cause",
+        "label": "2",
+        "premise": "A sofőr lehúzódott az út szélére.",
+        "choice1": "Átment egy kereszteződésen.",
+        "choice2": "Észrevett egy kátyúba futott járművet."
+    },
+    {
+        "id": "206",
+        "question": "effect",
+        "label": "2",
+        "premise": "Megtoltam a kocsit.",
+        "choice1": "A kocsin lévő tárgyak leestek.",
+        "choice2": "A kocsi kerekei előre forogtak."
+    },
+    {
+        "id": "207",
+        "question": "effect",
+        "label": "2",
+        "premise": "A szökevény elrejtőzött a rendőrség elől.",
+        "choice1": "A rendőrség ejtette az ügyet.",
+        "choice2": "A szökevény szabadlábon maradt."
+    },
+    {
+        "id": "208",
+        "question": "effect",
+        "premise": "A madár csapkodott a szárnyaival.",
+        "choice1": "Tojást rakott.",
+        "choice2": "Felszállt.",
+        "label": "2"
+    },
+    {
+        "id": "209",
+        "question": "cause",
+        "label": "2",
+        "premise": "A nő távoltartási végzést kért a férfi ellen.",
+        "choice1": "A férfi felhívta.",
+        "choice2": "A férfi zaklatta őt."
+    },
+    {
+        "id": "210",
+        "question": "cause",
+        "label": "2",
+        "premise": "Csengett a fülem.",
+        "choice1": "Elmentem egy múzeumba.",
+        "choice2": "Koncertre mentem."
+    },
+    {
+        "id": "211",
+        "question": "effect",
+        "premise": "Zuhogott az eső.",
+        "choice1": "A vihar erősödött.",
+        "choice2": "Rohantam, hogy bejussak.",
+        "label": "2"
+    },
+    {
+        "id": "212",
+        "question": "cause",
+        "premise": "Kidobtam az üzenetet.",
+        "choice1": "Névtelen volt.",
+        "choice2": "Olvashatatlan volt.",
+        "label": "2"
+    },
+    {
+        "id": "213",
+        "question": "cause",
+        "label": "2",
+        "premise": "A nő meglátogatta a családját.",
+        "choice1": "Nem bízott bennük.",
+        "choice2": "Hiányoztak neki."
+    },
+    {
+        "id": "214",
+        "question": "cause",
+        "premise": "Lapoztam egyet a naptárban.",
+        "choice1": "Beírtam egy időpontot a naptárba.",
+        "choice2": "Egy új hónap kezdete volt.",
+        "label": "2"
+    },
+    {
+        "id": "215",
+        "question": "effect",
+        "premise": "A nő ambiciózus célt tűzött ki.",
+        "choice1": "Lelassított.",
+        "choice2": "Keményen dolgozott.",
+        "label": "2"
+    },
+    {
+        "id": "216",
+        "question": "effect",
+        "premise": "Találkoztam egy régi baráttal.",
+        "choice1": "Elárultam neki egy titkot.",
+        "choice2": "Megöleltem.",
+        "label": "2"
+    },
+    {
+        "id": "217",
+        "question": "cause",
+        "premise": "A férfi meglátta a tükörképét.",
+        "choice1": "Ott állt a terebélyes fa alatt.",
+        "choice2": "Ott állt a nyugodt tó felett.",
+        "label": "2"
+    },
+    {
+        "id": "218",
+        "question": "cause",
+        "premise": "Az asztal billegett.",
+        "choice1": "A padló egyenetlen volt.",
+        "choice2": "Csúszós volt a padló.",
+        "label": "1"
+    },
+    {
+        "id": "219",
+        "question": "cause",
+        "premise": "A művész új művet alkotott.",
+        "choice1": "Kritizálta a korábbi munkáját.",
+        "choice2": "Inspirációt érzett.",
+        "label": "2"
+    },
+    {
+        "id": "220",
+        "question": "cause",
+        "label": "2",
+        "premise": "A szurkolók éljeneztek a stadionban.",
+        "choice1": "A mérkőzés döntetlennel végződött.",
+        "choice2": "Gólt szerzett a játékos."
+    },
+    {
+        "id": "221",
+        "question": "effect",
+        "premise": "A hó eltorlaszolta az utat.",
+        "choice1": "Kupacba hánytam a havat.",
+        "choice2": "Ellapátoltam a havat az útról.",
+        "label": "2"
+    },
+    {
+        "id": "222",
+        "question": "cause",
+        "label": "1",
+        "premise": "A hadsereg megadta magát a csatában.",
+        "choice1": "Az ellenfél túlerőben volt.",
+        "choice2": "Megrohamozták a várost."
+    },
+    {
+        "id": "223",
+        "question": "cause",
+        "label": "2",
+        "premise": "A barátok vitája végeérhetetlenül elhúzódott.",
+        "choice1": "A barátok egyetértettek.",
+        "choice2": "A barátok szőrszálhasogatóak voltak."
+    },
+    {
+        "id": "224",
+        "question": "cause",
+        "label": "1",
+        "premise": "A bowling golyó felborította a bábukat.",
+        "choice1": "A férfi végiggurította a bowling golyót a pályán.",
+        "choice2": "A férfi a lábára ejtette a bowling golyót."
+    },
+    {
+        "id": "225",
+        "question": "effect",
+        "label": "1",
+        "premise": "Egy férfi elém vágott a hosszú sorban.",
+        "choice1": "Szembeszálltam vele.",
+        "choice2": "Rámosolyogtam."
+    },
+    {
+        "id": "226",
+        "question": "cause",
+        "premise": "Az üdítősüveg sziszegő hangot adott.",
+        "choice1": "Megfordítottam az üveget.",
+        "choice2": "Lecsavartam a kupakot.",
+        "label": "2"
+    },
+    {
+        "id": "227",
+        "question": "cause",
+        "label": "1",
+        "premise": "Korgott a gyomrom.",
+        "choice1": "Elfelejtettem reggelizni.",
+        "choice2": "Jól bereggeliztem."
+    },
+    {
+        "id": "228",
+        "question": "effect",
+        "premise": "A hajó elsüllyedt.",
+        "choice1": "A legénység megfulladt.",
+        "choice2": "A legénység kalózokkal találkozott.",
+        "label": "1"
+    },
+    {
+        "id": "229",
+        "question": "cause",
+        "premise": "Megkívántam egy pohár tejet.",
+        "choice1": "Sütit ettem.",
+        "choice2": "Kenyeret sütöttem.",
+        "label": "1"
+    },
+    {
+        "id": "230",
+        "question": "cause",
+        "label": "2",
+        "premise": "A politikus elvesztette a választást.",
+        "choice1": "Gyűlöletkampányba kezdett.",
+        "choice2": "Senki sem szavazott rá."
+    },
+    {
+        "id": "231",
+        "question": "cause",
+        "label": "2",
+        "premise": "Nem láttam a mozivásznat.",
+        "choice1": "A mögöttem lévő pár suttogott.",
+        "choice2": "Egy magas ember ült előttem."
+    },
+    {
+        "id": "232",
+        "question": "effect",
+        "premise": "Bevertem a szöget a kalapáccsal.",
+        "choice1": "A szög a fába süllyedt.",
+        "choice2": "A szög berozsdásodott.",
+        "label": "1"
+    },
+    {
+        "id": "233",
+        "question": "effect",
+        "premise": "A fiú megszorongatta a lufit.",
+        "choice1": "A lufi kipukkadt.",
+        "choice2": "A lufi elrepült.",
+        "label": "1"
+    },
+    {
+        "id": "234",
+        "question": "cause",
+        "premise": "A szerkesztő kirúgta az írót.",
+        "choice1": "Az író elfogulatlan maradt a történeteiben.",
+        "choice2": "Az író elmulaszott egy fontos határidőt.",
+        "label": "2"
+    },
+    {
+        "id": "235",
+        "question": "cause",
+        "label": "1",
+        "premise": "A fiúnak honvágya volt.",
+        "choice1": "Táborba ment.",
+        "choice2": "Veszekedett a húgával."
+    },
+    {
+        "id": "236",
+        "question": "effect",
+        "premise": "Lenyűgözött a könyv.",
+        "choice1": "Visszavittem a könyvet.",
+        "choice2": "Elvesztettem az időérzékemet.",
+        "label": "2"
+    },
+    {
+        "id": "237",
+        "question": "effect",
+        "premise": "A férj rájött, hogy a felesége megcsalja.",
+        "choice1": "Kirúgta az ügyvédjét.",
+        "choice2": "Beadta a válókeresetet.",
+        "label": "2"
+    },
+    {
+        "id": "238",
+        "question": "cause",
+        "premise": "A fiú gonosz tréfát űzött az új osztálytársával.",
+        "choice1": "A fiú üdvözölte az új osztálytársát.",
+        "choice2": "A fiú nem kedvelte az új osztálytársát.",
+        "label": "2"
+    },
+    {
+        "id": "239",
+        "question": "effect",
+        "label": "2",
+        "premise": "Sötét lett odakint.",
+        "choice1": "Hópelyhek kezdtek hullani az égből.",
+        "choice2": "A hold megjelent az égen."
+    },
+    {
+        "id": "240",
+        "question": "effect",
+        "premise": "A lány rajtakapta a bátyját, hogy a naplóját olvassa.",
+        "choice1": "Elkezdte rejtegetni a naplót.",
+        "choice2": "Új naplót kapott.",
+        "label": "1"
+    },
+    {
+        "id": "241",
+        "question": "cause",
+        "label": "1",
+        "premise": "A játékos elkapta a labdát.",
+        "choice1": "A csapattársa dobta oda neki.",
+        "choice2": "Az ellenfele megpróbálta megakadályozni."
+    },
+    {
+        "id": "242",
+        "question": "effect",
+        "premise": "Nem vettem föl a barátnőm hívását.",
+        "choice1": "Visszahívtam.",
+        "choice2": "Együtt vacsoráztunk.",
+        "label": "1"
+    },
+    {
+        "id": "243",
+        "question": "effect",
+        "premise": "Esni kezdett.",
+        "choice1": "A sofőr bekapcsolta a fényszórókat.",
+        "choice2": "A sofőr tolatni kezdett.",
+        "label": "1"
+    },
+    {
+        "id": "244",
+        "question": "cause",
+        "label": "2",
+        "premise": "Írtam egy köszönőlevelet a nagymamámnak.",
+        "choice1": "Feledékeny lett.",
+        "choice2": "Küldött egy ajándékot."
+    },
+    {
+        "id": "245",
+        "question": "effect",
+        "label": "1",
+        "premise": "Az iroda fiókjai zsúfoltak voltak.",
+        "choice1": "Kidobtam a felesleges tartalmakat.",
+        "choice2": "Bezártam a fiókokat."
+    },
+    {
+        "id": "246",
+        "question": "cause",
+        "label": "1",
+        "premise": "A bulin a vendégek elbújtak a kanapé mögé.",
+        "choice1": "Meglepetésbuli volt.",
+        "choice2": "Szülinapi buli volt."
+    },
+    {
+        "id": "247",
+        "question": "effect",
+        "premise": "Meglöktem az ajtót.",
+        "choice1": "Az ajtó kinyílt.",
+        "choice2": "Az ajtó bezárult.",
+        "label": "1"
+    },
+    {
+        "id": "248",
+        "question": "cause",
+        "label": "1",
+        "premise": "A lány kapott egy kupát.",
+        "choice1": "Megnyert egy betűzőversenyt.",
+        "choice2": "Összebarátkozott valakivel."
+    },
+    {
+        "id": "249",
+        "question": "effect",
+        "label": "1",
+        "premise": "A vandálok követ vágtak az ablakhoz.",
+        "choice1": "Az ablak betört.",
+        "choice2": "Az ablak bepárásodott."
+    },
+    {
+        "id": "250",
+        "question": "cause",
+        "label": "2",
+        "premise": "A család elvitte a kutyát az állatorvoshoz.",
+        "choice1": "A kutya egy csontot rágcsált.",
+        "choice2": "A kutya mancsa megsebesült."
+    },
+    {
+        "id": "251",
+        "question": "effect",
+        "premise": "A férfi beverte a fejét.",
+        "choice1": "Elmerült a gondolataiban.",
+        "choice2": "Agyrázkódása lett.",
+        "label": "2"
+    },
+    {
+        "id": "252",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő vonakodott karriert váltani.",
+        "choice1": "Sok pénzt keresett a jelenlegi foglalkozásával.",
+        "choice2": "Nagyon stresszelte a jelenlegi állása."
+    },
+    {
+        "id": "253",
+        "question": "cause",
+        "label": "2",
+        "premise": "A nő amnéziás lett.",
+        "choice1": "Allergiás reakciója volt.",
+        "choice2": "Autóbalesete volt."
+    },
+    {
+        "id": "254",
+        "question": "cause",
+        "label": "1",
+        "premise": "A diák dicsekedett az osztálynak a teszteredményével.",
+        "choice1": "Tökéletes pontszámot kapott.",
+        "choice2": "Úgy tett, mintha érdekelné az osztály."
+    },
+    {
+        "id": "255",
+        "question": "cause",
+        "premise": "A maratonista lassú ütemben haladt.",
+        "choice1": "Tartalékolni akarta az energiáját.",
+        "choice2": "Látta a célvonalat.",
+        "label": "1"
+    },
+    {
+        "id": "256",
+        "question": "cause",
+        "label": "1",
+        "premise": "A férfi elájult.",
+        "choice1": "A támadó fejbe vágta a férfit.",
+        "choice2": "A támadó elvette a férfi tárcáját."
+    },
+    {
+        "id": "257",
+        "question": "cause",
+        "premise": "A nő megunta a randipartnerét.",
+        "choice1": "A férfi a nő felől kérdezősködött.",
+        "choice2": "Állandóan csak magáról beszélt.",
+        "label": "2"
+    },
+    {
+        "id": "258",
+        "question": "effect",
+        "premise": "A nőt bűnösnek találták vétség miatt.",
+        "choice1": "Közmunkára ítélték.",
+        "choice2": "A halálsorra került.",
+        "label": "1"
+    },
+    {
+        "id": "259",
+        "question": "effect",
+        "label": "2",
+        "premise": "Kinevettek.",
+        "choice1": "Vacogni kezdett a fogam.",
+        "choice2": "Könnyes lett a szemem."
+    },
+    {
+        "id": "260",
+        "question": "cause",
+        "premise": "A család gratulált a párnak.",
+        "choice1": "A pár bejelentette, hogy különköltöznek.",
+        "choice2": "A pár bejelentette, hogy gyermeket várnak.",
+        "label": "2"
+    },
+    {
+        "id": "261",
+        "question": "effect",
+        "premise": "Az alapítvány azt tűzte ki célul, hogy pénzt gyűjtsön.",
+        "choice1": "Ételt adtak a hajléktalanoknak.",
+        "choice2": "Aukciót tartottak.",
+        "label": "2"
+    },
+    {
+        "id": "262",
+        "question": "effect",
+        "premise": "Átaludtam az ébresztőt.",
+        "choice1": "Csináltam reggelit.",
+        "choice2": "Kihagytam a reggelit.",
+        "label": "2"
+    },
+    {
+        "id": "263",
+        "question": "effect",
+        "premise": "Kihúztam a dugót a kádban.",
+        "choice1": "A víz lefolyt a lefolyón.",
+        "choice2": "A víz a padlóra loccsant.",
+        "label": "1"
+    },
+    {
+        "id": "264",
+        "question": "cause",
+        "label": "2",
+        "premise": "A beteg átesett a kockázatos orvosi beavatkozáson.",
+        "choice1": "A beavatkozás költséges volt.",
+        "choice2": "Szakemberek ajánlották a beavatkozást."
+    },
+    {
+        "id": "265",
+        "question": "effect",
+        "premise": "Az ország új területet fedezett fel.",
+        "choice1": "Az ország elhagyta a területet.",
+        "choice2": "Az ország gyarmatosította a területet.",
+        "label": "2"
+    },
+    {
+        "id": "266",
+        "question": "cause",
+        "label": "2",
+        "premise": "A férfi eltörte a lábujját.",
+        "choice1": "Lyukas volt a zoknija.",
+        "choice2": "Ráejtett egy kalapácsot a lábára."
+    },
+    {
+        "id": "267",
+        "question": "effect",
+        "premise": "A lány elejtette a gumilabdát.",
+        "choice1": "A labda visszapattant.",
+        "choice2": "A labda ragyogott.",
+        "label": "1"
+    },
+    {
+        "id": "268",
+        "question": "cause",
+        "label": "1",
+        "premise": "Kiesett a kulcs a nadrágom zsebéből.",
+        "choice1": "Lyukas volt a zseb.",
+        "choice2": "A nadrág új volt."
+    },
+    {
+        "id": "269",
+        "question": "effect",
+        "premise": "A lány hozzávágta a vizes lufit a fiúhoz.",
+        "choice1": "A fiúnak agyrázkódása lett.",
+        "choice2": "A fiú elázott.",
+        "label": "2"
+    },
+    {
+        "id": "270",
+        "question": "cause",
+        "label": "1",
+        "premise": "A férfi felfigyelt a nőre.",
+        "choice1": "Beleszagolt a parfümjébe.",
+        "choice2": "Hátat fordított neki."
+    },
+    {
+        "id": "271",
+        "question": "cause",
+        "label": "1",
+        "premise": "Ösztönösen ugrottam egyet ijedtségemben.",
+        "choice1": "Éreztem, hogy valaki hátulról közelít felém.",
+        "choice2": "Hallottam, hogy kuncognak a szomszéd szobában."
+    },
+    {
+        "id": "272",
+        "question": "effect",
+        "label": "1",
+        "premise": "Az elkövető megszegte a feltételes szabadlábra bocsátás feltételeit.",
+        "choice1": "Visszaküldték a börtönbe.",
+        "choice2": "Pénzt lopott egy templomból."
+    },
+    {
+        "id": "273",
+        "question": "cause",
+        "premise": "Elhallgattam.",
+        "choice1": "Elment a hangom.",
+        "choice2": "Kifulladtam.",
+        "label": "2"
+    },
+    {
+        "id": "274",
+        "question": "cause",
+        "label": "1",
+        "premise": "A fotóalbumok csak gyűjtötték a port a padláson.",
+        "choice1": "Évekig senki nem nyúlt hozzájuk.",
+        "choice2": "A család nosztalgiázott a képeken."
+    },
+    {
+        "id": "275",
+        "question": "cause",
+        "label": "2",
+        "premise": "Az étteremben lassú volt a kiszolgálás.",
+        "choice1": "Sok üres asztal volt.",
+        "choice2": "Zsúfolt volt az étterem."
+    },
+    {
+        "id": "276",
+        "question": "cause",
+        "premise": "A polgárok kitűzték a nemzeti zászlót az otthonuk elé.",
+        "choice1": "Az ország megemlékezett függetlenségéről.",
+        "choice2": "Az ország gazdasági nehézségekkel küzdött.",
+        "label": "1"
+    },
+    {
+        "id": "277",
+        "question": "effect",
+        "label": "1",
+        "premise": "A házigazda vacsorát szolgált fel a vendégeinek.",
+        "choice1": "Vendégei kedvesek voltak.",
+        "choice2": "A vendégei éhesen maradtak."
+    },
+    {
+        "id": "278",
+        "question": "effect",
+        "label": "2",
+        "premise": "A verseny véget ért.",
+        "choice1": "A csapatok felpörögtek.",
+        "choice2": "A csapatok kezet ráztak."
+    },
+    {
+        "id": "279",
+        "question": "cause",
+        "premise": "A gyerek sikoltozva ébredt fel.",
+        "choice1": "Rémálma volt.",
+        "choice2": "Bepisilt az ágyban.",
+        "label": "1"
+    },
+    {
+        "id": "280",
+        "question": "cause",
+        "label": "2",
+        "premise": "A biztonsági őr visszajátszotta a CCTV-felvételt.",
+        "choice1": "A biztonsági kamera homályos képet mutatott.",
+        "choice2": "Gyanús tevékenységet észlelt."
+    },
+    {
+        "id": "281",
+        "question": "effect",
+        "premise": "Dühös voltam.",
+        "choice1": "Megnéztem a postaládát, amikor elhagytam a házat.",
+        "choice2": "Becsaptam az ajtót, amikor elhagytam a házat.",
+        "label": "2"
+    },
+    {
+        "id": "282",
+        "question": "effect",
+        "label": "2",
+        "premise": "Az igazgató megköszörülte a torkát.",
+        "choice1": "A találkozót elhalasztották.",
+        "choice2": "Megkezdődött a találkozó."
+    },
+    {
+        "id": "283",
+        "question": "effect",
+        "premise": "A gyermek panaszkodott, hogy ki kell mennie a mosdóba.",
+        "choice1": "Az apja üdítőt adott neki inni.",
+        "choice2": "Az apja megállt a benzinkútnál.",
+        "label": "2"
+    },
+    {
+        "id": "284",
+        "question": "cause",
+        "label": "1",
+        "premise": "A csillár összetört a padlón.",
+        "choice1": "A csillár leesett a mennyezetről.",
+        "choice2": "A csillár villódzott."
+    },
+    {
+        "id": "285",
+        "question": "effect",
+        "premise": "A nőnek fájt a torka.",
+        "choice1": "Rekedtes hangja volt.",
+        "choice2": "Akcentussal beszélt.",
+        "label": "1"
+    },
+    {
+        "id": "286",
+        "question": "cause",
+        "label": "2",
+        "premise": "A nő szemüvege bepárásodott.",
+        "choice1": "A nő letámaszkodott a medence mellett.",
+        "choice2": "Belépett a szaunába."
+    },
+    {
+        "id": "287",
+        "question": "effect",
+        "premise": "A gyerek haleledelt szórt az akváriumba.",
+        "choice1": "A halak kiugrottak az akváriumból.",
+        "choice2": "A halak az étel felé úsztak.",
+        "label": "2"
+    },
+    {
+        "id": "288",
+        "question": "effect",
+        "label": "2",
+        "premise": "A lány talált egy bogarat a müzlijében.",
+        "choice1": "Tejet öntött a tálba.",
+        "choice2": "Elment az étvágya."
+    },
+    {
+        "id": "289",
+        "question": "effect",
+        "premise": "A tanú hazudott az esküjében.",
+        "choice1": "Megtette a vallomását.",
+        "choice2": "Hamis tanúzással vádolták.",
+        "label": "2"
+    },
+    {
+        "id": "290",
+        "question": "cause",
+        "premise": "A pár korán elindult a műsorra.",
+        "choice1": "Arra számítottak, hogy nagy lesz a forgalom a színház környékén.",
+        "choice2": "Útbaigazítást kaptak a színházhoz.",
+        "label": "1"
+    },
+    {
+        "id": "291",
+        "question": "cause",
+        "label": "2",
+        "premise": "A fiatal hölgytől megtagadták a bárba való belépést.",
+        "choice1": "A barátai felültették.",
+        "choice2": "Otthon felejtette a személyijét."
+    },
+    {
+        "id": "292",
+        "question": "effect",
+        "premise": "Bekopogtam a szomszédhoz.",
+        "choice1": "A szomszédom behívott.",
+        "choice2": "A szomszédom elhagyta a házát.",
+        "label": "1"
+    },
+    {
+        "id": "293",
+        "question": "effect",
+        "premise": "A lány hibázott a vizsgán.",
+        "choice1": "Megtippelte a választ.",
+        "choice2": "Kitörölte a válaszát.",
+        "label": "2"
+    },
+    {
+        "id": "294",
+        "question": "effect",
+        "premise": "A diák tudta a választ a kérdésre.",
+        "choice1": "Jelentkezett.",
+        "choice2": "Lazsált.",
+        "label": "1"
+    },
+    {
+        "id": "295",
+        "question": "cause",
+        "premise": "A vonat lassított.",
+        "choice1": "Közeledett az állomáshoz.",
+        "choice2": "Késésben volt.",
+        "label": "1"
+    },
+    {
+        "id": "296",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő megjavította a csapot.",
+        "choice1": "Csöpögött a csap.",
+        "choice2": "A csap el volt zárva."
+    },
+    {
+        "id": "297",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő áramütést érzett.",
+        "choice1": "Megragadta a kilincset.",
+        "choice2": "Dörömbölt az ajtón."
+    },
+    {
+        "id": "298",
+        "question": "effect",
+        "premise": "A játékos zsinórban öt játékot nyert.",
+        "choice1": "Az ellenfele csalással vádolta.",
+        "choice2": "Az ellenfele megsajnálta.",
+        "label": "1"
+    },
+    {
+        "id": "299",
+        "question": "effect",
+        "premise": "A barátom szólt, hogy kaja ragadt a fogaim közé.",
+        "choice1": "Zavarban voltam.",
+        "choice2": "Büszke voltam.",
+        "label": "1"
+    },
+    {
+        "id": "300",
+        "question": "effect",
+        "label": "1",
+        "premise": "Utálta az új frizuráját.",
+        "choice1": "Kalapot viselt.",
+        "choice2": "Szakállat növesztett."
+    },
+    {
+        "id": "301",
+        "question": "cause",
+        "premise": "A súlyemelő felmordult.",
+        "choice1": "A tükörben nézegette a megfeszített izmait.",
+        "choice2": "Felemelte a rudat a feje fölé.",
+        "label": "2"
+    },
+    {
+        "id": "302",
+        "question": "cause",
+        "premise": "Az iroda zárva volt.",
+        "choice1": "Ünnepnap volt.",
+        "choice2": "Nyár volt.",
+        "label": "1"
+    },
+    {
+        "id": "303",
+        "question": "cause",
+        "label": "2",
+        "premise": "A nőt összetévesztették a húgával.",
+        "choice1": "A nő és a húga szoros kapcsolatot ápoltak.",
+        "choice2": "A nő úgy nézett ki, mint a húga."
+    },
+    {
+        "id": "304",
+        "question": "cause",
+        "premise": "Az aktivisták bojkottálták a termékeket.",
+        "choice1": "A termékeket minőségbiztosítás céljából tesztelték.",
+        "choice2": "A termékeket gyermekmunkával gyártották.",
+        "label": "2"
+    },
+    {
+        "id": "305",
+        "question": "cause",
+        "premise": "A nő nosztalgikus hangulatban volt.",
+        "choice1": "Összefutott egy gyerekkori barátjával.",
+        "choice2": "Kiabált a gyerekeivel.",
+        "label": "1"
+    },
+    {
+        "id": "306",
+        "question": "effect",
+        "label": "2",
+        "premise": "A nőnek kapuzárási pánikja lett.",
+        "choice1": "Nyugdíjba ment.",
+        "choice2": "Ejtőernyőzni ment."
+    },
+    {
+        "id": "307",
+        "question": "effect",
+        "premise": "A gyermek a trambulinon landolt.",
+        "choice1": "Újra felugrott a levegőbe.",
+        "choice2": "Úgy döntött, hogy megpróbál szaltót ugrani.",
+        "label": "1"
+    },
+    {
+        "id": "308",
+        "question": "cause",
+        "label": "1",
+        "premise": "A tárgyat buborékfóliába csomagolták.",
+        "choice1": "Törékeny volt.",
+        "choice2": "Kicsi volt."
+    },
+    {
+        "id": "309",
+        "question": "effect",
+        "label": "1",
+        "premise": "A lány dühös volt a barátjára.",
+        "choice1": "A lány pletykát terjesztett a barátjáról.",
+        "choice2": "A lány elmondott egy titkot a barátjának."
+    },
+    {
+        "id": "310",
+        "question": "effect",
+        "premise": "A férfi barátnője szakított vele.",
+        "choice1": "Könyörgött neki, hogy fogadja vissza.",
+        "choice2": "Bemutatta a szüleinek.",
+        "label": "1"
+    },
+    {
+        "id": "311",
+        "question": "cause",
+        "premise": "Az író lekéste a kézirat benyújtásának határidejét.",
+        "choice1": "Írói válságban volt.",
+        "choice2": "Ő szerkesztette a kéziratot.",
+        "label": "1"
+    },
+    {
+        "id": "312",
+        "question": "effect",
+        "premise": "A nő nem ment be dolgozni.",
+        "choice1": "A főnöke megdicsérte.",
+        "choice2": "A munkatársa fedezte.",
+        "label": "2"
+    },
+    {
+        "id": "313",
+        "question": "effect",
+        "premise": "Szárazság volt a régióban.",
+        "choice1": "A víz szennyezett lett.",
+        "choice2": "A termés elpusztult.",
+        "label": "2"
+    },
+    {
+        "id": "314",
+        "question": "effect",
+        "label": "2",
+        "premise": "A kedvenc dalom szólt a rádióban.",
+        "choice1": "Befogtam a fülem.",
+        "choice2": "Én is énekeltem."
+    },
+    {
+        "id": "315",
+        "question": "effect",
+        "premise": "A lány beledobott egy ágat a tábortűzbe.",
+        "choice1": "Az ág elégett.",
+        "choice2": "A tűz kialudt.",
+        "label": "1"
+    },
+    {
+        "id": "316",
+        "question": "cause",
+        "premise": "Felszökött a hőmérő higanyszála.",
+        "choice1": "Elejtettem a hőmérőt.",
+        "choice2": "Melegebb lett az idő.",
+        "label": "2"
+    },
+    {
+        "id": "317",
+        "question": "cause",
+        "premise": "A műanyag tartály megolvadt.",
+        "choice1": "Meleg vízbe áztattam a tartályt.",
+        "choice2": "A forró tűzhelyre tettem a tartályt.",
+        "label": "2"
+    },
+    {
+        "id": "318",
+        "question": "effect",
+        "label": "2",
+        "premise": "Betört a házba egy betörő.",
+        "choice1": "A ház tulajdonosai aludtak.",
+        "choice2": "Bekapcsolt a riasztó."
+    },
+    {
+        "id": "319",
+        "question": "cause",
+        "label": "1",
+        "premise": "Az anya szemmagasságba került a fiával.",
+        "choice1": "Leguggolt.",
+        "choice2": "Fogta a kezét."
+    },
+    {
+        "id": "320",
+        "question": "effect",
+        "premise": "A nő politikai nézetei megváltoztak.",
+        "choice1": "Más pártot támogatott.",
+        "choice2": "Tüntetni ment.",
+        "label": "1"
+    },
+    {
+        "id": "321",
+        "question": "cause",
+        "label": "1",
+        "premise": "Köhögtem.",
+        "choice1": "Füstöt lélegeztem.",
+        "choice2": "Mélyebbre vettem a hangom."
+    },
+    {
+        "id": "322",
+        "question": "effect",
+        "premise": "A bűnöző elmenekült a rendőrség elől.",
+        "choice1": "A rendőrség felügyelte az áldozatot.",
+        "choice2": "A rendőrség üldözte a bűnözőt.",
+        "label": "2"
+    },
+    {
+        "id": "323",
+        "question": "effect",
+        "label": "2",
+        "premise": "Tartottam az ajtót a nőnek, aki mögöttem jött be.",
+        "choice1": "Az ajtó becsapódott.",
+        "choice2": "A nő megköszönte."
+    },
+    {
+        "id": "324",
+        "question": "cause",
+        "premise": "A lány rágta a körmét.",
+        "choice1": "Aggódott.",
+        "choice2": "Meglepődött.",
+        "label": "1"
+    },
+    {
+        "id": "325",
+        "question": "effect",
+        "label": "1",
+        "premise": "A férfinak apróra volt szüksége, hogy bedobja a parkolóórába.",
+        "choice1": "Az ülés alatt kutatott aprópénzért.",
+        "choice2": "Aprópénzért könyörgött az embereknek az utcán."
+    },
+    {
+        "id": "326",
+        "question": "cause",
+        "premise": "A szülők a gyermekük hálószobájába siettek.",
+        "choice1": "A gyermek sikoltozva ébredt egy rémálomból.",
+        "choice2": "A gyerek félt benézni az ágya alá.",
+        "label": "1"
+    },
+    {
+        "id": "327",
+        "question": "effect",
+        "premise": "A mosdókagyló eldugult.",
+        "choice1": "Megnyitottam a csapot.",
+        "choice2": "Lefolyótisztítót öntöttem bele.",
+        "label": "2"
+    },
+    {
+        "id": "328",
+        "question": "effect",
+        "premise": "Csörgött a telefon.",
+        "choice1": "A férfi letette a telefont.",
+        "choice2": "A férfi felvette a telefont.",
+        "label": "2"
+    },
+    {
+        "id": "329",
+        "question": "cause",
+        "label": "2",
+        "premise": "Lefeküdtem.",
+        "choice1": "Tiszta volt az éjszaka.",
+        "choice2": "Késő volt."
+    },
+    {
+        "id": "330",
+        "question": "effect",
+        "label": "2",
+        "premise": "A bűntény több tanúja is tanúskodott a gyanúsított ellen.",
+        "choice1": "A gyanúsítottat felmentették.",
+        "choice2": "A gyanúsítottat elítélték."
+    },
+    {
+        "id": "331",
+        "question": "effect",
+        "label": "1",
+        "premise": "A csoport szemet hunyt a nő hibái felett.",
+        "choice1": "A nő megkönnyebbült.",
+        "choice2": "A nő bocsánatot kért."
+    },
+    {
+        "id": "332",
+        "question": "effect",
+        "premise": "A férfi diplomát szerzett.",
+        "choice1": "Alkalmassá vált arra a munkára, amit akart.",
+        "choice2": "Visszavonták az állásajánlatát.",
+        "label": "1"
+    },
+    {
+        "id": "333",
+        "question": "effect",
+        "label": "2",
+        "premise": "Fel-le kapcsoltam a villanykapcsolót.",
+        "choice1": "A fény elhalványult.",
+        "choice2": "A fény villogott."
+    },
+    {
+        "id": "334",
+        "question": "cause",
+        "label": "1",
+        "premise": "A bíró ütött a kalapáccsal.",
+        "choice1": "A tárgyalóterem felbolydult.",
+        "choice2": "Az esküdtszék kihirdette az ítéletet."
+    },
+    {
+        "id": "335",
+        "question": "effect",
+        "label": "1",
+        "premise": "A nő híres lett.",
+        "choice1": "A fotósok követték.",
+        "choice2": "A családja kerülte őt."
+    },
+    {
+        "id": "336",
+        "question": "cause",
+        "premise": "A lány megjegyezte a kódot.",
+        "choice1": "Mondogatta magának.",
+        "choice2": "Elfelejtette leírni.",
+        "label": "1"
+    },
+    {
+        "id": "337",
+        "question": "cause",
+        "premise": "A nő felvette a cipőjét.",
+        "choice1": "Mindenkit ismert a partin.",
+        "choice2": "El akart menni a partiról.",
+        "label": "2"
+    },
+    {
+        "id": "338",
+        "question": "cause",
+        "label": "2",
+        "premise": "A sztár napszemüveget viselt.",
+        "choice1": "Köszönetet akart mondai a rajongóinak.",
+        "choice2": "Nem akarta, hogy felismerjék."
+    },
+    {
+        "id": "339",
+        "question": "cause",
+        "label": "2",
+        "premise": "A nő a kezével legyezte magát.",
+        "choice1": "Beszerelte a légkondit a szobába.",
+        "choice2": "Elromlott a légkondi a szobában."
+    },
+    {
+        "id": "340",
+        "question": "effect",
+        "premise": "A lány köszönetet akart mondani a matektanárának.",
+        "choice1": "A lány ott maradt az iskola után büntetésben.",
+        "choice2": "A lány hozott a tanárnak egy almát.",
+        "label": "2"
+    },
+    {
+        "id": "341",
+        "question": "effect",
+        "label": "2",
+        "premise": "Fokhagymaszagú volt a leheletem.",
+        "choice1": "Megtöröltem a számat.",
+        "choice2": "Megmostam a fogam."
+    },
+    {
+        "id": "342",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő visszautasította a második sört.",
+        "choice1": "Ő volt a kijelölt sofőr az éjszakára.",
+        "choice2": "Ismerte a csapost."
+    },
+    {
+        "id": "343",
+        "question": "effect",
+        "label": "2",
+        "premise": "A fiú alig tudta begombolni az ingét.",
+        "choice1": "Nem volt hajlandó felvenni az inget.",
+        "choice2": "Segítséget kért az anyjától."
+    },
+    {
+        "id": "344",
+        "question": "cause",
+        "premise": "A férfi elvesztette az egyensúlyát a széken.",
+        "choice1": "A szék megingott alatta.",
+        "choice2": "Festéket öntött a székre.",
+        "label": "1"
+    },
+    {
+        "id": "345",
+        "question": "cause",
+        "premise": "Kényelmesen éreztem magam.",
+        "choice1": "Letérdeltem a földre.",
+        "choice2": "Beburkolóztam egy takaróba.",
+        "label": "2"
+    },
+    {
+        "id": "346",
+        "question": "cause",
+        "label": "1",
+        "premise": "A nő kerülte a nyilvános helyeket.",
+        "choice1": "Fertőző volt.",
+        "choice2": "Részeg volt."
+    },
+    {
+        "id": "347",
+        "question": "cause",
+        "label": "2",
+        "premise": "A bolt zárva volt.",
+        "choice1": "A tulaj segített az ügyfeleknek.",
+        "choice2": "Az üzlet felújítás alatt állt."
+    },
+    {
+        "id": "348",
+        "question": "effect",
+        "premise": "Rátapostam az alumínium konzervdobozra.",
+        "choice1": "A konzervdobozt újrahasznosították.",
+        "choice2": "A konzervdoboz összeroppant.",
+        "label": "2"
+    },
+    {
+        "id": "349",
+        "question": "cause",
+        "premise": "A gyerekeket árvaházba küldték.",
+        "choice1": "A szüleik meghaltak.",
+        "choice2": "A szüleik elkényeztették őket.",
+        "label": "1"
+    },
+    {
+        "id": "350",
+        "question": "cause",
+        "label": "2",
+        "premise": "A rendőrség átkutatta az elkövető kocsiját.",
+        "choice1": "Vallomást akartak kicsikarni.",
+        "choice2": "Illegális drogot kerestek."
+    },
+    {
+        "id": "351",
+        "question": "effect",
+        "premise": "A lány csatlakozott a vitakörhöz.",
+        "choice1": "Megtanulta használni a számítógépet.",
+        "choice2": "Kommunikációs készségeket tanult.",
+        "label": "2"
+    },
+    {
+        "id": "352",
+        "question": "effect",
+        "premise": "A fiú fogszabályzót viselt.",
+        "choice1": "Van egy lyukas foga.",
+        "choice2": "Szépek lettek a fogai.",
+        "label": "2"
+    },
+    {
+        "id": "353",
+        "question": "effect",
+        "label": "2",
+        "premise": "Lelkiismeret-furdalása volt.",
+        "choice1": "Manipulálta a barátját.",
+        "choice2": "Beismerte, hogy tapintatlan volt."
+    },
+    {
+        "id": "354",
+        "question": "effect",
+        "label": "2",
+        "premise": "A férfi épp a képregényt olvasta az újságban.",
+        "choice1": "Kávét szürcsölt.",
+        "choice2": "Nevetgélt."
+    },
+    {
+        "id": "355",
+        "question": "effect",
+        "label": "2",
+        "premise": "Elzsibbadt a lábam.",
+        "choice1": "Felvettem a cipőmet.",
+        "choice2": "Megráztam a lábam."
+    },
+    {
+        "id": "356",
+        "question": "effect",
+        "premise": "A túrázó egy mérgeskígyóval találkozott.",
+        "choice1": "Kiszáradt.",
+        "choice2": "Bepánikolt.",
+        "label": "2"
+    },
+    {
+        "id": "357",
+        "question": "effect",
+        "premise": "A mellemre tettem a kezem.",
+        "choice1": "Éreztem a szívverésem.",
+        "choice2": "Felgyorsult a szívverésem.",
+        "label": "1"
+    },
+    {
+        "id": "358",
+        "question": "effect",
+        "label": "2",
+        "premise": "A férfi aláírta a dokumentumot.",
+        "choice1": "A tranzakciót érvénytelenítették.",
+        "choice2": "A tranzakció hivatalossá vált."
+    },
+    {
+        "id": "359",
+        "question": "effect",
+        "premise": "Megindult a szülés.",
+        "choice1": "A baba világra jött.",
+        "choice2": "A nőnek reggeli rosszullétei voltak.",
+        "label": "1"
+    },
+    {
+        "id": "360",
+        "question": "effect",
+        "label": "1",
+        "premise": "A diák sietett, hogy időben beérjen az iskolába.",
+        "choice1": "Otthon hagyta a házi feladatát.",
+        "choice2": "Elhozta az ebédjét az iskolába."
+    },
+    {
+        "id": "361",
+        "question": "cause",
+        "premise": "A nő elvesztette a helyét a sorban.",
+        "choice1": "Még többen álltak be a sorba.",
+        "choice2": "Kilépett a sorból.",
+        "label": "2"
+    },
+    {
+        "id": "362",
+        "question": "effect",
+        "label": "1",
+        "premise": "Az anyának segítségre volt szüksége, hogy vigyázzon a gyerekeire.",
+        "choice1": "Óvodába küldte a gyerekeket.",
+        "choice2": "Lemondott a gyerekek felügyeletéről."
+    },
+    {
+        "id": "363",
+        "question": "cause",
+        "label": "2",
+        "premise": "A teknős elbújt a páncéljában.",
+        "choice1": "Megevett egy halat.",
+        "choice2": "Ragadozót észlelt."
+    },
+    {
+        "id": "364",
+        "question": "cause",
+        "premise": "A férfi féltékeny volt a munkatársára.",
+        "choice1": "A munkatársát előléptették.",
+        "choice2": "A munkatársa sokáig dolgozott.",
+        "label": "1"
+    },
+    {
+        "id": "365",
+        "question": "effect",
+        "premise": "A nő rátaposott a lángokra.",
+        "choice1": "Kialudtak a lángok.",
+        "choice2": "Füst szállt fel a lángokból.",
+        "label": "1"
+    },
+    {
+        "id": "366",
+        "question": "effect",
+        "label": "2",
+        "premise": "A férfi megnyitotta a csapot.",
+        "choice1": "A WC megtelt vízzel.",
+        "choice2": "Víz kezdett folyni a csapból."
+    },
+    {
+        "id": "367",
+        "question": "cause",
+        "premise": "A lány a medencében landolt.",
+        "choice1": "Végigfutott a medence szélén.",
+        "choice2": "Leugrott az ugródeszkáról.",
+        "label": "2"
+    },
+    {
+        "id": "368",
+        "question": "effect",
+        "label": "2",
+        "premise": "A férfi szembeszállt az egyházi tekintélyekkel.",
+        "choice1": "Pénzt adományozott a templomnak.",
+        "choice2": "Kiközösítették az egyházból."
+    },
+    {
+        "id": "369",
+        "question": "cause",
+        "premise": "Témát váltottam a beszélgetésben.",
+        "choice1": "Kifogytam a beszédtémából.",
+        "choice2": "A beszélgetés feszültté vált.",
+        "label": "2"
+    },
+    {
+        "id": "370",
+        "question": "effect",
+        "label": "2",
+        "premise": "A lány meglökte a barátját.",
+        "choice1": "A barátja megfulladt.",
+        "choice2": "A barátja elesett."
+    },
+    {
+        "id": "371",
+        "question": "effect",
+        "premise": "A lány sápadt volt.",
+        "choice1": "Az apja olvasott neki egy mesét.",
+        "choice2": "Az apja megfogta a homlokát.",
+        "label": "2"
+    },
+    {
+        "id": "372",
+        "question": "effect",
+        "label": "2",
+        "premise": "A hegymászók elérték a hegycsúcsot.",
+        "choice1": "Lavinába keveredtek.",
+        "choice2": "Gratuláltak egymásnak."
+    },
+    {
+        "id": "373",
+        "question": "cause",
+        "label": "2",
+        "premise": "A szakács szeme könnyezett.",
+        "choice1": "Elfogyott a hagyma.",
+        "choice2": "Felvágott egy hagymát."
+    },
+    {
+        "id": "374",
+        "question": "effect",
+        "label": "1",
+        "premise": "A nő megnyerte a lottót.",
+        "choice1": "Vett egy jachtot.",
+        "choice2": "Belépett egy egyházba."
+    },
+    {
+        "id": "375",
+        "question": "effect",
+        "premise": "A fiú egész éjjel tanult.",
+        "choice1": "Kihagyta a vizsgát.",
+        "choice2": "Átment a vizsgán.",
+        "label": "2"
+    },
+    {
+        "id": "376",
+        "question": "effect",
+        "premise": "A férfi számított a csapat győzelmére.",
+        "choice1": "Találkozott a barátaival, hogy megnézzék a meccset.",
+        "choice2": "Fogadást kötött a barátaival.",
+        "label": "2"
+    },
+    {
+        "id": "377",
+        "question": "cause",
+        "label": "2",
+        "premise": "A lány odaadta a ruháit a húgának.",
+        "choice1": "A ruhák rongyosak voltak.",
+        "choice2": "Kinőtte a ruhákat."
+    },
+    {
+        "id": "378",
+        "question": "cause",
+        "label": "1",
+        "premise": "A házigazda lemondta a bulit.",
+        "choice1": "Biztos volt benne, hogy influenzás.",
+        "choice2": "Aggódott, hogy elkapja az influenzát."
+    },
+    {
+        "id": "379",
+        "question": "effect",
+        "premise": "Az üveg leesett az asztalról.",
+        "choice1": "Összetört és szétszóródott az egész padlón.",
+        "choice2": "Egy halom szennyesben landolt.",
+        "label": "1"
+    },
+    {
+        "id": "380",
+        "question": "effect",
+        "label": "2",
+        "premise": "A lobbista meggyőzte a törvényhozó testületet, hogy támogassák a törvényjavaslatot.",
+        "choice1": "Az elnök megvétózta a törvényt.",
+        "choice2": "A törvényhozó testület elfogadta a törvényt."
+    },
+    {
+        "id": "381",
+        "question": "effect",
+        "label": "2",
+        "premise": "Meglöktem az ingát.",
+        "choice1": "Lelassult.",
+        "choice2": "Oda-vissza lengett."
+    },
+    {
+        "id": "382",
+        "question": "cause",
+        "label": "1",
+        "premise": "Új városba költöztem.",
+        "choice1": "Találtam egy jobban fizető állást.",
+        "choice2": "Megszületett a fiam."
+    },
+    {
+        "id": "383",
+        "question": "cause",
+        "premise": "Elvesztettem a türelmem.",
+        "choice1": "A barátom megváratott.",
+        "choice2": "A barátom időben érkezett.",
+        "label": "1"
+    },
+    {
+        "id": "384",
+        "question": "cause",
+        "label": "1",
+        "premise": "A bőröm kiütéses lett.",
+        "choice1": "Mérges szömörcéhez értem a kertemben.",
+        "choice2": "Kiirtottam a mérges szömörcét a kertemből."
+    },
+    {
+        "id": "385",
+        "question": "effect",
+        "label": "2",
+        "premise": "A lány lehajtott a dombról a biciklijével.",
+        "choice1": "A biciklije befarolt.",
+        "choice2": "A biciklije felgyorsult."
+    },
+    {
+        "id": "386",
+        "question": "cause",
+        "label": "1",
+        "premise": "A könyvtáros megtalálta a könyvet a kupacok között.",
+        "choice1": "A könyvtáros segítségét kértem.",
+        "choice2": "Kivették a könyvet."
+    },
+    {
+        "id": "387",
+        "question": "effect",
+        "label": "2",
+        "premise": "A nővér előkészítette a tűt a beteg injekciójához.",
+        "choice1": "A beteg vérzett.",
+        "choice2": "A beteg befeszült."
+    },
+    {
+        "id": "388",
+        "question": "effect",
+        "label": "2",
+        "premise": "A tanár rágózáson kapta a diákot.",
+        "choice1": "A diák cipőjére ragadt a rágó.",
+        "choice2": "A diák kiköpte a rágót."
+    },
+    {
+        "id": "389",
+        "question": "effect",
+        "label": "2",
+        "premise": "A nő ajándékot adott a bátyjának.",
+        "choice1": "A bátyja nem fogadta el az ajándékot.",
+        "choice2": "A bátyja kibontotta az ajándékot."
+    },
+    {
+        "id": "390",
+        "question": "cause",
+        "label": "1",
+        "premise": "A fiú féktelenül nevetett.",
+        "choice1": "A bátyja csiklandozta.",
+        "choice2": "A bátyja megrúgta."
+    },
+    {
+        "id": "391",
+        "question": "cause",
+        "premise": "A férfitől megtagadták a kölcsönt.",
+        "choice1": "Adósságai voltak.",
+        "choice2": "Vállalkozásba kezdett.",
+        "label": "1"
+    },
+    {
+        "id": "392",
+        "question": "cause",
+        "label": "2",
+        "premise": "Odamentem hozzá.",
+        "choice1": "Elfoglaltnak tűnt.",
+        "choice2": "Ismerősnek tűnt."
+    },
+    {
+        "id": "393",
+        "question": "effect",
+        "label": "2",
+        "premise": "A haditengerészet lebombázta a hajót.",
+        "choice1": "A hajó nekicsapódott a mólónak.",
+        "choice2": "A hajóroncs elsüllyedt a tengerben."
+    },
+    {
+        "id": "394",
+        "question": "effect",
+        "label": "1",
+        "premise": "A férfi szeme elfertőződött.",
+        "choice1": "Megvakult.",
+        "choice2": "Szemüveget vett fel."
+    },
+    {
+        "id": "395",
+        "question": "cause",
+        "premise": "A férfi hangja rekedtnek tűnt.",
+        "choice1": "Megfázott.",
+        "choice2": "Leszokott a dohányzásról.",
+        "label": "1"
+    },
+    {
+        "id": "396",
+        "question": "cause",
+        "label": "2",
+        "premise": "Fájt a hasam.",
+        "choice1": "Futottam a futópadon.",
+        "choice2": "Szülinapi tortát ettem."
+    },
+    {
+        "id": "397",
+        "question": "effect",
+        "label": "2",
+        "premise": "Megfogadtam, hogy egészségesen táplálkozom.",
+        "choice1": "Jógaórán vettem részt.",
+        "choice2": "Vettem gyümölcsöt és zöldséget."
+    },
+    {
+        "id": "398",
+        "question": "effect",
+        "premise": "A lány odaadta a pénzét a pénztárosnak.",
+        "choice1": "A pénztáros odaadta a lánynak a visszajárót.",
+        "choice2": "A pénztáros elfelejtett nyugtát adni a lánynak.",
+        "label": "1"
+    },
+    {
+        "id": "399",
+        "question": "cause",
+        "label": "2",
+        "premise": "A nőt letartóztatták.",
+        "choice1": "Bejelentkezett az elvonóra.",
+        "choice2": "Bántalmazást követett el."
+    }
+]

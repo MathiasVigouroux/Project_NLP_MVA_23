@@ -1,0 +1,939 @@
+[{
+  "orig_id": "0",
+  "id": "0",
+  "sentence1": "Panna és Dóra látták a vonatokat, amint átrobognak a prérin, és a mozdonyból hosszú, gördülő fekete füstpamacsok szállnak vissza. Dübörgésüket és vad, éles füttyüket már messziről hallani lehetett. A lovak elszaladtak, amikor meglátták őket.",
+  "sentence2": "A lovak elszaladtak, amikor meglátták Pannát és Dórát.",
+  "label": "0"
+ },
+ {
+  "orig_id": "1",
+  "id": "1",
+  "sentence1": "Panna és Dóra látták a vonatokat, amint átrobognak a prérin, és a mozdonyból hosszú, gördülő fekete füstpamacsok szállnak vissza. Dübörgésüket és vad, éles füttyüket már messziről hallani lehetett. A lovak elszaladtak, amikor meglátták őket.",
+  "sentence2": "A lovak elszaladtak, amikor meglátták a vonatokat.",
+  "label": "1"
+ },
+ {
+  "orig_id": "2",
+  "id": "2",
+  "sentence1": "Panna és Dóra látták a vonatokat, amint átrobognak a prérin, és a mozdonyból hosszú, gördülő fekete füstpamacsok szállnak vissza. Dübörgésüket és vad, éles füttyüket már messziről hallani lehetett. A lovak elszaladtak, amikor meglátták őket.",
+  "sentence2": "A lovak elszaladtak, amikor meglátták a füstpamacsokat.",
+  "label": "1"
+ },
+ {
+  "orig_id": "6",
+  "id": "3",
+  "sentence1": "Panna és Dóra látták a vonatokat, amint átrobognak a prérin, és a mozdonyból hosszú, gördülő fekete füstpamacsok szállnak vissza. Dübörgésüket és vad, éles füttyüket már messziről hallani lehetett. A lovak elszaladtak, amikor láttak egy vonatot közeledni.",
+  "sentence2": "Panna és Dóra láttak egy vonatot közeledni.",
+  "label": "0"
+ },
+ {
+  "orig_id": "7",
+  "id": "4",
+  "sentence1": "Panna és Dóra látták a vonatokat, amint átrobognak a prérin, és a mozdonyból hosszú, gördülő fekete füstpamacsok szállnak vissza. Dübörgésüket és vad, éles füttyüket már messziről hallani lehetett. A lovak elszaladtak, amikor láttak egy vonatot közeledni.",
+  "sentence2": "A vonatok láttak egy vonatot közeledni.",
+  "label": "0"
+ },
+ {
+  "orig_id": "8",
+  "id": "5",
+  "sentence1": "Panna és Dóra látták a vonatokat, amint átrobognak a prérin, és a mozdonyból hosszú, gördülő fekete füstpamacsok szállnak vissza. Dübörgésüket és vad, éles füttyüket már messziről hallani lehetett. A lovak elszaladtak, amikor láttak egy vonatot közeledni.",
+  "sentence2": "A füstpamacsok láttak egy vonatot közeledni.",
+  "label": "0"
+ },
+ {
+  "orig_id": "11",
+  "id": "6",
+  "sentence1": "Panna és Dóra látták a vonatokat, amint átrobognak a prérin, és a mozdonyból hosszú, gördülő fekete füstpamacsok szállnak vissza. Dübörgésüket és vad, éles füttyüket már messziről hallani lehetett. A lovak elszaladtak, amikor láttak egy vonatot közeledni.",
+  "sentence2": "A lovak láttak egy vonatot közeledni.",
+  "label": "1"
+ },
+ {
+  "orig_id": "12",
+  "id": "7",
+  "sentence1": "Korábban Beni mindig segített apának a munkában. De most nem segíthetett neki, mert apa azt mondta, hogy a vasúttársaság nem akarja, hogy rajta kívül más dolgozzon az irodában.",
+  "sentence2": "A vasúttársaság nem akarja, hogy Benin kívül más dolgozzon az irodában.",
+  "label": "0"
+ },
+ {
+  "orig_id": "13",
+  "id": "8",
+  "sentence1": "Korábban Beni mindig segített apának a munkában. De most nem segíthetett neki, mert apa azt mondta, hogy a vasúttársaság nem akarja, hogy rajta kívül más dolgozzon az irodában.",
+  "sentence2": "A vasúttársaság nem akarja, hogy apán kívül más dolgozzon az irodában.",
+  "label": "1"
+ },
+ {
+  "orig_id": "14",
+  "id": "9",
+  "sentence1": "Hugó többször is jelen volt azokon a beszélgetéseken, amelyeket apja neves detektívekkel folytatott, akik a segítségét kérték a zavarba ejtő rejtélyek megoldásához, és ezek az alkalmak ünnepnapok voltak számára.",
+  "sentence2": "Neves detektívek kérték Hugó segítségét a zavarba ejtő rejtélyek megoldásához.",
+  "label": "0"
+ },
+ {
+  "orig_id": "15",
+  "id": "10",
+  "sentence1": "Hugó többször is jelen volt azokon a beszélgetéseken, amelyeket apja neves detektívekkel folytatott, akik a segítségét kérték a zavarba ejtő rejtélyek megoldásához, és ezek az alkalmak ünnepnapok voltak számára.",
+  "sentence2": "Neves detektívek kérték Hugó apjának segítségét a zavarba ejtő rejtélyek megoldásához.",
+  "label": "1"
+ },
+ {
+  "orig_id": "16",
+  "id": "11",
+  "sentence1": "Egy kissé hosszadalmas beszélgetés után Nóra meggyőzte a házvezetőnőt, hogy nincs közvetlen ok a riadalomra. Nem említette a buszállomáson történt incidenst, mert tudta, hogy ez csak tovább fokozná Némethné nyugtalanságát.",
+  "sentence2": "A beszélgetés csak tovább fokozná Némethné nyugtalanságát.",
+  "label": "0"
+ },
+ {
+  "orig_id": "17",
+  "id": "12",
+  "sentence1": "Egy kissé hosszadalmas beszélgetés után Nóra meggyőzte a házvezetőnőt, hogy nincs közvetlen ok a riadalomra. Nem említette a buszállomáson történt incidenst, mert tudta, hogy ez csak tovább fokozná Némethné nyugtalanságát.",
+  "sentence2": "A riadalom csak tovább fokozná Némethné nyugtalanságát.",
+  "label": "0"
+ },
+ {
+  "orig_id": "18",
+  "id": "13",
+  "sentence1": "Egy kissé hosszadalmas beszélgetés után Nóra meggyőzte a házvezetőnőt, hogy nincs közvetlen ok a riadalomra. Nem említette a buszállomáson történt incidenst, mert tudta, hogy ez csak tovább fokozná Némethné nyugtalanságát.",
+  "sentence2": "Az incidens csak tovább fokozná Némethné nyugtalanságát.",
+  "label": "1"
+ },
+ {
+  "orig_id": "19",
+  "id": "14",
+  "sentence1": "Egy kissé hosszadalmas beszélgetés után Nóra meggyőzte a házvezetőnőt, hogy nincs közvetlen ok a riadalomra. Nem említette a buszállomáson történt incidenst, mert tudta, hogy ez csak tovább fokozná Némethné nyugtalanságát.",
+  "sentence2": "A buszállomás csak tovább fokozná Némethné nyugtalanságát. ",
+  "label": "0"
+ },
+ {
+  "orig_id": "20",
+  "id": "15",
+  "sentence1": "Az életed a tiéd és csakis a tiéd, és ha a fájdalom nagyobb, mint a haszon, akkor igenis legyen lehetőséged véget vetni neki.",
+  "sentence2": "Kell, hogy legyen lehetőséged véget vetni az életednek.",
+  "label": "1"
+ },
+ {
+  "orig_id": "21",
+  "id": "16",
+  "sentence1": "Az életed a tiéd és csakis a tiéd, és ha a fájdalom nagyobb, mint a haszon, akkor igenis legyen lehetőséged véget vetni neki.",
+  "sentence2": "Kell, hogy legyen lehetőséged véget vetni a fájdalomnak.",
+  "label": "1"
+ },
+ {
+  "orig_id": "22",
+  "id": "17",
+  "sentence1": "Az életed a tiéd és csakis a tiéd, és ha a fájdalom nagyobb, mint a haszon, akkor igenis legyen lehetőséged véget vetni neki.",
+  "sentence2": "Kell, hogy legyen lehetőséged véget vetni a haszonnak.",
+  "label": "0"
+ },
+ {
+  "orig_id": "25",
+  "id": "18",
+  "sentence1": "A múlt héten a Jackson-kormányzat elvetette az autószerviz-alkalmazás növekedésének korlátozására vonatkozó terveit, amíg tanulmányozza a fuvarmegosztó alkalmazások forgalomra gyakorolt hatását.",
+  "sentence2": "A kormányzat tanulmányozza a fuvarmegosztó alkalmazások közlekedésre gyakorolt hatását.",
+  "label": "1"
+ },
+ {
+  "orig_id": "26",
+  "id": "19",
+  "sentence1": "A múlt héten a Jackson-kormányzat elvetette az autószerviz-alkalmazás növekedésének korlátozására vonatkozó terveit, amíg tanulmányozza a fuvarmegosztó alkalmazások forgalomra gyakorolt hatását.",
+  "sentence2": "Az alkalmazás a fuvarmegosztó alkalmazások forgalomra gyakorolt hatását vizsgálja.",
+  "label": "0"
+ },
+ {
+  "orig_id": "27",
+  "id": "20",
+  "sentence1": "A múlt héten a Jackson-kormányzat elvetette az autószerviz-alkalmazás növekedésének korlátozására vonatkozó terveit, amíg tanulmányozza a fuvarmegosztó alkalmazások forgalomra gyakorolt hatását.",
+  "sentence2": "A növekedés a fuvarmegosztó alkalmazások forgalomra gyakorolt hatását vizsgálja.",
+  "label": "0"
+ },
+ {
+  "orig_id": "28",
+  "id": "21",
+  "sentence1": "A kerék elmosódott, a tű pedig csak egy fénycsík volt. Szabóné pufók keze a ruhán ügyködött, ahogy azt folyamatosan a tű alá dolgozta.",
+  "sentence2": "Szabóné pufók keze a ruhán ügyködött, ahogy a kereket folyamatosan a tű alá dolgozta.",
+  "label": "0"
+ },
+ {
+  "orig_id": "29",
+  "id": "22",
+  "sentence1": "A kerék elmosódott, a tű pedig csak egy fénycsík volt. Szabóné pufók keze a ruhán ügyködött, ahogy azt folyamatosan a tű alá dolgozta.",
+  "sentence2": "Szabóné pufók keze a ruhán ügyködött, ahogy a tűt folyamatosan a tű alá dolgozta.",
+  "label": "0"
+ },
+ {
+  "orig_id": "30",
+  "id": "23",
+  "sentence1": "A kerék elmosódott, a tű pedig csak egy fénycsík volt. Szabóné pufók keze a ruhán ügyködött, ahogy azt folyamatosan a tű alá dolgozta.",
+  "sentence2": "Szabóné pufók keze a ruhán ügyködött, ahogy a fénycsíkot folyamatosan a tű alá dolgozta.",
+  "label": "0"
+ },
+ {
+  "orig_id": "31",
+  "id": "24",
+  "sentence1": "A kerék elmosódott, a tű pedig csak egy fénycsík volt. Szabóné pufók keze a ruhán ügyködött, ahogy azt folyamatosan a tű alá dolgozta.",
+  "sentence2": "Szabóné pufók keze a ruhán ügyködött, ahogy az anyagot folyamatosan a tű alá dolgozta.",
+  "label": "1"
+ },
+ {
+  "orig_id": "32",
+  "id": "25",
+  "sentence1": "Eljött az utolsó nap. Holnap Nelli elutazik. Apa és anya már hazahozták az új bőröndjét.",
+  "sentence2": "Apa és anya már hazahozták Nelli új bőröndjét.",
+  "label": "1"
+ },
+ {
+  "orig_id": "33",
+  "id": "26",
+  "sentence1": "Eljött az utolsó nap. Holnap Nelli elutazik. Apa és anya már hazahozták az új bőröndjét.",
+  "sentence2": "Apa és anya már hazahozták anya új bőröndjét.",
+  "label": "0"
+ },
+ {
+  "orig_id": "34",
+  "id": "27",
+  "sentence1": "Móni örült, hogy Bence hazakísérte, bár idősebb volt nála, mint Zoltán, vagy apa többi barátja. Móninak tetszett a nevetése.",
+  "sentence2": "Móninak tetszett Bence nevetése.",
+  "label": "1"
+ },
+ {
+  "orig_id": "35",
+  "id": "28",
+  "sentence1": "Móni örült, hogy Bence hazakísérte, bár idősebb volt nála, mint Zoltán, vagy apa többi barátja. Móninak tetszett a nevetése.",
+  "sentence2": "Móninak tetszett Zoltán nevetése.",
+  "label": "0"
+ },
+ {
+  "orig_id": "36",
+  "id": "29",
+  "sentence1": "Móni örült, hogy Bence hazakísérte, bár idősebb volt nála, mint Zoltán, vagy apa többi barátja. Móninak tetszett a nevetése.",
+  "sentence2": "Móninak tetszett apa többi barátjának a nevetése.",
+  "label": "0"
+ },
+ {
+  "orig_id": "37",
+  "id": "30",
+  "sentence1": "Móni örült, hogy Bence hazakísérte, bár idősebb volt nála, mint Zoltán, vagy apa többi barátja. Móninak tetszett a nevetése.",
+  "sentence2": "Móninak tetszett apa nevetése.",
+  "label": "0"
+ },
+ {
+  "orig_id": "38",
+  "id": "31",
+  "sentence1": "A tűzhely felmelegítette a konyhát, és a lámpafénytől még melegebbnek tűnt.",
+  "sentence2": "A lámpafénytől a tűzhely még melegebbnek tűnt.",
+  "label": "0"
+ },
+ {
+  "orig_id": "39",
+  "id": "32",
+  "sentence1": "A tűzhely felmelegítette a konyhát, és a lámpafénytől még melegebbnek tűnt.",
+  "sentence2": "A lámpafénytől a konyha még melegebbnek tűnt.",
+  "label": "1"
+ },
+ {
+  "orig_id": "41",
+  "id": "33",
+  "sentence1": "Amikor Móni beért az iskolába, Nelli már ott volt. Kesztyűs kezét Móni karja alá dugta, és megszorította.",
+  "sentence2": "Móni kesztyűs kezét Móni karja alá dugta, és megszorította.",
+  "label": "0"
+ },
+ {
+  "orig_id": "42",
+  "id": "34",
+  "sentence1": "Amikor Móni beért az iskolába, Nelli már ott volt. Kesztyűs kezét Móni karja alá dugta, és megszorította.",
+  "sentence2": "Nelli kesztyűs kezét Móni karja alá dugta, és megszorította.",
+  "label": "1"
+ },
+ {
+  "orig_id": "43",
+  "id": "35",
+  "sentence1": "Amikor Móni beért az iskolába, Nelli már ott volt. Kesztyűs kezét Móni karja alá dugta, és megszorította.",
+  "sentence2": "Kesztyűs kezét Móni karja alá dugta, és megszorította az iskolát.",
+  "label": "0"
+ },
+ {
+  "orig_id": "44",
+  "id": "36",
+  "sentence1": "Amikor Móni beért az iskolába, Nelli már ott volt. Kesztyűs kezét Móni karja alá dugta, és megszorította.",
+  "sentence2": "Kesztyűs kezét Móni karja alá dugta, és megszorította a kezét.",
+  "label": "0"
+ },
+ {
+  "orig_id": "45",
+  "id": "37",
+  "sentence1": "Amikor Móni beért az iskolába, Nelli már ott volt. Kesztyűs kezét Móni karja alá dugta, és megszorította.",
+  "sentence2": "Kesztyűs kezét Móni karja alá dugta, és megszorította a karját.",
+  "label": "1"
+ },
+ {
+  "orig_id": "46",
+  "id": "38",
+  "sentence1": "Konrád úr bizonytalan vérmérsékletű ember volt, és általában hajlamos volt azt gondolni, hogy Dávid egy szerencsétlen tökfilkó, és hogy bármilyen projektbe is kezdett, az csak újabb bizonyítéka volt veleszületett idiotizmusának.",
+  "sentence2": "Bármilyen projektbe is kezdett Konrád úr, az csak újabb bizonyítéka volt idiotizmusának.",
+  "label": "0"
+ },
+ {
+  "orig_id": "47",
+  "id": "39",
+  "sentence1": "Konrád úr bizonytalan vérmérsékletű ember volt, és általában hajlamos volt azt gondolni, hogy Dávid egy szerencsétlen tökfilkó, és hogy bármilyen projektbe is kezdett, az csak újabb bizonyítéka volt veleszületett idiotizmusának.",
+  "sentence2": "Bármilyen projektbe is kezdett Dávid, az csak újabb bizonyítéka volt idiotizmusának.",
+  "label": "1"
+ },
+ {
+  "orig_id": "48",
+  "id": "40",
+  "sentence1": "Amikor a házba értem, Fülöpné, a házvezetőnő azt mondta, hogy Henriett a szobájában van, és nézi, ahogy a szobalánya pakol.",
+  "sentence2": "Henriett Fülöpné szobájában volt.",
+  "label": "0"
+ },
+ {
+  "orig_id": "50",
+  "id": "41",
+  "sentence1": "Márk teljesen elmerült a Villámmal, a fehér lóval való foglalkozásba. Attól félt, hogy az istálló istállósfiúi megütik és piszkálják, mert félénk, ezért magára vállalta az állat etetését és gondozását.",
+  "sentence2": "Attól félt, hogy az istálló istállósfiúi megütik és piszkálják Márkot.",
+  "label": "0"
+ },
+ {
+  "orig_id": "51",
+  "id": "42",
+  "sentence1": "Márk teljesen elmerült a Villámmal, a fehér lóval való foglalkozásba. Attól félt, hogy az istálló istállósfiúi megütik és piszkálják, mert félénk, ezért magára vállalta az állat etetését és gondozását.",
+  "sentence2": "Attól félt, hogy az istálló istállósfiúi megütik és piszkálják Villámot.",
+  "label": "1"
+ },
+ {
+  "orig_id": "53",
+  "id": "43",
+  "sentence1": "Márk teljesen elmerült a Villámmal, a fehér lóval való foglalkozásba. Attól félt, hogy az istálló istállósfiúi megütik és piszkálják, mert félénk, ezért magára vállalta az állat etetését és gondozását.",
+  "sentence2": "Villám félénk volt.",
+  "label": "1"
+ },
+ {
+  "orig_id": "52",
+  "id": "44",
+  "sentence1": "Márk teljesen elmerült a Villámmal, a fehér lóval való foglalkozásba. Attól félt, hogy az istálló istállósfiúi megütik és piszkálják, mert félénk, ezért magára vállalta az állat etetését és gondozását.",
+  "sentence2": "Márk félénk volt.",
+  "label": "0"
+ },
+ {
+  "orig_id": "54",
+  "id": "45",
+  "sentence1": "Végül is István talán úgy döntött, hogy Márk lábai és fülei jobbak, mint a kezei --- és szándékosan hagyta, hogy a neki legmegfelelőbb munkát végezze.",
+  "sentence2": "István talán úgy döntött, hogy Márk lábai és fülei jobbak, mint István kezei.",
+  "label": "0"
+ },
+ {
+  "orig_id": "55",
+  "id": "46",
+  "sentence1": "Végül is István talán úgy döntött, hogy Márk lábai és fülei jobbak, mint a kezei --- és szándékosan hagyta, hogy a neki legmegfelelőbb munkát végezze.",
+  "sentence2": "István talán úgy döntött, hogy Márk lábai és fülei jobbak, mint Márk kezei.",
+  "label": "1"
+ },
+ {
+  "orig_id": "56",
+  "id": "47",
+  "sentence1": "Mostanra már mindenki érzett némi bizalmat a britek módszere iránt. A tábornoknak joga volt megbüntetni a fegyvereladáson rajtakapott katonát, és azt is, aki kísértésbe ejtette.",
+  "sentence2": "A tábornoknak jogában állt megbüntetni azt a katonát, akit rajtakaptak, hogy mindenkinek a fegyverét eladja, és azt is, aki csábította őt.",
+  "label": "1"
+ },
+ {
+  "orig_id": "57",
+  "id": "48",
+  "sentence1": "Mostanra már mindenki érzett némi bizalmat a britek módszere iránt. A tábornoknak joga volt megbüntetni a fegyvereladáson rajtakapott katonát, és azt is, aki kísértésbe ejtette.",
+  "sentence2": "A tábornoknak jogában állt megbüntetni azt a katonát, akit rajtakaptak, hogy a tárbornok fegyverét eladja, és azt is, aki csábította őt.",
+  "label": "0"
+ },
+ {
+  "orig_id": "58",
+  "id": "49",
+  "sentence1": "Mostanra már mindenki érzett némi bizalmat a britek módszere iránt. A tábornoknak joga volt megbüntetni a fegyvereladáson rajtakapott katonát, és azt is, aki kísértésbe ejtette.",
+  "sentence2": "A tábornoknak jogában állt megbüntetni azt a katonát, akit rajtakaptak, hogy a saját fegyverét eladja, és azt is, aki csábította őt.",
+  "label": "1"
+ },
+ {
+  "orig_id": "59",
+  "id": "50",
+  "sentence1": "Amióta a brit hadsereg Bostonba érkezett, Márk nem vette le a kalapját, amikor a brit zászló elhaladt mellette, kivéve egyszer, amikor egy katona leütötte.",
+  "sentence2": "A hadsereget leütötte egy katona.",
+  "label": "0"
+ },
+ {
+  "orig_id": "60",
+  "id": "51",
+  "sentence1": "Amióta a brit hadsereg Bostonba érkezett, Márk nem vette le a kalapját, amikor a brit zászló elhaladt mellette, kivéve egyszer, amikor egy katona leütötte.",
+  "sentence2": "Bostont leütötte egy katona.",
+  "label": "0"
+ },
+ {
+  "orig_id": "61",
+  "id": "52",
+  "sentence1": "Amióta a brit hadsereg Bostonba érkezett, Márk nem vette le a kalapját, amikor a brit zászló elhaladt mellette, kivéve egyszer, amikor egy katona leütötte.",
+  "sentence2": "A kalapot leütötte egy katona.",
+  "label": "1"
+ },
+ {
+  "orig_id": "62",
+  "id": "53",
+  "sentence1": "Amióta a brit hadsereg Bostonba érkezett, Márk nem vette le a kalapját, amikor a brit zászló elhaladt mellette, kivéve egyszer, amikor egy katona leütötte.",
+  "sentence2": "A zászlót leütötte egy katona.",
+  "label": "0"
+ },
+ {
+  "orig_id": "63",
+  "id": "54",
+  "sentence1": "Ha Tamara átfordult a felső fekhelyén, át tudott nézni a peremén, és tisztán láthatta az anyját. Milyen kicsi, egyenes és merev volt a lenti priccsen! A szeme csukva volt, de Tamara kételkedett benne, hogy alszik.",
+  "sentence2": "Tamara szeme csukva volt, de Tamara kételkedett benne, hogy alszik.",
+  "label": "0"
+ },
+ {
+  "orig_id": "64",
+  "id": "55",
+  "sentence1": "Ha Tamara átfordult a felső fekhelyén, át tudott nézni a peremén, és tisztán láthatta az anyját. Milyen kicsi, egyenes és merev volt a lenti priccsen! A szeme csukva volt, de Tamara kételkedett benne, hogy alszik.",
+  "sentence2": "Az anyja szeme csukva volt, de Tamara kételkedett benne, hogy alszik.",
+  "label": "1"
+ },
+ {
+  "orig_id": "65",
+  "id": "56",
+  "sentence1": "A kikötői emberek azt mondták, hogy a nagyi olyan tisztán tartotta a házát, hogy egy tiszta zsebkendővel fel lehetett törölni a padlót anélkül, hogy szennyeződés került volna rá.",
+  "sentence2": "Egy tiszta zsebkendővel fel lehetett törölni a padlóját anélkül, hogy szennyeződés került volna a házra.",
+  "label": "0"
+ },
+ {
+  "orig_id": "66",
+  "id": "57",
+  "sentence1": "A kikötői emberek azt mondták, hogy a nagyi olyan tisztán tartotta a házát, hogy egy tiszta zsebkendővel fel lehetett törölni a padlót anélkül, hogy szennyeződés került volna rá.",
+  "sentence2": "Egy tiszta zsebkendővel fel lehetett törölni a padlóját anélkül, hogy szennyeződés került volna a padlóra.",
+  "label": "0"
+ },
+ {
+  "orig_id": "67",
+  "id": "58",
+  "sentence1": "A kikötői emberek azt mondták, hogy a nagyi olyan tisztán tartotta a házát, hogy egy tiszta zsebkendővel fel lehetett törölni a padlót anélkül, hogy szennyeződés került volna rá.",
+  "sentence2": "Egy tiszta zsebkendővel fel lehetett törölni a padlóját anélkül, hogy szennyeződés került volna a zsebkendőre.",
+  "label": "1"
+ },
+ {
+  "orig_id": "68",
+  "id": "59",
+  "sentence1": "A kikötői emberek azt mondták, hogy a nagyi olyan tisztán tartotta a házát, hogy egy tiszta zsebkendővel fel lehetett törölni a padlót anélkül, hogy szennyeződés került volna rá.",
+  "sentence2": "Egy tiszta zsebkendővel fel lehetett törölni a padlóját anélkül, hogy szennyeződés került volna a szennyeződésre.",
+  "label": "0"
+ },
+ {
+  "orig_id": "69",
+  "id": "60",
+  "sentence1": "Nagymama helyet foglalt Marcsinak, és amint Rigóné leült, tiltakozva odahúzta őt.",
+  "sentence2": "Nagymama odahúzta őt.",
+  "label": "1"
+ },
+ {
+  "orig_id": "70",
+  "id": "61",
+  "sentence1": "Nagymama helyet foglalt Marcsinak, és amint Rigóné leült, tiltakozva odahúzta őt.",
+  "sentence2": "Rigóné odahúzta őt.",
+  "label": "0"
+ },
+ {
+  "orig_id": "71",
+  "id": "62",
+  "sentence1": "Nagymama helyet foglalt Marcsinak, és amint Rigóné leült, tiltakozva odahúzta őt.",
+  "sentence2": "Marcsi odahúzta őt.",
+  "label": "0"
+ },
+ {
+  "orig_id": "72",
+  "id": "63",
+  "sentence1": "Nagymama helyet foglalt Marcsinak; így vonakodva beleegyezett, hogy marad vacsorára.",
+  "sentence2": "Nagymama beleegyezett, hogy marad vacsorára.",
+  "label": "0"
+ },
+ {
+  "orig_id": "73",
+  "id": "64",
+  "sentence1": "Nagymama helyet foglalt Marcsinak; így vonakodva beleegyezett, hogy marad vacsorára.",
+  "sentence2": "Marcsi beleegyezett, hogy marad vacsorára.",
+  "label": "1"
+ },
+ {
+  "orig_id": "76",
+  "id": "65",
+  "sentence1": "Az orvos hat hónapnyi vidéki levegőt rendelt el Krisztián ezredes fiának, Pálnak, miután kellőképpen felépül.",
+  "sentence2": "Az orvos hat hónapnyi vidéki levegőt rendelt el Krisztián ezredes fiának, Pálnak, miután az orvos kellőképpen felépül.",
+  "label": "0"
+ },
+ {
+  "orig_id": "77",
+  "id": "66",
+  "sentence1": "Az orvos hat hónapnyi vidéki levegőt rendelt el Krisztián ezredes fiának, Pálnak, miután kellőképpen felépül.",
+  "sentence2": "Az orvos hat hónapnyi vidéki levegőt rendelt el Krisztián ezredes fiának, Pálnak, miután Krisztián ezredes kellőképpen felépül.",
+  "label": "0"
+ },
+ {
+  "orig_id": "78",
+  "id": "67",
+  "sentence1": "Az orvos hat hónapnyi vidéki levegőt rendelt el Krisztián ezredes fiának, Pálnak, miután kellőképpen felépül.",
+  "sentence2": "Az orvos hat hónapnyi vidéki levegőt rendelt el Krisztián ezredes fiának, Pálnak, miután Pál kellőképpen felépül.",
+  "label": "1"
+ },
+ {
+  "orig_id": "79",
+  "id": "68",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Kotkin gyónásra buzdította őket, a régi idők kedvéért.",
+  "label": "0"
+ },
+ {
+  "orig_id": "80",
+  "id": "69",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Kamenyev gyónásra buzdította őket, a régi idők kedvéért.",
+  "label": "0"
+ },
+ {
+  "orig_id": "81",
+  "id": "70",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Sztálin gyónásra buzdította őket, a régi idők kedvéért.",
+  "label": "1"
+ },
+ {
+  "orig_id": "82",
+  "id": "71",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Zinovjev gyónásra buzdította őket, a régi idők kedvéért.",
+  "label": "0"
+ },
+ {
+  "orig_id": "83",
+  "id": "72",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Lenin gyónásra buzdította őket, a régi idők kedvéért.",
+  "label": "0"
+ },
+ {
+  "orig_id": "84",
+  "id": "73",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Gyónásra buzdította Kamenyevet és Zinovjevet a régi idők kedvéért.",
+  "label": "1"
+ },
+ {
+  "orig_id": "85",
+  "id": "74",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Gyónásra buzdította Sztálint és Kamenyevet a régi idők kedvéért.",
+  "label": "0"
+ },
+ {
+  "orig_id": "86",
+  "id": "75",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Gyónásra buzdította Kamenyevet, Zinovjevet és Sztálint a régi idők kedvéért.",
+  "label": "0"
+ },
+ {
+  "orig_id": "87",
+  "id": "76",
+  "sentence1": "Kotkin leírja, ahogyan Lev Kamenyevet, Sztálin régi Pravda-társszerkesztőjét, és Grigorij Zinovjevet, aki Sztálinnal és Kamenyevvel uralkodó trojkát alkotott Lenin betegségének végén, 1936-ban kirángatták a börtöncelláikból, hogy találkozzanak Sztálinnal; gyónásra buzdította őket, a régi idők kedvéért. ",
+  "sentence2": "Gyónásra buzdította a börtöncellákat a régi idők kedvéért.",
+  "label": "0"
+ },
+ {
+  "orig_id": "88",
+  "id": "77",
+  "sentence1": "Bár Vörösmartyról úgy tartják, segített Aranynak létrehozni Toldi Miklós karakterét, valószínűleg inkább Petőfi Sándor műveinek János vitézén alapul.",
+  "sentence2": "Vörösmarty valószínűleg inkább Petőfi Sándor műveinek János vitézén alapul.",
+  "label": "0"
+ },
+ {
+  "orig_id": "89",
+  "id": "78",
+  "sentence1": "Bár Vörösmartyról úgy tartják, segített Aranynak létrehozni Toldi Miklós karakterét, valószínűleg inkább Petőfi Sándor műveinek János vitézén alapul.",
+  "sentence2": "Arany valószínűleg inkább Petőfi Sándor műveinek János vitézén alapul.",
+  "label": "0"
+ },
+ {
+  "orig_id": "90",
+  "id": "79",
+  "sentence1": "Bár Vörösmartyról úgy tartják, segített Aranynak létrehozni Toldi Miklós karakterét, valószínűleg inkább Petőfi Sándor műveinek János vitézén alapul.",
+  "sentence2": "Toldi Miklós valószínűleg inkább Petőfi Sándor műveinek János vitézén alapul.",
+  "label": "1"
+ },
+ {
+  "orig_id": "91",
+  "id": "80",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt az irodát, amiért az úgy állt az útjában, mintha élőlény lett volna.",
+  "label": "0"
+ },
+ {
+  "orig_id": "92",
+  "id": "81",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt a próbababát, amiért az úgy állt az útjában, mintha élőlény lett volna.",
+  "label": "1"
+ },
+ {
+  "orig_id": "93",
+  "id": "82",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt a kalapot, amiért az úgy állt az útjában, mintha élőlény lett volna.",
+  "label": "0"
+ },
+ {
+  "orig_id": "94",
+  "id": "83",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt a tógát, amiért az úgy állt az útjában, mintha élőlény lett volna.",
+  "label": "0"
+ },
+ {
+  "orig_id": "95",
+  "id": "84",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt, amiért az úgy állt Matyi útjában, mintha élőlény lett volna.",
+  "label": "1"
+ },
+ {
+  "orig_id": "96",
+  "id": "85",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt, amiért az úgy állt Babos úr útjában, mintha élőlény lett volna.",
+  "label": "0"
+ },
+ {
+  "orig_id": "97",
+  "id": "86",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt, amiért az úgy állt az útjában, mintha az iroda élőlény lett volna.",
+  "label": "0"
+ },
+ {
+  "orig_id": "98",
+  "id": "87",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt, amiért az úgy állt az útjában, mintha a próbababa élőlény lett volna.",
+  "label": "1"
+ },
+ {
+  "orig_id": "99",
+  "id": "88",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt, amiért az úgy állt az útjában, mintha a kalap élőlény lett volna.",
+  "label": "0"
+ },
+ {
+  "orig_id": "100",
+  "id": "89",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt, amiért az úgy állt az útjában, mintha a tóga élőlény lett volna.",
+  "label": "0"
+ },
+ {
+  "orig_id": "101",
+  "id": "90",
+  "sentence1": "Matyi akarata ellenére közelebb került az irodához, ahogyan megbotlott Babos úr spanyol kalapos, római tógás próbababájában, és egyből átkozni is kezdte az orra alatt, amiért az úgy állt előtte, mintha élőlény lett volna.",
+  "sentence2": "Egyből átkozni is kezdte az orra alatt, amiért az úgy állt az útjában, mintha az orra élőlény lett volna.",
+  "label": "0"
+ },
+ {
+  "orig_id": "102",
+  "id": "91",
+  "sentence1": "Laufer darabját egy bírósági ügy ihlette, amiben a Havasupai törzs azt állította, hogy az Arizonai Állami Egyetem kutatói helytelenül használták fel a DNS-mintáikat. ",
+  "sentence2": "Laufer darabját egy bírósági ügy ihlette, amiben a Havasupai törzs azt állította, hogy az Arizonai Állami Egyetem kutatói helytelenül használták fel a Havastupai törzs DNS-mintáit. ",
+  "label": "1"
+ },
+ {
+  "orig_id": "103",
+  "id": "92",
+  "sentence1": "Laufer darabját egy bírósági ügy ihlette, amiben a Havasupai törzs azt állította, hogy az Arizonai Állami Egyetem kutatói helytelenül használták fel a DNS-mintáikat. ",
+  "sentence2": "Laufer darabját egy bírósági ügy ihlette, amiben a Havasupai törzs azt állította, hogy az Arizonai Állami Egyetem kutatói helytelenül használták fel a kutatók DNS-mintáit. ",
+  "label": "0"
+ },
+ {
+  "orig_id": "104",
+  "id": "93",
+  "sentence1": "Eközben a városban mindenki Artúrra és Cecíliára vadászik mindenhol, és az anyukáik nagyon aggódnak.",
+  "sentence2": "Mindenki anyukája nagyon aggódik.",
+  "label": "0"
+ },
+ {
+  "orig_id": "105",
+  "id": "94",
+  "sentence1": "Eközben a városban mindenki Artúrra és Cecíliára vadászik mindenhol, és az anyukáik nagyon aggódnak.",
+  "sentence2": "Artúr és Cecília anyukája nagyon aggódik.",
+  "label": "1"
+ },
+ {
+  "orig_id": "106",
+  "id": "95",
+  "sentence1": "A rászorulók követhették a betakarítókat, hogy felszedhessék a lehullott gabonát.",
+  "sentence2": "A rászorulók felszedhetik a lehullott gabonát.",
+  "label": "1"
+ },
+ {
+  "orig_id": "107",
+  "id": "96",
+  "sentence1": "A rászorulók követhették a betakarítókat, hogy felszedhessék a lehullott gabonát.",
+  "sentence2": "A betakarítók felszedhetik a lehullott gabonát.",
+  "label": "0"
+ },
+ {
+  "orig_id": "108",
+  "id": "97",
+  "sentence1": "A legtöbb fiú kedvelte Jancsit, csak Dávid utálta. Néha félrehúzta Danit egy sarokba, és rekedt suttogással elmondta neki, hogy szerezni fog egy ollót és kivágni vele Jancsi szívét. ",
+  "sentence2": "Néha Jancsi félrehúzta Danit egy sarokba.",
+  "label": "0"
+ },
+ {
+  "orig_id": "109",
+  "id": "98",
+  "sentence1": "A legtöbb fiú kedvelte Jancsit, csak Dávid utálta. Néha félrehúzta Danit egy sarokba, és rekedt suttogással elmondta neki, hogy szerezni fog egy ollót és kivágni vele Jancsi szívét. ",
+  "sentence2": "Néha Dávid félrehúzta Danit egy sarokba.",
+  "label": "1"
+ },
+ {
+  "orig_id": "110",
+  "id": "99",
+  "sentence1": "A legtöbb fiú kedvelte Jancsit, csak Dávid utálta. Néha félrehúzta Danit egy sarokba, és rekedt suttogással elmondta neki, hogy szerezni fog egy ollót és kivágni vele Jancsi szívét. ",
+  "sentence2": "Jancsi szerezni fog egy ollót és kivágni vele Jancsi szívét. ",
+  "label": "0"
+ },
+ {
+  "orig_id": "111",
+  "id": "100",
+  "sentence1": "A legtöbb fiú kedvelte Jancsit, csak Dávid utálta. Néha félrehúzta Danit egy sarokba, és rekedt suttogással elmondta neki, hogy szerezni fog egy ollót és kivágni vele Jancsi szívét. ",
+  "sentence2": "Dávid szerezni fog egy ollót és kivágni vele Jancsi szívét. ",
+  "label": "1"
+ },
+ {
+  "orig_id": "112",
+  "id": "101",
+  "sentence1": "A legtöbb fiú kedvelte Jancsit, csak Dávid utálta. Néha félrehúzta Danit egy sarokba, és rekedt suttogással elmondta neki, hogy szerezni fog egy ollót és kivágni vele Jancsi szívét. ",
+  "sentence2": "Dani szerezni fog egy ollót és kivágni vele Jancsi szívét. ",
+  "label": "0"
+ },
+ {
+  "orig_id": "113",
+  "id": "102",
+  "sentence1": "Mari felajánlotta, hogy a színházjegyeit Szilvinek adja, mert sokáig kellett dolgozni aznap este.",
+  "sentence2": "Marinak sokáig kellett dolgoznia aznap este.",
+  "label": "1"
+ },
+ {
+  "orig_id": "114",
+  "id": "103",
+  "sentence1": "Mari felajánlotta, hogy a színházjegyeit Szilvinek adja, mert sokáig kellett dolgozni aznap este.",
+  "sentence2": "Szilvinek sokáig kellett dolgoznia aznap este.",
+  "label": "0"
+ },
+ {
+  "orig_id": "115",
+  "id": "104",
+  "sentence1": "Klára egy pontot sem tudott szerezni az Alízzal játszott squash meccsén ma délután. Túl kimerült volt.",
+  "sentence2": "Klára túl kimerült volt.",
+  "label": "1"
+ },
+ {
+  "orig_id": "116",
+  "id": "105",
+  "sentence1": "Klára egy pontot sem tudott szerezni az Alízzal játszott squash meccsén ma délután. Túl kimerült volt.",
+  "sentence2": "Alíz túl kimerült volt.",
+  "label": "0"
+ },
+ {
+  "orig_id": "117",
+  "id": "106",
+  "sentence1": "Az emberek folyton átmentek a jelzőlámpán, mert egy ünnepi kirakat közepén volt. Alig lehetett észrevenni.",
+  "sentence2": "Alig lehetett észrevenni a jelzőlámpát.",
+  "label": "1"
+ },
+ {
+  "orig_id": "118",
+  "id": "107",
+  "sentence1": "Az emberek folyton átmentek a jelzőlámpán, mert egy ünnepi kirakat közepén volt. Alig lehetett észrevenni.",
+  "sentence2": "Alig lehetett észrevenni az ünnepi kirakatot.",
+  "label": "0"
+ },
+ {
+  "orig_id": "119",
+  "id": "108",
+  "sentence1": "Az olvasóköröm tagjai nehezen érthetőnek tartják Tandori verseit, mert homályos a jelentésük.",
+  "sentence2": "Az olvasóköröm tagjainak homályos a jelentése.",
+  "label": "0"
+ },
+ {
+  "orig_id": "120",
+  "id": "109",
+  "sentence1": "Az olvasóköröm tagjai nehezen érthetőnek tartják Tandori verseit, mert homályos a jelentésük.",
+  "sentence2": "Tandori verseinek homályos a jelentése.",
+  "label": "1"
+ },
+ {
+  "orig_id": "121",
+  "id": "110",
+  "sentence1": "Mártinak van egy Ország Lili által festett balerina festménye, a nappalijában lóg.",
+  "sentence2": "Mártinak van egy Ország Lili által festett balerina festménye, Márti nappalijában lóg.",
+  "label": "1"
+ },
+ {
+  "orig_id": "122",
+  "id": "111",
+  "sentence1": "Mártinak van egy Ország Lili által festett balerina festménye, a nappalijában lóg.",
+  "sentence2": "Mártinak van egy Ország Lili által festett balerina festménye, a ballerina nappalijában lóg.",
+  "label": "0"
+ },
+ {
+  "orig_id": "123",
+  "id": "112",
+  "sentence1": "Mártinak van egy Ország Lili által festett balerina festménye, a nappalijában lóg.",
+  "sentence2": "Mártinak van egy Ország Lili által festett balerina festménye, Ország Lili nappalijában lóg.",
+  "label": "0"
+ },
+ {
+  "orig_id": "124",
+  "id": "113",
+  "sentence1": "Márti nappalijában lóg Ország Lili egy híres festménye, ami egy cipőjét húzó balerinát ábrázol.",
+  "sentence2": "Márti nappalijában lóg Ország Lili egy híres festménye, ami egy Márti cipőjét húzó balerinát ábrázol.",
+  "label": "0"
+ },
+ {
+  "orig_id": "125",
+  "id": "114",
+  "sentence1": "Márti nappalijában lóg Ország Lili egy híres festménye, ami egy cipőjét húzó balerinát ábrázol.",
+  "sentence2": "Márti nappalijában lóg Ország Lili egy híres festménye, ami egy Ország Lili cipőjét húzó balerinát ábrázol.",
+  "label": "0"
+ },
+ {
+  "orig_id": "127",
+  "id": "115",
+  "sentence1": "Márti nappalijában van Ország Lili egy híres balerinát ábrázoló festménye. Profilból látható, karjait egy láthatatlan szerető felé nyújtva.",
+  "sentence2": "Márti profilból látható, karjait egy láthatatlan szerető felé nyújtva.",
+  "label": "0"
+ },
+ {
+  "orig_id": "128",
+  "id": "116",
+  "sentence1": "Márti nappalijában van Ország Lili egy híres balerinát ábrázoló festménye. Profilból látható, karjait egy láthatatlan szerető felé nyújtva.",
+  "sentence2": "A balerina profilból látható, karjait egy láthatatlan szerető felé nyújtva.",
+  "label": "1"
+ },
+ {
+  "orig_id": "129",
+  "id": "117",
+  "sentence1": "Márti nappalijában van Ország Lili egy híres ballerinát ábrázoló festménye. Profilból látható, karjait egy láthatatlan szerető felé nyújtva.",
+  "sentence2": "Ország Lili profilból látható, karjait egy láthatatlan szerető felé nyújtva.",
+  "label": "0"
+ },
+ {
+  "orig_id": "130",
+  "id": "118",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. Harminc éves korában vette.",
+  "sentence2": "Márti harminc éves korában vette a festményt.",
+  "label": "1"
+ },
+ {
+  "orig_id": "131",
+  "id": "119",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. Harminc éves korában vette.",
+  "sentence2": "A balerina harminc éves korában vette a festményt.",
+  "label": "0"
+ },
+ {
+  "orig_id": "132",
+  "id": "120",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. A gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "sentence2": "Márti a gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "label": "1"
+ },
+ {
+  "orig_id": "133",
+  "id": "121",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. A gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "sentence2": "A balerina a gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "label": "0"
+ },
+ {
+  "orig_id": "134",
+  "id": "122",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. A gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "sentence2": "A nappali különös kedvence.",
+  "label": "0"
+ },
+ {
+  "orig_id": "135",
+  "id": "123",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. A gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "sentence2": "A festmény különös kedvence.",
+  "label": "1"
+ },
+ {
+  "orig_id": "136",
+  "id": "124",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. A gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "sentence2": "A gyűjtemény különös kedvence.",
+  "label": "0"
+ },
+ {
+  "orig_id": "137",
+  "id": "125",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. A gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "sentence2": "A Szépművészeti Múzeum különös kedvence.",
+  "label": "0"
+ },
+ {
+  "orig_id": "138",
+  "id": "126",
+  "sentence1": "Márti nappalijában van egy híres festmény egy balerináról. A gyűjteményének nagy részét egy évtizeddel ezelőtt a Szépművészeti Múzeumnak adta, de ezt megtartotta, mert ez különös kedvence.",
+  "sentence2": "Az évtized különös kedvence.",
+  "label": "0"
+ },
+ {
+  "orig_id": "139",
+  "id": "127",
+  "sentence1": "Márti nappalijában van Ország Lili híres festménye Szabó Katalin balerináról. Jellemző példája a kései munkájának - lendületes, szinte nyers, mintsem realisztikus.",
+  "sentence2": "Márti tizenkilenc éves volt, amikor modellt állt hozzá, és a fiatalos energiája világít a vászonról.",
+  "label": "0"
+ },
+ {
+  "orig_id": "140",
+  "id": "128",
+  "sentence1": "Márti nappalijában van Ország Lili híres festménye Szabó Katalin balerináról. Jellemző példája a kései munkájának - lendületes, szinte nyers, mintsem realisztikus.",
+  "sentence2": "Szabó Katalin tizenkilenc éves volt, amikor modellt állt hozzá, és a fiatalos energiája lerí a vászonról.",
+  "label": "0"
+ },
+ {
+  "orig_id": "141",
+  "id": "129",
+  "sentence1": "Márti nappalijában van Ország Lili híres festménye Szabó Katalin balerináról. Jellemző példája a kései munkájának - lendületes, szinte nyers, mintsem realisztikus.",
+  "sentence2": "Jellemző Márti kései munkájára - lendületes, szinte nyers, mintsem realisztikus.",
+  "label": "0"
+ },
+ {
+  "orig_id": "142",
+  "id": "130",
+  "sentence1": "Márti nappalijában van Ország Lili híres festménye Szabó Katalin balerináról. Jellemző példája a kései munkájának - lendületes, szinte nyers, mintsem realisztikus.",
+  "sentence2": "Jellemző Szabó Katalin kései munkájára - lendületes, szinte nyers, mintsem realisztikus.",
+  "label": "0"
+ },
+ {
+  "orig_id": "143",
+  "id": "131",
+  "sentence1": "Márti nappalijában van Ország Lili híres festménye Volf Katalin ballerináról. Jellemző példája a kései munkájának - lendületes, szinte nyers, mintsem realisztikus.",
+  "sentence2": "Jellemző Ország Lili kései munkájára - lendületes, szinte nyers, mintsem realisztikus.",
+  "label": "1"
+ },
+ {
+  "orig_id": "144",
+  "id": "132",
+  "sentence1": "Ede ragasztószalagot ejtett az ablakpárkányára, és mikor lehúzta a szalagot, némi ragasztó rajta maradt.",
+  "sentence2": "Némi ragasztó rajta maradt a szalagon.",
+  "label": "0"
+ },
+ {
+  "orig_id": "145",
+  "id": "133",
+  "sentence1": "Ede ragasztószalagot ejtett az ablakpárkányára, és mikor lehúzta a szalagot, némi ragasztó rajta maradt.",
+  "sentence2": "Némi ragasztó rajta maradt az ablakpárkányon.",
+  "label": "1"
+ }
+]

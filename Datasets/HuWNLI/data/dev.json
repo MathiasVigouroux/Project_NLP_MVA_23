@@ -1,0 +1,421 @@
+[{
+            "orig_id": "0",
+            "id": "0",
+            "sentence1": "A lefolyót eldugította a haj. Ki kell tisztítani.",
+            "sentence2": "A hajat ki kell tisztítani.",
+            "label": "0"
+        },
+        {
+            "orig_id": "1",
+            "id": "1",
+            "sentence1": "Janka kopogott Zsuzsa ajtaján, de nem kapott választ.",
+            "sentence2": "Zsuzsa nem válaszolt.",
+            "label": "1"
+        },
+        {
+            "orig_id": "2",
+            "id": "2",
+            "sentence1": "Erzsi nem lett mérges Sacira, aki félbeszakította, mert megállt és elszámolt tízig.",
+            "sentence2": "Saci elszámolt tízig.",
+            "label": "0"
+        },
+        {
+            "orig_id": "3",
+            "id": "3",
+            "sentence1": "Senki sem azért csatlakozik a Facebookhoz, hogy szomorú és magányos legyen. A Wisconsini Egyetem pszichológusának, George Lincolnnak egy új tanulmánya azonban azt állítja, hogy pontosan ezt érezzük végül tőle.",
+            "sentence2": "Pontosan ezt érezzük végül a Facebooktól.",
+            "label": "1"
+        },
+        {
+            "orig_id": "4",
+            "id": "4",
+            "sentence1": "A férfi nem tudta felemelni a fiát, mert olyan nehéz volt.",
+            "sentence2": "A fia nehéz volt.",
+            "label": "1"
+        },
+        {
+            "orig_id": "5",
+            "id": "5",
+            "sentence1": "Zsuzsa tudta, hogy Anna fiának autóbalesete volt, úgyhogy elmondta neki.",
+            "sentence2": "Anna mondta el a balesetet.",
+            "label": "0"
+        },
+        {
+            "orig_id": "6",
+            "id": "6",
+            "sentence1": "Mikor Tomi elejtette a jégkrémét, Miki kinevette, szóval apa szigorúan nézett rá.",
+            "sentence2": "Mikire nézett apa.",
+            "label": "1"
+        },
+        {
+            "orig_id": "8",
+            "id": "7",
+            "sentence1": "Nézd! Egy halacska van a kacsa alatt!  Gyorsan biztonságba kell jutnia!",
+            "sentence2": "A kacsának gyorsan biztonságba kell jutnia.",
+            "label": "0"
+        },
+        {
+            "orig_id": "10",
+            "id": "8",
+            "sentence1": "Amikor a törvény támogatói bementek a városházára, meglepődve tapasztalták, hogy a terem tele van ellenzőkkel. Többségben voltak.",
+            "sentence2": "A támogatók többségben voltak.",
+            "label": "0"
+        },
+        {
+            "orig_id": "11",
+            "id": "9",
+            "sentence1": "Nem tudom kivágni a fát azzal a fejszével, túl vastag.",
+            "sentence2": "A fa túl vastag.",
+            "label": "1"
+        },
+        {
+            "orig_id": "12",
+            "id": "10",
+            "sentence1": "A nagy labda áttörte az asztalt, mert hungarocellből volt.",
+            "sentence2": "A labda hungarocellből volt.",
+            "label": "0"
+        },
+        {
+            "orig_id": "13",
+            "id": "11",
+            "sentence1": "Próbáltam egy gyümölcsöst festeni, citrommal a citromfákon, de inkább villanykörtéknek tűnnek.",
+            "sentence2": "A citromfák villanykörtéknek tűntek.",
+            "label": "0"
+        },
+        {
+            "orig_id": "15",
+            "id": "12",
+            "sentence1": "Ha a szélhámos sikeresen átverte volna Samut, sok pénzt szerzett volna.",
+            "sentence2": "Samu sok pénzt szerzett volna.",
+            "label": "0"
+        },
+        {
+            "orig_id": "16",
+            "id": "13",
+            "sentence1": "Az ügyvéd feltett egy kérdést a tanúnak, de nem volt hajlandó megismételni.",
+            "sentence2": "Az ügyvéd nem volt hajlandó megismételni a kérdést.",
+            "label": "1"
+        },
+        {
+            "orig_id": "17",
+            "id": "14",
+            "sentence1": "Mindenki nagyon szerette a zabkekszet; csak pár embernek tetszett a csokis keksz. Legközelebb kevesebbet kell csinálnunk belőle.",
+            "sentence2": "Kevesebbet kell csinálnunk zabkekszből.",
+            "label": "0"
+        },
+        {
+            "orig_id": "18",
+            "id": "15",
+            "sentence1": "Robi összeesett a járdán. Látta, hogy Károly a segítségére siet. Nagyon beteg volt.",
+            "sentence2": "Károly nagyon beteg volt.",
+            "label": "0"
+        },
+        {
+            "orig_id": "19",
+            "id": "16",
+            "sentence1": "Molnár úr felkereste Csaba fényűző New York-i lakását, és azt gondolta, hogy az a fiáé, Andrásé. Ennek hatására Molnár úr úgy döntött, hogy megszünteti András járandóságát, mivel már nincs szüksége a pénzügyi támogatására.",
+            "sentence2": "Már nincs szüksége Csaba támogatására.",
+            "label": "0"
+        },
+        {
+            "orig_id": "20",
+            "id": "17",
+            "sentence1": "Teréz tudta, hogy nagymama mindig is szeretett rengeteg ételt felszolgálni a vendégei számára. Most Teréz csak nézte, ahogy nagymama Teréz apró anyukáját egy meleg, baráti öleléssel karjaiba zárta, majd az asztalhoz húzta, levette kendőjét a válláról, az asztalfőre ültette, és azt mondta: \"Van bőven\".",
+            "sentence2": "Nagymama Teréz apró anyukáját egy meleg, baráti öleléssel karjaiba zárta, majd Terézt az asztalhoz húzta.",
+            "label": "0"
+        },
+        {
+            "orig_id": "21",
+            "id": "18",
+            "sentence1": "Anna megkérdezte Máriát, mikor zár a könyvtár, mert nem emlékezett.",
+            "sentence2": "Mária nem emlékezett.",
+            "label": "0"
+        },
+        {
+            "orig_id": "23",
+            "id": "19",
+            "sentence1": "A teherautó elsüvített az iskolabusz mellett, mert olyan lassan ment.",
+            "sentence2": "Az iskolabusz lassan ment.",
+            "label": "1"
+        },
+        {
+            "orig_id": "25",
+            "id": "20",
+            "sentence1": "Márk hallotta, ahogy István lefelé megy a létrán. A bolt ajtaja becsukódott mögötte. Az ablakhoz rohant, hogy kinézzen.",
+            "sentence2": "Márk az ablakhoz rohant, hogy kinézzen.",
+            "label": "1"
+        },
+        {
+            "orig_id": "26",
+            "id": "21",
+            "sentence1": "Bár nagyjából ugyanakkora sebességgel futottak, Zsuzsi legyőzte Sacit, mert olyan jól rajtolt.",
+            "sentence2": "Saci jól rajtolt.",
+            "label": "0"
+        },
+        {
+            "orig_id": "27",
+            "id": "22",
+            "sentence1": "Feri az egyetlen élő ember, aki emlékszik a dédnagyapámra. Figyelemre méltó ember.",
+            "sentence2": "Feri figyelemre méltó ember.",
+            "label": "1"
+        },
+        {
+            "orig_id": "28",
+            "id": "23",
+            "sentence1": "Laci eddig mindig segített apának a munkával. De most nem tudott segíteni neki, mert apa azt mondta, hogy a főnöke a vasúti társaságnál nem akarja, hogy rajta kívül bárki az irodájában dolgozzon.",
+            "sentence2": "Laci most nem tudott segíteni neki.",
+            "label": "1"
+        },
+        {
+            "orig_id": "32",
+            "id": "24",
+            "sentence1": "Erzsi nem lett mérges Sacira, aki félbeszakította, mert megállt és bocsánatot kért.",
+            "sentence2": "Saci bocsánatot kért.",
+            "label": "1"
+        },
+        {
+            "orig_id": "34",
+            "id": "25",
+            "sentence1": "Az idősebb diákok piszkálták a fiatalabbakat, megvédtük őket.",
+            "sentence2": "Megvédtük az idősebb diákokat.",
+            "label": "0"
+        },
+        {
+            "orig_id": "36",
+            "id": "26",
+            "sentence1": "Próbáltam egy gyümölcsöst festeni, citrommal a citromfákon, de inkább villanypóznáknak tűnnek.",
+            "sentence2": "A citromok villanypóznáknak tűntek.",
+            "label": "0"
+        },
+        {
+            "orig_id": "37",
+            "id": "27",
+            "sentence1": "Laci eddig mindig segített apának a munkával. De most nem tudott segíteni neki, mert apa azt mondta, hogy a főnöke a vasúti társaságnál nem akarja, hogy rajta kívül bárki az irodájában dolgozzon.",
+            "sentence2": "Most nem tudott segíteni Lacinak.",
+            "label": "0"
+        },
+        {
+            "orig_id": "38",
+            "id": "28",
+            "sentence1": "Bertold, aki nem mondta el a kormányhivatalnoknak, hogy 21 évesnél fiatalabb, amikor otthonteremtési kérelmet nyújtott be, nem gondolta, hogy bármi tisztességtelent tett volna. Ennek ellenére bárki, aki tudta, hogy 19 éves, elvehette volna tőle az igényét. ",
+            "sentence2": "Bertold 21 évesnél fiatalabb volt, amikor benyújtotta az otthonteremtési kérelmet.",
+            "label": "1"
+        },
+        {
+            "orig_id": "39",
+            "id": "29",
+            "sentence1": "A lefolyót eldugította a haj. Ki kell tisztítani.",
+            "sentence2": "A lefolyót ki kell tisztítani.",
+            "label": "1"
+        },
+        {
+            "orig_id": "40",
+            "id": "30",
+            "sentence1": "A lefolyót eldugította a haj. Ki kell szedni.",
+            "sentence2": "A lefolyót ki kell szedni.",
+            "label": "0"
+        },
+        {
+            "orig_id": "42",
+            "id": "31",
+            "sentence1": "János éppen könyvtárban kutatott, amikor meghallotta, hogy egy férfi dúdol és fütyül. Nagyon idegesítő volt.",
+            "sentence2": "János idegesítő volt.",
+            "label": "0"
+        },
+        {
+            "orig_id": "43",
+            "id": "32",
+            "sentence1": "A városi tanácstagok nem adtak engedélyt a tüntetőknek, mert támogatták az erőszakot.",
+            "sentence2": "A tüntetők támogatták az erőszakot.",
+            "label": "1"
+        },
+        {
+            "orig_id": "44",
+            "id": "33",
+            "sentence1": "Nem tudtam felrakni az edényt a polcra, mert túl magasan volt.",
+            "sentence2": "Az edény túl magasan volt.",
+            "label": "0"
+        },
+        {
+            "orig_id": "46",
+            "id": "34",
+            "sentence1": "A macska az egérlyuk mellett fekve várta az egeret, de túl óvatos volt.",
+            "sentence2": "Az egér túl óvatos volt.",
+            "label": "1"
+        },
+        {
+            "orig_id": "47",
+            "id": "35",
+            "sentence1": "Samu megpróbált pásztorokat festeni juhokkal, de végül inkább golfozóknak néztek ki.",
+            "sentence2": "A juhok végül inkább golfozóknak tűntek.",
+            "label": "0"
+        },
+        {
+            "orig_id": "48",
+            "id": "36",
+            "sentence1": "Feri eltakarta kezeivel a szemeit, mert a szél homokot fújt mindenhova. Csak akkor nyitotta ki őket, mikor elállt a szél.",
+            "sentence2": "Feri akkor nyitotta ki a szemeit, mikor elállt a szél.",
+            "label": "1"
+        },
+        {
+            "orig_id": "49",
+            "id": "37",
+            "sentence1": "Amikor végül kicsit megnyugodtak, és hazaértek, Faragó úr a varázskavicsot egy vasszéfbe rakta. Egy napon majd lehet, hogy megint használni akarják, de egyelőre mi többre vágyhatnának?",
+            "sentence2": "Egy napon majd lehet, hogy használni akarják a széfet.",
+            "label": "0"
+        },
+        {
+            "orig_id": "50",
+            "id": "38",
+            "sentence1": "A macska az egérlyuk mellett fekve várta az egeret, de túl óvatos volt.",
+            "sentence2": "A macska túl óvatos volt.",
+            "label": "0"
+        },
+        {
+            "orig_id": "51",
+            "id": "39",
+            "sentence1": "Ha Tamara átfordult a felső fekhelyén, át tudott nézni a peremén, és tisztán láthatta az anyját. Milyen kicsi, egyenes és merev volt a lenti priccsen! A szeme csukva volt, de Tamara kételkedett benne, hogy aludt-e.",
+            "sentence2": "Milyen aprón, egyenesen és mereven feküdt az anyja ott lent!",
+            "label": "1"
+        },
+        {
+            "orig_id": "52",
+            "id": "40",
+            "sentence1": "Ferinek be kellett volna kapcsolnia a mosogatógépet, de halogatta, mert tévét akart nézni. Mivel a műsor unalmas volt, meggondolta magát és kikapcsolta.",
+            "sentence2": "Feri meggondolta magát, és kikapcsolta a mosogatógépet.",
+            "label": "0"
+        },
+        {
+            "orig_id": "53",
+            "id": "41",
+            "sentence1": "Samu rajza Tináé felett lógott. Sokkal jobban nézett ki úgy, hogy volt egy másik is alatta.",
+            "sentence2": "Tina rajza jobban nézett ki.",
+            "label": "0"
+        },
+        {
+            "orig_id": "54",
+            "id": "42",
+            "sentence1": "Papa zavarodottan és szomorúan nézett le a gyerekek arcára. Szörnyű volt, hogy mennyi dologtól elestek, mert nem engedhették meg maguknak.",
+            "sentence2": "Nem engedhették meg maguknak a dolgokat.",
+            "label": "1"
+        },
+        {
+            "orig_id": "55",
+            "id": "43",
+            "sentence1": "Samu franciaórákat vett Ádámtól, mert folyékonyan tud beszélni franciául.",
+            "sentence2": "Samu folyékonyan tud franciául beszélni.",
+            "label": "0"
+        },
+        {
+            "orig_id": "59",
+            "id": "44",
+            "sentence1": "Az apa a karjaiban vitte az alvó fiút.",
+            "sentence2": "Az apa saját karjaiban vitte az alvó fiút.",
+            "label": "1"
+        },
+        {
+            "orig_id": "61",
+            "id": "45",
+            "sentence1": "Papa zavarodottan és szomorúan nézett le a gyerekek arcára. Szörnyű volt, hogy mennyi dologtól elestek, mert nem engedhették meg maguknak.",
+            "sentence2": "Nem engedhették meg maguknak a gyerekeket.",
+            "label": "0"
+        },
+        {
+            "orig_id": "62",
+            "id": "46",
+            "sentence1": "Ha a szélhámos sikeresen átverte volna Samut, sok pénzt szerzett volna.",
+            "sentence2": "A szélhámos sok pénzt szerzett volna.",
+            "label": "1"
+        },
+        {
+            "orig_id": "63",
+            "id": "47",
+            "sentence1": "Szabó úr bizonytalan vérmérsékletű ember volt, és általában azt gondolta, hogy Dávid egy szerencsétlen balek, és akármilyen lépést is tesz a saját hatáskörében, az csak egy újabb bizonyítéka a veleszületett idiotizmusának. ",
+            "sentence2": "Akármilyen lépést is tesz a saját hatáskörében, az csak egy újabb bizonyítéka Dávid veleszületett idiotizmusának. ",
+            "label": "1"
+        },
+        {
+            "orig_id": "64",
+            "id": "48",
+            "sentence1": "Reggel Józsi homokvárat épített a strandon, és zászlót rakott a legmagasabb toronyba, de délután a szél lefújta.",
+            "sentence2": "A homokvárat lefújta a szél.",
+            "label": "0"
+        },        
+        {
+            "orig_id": "65",
+            "id": "49",
+            "sentence1": "Egy fa lezuhant a viharban és áttörte a házam tetejét. Most meg kell javíttatnom.",
+            "sentence2": "A tetőt meg kell javíttatnom.",
+            "label": "1"
+        },
+        {
+            "orig_id": "66",
+            "id": "50",
+            "sentence1": "Addig öntöttem a vizet az üvegből a csészébe, míg ki nem ürült.",
+            "sentence2": "Kiürült az üveg.",
+            "label": "1"
+        },
+        {
+            "orig_id": "67",
+            "id": "51",
+            "sentence1": "Alíz a barátját, Esztert kereste a tömegben. Mivel mindig piros turbánban van, hamar észreveszi.",
+            "sentence2": "Alíz piros turbánban van.",
+            "label": "0"
+        },
+        {
+            "orig_id": "68",
+            "id": "52",
+            "sentence1": "A kutya üldözte a macskát, ami felfutott egy fára. A tetején várt.",
+            "sentence2": "A macska a fa tetején várt.",
+            "label": "1"
+        },
+        {
+            "orig_id": "69",
+            "id": "53",
+            "sentence1": "Nyári délután volt, és a kutya a füvön ült. Egy idő után felkelt és átült egy helyre a fa alá, mert meleg volt.",
+            "sentence2": "A hely a fa alatt meleg volt.",
+            "label": "0"
+        },
+        {
+            "orig_id": "NULL",
+            "id": "54",
+            "sentence1": "Leterítettem a terítőt az asztalra, hogy megvédjem.",
+            "sentence2": "Leterítettem a terítőt az asztalra, hogy megvédjem a terítőt.",
+            "label": "0"
+        },
+        {
+            "orig_id": "NULL",
+            "id": "55",
+            "sentence1": "A rendőrök elhagyták a házat és kimentek a garázsba, miután megtalálták a gyilkos fegyvert.",
+            "sentence2": "A rendőrök a házban találták meg a gyilkos fegyvert.",
+            "label": "1"
+        },
+        {
+            "orig_id": "NULL",
+            "id": "56",
+            "sentence1": "Erzsébet Spártából Trójába költöztette a cégét, hogy spóroljon az adón. Az adók ott sokkal magasabbak.",
+            "sentence2": "Spártában magasabbak az adók.",
+            "label": "1"
+        },
+        {
+            "orig_id": "NULL",
+            "id": "57",
+            "sentence1": "Túl sok szarvas él a parkban, ezért betelepítettek egy kisebb falkányi farkast. A populációnak növekednie kellene a következő években.",
+            "sentence2": "A szarvasok populációjának növekednie kellene.",
+            "label": "0"
+        },
+         {
+            "orig_id": "NULL",
+            "id": "58",
+            "sentence1": "Józsi látta a bátyját síelni a tévében, de a kis hülye nem viselt kabátot.",
+            "sentence2": "Józsi nem viselt kabátot.",
+            "label": "0"
+        },       
+         {
+            "orig_id": "NULL",
+            "id": "59",
+            "sentence1": "A felhasználó \"GrWQWu8JyC\"-ról \"fűzfatornyú Ernyő Vadásztropikus birkózások\"-ra változtatta a jelszavát, mert azt könnyű volt elfelejteni.",
+            "sentence2": "A \"GrWQWu8JyC\"-t könnyű elfelejteni.",
+            "label": "1"
+        }               
+    ]

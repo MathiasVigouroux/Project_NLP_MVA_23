@@ -1,0 +1,1460 @@
+[
+ {
+  "id": "0",
+  "premise": "Dana Reeve, a színész Christopher Reeve özvegye 44 éves korában halt meg tüdőrákban, a Christopher Reeve Alapítvány szerint.",
+  "hypothesis": "Christopher Reeve-nek balesete volt.",
+  "label": "0"
+ },
+ {
+  "id": "1",
+  "premise": "Kairó jelenleg mintegy 15 millió embernek ad otthont. A növekvő népesség naponta körülbelül 10 000 tonna szemetet termel, ami hatalmas terhet ró a közszolgáltatásokra. Az elmúlt 10 évben a kormány keményen igyekezett, hogy ösztönözze a magánberuházásokat a hulladékágazatban, de 4000 tonna hulladék még mindig arra vár, hogy valaki feltakarítsa. Gyakran a legszegényebb környékeken élő emberek a legsúlyosabban érintettek. Azonban néhány területen harcbaszállnak a szeméttel. Shubrában, a város egyik északi kerületében, a lakosok szemétlapátokkal és kefékkel felfegyverkezve az utcákra vonultak, hogy megtisztítsák a közterületeket, amiket eddig nyilvános szeméttelepnek használtak.",
+  "hypothesis": "Kairóban naponta 15 millió tonna szemét termelődik.",
+  "label": "0"
+ },
+ {
+  "id": "2",
+  "premise": "A kb. 55.000 fős Amish közösség él Pennsylvaniában mezőgazdasági életmódot folytatva, óvakodva a technológiai fejlődés olyan elemeitől, mint a villamos energia és az autók. És sokan azt mondják, hogy az elszigetelt életmódjuk miatt úgy érzik, hogy védve vannak az erőszakos amerikai társadalomtól. De ahogy a lakosok összegyűltek az iskola közelében, néhány hagyományos viseletbe öltözött, ló vontatta kocsikkal érkezett amish azt nyilatkozta, hogy a biztonság már a múlté. \"Ha valaki bekattan, és valami hülyeséget akar csinálni, nincs semmi, ami megállíthatná őket\" - mondta az 56 éves amish lámpáskészítő, Jake King, aki ismert több családot is, akiknek a gyerekeit lelőtték.",
+  "hypothesis": "Pennsylvaniában él a legnagyobb amish közösség az USA-ban.",
+  "label": "0"
+ },
+ {
+  "id": "3",
+  "premise": "A biztonsági erők magas fokú készültségben voltak egy választási kampány után, amely során több mint 1000 embert öltek meg, köztük hét választási jelöltet.",
+  "hypothesis": "A biztonsági erők riadókészültségben voltak, miután a kampány kudarcba fulladt az erőszak miatt.",
+  "label": "1"
+ },
+ {
+  "id": "4",
+  "premise": "1979-ben a vezetők aláírták az egyiptomi-izraeli békeszerződést a Fehér Ház gyepén. Begin és Sadat elnök is Nobel-békedíjat kapott munkájukért. A két ország a mai napig békés viszonyban áll egymással.",
+  "hypothesis": "1979-ben írták alá az izraeli-egyiptomi békeszerződést.",
+  "label": "1"
+ },
+ {
+  "id": "5",
+  "premise": "A 24 éves énekesnő, Britney Spears válókeresetet nyújtott be a Los Angeles Megyei Legfelsőbb Bíróságához, hogy érvénytelenítse a 28 éves  \nKevin Federline-nel kötött házasságát. Kathy Roberts bírósági szóvivő kijelentette, hogy a papírok összeegyeztethetetlen különbségeket említettek a válás okaként, és a bíróságok szerint, jogilag már november 6-án, hétfőn kimondták a válást. Ugyanazon a napon, Spears szerepelt a késő esti David Letterman showban.",
+  "hypothesis": "Spears elválik Kevin Federline-tól.",
+  "label": "1"
+ },
+ {
+  "id": "6",
+  "premise": "Miután sikeresen pályáztak a 2010-es Ryder Kupa megtartására, a Walesi Idegenforgalmi Közösség egy kis időt sem vesztegetett arra, hogy munkához lásson, mivel szeretnék biztosítani, hogy az eseményből származó előnyök az ország egész területén érezhetők legyenek.",
+  "hypothesis": "Wales lesz a házigazdája a 2010-es Ryder Kupának.",
+  "label": "1"
+ },
+ {
+  "id": "7",
+  "premise": "Steve Jobsot Sculley és az Apple más vezetői is támadták, mert nem szolgáltatott eléggé felkapott új termékeket, és néhány héttel később felmondott a cégnél.",
+  "hypothesis": "Steve Jobs az Apple-nek dolgozott.",
+  "label": "1"
+ },
+ {
+  "id": "8",
+  "premise": "Hagyományosan a raisani törzs úgynevezett Brahui-ja felelős a hágó törvényéért és a rendjéért . Ez a törzs még ma is él a pakisztáni Balochistanban.",
+  "hypothesis": "A Raisani törzs Pakisztánban él.",
+  "label": "1"
+ },
+ {
+  "id": "9",
+  "premise": "A nemzetközi humanitárius segélyszervezet, az Orvosok Határok Nélkül továbbra is segíti az erőszak áldozatait minden olyan helyen, ahol jelen van Dárfúrban.",
+  "hypothesis": "Az Orvosok Határok Nélkül egy nemzetközi segélyszervezet.",
+  "label": "1"
+ },
+ {
+  "id": "10",
+  "premise": "Egy tálban keverje addig habverővel a tojást és a cukrot, amíg teljesen felhabosodik.",
+  "hypothesis": "Egy tálban keverje addig habverővel a tojást, a cukrot és a vaníliát, amíg fényes nem lesz.",
+  "label": "0"
+ },
+ {
+  "id": "11",
+  "premise": "A szubszaharai Afrika messze legnépesebb országában, Nigériában több mint 2,7 millió ember fertőzött HIV-vel.",
+  "hypothesis": "A HIV-fertőzöttek 2,7 százaléka Afrikában él.",
+  "label": "0"
+ },
+ {
+  "id": "12",
+  "premise": "Az esküdtszéknek először kell eldöntenie, hogy a híres Dr. Halál, Jack Kevorkian megsértette-e Michigan segített öngyilkossági tilalmát, miközben az állam továbbra is küzd azzal a kérdéssel, hogy mit engedjenek meg, ha a betegek véget akarnak vetni a fájdalmuknak azzal, hogy véget vetnek az életüknek.",
+  "hypothesis": "Dr. Halál valódi neve Jack Kevorkian.",
+  "label": "1"
+ },
+ {
+  "id": "13",
+  "premise": "A Procter and Gamble még 1,8 milliárd dolláros kutatási és fejlesztési költségvetéssel is 500 aktív partnerkapcsolatot működtet évente, közülük sokat kisvállalatokkal.",
+  "hypothesis": "A Procter és Gamble 1,8 milliárd dollárt költ kutatásra és fejlesztésre.",
+  "label": "1"
+ },
+ {
+  "id": "14",
+  "premise": "Charles de Gaulle 1970-ben, nyolcvanéves korában hunyt el. Tehát ötven éves volt, amikor a közelmúltban (ideiglenes) dandártábornoki rangra előléptetett ismeretlen tisztként, leadta híres adását Londonból, elutasítva, hogy Franciaország 1940 május-júniusi bukása után kapitulált a náciknak.",
+  "hypothesis": "Charles de Gaulle 1970-ben halt meg.",
+  "label": "1"
+ },
+ {
+  "id": "15",
+  "premise": "A tizenéves sztárfocista, Wayne Rooney két góllal a 2004-es Európa-bajnokság negyeddöntőjébe juttatta Angliát a hétfői 4–2-es horvátországi vereség után, és az utolsó nyolcban csatlakozott hozzájuk a bajnok Franciaország is 3–1-re legyőzve Svájcot.",
+  "hypothesis": "Franciaország részt vesz az Euro 2004-ben.",
+  "label": "1"
+ },
+ {
+  "id": "16",
+  "premise": "A Fujimori azt állította, hogy 1995. január 26-án Ecuador adta le az első lövést, amit az ecuadori vezető, Sixto Duran-Ballen tagadott. Feltehetőleg mindkét fél a másikat hibáztatta az 1995-ös konfliktus kitöréséért, éppen úgy, ahogy mindketten ujjal mutogattak egymásra az 1941-es háborúban, amikor Peru elfoglalta a két ország számára érdekelt 120.000 négyzetmérföldes terület nagy részét.",
+  "hypothesis": "Fujimori elnököt 1995-ben újraválasztották.",
+  "label": "0"
+ },
+ {
+  "id": "17",
+  "premise": "Huckaby önként jelentkezett kihallgatásra péntek este a Tracy rendőrőrsön, és kevesebb, mint hat órával később letartóztatták. Most a San Joaquin megyei börtönben tartózkodik óvadék nélkül, a keddi vádemelési meghallgatásra várva. A 28 éves Sandra Cantu holttestét április 6-án találták meg az otthonától pár mérföldre található tó alján egy 28 éves régi bőröndbe csomagolva. A két nő egymás szomszédja volt az Orchard Estates Mobile Home Parkban, és Huckaby saját 5 éves kislánya gyakran játszott Cantuval.",
+  "hypothesis": "Huckabyt Sandra Cantu meggyilkolásával vádolják.",
+  "label": "1"
+ },
+ {
+  "id": "18",
+  "premise": "N. J Camden Reuters cikke szerint három albániai muszlim testvért életfogytiglani börtönbüntetésre ítéltek kedden, mert amerikai katonákat akartak megölni a Fort Dix katonai bázison, amit az ügyészek szerint az Egyesült Államok elleni szent háború ötlete inspirált. A három illegális bevándorlót, a 30 éves Dritan Dukat, a 28 éves, Shain Dukat, és a 25 éves ElJvir Dukat életfogytiglanra ítéltek, feltételes szabadlábra helyezés lehetősége nélkül. A Cherry Hillben tetőfedő vállalkozást működtető férfiak tagjai voltak annak az öt külföldi születésű muszlimból álló csoportnak, akiket decemberben ítéltek el, mert támadást terveztek a bázison, 40 mérföldre keletre Philadelphiától. A támadást soha nem hajtották végre.",
+  "hypothesis": "Eljvir Duka Albániából származik.",
+  "label": "1"
+ },
+ {
+  "id": "19",
+  "premise": "A két nap alatt elárverezett tárgyak közül néhányat láthattunk az Osbourne-ék című valóságshow-ban, amiben Sharon, Ozzy és két gyermekük is szerepelt. A drágábbak tárgyak között volt egy egyedi faragott diófából készült viktoriánus stílusú biliárdasztal, ami 11,250 dollárért kelt el, egy Edourad Drouot festmény, amiért 10,500 dollárt kaptak, Ozzy híres kerek szemüvegeinek egyike, ami 5,250 dollárt hozott, és egy kutyaágy, amit Elton John adott Sharonnak, és ami 2,375 dollárért kelt el.",
+  "hypothesis": "Az Osbourne-ék egy valóságshow címe Ozzy Osbourne főszereplésével.",
+  "label": "1"
+ },
+ {
+  "id": "20",
+  "premise": "A jelentések szerint Angliában, a londoni G20-as csúcstalálkozón meghalt egy tiltakozó férfi, miután összeesett egy tiltakozó táborban. A Sky News szerint a férfi összeesett az utcán a Bank of England közelében lévő táborban, és amikor megtalálták, még lélegzett, de a mentősök erőfeszítései kudarcot vallottak, és a férfi később elhunyt egy körzeti kórházban. Az elhunyt neve és halálának oka még nem ismert, de sok ember megsérült aznap. A Sky News arról is beszámolt, hogy az emberek üvegekkel dobálták a férfit és a mentősöket, akik megpróbálták elszállítani.",
+  "hypothesis": "A Sky News irodái közel vannak a Bank of England-höz.",
+  "label": "0"
+ },
+ {
+  "id": "21",
+  "premise": "Jake Peavy, a San Diego Padres sztárjátékosa megsérült a St. Louis Cardinals ellen vívott, 8-5-ös vereséggel végződő meccsen.",
+  "hypothesis": "A San Diego Padres nyerte a meccset a St. Louis Cardinals ellen.",
+  "label": "0"
+ },
+ {
+  "id": "22",
+  "premise": "A CNOOC tisztán készpénzes ajánlata ellenére az Unocal azt nyilatkozta, hogy továbbra is a Chevron 16,4 milliárd dollárról és részvénycseréről szóló ajánlata felé hajlik.",
+  "hypothesis": "Az Unocal azt nyilatkozta, hogy fontolóra veszi a CNOOC ajánlatát.",
+  "label": "0"
+ },
+ {
+  "id": "23",
+  "premise": "Az amerikai erők heves harcokban vettek részt, miután a felkelők több iraki városban, köztük Fallúdzsában és Baakúbában is egyidejűleg támadásokat indítottak.",
+  "hypothesis": "Fallúdzsa és Baakúba iraki városok.",
+  "label": "1"
+ },
+ {
+  "id": "24",
+  "premise": "De a Huawei azt mondja, nem volt egyszerű a bővítés - különleges kihívást jelentett a kínai mérnökök számára vízumot szerezni, hogy Indiában hosszútávú projekteken dolgozhassanak.",
+  "hypothesis": "A hosszútávú indiai projekteken dolgozó kínai mérnökök könnyen szerezhetnek vízumot.",
+  "label": "0"
+ },
+ {
+  "id": "25",
+  "premise": "A jugoszláviai olaszok egy kisebb része Szlovéniában telepedett le (az 1991-es népszámláláskor Szlovénia mintegy 3000 lakosa vallotta magát olasz nemzetiségűnek).",
+  "hypothesis": "Szlovéniának 3000 lakosa van.",
+  "label": "0"
+ },
+ {
+  "id": "26",
+  "premise": "Eric Harris és Dylan Klebold, egy denveri külvárosi iskola végzősei, 1999. április 20-án házi készítésű bombákat robbantottak, majd vadászpuskával, géppisztollyal és félautomata kézifegyverrel nyitottak tüzet. Megöltek egy tanárt és 12 diákot, és további 23-at megsebesítettek, mielőtt öngyilkosságot követtek volna el. A mészárlás soha nem látott mértékben sokkolta az országot. Ez volt az amerikai történelem addigi legbrutálisabb támadása, amit féltucatnyi másik követett. A televízió élőben közvetítette, milliók nézték. Ez lett egy nagyra becsült amerikai eszme erőszakos pusztulásának jelképe, hogy a külvárosi és vidéki iskolák a béke és a biztonság mentsvárai.",
+  "hypothesis": "1999-ben két diák 13 embert ölt meg.",
+  "label": "1"
+ },
+ {
+  "id": "27",
+  "premise": "A 47 éves Susan Boyle a skóciai Blackburnből szombat este azzal debütált a műsorban, hogy \"soha nem volt házas, még soha nem is csókolták meg\", jelenleg munkanélküli és egyedül él a macskájával, Pebbles-szel. Azt mondja, hogy \"profi énekes szeretne lenni\", de \"soha nem kapott rá esélyt\". A közönség és a bírák, Amanda Holden, Simon Cowell és Piers Morgan is először kinevették, sőt még ki is gúnyolták. Boyle ezután a zsűrit és a közönséget is megdöbbentette, és álló tapsot kapott az Álmodtam én egy álmot című dal előadásáért a díjnyertes Nyomorultak musicalből. Holden még azt is elismerte, hogy \"mindenki ellened volt [Boyle]\", és hogy \"mindannyian nagyon cinikusak voltunk\".",
+  "hypothesis": "Simon Cowell beleszeretett Susan Boyle-ba.",
+  "label": "0"
+ },
+ {
+  "id": "28",
+  "premise": "2001. október 1-jén az EU és más országok bevezették azt a lehetőséget, hogy az Egyesült Királyságba külföldről hazatérő háziállatok számára gazdájuk kérelmezhessék a Háziállatok Utazási Terve (röviden PETS) alá tartozó háziállat útlevelet. Ez váltotta fel a régi rendelkezést, ami a háziállatokat 6 hónap kötelező karanténra kötelezte.",
+  "hypothesis": "2001-ben az EU hat hónapos kötelező karantént vezetett be valamennyi háziállat számára.",
+  "label": "0"
+ },
+ {
+  "id": "29",
+  "premise": "A Csin (amiből Kína neve ered) állította fel azokat hozzávetőleges határokat és az alapvető igazgatási rendszert, melyet minden későbbi dinasztiának követnie kellett.",
+  "hypothesis": "Csin Si Huang-ti volt az első kínai császár.",
+  "label": "0"
+ },
+ {
+  "id": "30",
+  "premise": "2001 márciusában alakult meg a Hands Across the Divide, amelynek egyik legsürgetőbb célja az volt, hogy azonnal szorgalmazza a két ciprusi terület közötti nagyobb mértékű szabad érintkezést és kommunikációt, valamint előremozdítsa a „ciprusi probléma” megoldása felé tett első lépéseket.",
+  "hypothesis": "Ciprust 2001 márciusában két részre osztották.",
+  "label": "0"
+ },
+ {
+  "id": "31",
+  "premise": "Hodler azt állította, hogy voltak szabálytalanságok Atlanta 1996-os nyári játékokra, Sydney 2000-es nyári olimpiára és Salt Lake City 2002-es téli játékokra szervezett kampányaiban.",
+  "hypothesis": "Salt Lake City előtt a téli olimpiai játékokat Naganoban tartották.",
+  "label": "0"
+ },
+ {
+  "id": "32",
+  "premise": "Egy anyatejben talált vegyületről kiderült, hogy számos szemölcsöt elpusztít, reményt adva arra, hogy hatékonynak bizonyulhat akár a méhnyakrák és más halálos betegségek ellen is, amelyeket ugyanaz a vírus okoz.",
+  "hypothesis": "Az anyatej segíthet a méhnyakrák elleni küzdelemben.",
+  "label": "1"
+ },
+ {
+  "id": "33",
+  "premise": "Az egészségügyi információk technológiájával foglalkozó titkári csúcstalálkozó, amelyen számos nemzet vezetője részt vett az elektronikus egészségügyi nyilvántartások tagjainak sorából, Mr. Dean adta ki a tervet Tommy Thompson egészségügyi miniszter nevében, aki még mindig lábadozik egy közelmúltbeli balesetből.",
+  "hypothesis": "Mr. Dean az egészségügyi miniszter.",
+  "label": "0"
+ },
+ {
+  "id": "34",
+  "premise": "A shock rock műfaj alapítója, és véres színpadi show-iról hírhedt Alice Cooper, egy keresztény központot hoz létre a veszélyeztetett Phoenix-i fiatalok számára. Cooper, aki több mint 20 éve született újjá keresztényként, már összegyűjtött 2 millió dollárt 1995-ben létrehozott jótékonysági alapítványán, a Solid Rock Alapítványon keresztül. A Rock elnevezésű központ várhatóan 7,3 millió dollárba kerül, és Cooper reméli, hogy az építkezés novemberig megkezdődik a helyszínen, ami jelenleg egy füves terület a Grand Canyon Egyetem közelében.",
+  "hypothesis": "Alice Cooper keresztény.",
+  "label": "1"
+ },
+ {
+  "id": "35",
+  "premise": "Pibul Songgram Thaiföld japánbarát katonai diktátora volt a második világháború alatt.",
+  "hypothesis": "Pibul Thaiföld diktátora volt.",
+  "label": "1"
+ },
+ {
+  "id": "36",
+  "premise": "Az Apollo XI űrhajó parancsnokaként, amely az első legénységgel rendelkező holdra szállási misszió volt, Armstrong volt az első ember, aki a Holdon járt. \"Kis lépés egy embernek, hatalmas ugrás az emberiségnek.\" Ezekkel a történelmi szavakkal az emberiség régi álma teljesült.",
+  "hypothesis": "Neil Armstrong volt az első ember, aki leszállt a Holdon.",
+  "label": "1"
+ },
+ {
+  "id": "37",
+  "premise": "Weber 12 évig dolgozott a WABC-nél, olyan műsorokban jelent meg, mint Curtis és Kuby, híreket mondott a hallgatóknak minden óra elején és végén. Miután tavaly az adó elbocsátotta egy programváltozás miatt, szabadúszó riporterként dolgozott az ABC News Radionál, egy nemzeti hálózatnál. A WABC előtt karrierje során dolgozott a kaliforniai Los Angelesben a KTLK-nek és a KMPC-nek, és a kaliforniai San Fransiscóban a KGO-nak.",
+  "hypothesis": "A KTLK San Franciscóban található.",
+  "label": "0"
+ },
+ {
+  "id": "38",
+  "premise": "Valery Polyakov orosz űrhajós 1994 és 1995 között rekordot állított fel azzal, hogy 438 egymás utáni napot töltött el az űrben, ami az eddigi leghosszabb idő.",
+  "hypothesis": "Az oroszok tartják a leghosszabb űrben töltött idő rekordját.",
+  "label": "1"
+ },
+ {
+  "id": "39",
+  "premise": "A vízinövények betakarítása nem engedélyezett a Puget-szorosban, mivel a tengeri növényzet létfontosságú szerepet játszik a fontos fajok élőhelyének biztosításában.",
+  "hypothesis": "A tengeri növényzetet betakarítják.",
+  "label": "0"
+ },
+ {
+  "id": "40",
+  "premise": "1964-ben ökölvívó bíró lett, és akkor vált a legismertebbé, amikor Mike Tyson ellen döntött a Holyfield elleni küzdelemben, amikor Tyson megharapta Holyfield fülét.",
+  "hypothesis": "Mike Tyson 1964-ben megharapta Holyfield fülét.",
+  "label": "0"
+ },
+ {
+  "id": "41",
+  "premise": "Szintén utalt Maria Eugenia Ochoa Garcia mexikói professzor május 31-én történt „illegális” letartóztatására, akit a salvadori kormány azzal vádolt, hogy kapcsolatban áll a salvadori gerillákkal.",
+  "hypothesis": "Ochoa Garcia professzor a salvadori kormány tagja.",
+  "label": "0"
+ },
+ {
+  "id": "42",
+  "premise": "A Redoubt-hegy alaszkai vulkán szombaton kitört, több ezer láb magasba hamufelhőket lövelve magából. A Szövetségi Légügyi Hatóság szerint a Ted Stevens Anchorage nemzetközi repülőteret lezárták, miután a hamu elérte a helyszínt. Jeremy Lindseth, a repülőtér szóvivője azt nyilatkozta, hogy csak kis mennyiségű hamu érte el a repülőteret, de elég jelentős volt ahhoz, hogy megzavarja a repülést, mivel a hamu motorproblémákat okozhat a repülőgépeknél. Azt mondta, még bizonytalan, hogy hány repülőutat érintett a kitörés.",
+  "hypothesis": "A Ted Stevens Anchorage nemzetközi repülőtér Jeremy Lindseth munkaadója.",
+  "label": "1"
+ },
+ {
+  "id": "43",
+  "premise": "Az IBM ellopott két üzleti titkot, hogy lemásoljon két programot: A File-AID fájlkezelőt, és az Abend-AID programot, ami segít a felhasználóknak a hibák megtalálásában.",
+  "hypothesis": "Üzleti titkokat loptak el.",
+  "label": "1"
+ },
+ {
+  "id": "44",
+  "premise": "A Nokia, a Texas Instruments és más vezető mobiltelefon-gyártók hivatalosan panaszt tettek Brüsszelben, hogy az amerikai mobil chip-gyártó Qualcomm tisztességtelenül használta szabadalmait a 3G technológiákra.",
+  "hypothesis": "A Texas Instruments mobiltelefonokat gyárt.",
+  "label": "1"
+ },
+ {
+  "id": "45",
+  "premise": "Két brit katonát tartóztattak le a dél-iraki Bászrában, akik összecsapásokat szítottak egy rendőrőrs előtt, ahol fogva tartották őket.",
+  "hypothesis": "A katonákat fogva tartó rendőrkapitánysághoz irányított két brit tankot felgyújtották.",
+  "label": "0"
+ },
+ {
+  "id": "46",
+  "premise": "Az alsó-ausztriai Amstetten város rendőrsége letartóztatott egy 73 éves férfit, aki a most 42 éves lányát, állítólag 1984. augusztus 29. óta Amstettenben a pincében tartotta fogva. A Josef Fritzlként azonosított férfi állítólag 11 éves kora óta szexuálisan bántalmazta a lányát, akit Elisabe-nek hívnak, és később hét közös gyermekük is született. Az egyik gyermek, az 1996-ban született ikrek egyike, röviddel a születése után magára hagyva elhunyt. A testét az apa égette el.",
+  "hypothesis": "Amstetten Ausztiában található.",
+  "label": "1"
+ },
+ {
+  "id": "47",
+  "premise": "Például a Microsoft, a világ egyik legnagyobb szoftvercége, tavaly több mint 500 millió dollárt veszített szoftverlopás miatt.",
+  "hypothesis": "A Microsoft 500 millió dollárt költene.",
+  "label": "0"
+ },
+ {
+  "id": "48",
+  "premise": "Az Alzheimer-kór elsődleges megelőzése jelenleg nem lehetséges.",
+  "hypothesis": "Az Alzheimer-kórt gyógyszerekkel kezelik.",
+  "label": "0"
+ },
+ {
+  "id": "49",
+  "premise": "A húsvétnak vége, de ez nem jelenti azt, hogy nem élvezheted a Ben-Hur-t, a bibliai eposz nagyapját és a rekordmennyiségű 11 Oscar-díj nyertesét, beleértve a legjobb filmért és a legjobb színésznek járó díjat, amit Charlton Heston kapott a címszerepért.",
+  "hypothesis": "Charlton Heston játszotta a címszerepet a Ben-Hur című filmben.",
+  "label": "1"
+ },
+ {
+  "id": "50",
+  "premise": "És saját ellentmondásos javaslatai ellenére, az Oracle eladja a PeopleSoft és a JD Edwards pénzügyi szoftvereit viszonteladói csatornákon keresztül az új ügyfeleknek.",
+  "hypothesis": "Az Oracle pénzügyi szoftvereket árul.",
+  "label": "1"
+ },
+ {
+  "id": "51",
+  "premise": "Az Egyesült Királyság, Törökország, a régi brit nemzetközösségi erők (Új-Zéland, Ausztrália, Kanada, a gurkhák, India), Németország, Lengyelország, Vietnám, néhány USA-beli régió, Oroszország, Franciaország, néhány kínai tartomány, és Japán szerepelne a küldetésben, de kényelmetlenül érzem magam, amikor használom a japán katonák által ismert szót.",
+  "hypothesis": "A Gurkhák Nepálból jöttek.",
+  "label": "0"
+ },
+ {
+  "id": "52",
+  "premise": "A hivatalnokok szerint João Bernardo Vieira-t, Bissau-Guinea elnökét hétfőn renegát katonák lőtték le palotájában. Zamora Induct, a hadsereg szóvivője azt nyilatkozta az Agence France-Presse-nek, hogy Vieira elnököt a katonaság ölte meg, miközben megpróbált elmenekülni a házából, amit a Tagme Na Waie vezérkari főnökhöz közel álló katonák csoportja támadott meg, Induct kitartott azon véleménye mellett, hogy ez nem egy puccs volt.",
+  "hypothesis": "Bernardo Vieira Bissau-Guinea elnöke volt.",
+  "label": "1"
+ },
+ {
+  "id": "53",
+  "premise": "Az Asprin, egy olyan olcsó gyógyszer, ami segít megvédeni a szívroham és a stroke túlélőit a későbbi szívrohamoktól és a haláltól, sőt segít csökkenteni a szívroham utáni első órákban bekövetkező halálesetek számát is.",
+  "hypothesis": "Az aszpirin szedését követően mellékhatást lehet tapasztalni.",
+  "label": "0"
+ },
+ {
+  "id": "54",
+  "premise": "Természetes üvegházhatás nélkül a Föld hőmérséklete körülbelül nulla Fahrenheit (-18Celsius) lenne a jelenlegi 57 Fahrenheit (14 Celsius) helyett.",
+  "hypothesis": "Az üvegházhatás megváltoztatja a globális klímát.",
+  "label": "1"
+ },
+ {
+  "id": "55",
+  "premise": "A NASA két nagy obszervatóriuma, a Hubble űrteleszkóp és a Chandra röntgenűrtávcső egymástól függetlenül szolgáltatta a legjobb közvetlen bizonyítékot az eseményhorizontnak a létezésére, ami a fekete lyuk meghatározó jellemzője.",
+  "hypothesis": "A Hubble fekete lyukakat fedez fel.",
+  "label": "1"
+ },
+ {
+  "id": "56",
+  "premise": "Az amerikai gyógyszeripari vállalatok számára a közelgő egészségügyi reformok a megnövekedett költségkorlátozás és árszabályozás korszakát ígérik.",
+  "hypothesis": "Az amerikai kormány alacsonyan akarja tartani a gyógyszerárakat.",
+  "label": "1"
+ },
+ {
+  "id": "57",
+  "premise": "Giuliana Sgrena-t ma kiengedték az iraki fogságból. Az olasz újságírónőt Bagdadban rabolták el pontosan egy hónapja, amikor az Il Manifesto számára készített jelentést. Az Iszlám Dzsihád Szervezet február 4-én túszul ejtette azzal a követeléssel, hogy Olaszország vonja ki csapatait Irakból. Február 16-án nyilvánosságra hoztak egy videót, amelyen a kétségbeesett Sgrena könyörgött Olaszországnak, hogy vonuljon ki Irakból, de a videó ellenére az olasz szenátus megszavazta hadereje Irakban maradását.",
+  "hypothesis": "Egy női újságírót raboltak el Irakban.",
+  "label": "1"
+ },
+ {
+  "id": "58",
+  "premise": "Mintegy 33,5 millió ember él ebben a hatalmas agglomerációban. Úgy vélem, hogy a hivatalos adatok szerint Japánban bejegyzett 5000 külföldi tőketársaság 95%-a Tokióban található.",
+  "hypothesis": "Körülbelül 33,5 millió ember él Tokióban.",
+  "label": "1"
+ },
+ {
+  "id": "59",
+  "premise": "Az Irene trópusi vihar ereje növekedni fog a következő néhány napban, akár hurrikán is kialakulhat, amely eléri az Egyesült Államok keleti partját, jelentette ma a floridai Miami National Hurricane Center. Az Irene-t Bermudától 975 kilométerre dél-délkeletre lokalizálták ma 16:00-kor. Az előrejelzések szerint a vihar nyugat-északnyugati irányban halad, tartós 40 mérföld\/órás sebességgel. (2005. augusztus 11, egyezményes koordinált világidő szerinti 16:15)",
+  "hypothesis": "Egy Irene nevű vihar közeledik az USA keleti partjához.",
+  "label": "1"
+ },
+ {
+  "id": "60",
+  "premise": "A halottak közt egy gyerek is volt, aki szüleivel együtt vesztette életét, mondta Iqrar Abbasi, a Karachi Polgári Kórház orvosa.",
+  "hypothesis": "Megöltek egy orvost a szülei.",
+  "label": "0"
+ },
+ {
+  "id": "61",
+  "premise": "A cirill ábécé számos kelet- és délszláv nyelv (fehérorosz, bolgár, macedón, orosz, ruszin, szerb és ukrán) ábécéje; emellett más nyelvek is használják a volt Szovjetunióban, Ázsiában és Kelet-Európában. A múltban egyéb nyelvek is használták. A cirill ábécé nem minden betűjét használják az egyes nyelvek az ábécéjükben.",
+  "hypothesis": "A cirill egy olyan ábécé, amelyet bizonyos szláv nyelvekre, például az oroszra használnak.",
+  "label": "1"
+ },
+ {
+  "id": "62",
+  "premise": "1990. novemberében az elnök bejelentette, hogy 1991-ben engedélyezik az ellenzéki politikai pártok megszervezését. Számos új párt alakult, köztük a Demokratikus Republikánus Mozgalom (MDR), a Liberális Párt (LP), a Demokratikus és Szocialista Párt (PSD) és a Koalíció a Köztársaság Védelméért (CDR).",
+  "hypothesis": "Több új politikai párt alakult.",
+  "label": "1"
+ },
+ {
+  "id": "63",
+  "premise": "Az Egyesült Államok Legfelsőbb Bírósága csütörtökön azt mondta, hogy a 2002-ben hozott szabályozás, miszerint az esküdteknek, és nem a bíráknak kell a halálbüntetést kiszabniuk, csak a jövőbeli esetekre vonatkozik, ez a döntés több mint 100 halálraítéltet érinthet.",
+  "hypothesis": "A Legfelsőbb Bíróság úgy döntött, hogy csak a bírók szabhatják ki a halálbüntetést.",
+  "label": "0"
+ },
+ {
+  "id": "64",
+  "premise": "A bírósági papírokból kiderül, hogy a Craigslisten megismert erotikus masszőr meggyilkolásával vádolt orvostanhallgatónak több mint 100,000 dollárnyi diákhitel-tartozása van, és annyira le van égve, hogy nem engedheti meg magának, hogy ügyvédet fizessen. Boston Városi Bíróságának dokumentumai szerint a 23 éves Philip Markoff orvostanhallgatót felfüggesztették a Bostoni Egyetemen, 130 000 dollár tartozása van, a szülei pedig nem támogatják anyagilag, így csak a kirendelt ügyvéd fogja védeni, mivel rászorulónak számít. Markoff a New York-Albany Állami Egyetemen végzett, másodéves orvoshallgató volt a BU-n.",
+  "hypothesis": "Philip Markoff orvostanhallgató el volt jegyezve.",
+  "label": "0"
+ },
+ {
+  "id": "65",
+  "premise": "A Nyugat inkább a veszélyeztetett állatokra koncentrált, mintsem a veszélyeztetett emberekre. Az afrikai elefántokat levadászták, agyaruktól megfosztották, és az orvvadászok elrejtették a tetemeket. Afrikában a számuk 1,2 millióról 600.000-re esett vissza egy évtizeden belül, amíg a CITES – a veszélyeztetett fajok nemzetközi kereskedelméről szóló egyezmény – be nem tiltotta az elefántcsont-kereskedelmet.",
+  "hypothesis": "Az afrikai elefántok veszélyeztetettek az elefántcsontot gyűjtő orvvadászok miatt.",
+  "label": "1"
+ },
+ {
+  "id": "66",
+  "premise": "Hepburn családja megkapja az eladásból származó bevételt.",
+  "hypothesis": "A bevétel Hepburn családjáé.",
+  "label": "1"
+ },
+ {
+  "id": "67",
+  "premise": "Az adószámlák vezetésével foglalkozó Költségvetési Bizottság demokrata tagjai nem rendelkeznek jelentős kisvállakozói szavazóbázissal.",
+  "hypothesis": "A demokrata képviselőkre jelentős számban szavaztak a kisvállalkozók.",
+  "label": "0"
+ },
+ {
+  "id": "68",
+  "premise": "Azt remélik, hogy a lakosság több mint felét alkotó nők más nőkre szavaznak majd, és gondoskodnak arról, hogy ügyeiket képviseljék a parlamentben.",
+  "hypothesis": "A nők alacsony arányban képviseltetik magukat a parlamentben.",
+  "label": "0"
+ },
+ {
+  "id": "69",
+  "premise": "Ez a növekedés rövid életűnek bizonyult, mivel a svéd invázió (1655-56) elpusztította Varsó virágzó városát.",
+  "hypothesis": "Varsót 1655-ben megszállták a svédek, és a város elpusztult.",
+  "label": "1"
+ },
+ {
+  "id": "70",
+  "premise": "A munkahelyteremtés azt jelenti, hogy az amerikai gazdaság Bush elnök első hivatali időszakában - bár nagyon kis eltéréssel - de nettó növekedést ünnepelhet.",
+  "hypothesis": "Több munkahely jött létre Bush elnök első hivatali időszaka alatt.",
+  "label": "1"
+ },
+ {
+  "id": "71",
+  "premise": "A Szövetségi Nyomozóiroda független vizsgálatot indított a körülményekről, röviddel azután, hogy a Fehér Ház világossá tette, hogy Bill Clinton elnök az ipari kémkedést az amerikai gazdasági érdekeket veszélyeztető jelentős veszélynek tekinti.",
+  "hypothesis": "Egy amerikai vizsgálat indult a Kereskedelmi Minisztérium ellenőrzésére.",
+  "label": "0"
+ },
+ {
+  "id": "72",
+  "premise": "A Harvard Közegészségügyi Iskolájának kutatói azt mondják, hogy azok az emberek, akik kávét isznak, sokkal többet tesznek annál, hogy ébren tartják magukat - ez a fajta kávéfogyasztás nyilvánvalóan segíthet a betegségek kockázatának csökkentésében is.",
+  "hypothesis": "A kávéivásnak egészségügyi előnyei vannak.",
+  "label": "1"
+ },
+ {
+  "id": "73",
+  "premise": "Dél-Amerika - Kolumbia elnöke, Alvaro Uribe a tervek szerint csütörtökön találkozik Venezuela elnökével, Hugo Chávezzel. Úgy tűnik, a Venezuela és Kolumbia közötti válság majdnem megoldódott. A válság a FARC állítólagos tagjának, Rodrigo Grandának a kolumbiai erők általi 2004. december 13-i bebörtönzésével kezdődött. Venezuela megvádolta Kolumbiát, hogy venezuelai területetet támadott. Kolumbia azzal vádolta Venezuelát, hogy FARC-terroristáknak ad otthont. Kuba elnöke, Fidel Castro, közbenjárt a krízisben, és beszélt Chavezzel és Uribével.",
+  "hypothesis": "Alvaro Uribe Kolumbia jelenlegi elnöke.",
+  "label": "1"
+ },
+ {
+  "id": "74",
+  "premise": "Adela Lupse 1988-ban született egy bányász családban Poiana faluban, Biharban, Erdélyben, Romániában. Románia első Ceausescu utáni generációjának tagjaként fiatalon megragadta a televízió erejét: \"Azt hiszem, a televízió a legérdekesebb jelenség, amelyet a jelenkor adott nekünk.... A személyiségtípusomnál fogva imponálónak találom azt a hatalmat, amelyet a televízió világszerte birtokol. Úgy öltözünk, mint azok az emberek, akiket a televízió reklámoz, úgy akarunk kinézni, mint azok a hírességek, akiket a televízióban látunk.\"",
+  "hypothesis": "Bihar Romániában található.",
+  "label": "1"
+ },
+ {
+  "id": "75",
+  "premise": "A Merrill Lynch & Co. és a Smith Barney, amely most a Citigroup-hoz tartozik, 1998-ban több száz - női alkalmazottat érintő - diszkriminációs botrányban volt érintett.",
+  "hypothesis": "A Merrill Lynch & Co. és a Smith Barney most a Citigroup-hoz tartozik.",
+  "label": "1"
+ },
+ {
+  "id": "76",
+  "premise": "La Paz, 89. május 30. – A La Paz-i rendőrség feltárta, hogy két fiatal amerikai állampolgár meggyilkolásának ügyében egy speciális csoport nyomoz, amelyet kifejezetten ennek a bűncselekménynek a tisztázására hoztak létre.",
+  "hypothesis": "89. május 30-án két fiatal amerikai állampolgárt öltek meg.",
+  "label": "0"
+ },
+ {
+  "id": "77",
+  "premise": "Gondolkoztam, hogyan lehet megérteni az Alkonyat sikerét, és arra jutottam, hogy ha igazán hiszel valamiben, az előbb vagy utóbb valósággá válik. Szóval, azt hiszem, ez történt Robert Pattinsonnal is. Tavaly csak egy ismeretlen színész volt, akinek a legnagyobb szerepe a Harry Potter filmekben volt. Most nem csak hogy az Alkonyat versenyez a Harry Potterrel, de Robert Pattinson az egyik leghíresebb fiatal színész, aki 373,4 millió dollárt kaszált a globális jegypénztáraknál. Valóságos hisztériát indított a film a vámpír fiúról, aki beleszeret egy normális lányba. És Pattinsonnak ebben nagyon nagy szerepe van!",
+  "hypothesis": "Robert Pattinson egy vámpír.",
+  "label": "0"
+ },
+ {
+  "id": "78",
+  "premise": "Andreessen, aki meghatározó tagja volt az internetes forradalomnak annak a csapatnak a részeként, amely létrehozta az első internetes böngészőt (Mosaic) és a Netscape-et, azt mondta egy zsúfolt terem előtt a San Francisco Marriott hotelben csütörtökön, hogy \"rendkívül elkötelezett\" a Loudcloud beindítása iránt.",
+  "hypothesis": "A Mosaic internetböngésző a San Francisco Marriott hotelben jött létre.",
+  "label": "0"
+ },
+ {
+  "id": "79",
+  "premise": "A Legfelsőbb Bíróság ma kijelentette, hogy az államok megtilthatják az életfenntartó kezelés megvonását azoktól a kómában fekvő betegektől, akik nem adták vagy nem tudják kinyilvánítani akaratukat.",
+  "hypothesis": "Van egy legfelsőbb bírósági határozat az életfenntartó kezelés megvonásáról.",
+  "label": "1"
+ },
+ {
+  "id": "80",
+  "premise": "A massachusettsi Legfelsőbb Bíróság szabaddá tette az utat a házasságkötéshez a leszbikus és meleg párok számára az államban, mivel a államügyészek \"nem találtak semmilyen alkotmányosan alátámasztható indokot\" arra, hogy megtagadják tőlük ezt a jogot.",
+  "hypothesis": "Az Egyesült Államok Legfelsőbb Bírósága az azonos neműek házasságát engedélyezte.",
+  "label": "1"
+ },
+ {
+  "id": "81",
+  "premise": "50 éves korában, louisville-i otthonában elhunyt a korábbi Box Világszövetség nehézsúlyú bajnoka, Greg Page, aki egy 2001-es mérkőzésen súlyos agysérülést szenvedett. Page felesége szerint az exvilágbajnok a bokszsérülések és a bénulás okozta komplikációk miatt halt meg. Sikeres amatőr karrierje után megkezdte profi karrierjét, amely 1979-ben kezdődött, és 58 győzelemmel, 17 vereséggel és 1 döntetlennel ért véget. Legyőzött ellenfelei többek között Jimmy Young, James Tillis, Renaldo Snipes, Gerrie Coetzee (a Box Világszövetség bajnoki címéért), James \"Csonttörő\" Smith és Tim Witherspoon. Page vereségei az 1980-as évek nehézsúlyú bunyósainak toplistájából származnak: Trevor Berbick, Witherspoon, Tony Tubbs, Buster Douglas, Joe Bugner, Orlin Norris, Donovan \"Borotva\" Ruddock, Bruce Seldon, Monte Barrett és Jorge Luis Gonzalez.",
+  "hypothesis": "Greg Page bokszoló volt.",
+  "label": "1"
+ },
+ {
+  "id": "82",
+  "premise": "Károly herceg, Nagy-Britannia trónörököse, bejelentette, hogy 34 évnyi szerelem után elveszi Camilla Parker Bowles-t. Egy sajtónyilatkozatban a walesi herceg azt mondta: \"Mrs Parker Bowles és én nagyon boldogok vagyunk. Ez egy nagyon különleges nap lesz számunkra és családunk számára.\" A házasságuk után Mrs Parker Bowles az \"Ő Királyi Fensége, a cornwalli hercegné\" címet fogja használni, a herceg trónra lépését követően pedig az \"Ő Királyi Fensége, a Király hitvese\" cím illeti majd meg. A pár 2005. április 8-án házasodik össze egy privát polgári ceremónián a windsori kastélyban, elsősorban a család és a barátok részvételével. A könyörgést és felajánlást a canterbury érsek, Dr. Rowan Williams vezeti majd a Szent György kápolnában.",
+  "hypothesis": "Camilla Parker Bowles és a brit trónörökös jegyesek.",
+  "label": "1"
+ },
+ {
+  "id": "83",
+  "premise": "A Kota (\"erőd\"), vagy az Óváros, például, amelyet néha belvárosi résznek is neveznek, a központi üzleti negyed és Indonézia pénzügyi fővárosa.",
+  "hypothesis": "A Kota az ország üzleti központja.",
+  "label": "1"
+ },
+ {
+  "id": "84",
+  "premise": "A meddőhányó kioldásos bányászatként ismert módszer az elmúlt évtizedben vált népszerűvé, mivel lehetővé teszi, hogy a mikroszkopikus aranydarabokat gazdaságosan vonják ki az alacsony minőségű ércből.",
+  "hypothesis": "A bányaipar egy meddőhányó-kioldásnak nevezett módszert alkalmaz.",
+  "label": "1"
+ },
+ {
+  "id": "85",
+  "premise": "2004 és 2006 között a wyomingi Yellowstone Nemzeti Parkról készített műholdas képek azt mutatják, hogy egy ősi vulkán újból emelkedni kezdett. A megolvadt kőzet jelenleg felfelé nyomja a Yellowstone-tó tetején lévő vulkáni kráter maradványait, a tudósok véleménye szerint azonban nem fenyeget a kitörés vagy robbanás közvelten veszélye. Az olvadt kőzetmező mérete egyes becslések szerint megegyezik a kaliforniai Los Angeles városának területével.",
+  "hypothesis": "Yellowstone-ban van egy vulkán.",
+  "label": "1"
+ },
+ {
+  "id": "86",
+  "premise": "Az amerikai hadsereg elfogadta a helyi kormányzó kérését, hogy tartsák távol az amerikai csapatokat a nedzsefi Ali Imám-mecsettől.",
+  "hypothesis": "Az amerikai hadsereg beleegyezett a helyi kormányzó kérésébe, hogy az amerikai csapatokat tartsák távol a nedzsefi Ali Imám-mecsettől.",
+  "label": "1"
+ },
+ {
+  "id": "87",
+  "premise": "El Salvador kormánya határozottan elítéli a mai napon a Salvadori Munkások Nemzeti Szakszervezeti Szövetsége ellen robbanóanyaggal végrehajtott terrortámadásokat, amelyben többen megsebesültek, mások pedig meghaltak.",
+  "hypothesis": "Terrortámadásokat hajtottak végre El Salvadorban.",
+  "label": "1"
+ },
+ {
+  "id": "88",
+  "premise": "MIDWEST CITY, Oklahoma - Az oklahomai és texasi tűzoltók csütörtökön az idővel versenyeztek, hogy megfékezzék a szél által terjedő erdőtüzeket, amiben több tucat otthon vált lakhatatlanná és két ember is súlyosan megsebesült. A tűzoltók evakuálták a területet és lezárták egy jelentősebb autópálya néhány részét. A szél, amely időnként 60 mérföld\/óra sebességgel is süvít, aláássa a tűzoltók erőfeszítéseit mindkét államban és felkorbácsolja a lángokat, amik az érintett területeket igazi \"háborús övezetté\" alakítják - mondta Brandon Clabes a Midwest City rendőrségtől. Jerry Lojka, Midwest City tűzoltóparancsnoka úgy fogalmazott, \"A szél a legnagyobb probléma, mert nem tudjuk megfékezni a lángokat\". Alkonyatra a legtöbb területen a széllökések 30 mérföld\/órára csökkentek.",
+  "hypothesis": "Az erdőtüzek Oklahomában és Texasban otthonokat pusztítottak el.",
+  "label": "1"
+ },
+ {
+  "id": "89",
+  "premise": "A vámhatóság által hozott új biztonsági intézkedések nem biztos, hogy elegendőek ahhoz, hogy megakadályozzák, hogy egy terrorista nukleáris fegyvereket csempésszen be.",
+  "hypothesis": "Lépéseket tesznek az idegencsempészet megállítására.",
+  "label": "0"
+ },
+ {
+  "id": "90",
+  "premise": "Az Alzheimer-kórt lassító vagy megállító gyógyszerek annál hatékonyabbak, minél korábban adják be őket.",
+  "hypothesis": "Az Alzheimer-kórt gyógyszerekkel kezelik.",
+  "label": "1"
+ },
+ {
+  "id": "91",
+  "premise": "A Főnix a víz és a mikrobiális élet bizonyítékai után kutat a Marson. Feladata annak megállapítása, hogy a Mars képes-e vagy sem az élet befogadására és a víz tárolására. A Főnix leszállóegység egy robotkar segítségével ássa át magát a védő felső talajrétegen az alatta lévő feltételezett vízjégig, és végül mind a talajt, mind a vízjeget a leszállóegység platformjára szállítja kifinomult tudományos elemzés céljából.",
+  "hypothesis": "Egy robotkart használtak a tudományos felfedezésekhez.",
+  "label": "1"
+ },
+ {
+  "id": "92",
+  "premise": "Ren és Stimpy. Tapsi Hapsi. Philip J. Fry és Farnsworth professzor a Futuramából. Sparx. Bi-Polar Bear. Popeye a tengerész. Fakopáncs Frici. Talán úgy hiszed, sosem hallottál Billy Westről, de elég nagy az esélye, hogy a '90-es években hallottad őt egy televíziós műsorban, filmben, reklámban vagy Howard Stern hanggurujaként. West különleges tehetsége, hogy a hangja elváltoztatásával különböző személyiségeket kreáljon, azon maroknyi szinkronszínész egyikévé teszi - Hank Azaria és a néhai Mel Blanc mellett -, akiket tehetségük híressé tett. És valóban, West egyike azon kevés szinkronszínésznek, akik utánozni tudják Blanc legjobb munkáit, többek között Tapsi Hapsi, Dodó kacsa, Elmer Fudd és a Warner Bros rajzfilmek többi karakterét.",
+  "hypothesis": "Tapsi Hapsi a Warner Bros tulajdona.",
+  "label": "1"
+ },
+ {
+  "id": "93",
+  "premise": "Megtudjuk, hogy Claretta Petacci, Mussolini utolsó szeretője hajlamos volt nyafogni, és egész nap az ágyban feküdni és csokoládét enni.",
+  "hypothesis": "Claretta Petacci volt Mussolini utolsó szeretője.",
+  "label": "1"
+ },
+ {
+  "id": "94",
+  "premise": "A vasárnapi földrengést a szárazföldön fekvő dél-indiai Madras városában, valamint Dél-India más részein is érezték. A Port Blair-i tengerészeti meteorológiai hivatal szerint ez volt a második legnagyobb utórengés a december 26-i földrengés után.",
+  "hypothesis": "Madras városa Dél-Indiában található.",
+  "label": "1"
+ },
+ {
+  "id": "95",
+  "premise": "Az érvelés mindkét oldala bemutatásra kerül ebben a tanulmányban, de ez a tanulmány azt igyekszik hangsúlyozni, hogy a kábítószerek legalizálása romboló hatással lenne társadalmunkra.",
+  "hypothesis": "A kábítószerek legalizálása előnyökkel jár.",
+  "label": "0"
+ },
+ {
+  "id": "96",
+  "premise": "A Bloomsbury (Egyesült Királyság) és a Scholastic (Egyesült Államok) kiadók közzétették a hetedik Harry Potter-könyv, a Harry Potter és a Halál ereklyéi borítóját. \"A Harry körüli struktúrák nyilvánvaló pusztulást mutatnak, a mögötte lévő árnyékokban pedig más emberek körvonalait látjuk\" - mondta David Saylor, a Scholastic művészeti igazgatója az amerikai változatot ismertető nyilatkozatában. \"A borító most először körbefutó. A hátsó borítón pókszerű kezek nyújtóznak Harry felé. Csak amikor a könyvet kinyitjuk, akkor látjuk \"Ő, akit nem nevezünk nevén\" erőteljes képét, a csuklyájából előbukkanó izzó vörös szemeit.\"",
+  "hypothesis": "Rowling a Harry Potter szerzője.",
+  "label": "0"
+ },
+ {
+  "id": "97",
+  "premise": "A Kotában a város főterét körülvevő épületek egy része szintén a gyarmati időkből származik, köztük a régi városháza (1710), amelyet felújítottak, és ma városi múzeumként működik.",
+  "hypothesis": "A városháza ma már múzeum.",
+  "label": "1"
+ },
+ {
+  "id": "98",
+  "premise": "Meadows szerzett egy kis szerepet az Esküdt ellenségek egyik januári epizódjában.",
+  "hypothesis": "Meadows megjelent egy Esküdt ellenségek epizódban, amely januárban került adásba.",
+  "label": "1"
+ },
+ {
+  "id": "99",
+  "premise": "Ma az egyezményes koordinált világidő szerint 14 óra körül egy férfi átmászott a kerítésen, és a 27R északi kifutópályára jutott a londoni Heathrow repülőtéren, az Egyesült Királyság legnagyobb repülőterén. A férfi, akinél hátizsák volt, ezután megpróbált a kifutópályán lévő repülőgép elé futni, azonban feltehetően fegyveres rendőrök a földre teperték, mielőtt elérte volna a széles kifutópályát.",
+  "hypothesis": "Az amerikai repülőtereken csökkenteni fogják a biztonsági ellenőrök számát.",
+  "label": "0"
+ },
+ {
+  "id": "100",
+  "premise": "A gyászoló apa, Christopher Yavelow reméli, hogy a holland királynőnek írt egymillió levéllel hazahozathatja gyermekeit.",
+  "hypothesis": "Christopher Yavelow Hollandia királynője.",
+  "label": "0"
+ },
+ {
+  "id": "101",
+  "premise": "Amikor Albright az Egyesült Államok nagykövete volt az ENSZ-ben, Lesley Stahl a \"60 Minutes\"-től a szankciókról és az iraki gyermekek haláláról kérdezte. Albright azt mondta, Amerika felelőssége volt, hogy örökre lezáródjon az Öböl-háború.",
+  "hypothesis": "Albright azt mondta, hogy Szaddám Huszein büntetéseként \"megérte\" a gyerekek a halálát.",
+  "label": "0"
+ },
+ {
+  "id": "102",
+  "premise": "II. János Pál pápa nem akarta feladni azt az álmát, hogy szentföldi zarándoklatot indítson Irakban, ezért szerdán \"virtuális zarándoklatot\" tett Urba, abba az ősi városba, amelyet a hagyomány szerint Ábrahám szülőhelyének tartanak.",
+  "hypothesis": "II. János Pál pápa Lengyelországban született.",
+  "label": "0"
+ },
+ {
+  "id": "103",
+  "premise": "Nézzük e két család közti hűvös kapcsolatot és hogy a párt hogyan fog boldogulni a 2000-es kampány során a fiúval, a texasi kormányzó George W. Bush-sal és feleségével, Elizabeth Dole-lal.",
+  "hypothesis": "George W. Bush felesége Laura.",
+  "label": "0"
+ },
+ {
+  "id": "104",
+  "premise": "Tavaly lezuhant egy repülőgép Észak-Karolinában, és a Blink-182 zenekar nagy része benne volt. A balesetet csak DJ AM és zenésztársa, Travis Barker élte túl. Kevésbé volt szerencsés \"Lil\" Chris Baker, Barker közeli barátja és asszisztense, a Blink-182 dobosának testőre, Charles \"Che\" Still, a pilóta és a másodpilóta. AM és Barker is megsérült, súlyos égési sérüléseket szenvedtek, és több hétig kórházban kellett maradniuk. Most AM 20 millió dolláros kártérítést kér az elszenvedett sérülésekért. Pert indít a repülőgépgyártó Learjet ellen, és 10 millió dollárt kér az egészségügyi károkért, a kieső jövedelemért és nyereségért, valamint ugyanennyit a mentális és fizikai szenvedésért.",
+  "hypothesis": "Travis Barker egy zenekar tagja.",
+  "label": "1"
+ },
+ {
+  "id": "105",
+  "premise": "Robert Kubica a hétvége fénypontjává vált azzal, hogy megszerezte a pole-pozíciót, de a rajtnál lassú volt, és a dobogó harmadik fokára állhatott fel. Nick Heidfeld, a BMW Sauber csapattársa a negyedik helyen végzett. Az eredmények alapján a BMW a konstruktőri bajnokság új vezetője, egy ponttal megelőzve a Scuderia Ferrarit. Heikki Kovalainen ötödik lett, és ezzel a McLaren egyetlen pilótája lett, aki pontszerző helyen végzett. Jarno Trulli (Toyota) és Mark Webber (Red Bull-Renault) a 6., illetve a 7. helyen végzett, míg az első nyolc helyezettet Nico Rosberg (Williams-Toyota) zárta 1 ponttal. Timo Glock (Toyota) kemény csatát vívott Fernando Alonsóval (Renault), és a 9. helyen végzett a spanyol 2005 F1-es bajnokát megelőzve.",
+  "hypothesis": "Robert Kubicát a Scuderia Ferrari nevezte ki.",
+  "label": "0"
+ },
+ {
+  "id": "106",
+  "premise": "Bár meggyőződése, hogy a dolgozatot javító személyek megértenék az sms-nyelvezetben írt válaszokat, Haque hangsúlyozta, hogy egyes vizsgákon - beleértve az irodalmi vizsgákat is - büntetni fogják a rövidítéseket.",
+  "hypothesis": "Haque szeretné bevonni az irodalmat néhány vizsgába.",
+  "label": "0"
+ },
+ {
+  "id": "107",
+  "premise": "A valóságban a legalizáció drasztikusan növelné Amerika drogfüggőségét, jelentősen növekednének a kábítószerrel való visszaélés társadalmi költségei, és számtalan ártatlan életet sodorna veszélybe.",
+  "hypothesis": "A droglegalizációnak vannak előnyei.",
+  "label": "0"
+ },
+ {
+  "id": "108",
+  "premise": "Elefántcsontpart elnöke, Laurent Gbagbo július 14-én kihirdette az új választási törvényeket.",
+  "hypothesis": "Laurent Gbagbo elnök Elefántcsontparton él.",
+  "label": "1"
+ },
+ {
+  "id": "109",
+  "premise": "Órákkal korábban Jasszer Arafat az izraeli civilek elleni támadások beszüntetésére szólított fel az izraeli választásokat megelőző két hétben.",
+  "hypothesis": "Arafat elítélte az Izraelen belüli öngyilkos merényleteket.",
+  "label": "0"
+ },
+ {
+  "id": "110",
+  "premise": "A tartományi állatorvos, Dr. Hugh Whitney, az Erdőgazdálkodási és Élelmezési Minisztériummal összhangban a mai nap folyamán megerősített egy újabb veszettségi ügyet Labradorban, így az összes megerősített veszettségi eset száma Labradorban 2000 novembere óta immáron kilencre emelkedett.",
+  "hypothesis": "Veszettséget állapítottak meg.",
+  "label": "1"
+ },
+ {
+  "id": "111",
+  "premise": "Az orosz származású amerikai újságírót, Klebnyikovot legalább négyszer lőtte meg egy merénylő egy elhaladó autóból, amikor aznap este kilépett az irodájából Moszkvában.",
+  "hypothesis": "Vladislav Listyevet Moszkvában ölték meg.",
+  "label": "0"
+ },
+ {
+  "id": "112",
+  "premise": "Csütörtökön egy erős tájfun esőzésekkel és széllökésekkel sújtotta a Fülöp-szigetek északi és középső részét, legalább három ember halálát okozva és az utakat elvágva. A hatóságok repülő- és kompjáratokat töröltek, és iskolákat zártak be. A 81 mérföld\/órás széllökésekkel járó Xangsane tájfun az éjszaka folyamán Bicol központi régiójában ért partot, és az előrejelzések szerint a főváros, Manila fölött fog áthaladni - közölte a Fülöp-szigeteki időjárási hivatal.",
+  "hypothesis": "A Fülöp-szigeteken tájfun pusztít.",
+  "label": "1"
+ },
+ {
+  "id": "113",
+  "premise": "Az Olümposz a Föld középpontjából emelkedik ki.",
+  "hypothesis": "Az Olümposz a Föld közepén van.",
+  "label": "1"
+ },
+ {
+  "id": "114",
+  "premise": "Az \"Ez csak egy színdarab\" Terrence McNally üdvözlő dala a Broadway-nek, egy könnyed tisztelgés a színház előtt a New York-i siker\/bukás mentalitás által felemésztett Broadway-művészek magas, de korlátozott nézőpontjából.",
+  "hypothesis": "A Broadway New Yorkban van.",
+  "label": "1"
+ },
+ {
+  "id": "115",
+  "premise": "Megjegyzendő, hogy az SBB, a CFF és az FFS a fő vasúttársaság német, francia és olasz nyelvterületen.",
+  "hypothesis": "A francia vasúttársaság neve SNCF.",
+  "label": "0"
+ },
+ {
+  "id": "116",
+  "premise": "Los Angeles megyei pártfogó tisztek azt állítják, hogy most tanulmányozzák, hogy más megyék hogyan térítik vissza a fiatalkorúak fogvatartásának költségeit, miután elismerték, hogy tévesen számláztak a szülőknek olyan napokra, amikor a fiatalokat próbaidős táborokban és csarnokokban tartották. A törvény szerint a kaliforniai megyék kiszámlázhatják a szülőknek és a törvényes gyámoknak a fiatalok napi költségeit, de csak azokét, akiknek a szülei ezt megengedhetik. Tavaly több mint 20.000 fiatalt regisztráltak próbaidős táborokba és csarnokokba, és Los Angeles megye napi 11,94 dollárt számlázott ki a szülőknek a táborokért és 23,63 dollárt a csarnokokért.",
+  "hypothesis": "Los Angeles megyében minden szülőnek ki kell fizetnie gyermekei fogvatartási költségeit.",
+  "label": "0"
+ },
+ {
+  "id": "117",
+  "premise": "A szemtanú ekkor vette észre Rodriguezt, aki egy kapu mögött guggolt, védelmezve magát.",
+  "hypothesis": "A tanú megmentette Rodriguezt.",
+  "label": "0"
+ },
+ {
+  "id": "118",
+  "premise": "A feltételezések szerint egy kataklizmikus csillagrengés okozta azt a sugárzást, amely december 27-én elhaladt a Föld mellett, megrongálva a műholdak műszereit és megvilágítva a légkörünket.",
+  "hypothesis": "A december 27-i sugárzás felvillanása megvilágította a Föld légkörét.",
+  "label": "1"
+ },
+ {
+  "id": "119",
+  "premise": "Ma megkezdődött egy pennsylvaniai állami rendőr pere, akit barátnője elhidegült férjének meggyilkolásával vádolnak. A 43 éves Kevin Foley-t azzal vádolják, hogy elvágta John Yelenic fogorvos torkát, aki éppen a válás véglegesítésének utolsó szakaszában volt feleségétől, Michele-től. Az ügyészek szerint Foley \"annyira utálta Dr. Yelenicet\", hogy megkérte egy másik rendőrtársát, hogy segítsen neki elkövetni az állítólagos gyilkosságot, amely Yelenic blairsville-i otthonában történt.",
+  "hypothesis": "Yelenic molesztálta örökbefogadott fiát.",
+  "label": "0"
+ },
+ {
+  "id": "120",
+  "premise": "Blair együttérez mindenkivel, aki életét vesztette Irakban.",
+  "hypothesis": "Blair együttérez mindenkivel, aki életét vesztette Irakban.",
+  "label": "1"
+ },
+ {
+  "id": "121",
+  "premise": "Mrs. Bush támogatottsága továbbra is nagyon magas, 80% feletti, még akkor is, amikor férje támogatottsága nemrégiben 50% alá esett.",
+  "hypothesis": "80% támogatja Mr. Bush-t.",
+  "label": "0"
+ },
+ {
+  "id": "122",
+  "premise": "A papír drágulásának másik tényezője a fapép megnövekedett költsége, amiből a papír készül.",
+  "hypothesis": "A papír ára emelkedik.",
+  "label": "1"
+ },
+ {
+  "id": "123",
+  "premise": "Bár a pontos dátumról viták folynak, úgy gondolják, hogy a kutyákat körülbelül 12 000 évvel ezelőtt háziasította az ember.",
+  "hypothesis": "Az emberek tízezer évvel ezelőtt léteztek.",
+  "label": "1"
+ },
+ {
+  "id": "124",
+  "premise": "Végül is Wilson volt a producere mindhárom Offspring-albumnak, köztük a \"Smash\"-nek is, amely mindenkit megdöbbentett azzal, hogy négy hónap alatt 1 millió példányban kelt el, és az addig ismeretlen csapatot a Green Day mellett a punk kereskedelmi sikerek soha nem látott hullámának vezetőjévé tette.",
+  "hypothesis": "A \"Smash\" az Offspring harmadik albumának a címe.",
+  "label": "0"
+ },
+ {
+  "id": "125",
+  "premise": "Moszkva úgy véli, hogy az Azovi-tenger vizeinek közös használatban kell maradniuk, Kijev azonban ragaszkodik az egyértelmű felosztáshoz.",
+  "hypothesis": "Van egy vita a felségvizek határairól.",
+  "label": "1"
+ },
+ {
+  "id": "126",
+  "premise": "Jerry Reinsdorf (született 1936. február 25-én Brooklynban, New Yorkban) a Chicago White Sox és a Chicago Bulls tulajdonosa. Nemrégiben a White Soxnak segített megnyerni a 2005-ös baseballbajnokság döntőjét (World Series), és ezzel megszerezte hetedik bajnoki gyűrűjét (az első hatot mind a Bulls-szal nyerte az 1990-es években), ezzel ő lett a harmadik tulajdonos az észak-amerikai sportok történetében, aki két különböző sportágban is bajnoki címet nyert.",
+  "hypothesis": "Jerry Reinsdorf 7 bajnokságot nyert.",
+  "label": "1"
+ },
+ {
+  "id": "127",
+  "premise": "Egy québeci nőt és az édesanyját azzal vádolják, hogy meg akartak ölni egy négyéves kislányt.",
+  "hypothesis": "Egy québeci nő megölt egy négyéves kislányt.",
+  "label": "0"
+ },
+ {
+  "id": "128",
+  "premise": "E hiányosságok következtében a számítógépes rendszerek és a rendszerekre támaszkodó műveletek rendkívül sérülékenyek voltak mind a belső, mind a külső forrásokból történő beavatkozással, megszakítással és visszaéléssel szemben.",
+  "hypothesis": "Illetéktelen személyek illegálisan léptek be számítógépes hálózatokba.",
+  "label": "0"
+ },
+ {
+  "id": "129",
+  "premise": "Így kezdődött az az utazás, amely Hannamot, a 29 éves szabadúszó újságírót nemzetközi útra vezette, hogy megoldja Ázsia egyik legnagyobb rejtélyét: Mi történt Lin Piaóval, a Kínai Kommunista Párt vezetőjével, akit azzal vádoltak, hogy 1971-ben összeesküvést szőtt Mao elnök megbuktatására.",
+  "hypothesis": "Lin Piao volt a Kínai Kommunista Párt vezetője.",
+  "label": "1"
+ },
+ {
+  "id": "130",
+  "premise": "Az Otagói Egyetem Christchurchi Orvosi Iskolájának kutatói által végzett új tanulmány megállapította, hogy bizonyos kémiai vegyületek, amelyek természetesen előfordulnak a keresztes zöldségekben, segítenek elpusztítani a kemoterápiának különösen ellenálló rákos sejteket. A tanulmányt a Cancer Research című szaklapban tették közzé. A kutatócsoport megállapította, hogy az izotiocianátoknak nevezett vegyi anyagok öngyilkosságra késztetik a rákos sejteket. Ide tartoznak azok a sejtek is, amelyekben magas a Bcl-2 fehérje szintje, ami ellenállóvá teszi őket a kemoterápiával szemben. Az izotiocianátok természetes módon a keresztesvirágú zöldségekben találhatók. Ezek közé tartozik többek között a kelkáposzta, a káposzta, a brokkoli, a karfiol, a bordáskel, a retek és a vízitorma.",
+  "hypothesis": "A brokkoli izotiocianátokat tartalmaz.",
+  "label": "1"
+ },
+ {
+  "id": "131",
+  "premise": "A svédmasszázs segít ellazítani az izmokat, fokozza a vérkeringést, eltávolítja az anyagcseréből származó salakanyagokat, segíti a masszázst igénybe vevőt a teste jobb tudatosításában, valamint annak használatában és tartásában.",
+  "hypothesis": "A svéd masszázs ellazítja a feszült izmokat.",
+  "label": "1"
+ },
+ {
+  "id": "132",
+  "premise": "A bombayi Angel Broking autóipari elemzője, Vaishali Jajoo azt jósolta, hogy a Nano akkor is csak három százalékkal növeli majd a Tata bevételeit, ha évente negyedmillió ilyen autót tud eladni. \"Ez nem jelent jelentős változást a felső sorban\" - mondta Jajoo. \"Az alsó soron pedig öt-hat évbe telik, mire a nullszaldó elérése megtörténik.\" A környezetvédők szerint az autó tovább súlyosbítja az Indiában már most is súlyos közlekedési problémákat, és hozzájárul a környezetszennyezés mértékének növekedéséhez. A Tata azonban kijelentette, hogy járműve a legkevésbé környezetszennyező autó az országban.",
+  "hypothesis": "Az Angel Broking székhelye Bombayben található.",
+  "label": "1"
+ },
+ {
+  "id": "133",
+  "premise": "A nyomozás a Barings Bank összeomlása után kezdődött, amikor a bank egyik Szingapúrban dolgozó kereskedője, Nick Leeson 600-700 milliós nagyságrendű veszteséget halmozott fel anélkül, hogy a bank tudott volna róla.",
+  "hypothesis": "Nick Leesont letartóztatták a Barings Bank Részvénytársaság összeomlása miatt.",
+  "label": "0"
+ },
+ {
+  "id": "134",
+  "premise": "Rotorua megtiltotta, hogy az öt vagy annál több alkalommal becstelenségért elítélt bűnözők belépjenek a központi üzleti negyedbe. A bűnözőknek birtokháborítási értesítést adnak ki, amely kitiltja őket Rotorua fő utcáiról. A tizenkét tanácsos közül tizenegyen, köztük Rotorua polgármestere, a rendőrség támogatásával együtt támogatták a rendeletet. Kevin Winters, Rotorua polgármestere elmondta: \"A tilalmat a helyi vállalkozások is támogatták, akik azt szerették volna, ha véget vetnek a Rotorua utcáin tapasztalható lopásoknak, támadásoknak, bolti lopásoknak és egyéb utcai bűncselekményeknek. A bűnözés problémát jelentett a környéken. Öt hiba és kiestél.\"",
+  "hypothesis": "A központi üzleti negyed Rotorua része.",
+  "label": "1"
+ },
+ {
+  "id": "135",
+  "premise": "A Koni trópusi vihar jelentős esőzéseket zúdított a Fülöp-szigetekre, mielőtt egy kisebb tájfunná változott, és végül Vietnam északi partjainál ért partot.",
+  "hypothesis": "Egy trópusi vihar jelentős anyagi károkat okozott.",
+  "label": "0"
+ },
+ {
+  "id": "136",
+  "premise": "COLOMBO (Reuters) - Legalább öt ember meghalt és tizenegy megsebesült, amikor szerdán egy feltételezett Tamil Tigris öngyilkos merénylő felrobbantotta magát egy rendőrőrsön Srí Lanka fővárosában, megszüntetve a több mint két éve tartó viszonylagos békét.",
+  "hypothesis": "Emberek haltak meg tamil öngyilkos merényletekben.",
+  "label": "1"
+ },
+ {
+  "id": "137",
+  "premise": "Megfigyelték, hogy a világ azon országaiban, ahol a halálbüntetés még mindig érvényben van, a bűnözési ráta, különösen a gyilkosság, jelentősen alacsony azokhoz az országokhoz képest, ahol a halálbüntetést elvetették.",
+  "hypothesis": "A halálbüntetés elrettentő eszköz a bűnözéssel szemben.",
+  "label": "1"
+ },
+ {
+  "id": "138",
+  "premise": "A Wal-Mart Stores arra kérte egy amerikai szövetségi fellebbviteli bíróságot, hogy vizsgálja felül egy bíró végzését, amely jóváhagyta egy nemi diszkriminációval kapcsolatos per csoportos kereseti státuszát.",
+  "hypothesis": "A bíró jóváhagyja a nemi diszkriminációt.",
+  "label": "0"
+ },
+ {
+  "id": "139",
+  "premise": "Romano Prodi az Európai Bizottság elnökeként találkozik George Bush amerikai elnökkel.",
+  "hypothesis": "Romani Prodi az amerikai elnök.",
+  "label": "0"
+ },
+ {
+  "id": "140",
+  "premise": "Thompson, egy renegát újságíró, akinek \"gonzo\" stílusa az objektivitás minden látszatát elvetette és aki megalkotta a nehéz életű író ellen-kulturális ikonját, a rendőrség közlése szerint vasárnap este agyonlőtte magát a coloradói otthonában.",
+  "hypothesis": "Thompson \"gonzo\" újságírása elveti az objektivitást.",
+  "label": "1"
+ },
+ {
+  "id": "141",
+  "premise": "Ahern, aki tegnap Tokióba utazott az EU-Japán csúcstalálkozóra, a hét második felében telefonon fog egyeztetni más uniós vezetőkkel, hogy megegyezésen alapuló jelöltet találjanak.",
+  "hypothesis": "Az Európa és Japán közötti csúcstalálkozóra a japán fővárosban kerül sor.",
+  "label": "1"
+ },
+ {
+  "id": "142",
+  "premise": "Miguel Maza Marquez tábornok, a kolumbiai biztonsági hivatal vezetője ma megerősítette, hogy augusztus 18-án Bogotában Luis Carlos Galan szenátor és liberális párti elnökjelölt meggyilkolásában külföldiek is részt vettek.",
+  "hypothesis": "Miguel Maza Marquez tábornok részt vett Luis Carlos Galan meggyilkolásában.",
+  "label": "0"
+ },
+ {
+  "id": "143",
+  "premise": "A vadon élő óriáspandák számát a jelenlegi legjobb becslések szerint körülbelül 1100 egyedre becsülik, amelyek 32 különálló populációban élnek, főként Kína Szecsuán tartományában, de Senhszi és Kanszu tartományokban is.",
+  "hypothesis": "Kínában 32 panda él a vadonban.",
+  "label": "0"
+ },
+ {
+  "id": "144",
+  "premise": "Nagy aggodalomra adott okot a gyógyszerrezisztens baktériumok elterjedése.",
+  "hypothesis": "A baktériumok megnyerik a háborút az antibiotikumok ellen.",
+  "label": "0"
+ },
+ {
+  "id": "145",
+  "premise": "Jakarta Raya nagyvárosi kerületével egybeépülve a Ciliwung (Liwung folyó) torkolatánál fekszik Jáva északnyugati partvidékén.",
+  "hypothesis": "Jakarta a Ciliwung (Liwung folyó) torkolatánál fekszik, Jáva szigetének északnyugati partján.",
+  "label": "1"
+ },
+ {
+  "id": "146",
+  "premise": "P. Prayong, aki Kevalához hasonlóan a théraváda buddhista szektához tartozik, a többi buddhista többségű nemzettel szemben Indiát választotta, mivel az Gautama Buddha szülőhelye.",
+  "hypothesis": "P. Prayong a théraváda tagja.",
+  "label": "1"
+ },
+ {
+  "id": "147",
+  "premise": "A feljegyzés, amelyet Marc Allen Connelly írt (aki akkoriban a temetkezési bizottság jogtanácsosa volt) és Dick McNeilnek küldött (a temetkezési bizottság Bush által kinevezett elnöke), azt állította, hogy Connelly „információkat” kapott texasi állami tisztviselőktől arról, hogy két temetkezési biztos az SCI-nek dolgozik.",
+  "hypothesis": "Marc Allen Connelly az SCI-nek dolgozott.",
+  "label": "0"
+ },
+ {
+  "id": "148",
+  "premise": "Az Egyesült Államok Fellebbviteli Bírósága pénteken alkotmányellenesnek nyilvánította a California Assembly Bills 1792 & 1793-at, a kaliforniai \"ultraerőszakos videojáték-törvényt\", amely megpróbálta betiltani az erőszakos videojátékok kiskorúaknak történő értékesítését vagy kölcsönzését. Consuelo M. Callahan szövetségi bíró úgy döntött, hogy a 2005-ös állami szintű tilalmom, amelyet még érvényre kell juttatni, megsérti a kiskorúak jogait az Egyesült Államok alkotmányának első és 14. kiegészítése értelmében, mert még a képernyőn megjelenő leglátványosabb súlyos testi sértés, videojáték-tartalom is olyan szólásszabadságot jelent, amelyet megfelelő indoklás nélkül nem lehet cenzúrázni.",
+  "hypothesis": "A California Assembly Bills 1792 és 1793 - az ultraerőszakos videojátékok elleni törvények.",
+  "label": "1"
+ },
+ {
+  "id": "149",
+  "premise": "BEIRUT, Nov. 21 (Xinhua) -- Pierre Gemayel libanoni ipari minisztert és keresztény vezetőt kedden agyonlőtték egy Bejrút külvárosában levő utcán, idézte az al-Jazeera TV-csatorna a libanoni belügyminisztériumot.",
+  "hypothesis": "Pierre Gemayelt egy Bejrút külvárosában lévő utcán ölték meg.",
+  "label": "1"
+ },
+ {
+  "id": "150",
+  "premise": "Barack Obama amerikai elnök a kormánya jövőbeni irányvonalát vázolta fel a hivatalba lépése első 100 napját ünneplő eseményeken. Obama elnök beszédet intézett a városházához St. Louisban, mielőtt főműsoridős sajtótájékoztatót tartott volna, amelyet élőben közvetített a legtöbb amerikai tévécsatorna. A kommentátorok hagyományosan arra használták a mérföldkövet, hogy felmérjék az elnökök korai sikereit és kudarcait. Az utóbbi idők közvélemény-kutatásai azt sugallják, hogy Obama továbbra is nagyfokú népszerűségnek örvend.",
+  "hypothesis": "Barack Obama 100 napja az Egyesült Államok elnöke.",
+  "label": "1"
+ },
+ {
+  "id": "151",
+  "premise": "Blair együtt érez mindenkivel, aki az életét vesztette Irakban.",
+  "hypothesis": "Blair sajnál mindenkit, aki az életét vesztette Irakban.",
+  "label": "1"
+ },
+ {
+  "id": "152",
+  "premise": "Körülbelül a fele a Santa Monica-öböl 20 mérföldes szakasza a Topanga Canyon Boulevardtól a Palos Verdes-félsziget közötti résznek.",
+  "hypothesis": "A Santa Monica-öböl partvonala 50 mérföld hosszú.",
+  "label": "0"
+ },
+ {
+  "id": "153",
+  "premise": "A Párizs melletti csapások sújtotta Euro-Disney vidámpark olyan rossz helyzetben van, hogy lehet, hogy be kell zárnia, hacsak hamarosan segítséget nem kap a hitelezőitől - mondta a Walt Disney Co. elnöke pénteken közzétett interjúban.",
+  "hypothesis": "Az Euro-Disney egy élménypark Párizs mellett.",
+  "label": "1"
+ },
+ {
+  "id": "154",
+  "premise": "Négy napos tárgyalások folytak az Egyesült Államokkal, ez jelentette az első jelentős nyitást Észak-Korea felé, mióta George W. Bush három évvel ezelőtt hivatalba lépett.",
+  "hypothesis": "George W. Bush 3 évvel ezelőtt kezdte meg elnöki posztját.",
+  "label": "1"
+ },
+ {
+  "id": "155",
+  "premise": "A professzor asszony egy kicsit fáradt, figyelmeztetett Rita Levi-Montalcini tanácsadója, ahogy felkészültem, hogy interjút készítsek az olasz Nobel-díjas életművésszel a 100. születésnapja előestéjén. \"Ne fárassza ki.\" Végül sikerült megtalálnom a professzor asszonyt, ahogy mindenki hívja, az irodája alatti ruhaboltban Rómában, egy elegáns fekete nyakig begombolt ruhában és egy saját tervezésű arany brossal, ősz haja makulátlan frizurában, amint a ruhák tartósínjeit vizsgálta beható és élénk figyelemmel.",
+  "hypothesis": "Rita Levi-Montalcini az agy globális szakértője.",
+  "label": "0"
+ },
+ {
+  "id": "156",
+  "premise": "Jean-Claude Trichet, az Európai Központi Bank elnöke szerdán világossá tette, hogy ellenezné Antonio Fazio – az Olasz Nemzeti Banknak a bank átvétele miatt vitatott kormányzója – eltávolítására irányuló indokolatlan politikai kísérleteket.",
+  "hypothesis": "Antonio Fazio Jean-Claude Trichet alárendeltje.",
+  "label": "0"
+ },
+ {
+  "id": "157",
+  "premise": "Azt mondta, hogy „van bizonyíték arra, hogy Cristiani részt vett a hat jezsuita pap meggyilkolásában”, ami november 16-án történt San Salvadorban.",
+  "hypothesis": "Cristianit hat jezsuita meggyilkolásával vádolják.",
+  "label": "1"
+ },
+ {
+  "id": "158",
+  "premise": "A Nyugat inkább a veszélyeztetett állatokra koncentrált, mintsem a veszélyeztetett emberekre. Az afrikai elefántokat levadászták, agyaruktól megfosztották és orvvadászok rejtették el. Afrikában a számuk 1,2 millióról 600.000-re esett vissza egy évtizeden belül, amíg a CITES – a veszélyeztetett fajok nemzetközi kereskedelméről szóló egyezmény – betiltotta az elefántcsont-kereskedelmet.",
+  "hypothesis": "Egy nemzetközi egyezmény betiltotta az elefántcsont-kereskedelmet.",
+  "label": "1"
+ },
+ {
+  "id": "159",
+  "premise": "A görög istenek lakhelye a thesszáliai Olümposz csúcsán volt.",
+  "hypothesis": "Az Olümposz-hegy Thesszáliában van.",
+  "label": "1"
+ },
+ {
+  "id": "160",
+  "premise": "Melvyn Percy jachtosnak annyira elege lett a szolgáltatás színvonalából, amikor előkészítette hajóját a 3000 mérföldes atlanti átkeléshez, hogy úgy döntött, hogy saját céget alapít a Clyde-on, hogy professzionális tanácsokkal és gyakorlati segítséggel lássa el a skót tengerészeket. A Minerva Rigging, amely Kip Marinán, Gourocktól délre található, most öt teljes munkaidős alkalmazottal rendelkezik, és a Kemp, Európa egyik vezető jachtszálfa- és -árbocgyártójának skót képviselője.",
+  "hypothesis": "Melvyn Percy a Minerva Rigginget Kip Marinán alapította.",
+  "label": "1"
+ },
+ {
+  "id": "161",
+  "premise": "A korona euróra történő cseréjét ellenző dánok száma az áprilisi 34,6 százalékról kismértékben, 35,3 százalékra emelkedett a Danske Bank csütörtökön közzétett felmérése szerint.",
+  "hypothesis": "Az euró bevezetését ellenezték.",
+  "label": "1"
+ },
+ {
+  "id": "162",
+  "premise": "BOSZNIAI KILÁTÁS: BALKÁNI BÉKE, AMELY NEM TARTHATÓ",
+  "hypothesis": "Bosznia az egykori Jugoszláviában található.",
+  "label": "0"
+ },
+ {
+  "id": "163",
+  "premise": "A Texas Data Recovery a notebookok és laptopok elveszett adatainak lekérésében is sikeres, a készülék korától, márkájától vagy modellétől függetlenül.",
+  "hypothesis": "Probléma esetén használhatja a Texas Data Recoveryt, és képes lesz az elveszett adatok visszaállítására.",
+  "label": "1"
+ },
+ {
+  "id": "164",
+  "premise": "Közel öt hónappal később, 1935. január 24-én a MOHAWK személyszállító hajó elsüllyedt, miután összeütközött a norvég TALISMAN motoros hajóval, és 45 ember vesztette életét.",
+  "hypothesis": "Legalább 100 ember vesztette életét egy elsüllyedt kompon.",
+  "label": "0"
+ },
+ {
+  "id": "165",
+  "premise": "John Lennon halálának holnapi (december 8-i) 20. évfordulója alkalmából özvegye, Yoko Ono három nagyobb amerikai városban állított fel fegyvertartás szabályozását támogató transzparenseket.",
+  "hypothesis": "Yoko Ono John Lennon özvegye.",
+  "label": "1"
+ },
+ {
+  "id": "166",
+  "premise": "A megnövelt tárhely nem minden, amit a Microsoft a Hotmail felhasználóknak kínál - ingyenes antivírus-védelemre is számíthatnak.",
+  "hypothesis": "A Microsoft nem kínál megnövelt tárhelyet a felhasználóinak.",
+  "label": "0"
+ },
+ {
+  "id": "167",
+  "premise": "A halálbüntetés elrettentő hatású.",
+  "hypothesis": "A halálbüntetés egy elrettentő eszköz a bűnözés ellen.",
+  "label": "1"
+ },
+ {
+  "id": "168",
+  "premise": "Annak ellenére, hogy Björk két év után először lépett fel élőben, a tízezer fős tömeg csak a fele volt annak, amit a Tokió külvárosában, Makuhariban lévő csarnok be tudott volna fogadni.",
+  "hypothesis": "Tízezer ember él Tokióban.",
+  "label": "0"
+ },
+ {
+  "id": "169",
+  "premise": "Egy újabb állapot, az úgynevezett \"szociális szorongás-zavar\" csatlakozott ezen a héten az életünket megkeserítő dolgok hosszú listájához - mely magába foglalja az elhízást, az impotenciát, a depressziót és a fóbiát -, amelyet az amerikaiak valaha leginkább akaraterő és jellem próbakövének tekintettek, most már úgy is kezelni lehet, hogy bekapunk egy pirulát.",
+  "hypothesis": "A fóbia egy szélsőséges félelem egy bizonyos dologtól vagy helyzettől.",
+  "label": "0"
+ },
+ {
+  "id": "170",
+  "premise": "Két testvér, akik egy észak-hollywoodi galvanizáló céget üzemeltettek, amely több ezer gallon ciánnal szennyezett szennyvizet öntött a Los Angeles-i csatornahálózatba, csütörtökön bűnösnek vallotta magát, és börtönbüntetést kell letölteniük veszélyes anyagok gondatlan kezelése és tárolása miatt.",
+  "hypothesis": "Egy kaliforniai céget vegyi anyagok gondatlan tárolásával vádoltak meg.",
+  "label": "1"
+ },
+ {
+  "id": "171",
+  "premise": "Az olasz filmrendezőt, Fellinit életművéért tiszteletbeli Oscar-díjjal tüntették ki. 1993. október 31-én hunyt el.",
+  "hypothesis": "Egy olasz rendezőt tiszteletbeli Oscar-díjjal tüntettek ki.",
+  "label": "1"
+ },
+ {
+  "id": "172",
+  "premise": "Wolfgang Amadeus Mozart zeneszerző 1756. január 27-én született az ausztriai Salzburgban.",
+  "hypothesis": "Wolfgang Amadeus Mozart Salzburgban született.",
+  "label": "1"
+ },
+ {
+  "id": "173",
+  "premise": "A német régészeti intézet kutatói egy körülbelül 2500 éves múmiára bukkantak a permafrosztban a mongóliai ásatási munkák során.",
+  "hypothesis": "Az altaji jégszűz komoly vitát vált ki.",
+  "label": "0"
+ },
+ {
+  "id": "174",
+  "premise": "Miller csütörtök este hunyt el szívelégtelenségben, a connecticuti Roxburyben lévő otthonában, családja körében - közölte pénteken asszisztense, Julia Bolus.",
+  "hypothesis": "Miller csütörtök éjjel halt meg, szívelégtelenségben, családtagokkal körülvéve.",
+  "label": "1"
+ },
+ {
+  "id": "175",
+  "premise": "Bár elegendő támogatói bázissal rendelkezik ahhoz, hogy létrehozhasson egy tömeges polgári engedetlenségi mozgalmat, egyes elemzők úgy vélik, hogy kampánya a legjobb esetben is csak szálka lesz Mr. Calderon szemében.",
+  "hypothesis": "Mr. Calderon képes létrehozni egy tömeges polgári engedetlenségi mozgalmat.",
+  "label": "0"
+ },
+ {
+  "id": "176",
+  "premise": "NEW YORK - Szomáliai kalózok kedden megtámadtak és megrongáltak egy humanitárius segélyszállító amerikai hajót, jelenleg a hajó és a legénység a haditengerészet kíséretében biztonságban van - közölte a hadsereg és a hajózási társaság. A kalózok rakétagránátokkal és automata fegyverekkel lőtték a Liberty Sun hajót, amely élelmiszert szállított az éhínség sújtotta afrikai országoknak - mondta a hajó tulajdonosa, a Liberty Maritime Corp. A hajó Houstonból a kenyai Mombasába tartott, nagyjából 20 fős legénységgel - közölték a tisztviselők.",
+  "hypothesis": "A kalózok megrongálták a Liberty Maritime hajót.",
+  "label": "0"
+ },
+ {
+  "id": "177",
+  "premise": "Arthur és én akkor találkoztunk először, amikor 1965-ben együtt játszottunk a Mame-ban, és azóta is a \"kebelbarátom\" maradt. Mélységesen elszomorít a halála, de egyben megkönnyebbültem, hogy megszabadult a fájdalomtól. Tegnap beszéltem Matt-tel, a fiával, és tisztában voltam vele, hogy közeleg a halála. Ritka és egyedi előadóművész volt, és egy drága, kedves barát. Arthur szombaton, 86 éves korában hunyt el otthonában. Angela Lansbury a Vidám kísértet jelenlegi újjáélesztésében játszik, amelynek előzetes előadásai 2009. február 26-án, csütörtökön kezdődtek, a hivatalos bemutató pedig 2009. március 15-én, vasárnap volt a Shubert Színházban (Nyugati 44. utca 225).",
+  "hypothesis": "Angela Lansbury színésznő 86 éves.",
+  "label": "0"
+ },
+ {
+  "id": "178",
+  "premise": "Ez egyfajta házi feladat a tavalyi halifaxi csúcstalálkozóról, ahol megbeszélések folytak arról, hogyan lehetne racionalizálni és koordinálni a nemzetközi szervezetek különböző tevékenységeit.",
+  "hypothesis": "Pénzügyi reformokat javasoltak a G7 halifaxi csúcstalálkozóján.",
+  "label": "0"
+ },
+ {
+  "id": "179",
+  "premise": "Az évi 22 000 dollárt kereső nők esetében a hat hónap szülési szabadság után felhalmozott teljes bér mindössze 5300 dollár lenne az Egyesült Királyságban és 5850 dollár Írországban. Németországban a jogosultság szintén viszonylag alacsony lenne, 5900 dollár, Franciaországban, Spanyolországban és Hollandiában pedig 6750 dollár. A skála másik végén Olaszországban a hat hónapos szabadság után járó fizetés 9150 dollár, míg Dániában és Norvégiában 11 000 dollár lenne.",
+  "hypothesis": "A szülési szabadság eltérő Európában.",
+  "label": "1"
+ },
+ {
+  "id": "180",
+  "premise": "Norvégia legnagyobb újságjában, a Verdens Gangban szerepel egy levél a szerkesztőnek címezve, amelyet Joe Harrington és jómagam írtunk.",
+  "hypothesis": "A Verdens Gang egy norvég újság.",
+  "label": "1"
+ },
+ {
+  "id": "181",
+  "premise": "A Spirou-t 1938-ban hozta létre Robert Velter, aki a 40-es évek elején eladta a jogokat a Dupuis kiadónak. Más művészek, például Jije (Joseph Gillain) gondoskodtak a sorozatról.",
+  "hypothesis": "A Spirou-t Robert Velter hozta létre.",
+  "label": "1"
+ },
+ {
+  "id": "182",
+  "premise": "Zahi Hawass, Egyiptom kiemelkedő régésze feltárta az első ősi leleteket, amelyek Kleopátra és Marcus Antonius nyughelyének felfedezéséhez vezethetnek. Az expedíció amuletteket talált, 22 bronzérmét Kleopátra képével és nevével, egy királyi szobrot, egy Marcus Antoniusra hasonlító alabástrom maszkot, és Kleopátra mellszobrát. \"Ha megnézzük Marcus Antonius arcát, sokan úgy vélték, hogy van egy ilyen hasadék az állán, és ezért gondoltam, hogy ez lehet Marcus Antonius\" - mondta Hawass. \"Véleményem szerint, ha ezt a sírt megtalálják, ez lehet a XXI. század egyik legfontosabb felfedezése Kleopátra és Marcus Antonius szerelme és tragikus halála miatt. Ez a tökéletes hely számukra,\" mondta Hawass.",
+  "hypothesis": "Kleopátra és Antonius Egyiptomban élt.",
+  "label": "0"
+ },
+ {
+  "id": "183",
+  "premise": "Az orosz közszolgálati televízió vezetőjét, Vlagyiszlav Lisztyevet moszkvai otthona előtt egy ismeretlen fegyveres szíven lövi. A támadás a tévécsatornára vonatkozó, általa javasolt reklámtilalom ellenzőivel hozható összefüggésbe.",
+  "hypothesis": "Vladislav Listyevet Moszkvában ölték meg.",
+  "label": "1"
+ },
+ {
+  "id": "184",
+  "premise": "A Toshiba, a NEC Corp. és a Sanyo Electric Co. Ltd. a HD DVD nevű technológiát népszerűsíti, míg a Sony, a Samsung Electronics Co. Ltd. és a Matsushita Electric Industrial Co. Ltd. (a Panasonic márkájú termékek gyártója) a Blu-ray-t támogatja.",
+  "hypothesis": "A Panasonic márkájú termékeket a Samsung Electronics Co. Ltd. gyártja.",
+  "label": "0"
+ },
+ {
+  "id": "185",
+  "premise": "Az izraeli erők és a fegyveresek közötti összecsapásokban egy palesztin meghalt és 10 megsebesült - közölték a kórházi tisztviselők.",
+  "hypothesis": "Egy palesztin meghalt és mások megsebesültek.",
+  "label": "1"
+ },
+ {
+  "id": "186",
+  "premise": "Az előadásuk által közvetített üzenet azonban leginkább szomorú és nyers volt. Alig három hét utazás után a két olasz művész közül az egyiket, a 33 éves Pippa Baccát megölte egy sofőr, aki fuvart ajánlott neki. Meztelen holttestét április 11-én találták meg a bokrok alatt egy török falu közelében, miután egy gyanúsított a helyszínre vezette a nyomozókat. Bár a halál hivatalos okát nem közölték, a helyi török hatóságok szerint Ms. Baccát megerőszakolták és megfojtották.",
+  "hypothesis": "Pippa Bacca olasz békeaktivista volt.",
+  "label": "0"
+ },
+ {
+  "id": "187",
+  "premise": "Egyiptom csütörtökön erősen bírálta az izraeli új külügyminisztert, Avigdor Liebermant felszólalása miatt, amelyben nem volt hajlandó elismerni a 2007-ben az Egyesült Államokban, Annapolisban kezdeményezett béketörekvéseket, hogy helyreállítsa a palesztinokkal folytatott béketárgyalásokat, jelentette az állami MENA hírügynökség. A minisztérium szóvivőjét, Hossam Zakit idézték, aki szerint Lieberman felszólalása \"sajnálatos\", és hozzátette, \"felszólalása az első csapásokat jelenti az izraeli új kormány béketörekvéseire\".",
+  "hypothesis": "Hossam Zaki Izrael új külügyminisztere.",
+  "label": "0"
+ },
+ {
+  "id": "188",
+  "premise": "A szalvéták, a meghívók és az egyszerű papír is többe kerül, mint egy hónappal ezelőtt.",
+  "hypothesis": "A papír ára emelkedik.",
+  "label": "1"
+ },
+ {
+  "id": "189",
+  "premise": "A Daily Telegraphot, Lord Conrad Black omladozó médiabirodalmának legértékesebb tulajdonát eladták a brit Barclay ikreknek.",
+  "hypothesis": "A Daily Telegraphot eladták.",
+  "label": "1"
+ },
+ {
+  "id": "190",
+  "premise": "Két indiai diplomata kedden a kelet-pakisztáni Lahor város Kot Lakhpat börtönében találkozott a Pakisztánban halálraítélt indiai fogollyal, Sarabjit Singh-el.",
+  "hypothesis": "Az indiai diplomaták kedden találkoztak egy halálraítélt indiai fogollyal.",
+  "label": "1"
+ },
+ {
+  "id": "191",
+  "premise": "1995-ben szabadulva, Tyson visszatért a bokszhoz, és 1996-ban megnyerte a Bokszvilágtanács bajnoki címét. Ugyanebben az évben azonban kikapott Evander Holyfieldtől, és az 1997-es visszavágón megharapta Holyfield fülét, amiért ideiglenesen eltiltották az ökölvívástól.",
+  "hypothesis": "1996-ban Mike Tyson megharapta Holyfield fülét.",
+  "label": "0"
+ },
+ {
+  "id": "192",
+  "premise": "Az Országos Egészségügyi Intézetek (NIH) 28,8 milliárd dolláros, 2005-ös költségvetési kérelme 2 milliárd dollárt tartalmaz az Általános Orvosi Tudományok Országos Intézete számára, ami 3,4 százalékos növekedést jelent, valamint 1,1 milliárd dollárt az Országos Kutatási Erőforrás Központ számára, ami 7,2 százalékos csökkenést jelent a 2004-es pénzügyi év szintjéhez képest.",
+  "hypothesis": "A kérelmet 1,1 milliárd dollárra csökkentették.",
+  "label": "0"
+ },
+ {
+  "id": "193",
+  "premise": "Banglades, a világ egyik legszegényebb országát 1974-ben pusztító aszály és éhínség sújtotta, amely 1,5 millió ember halálát okozta. Yunus Yunus - miközben az éhező falusiakon próbált segíteni - találkozott egy 21 éves nővel, Sufia Begummal, akit egy nem számottevő, de nyomasztó adósság terhelt - emlékezett vissza \"A szegények bankára\" című önéletrajzi könyvében.",
+  "hypothesis": "Az 1974-es bangladesi aszály és éhínség 1,5 millió ember halálát okozta.",
+  "label": "1"
+ },
+ {
+  "id": "194",
+  "premise": "A Caritas nevű humán szervezet - iraki kirendeltségét idézve - ma Németországban bejelentette, hogy több iraki kórházat, különösen az Irak legnagyobb kórházának számító Szaddam kórházat találat érte az iraki főváros elleni amerikai-brit bombázásban.",
+  "hypothesis": "A Caritas bejelentette, hogy Bagdad bombázása során több iraki kórházat is eltaláltak (a Szaddam kórház kivételével).",
+  "label": "0"
+ },
+ {
+  "id": "195",
+  "premise": "Koszovó szerb tartományában megtámadtak egy ENSZ-járművet, és az ENSZ szerint legalább egy civil rendőr meghalt.",
+  "hypothesis": "Egy civil rendőrt megöltek.",
+  "label": "1"
+ },
+ {
+  "id": "196",
+  "premise": "Az olasz Superenalotto keddi sorosolásán elvitték az eddigi legnagyobb szerencsejáték-nyereményt Olaszországban. A fődíj (6 számot kell eltalálni) egyetlen nyertese a korábbi el nem nyert összegeket beleszámítva 72.090.405,19 euróval (93 millió amerikai dollárral) lett gazdagabb. A nyereményt egyben fizetik ki adóterhelés nélkül, ugyanis az olasz állam a játékdíjakból gyűjti be a szerencsejátékra vonatkozó adót.",
+  "hypothesis": "A Superenalotto játékon több mint 72 millió eurót nyert valaki.",
+  "label": "1"
+ },
+ {
+  "id": "197",
+  "premise": "A 26 tagú Nemzetközi Energiaügynökség pénteken közölte, hogy a tagországok olajat bocsátanak a piac rendelkezésére a Katrina hurrikán okozta amerikai üzemanyagválság enyhítése érdekében.",
+  "hypothesis": "Egy nemzetközi olajügynökség 60 millió hordó olajat és benzint bocsát a piac rendelkezésére.",
+  "label": "0"
+ },
+ {
+  "id": "198",
+  "premise": "Brown figyelmen kívül hagyta Wu Yi külkereskedelmi miniszter hétfői fenyegetését, miszerint ha Kína azon törekvése, hogy az év végéig csatlakozzon az Általános Vám- és Kereskedelmi Egyezményhez (GATT), sikertelen lesz, Pekinget majd már nem kötik a korábbi kereskedelmi és gazdasági kötelezettségvállalások.",
+  "hypothesis": "Wu Yi Kína külkereskedelmi minisztere.",
+  "label": "1"
+ },
+ {
+  "id": "199",
+  "premise": "A legutóbbi támadások célpontja az amerikai nagykövetség és az üzbég fővárosban lévő legfőbb ügyészi hivatal volt.",
+  "hypothesis": "A tegnapi terrorista merényletekben két ember meghalt az izraeli nagykövetség bejáratánál Üzbegisztán fővárosában.",
+  "label": "0"
+ },
+ {
+  "id": "200",
+  "premise": "Evans Paul, Port-au-Prince Aristide-párti polgármestere elmondta, hogy a pénzt amerikai lobbisták, politikusok és újságírók kapják, hogy kampányoljanak Haiti első demokratikusan megválasztott elnökének, Aristide-nak a visszatérése ellen.",
+  "hypothesis": "Evans Paul Port-au-Prince polgármestere.",
+  "label": "1"
+ },
+ {
+  "id": "201",
+  "premise": "Kedden New Yorkban a Nymex könnyű nyersolaj júliusi szállítása elérte a 42,38 dollár\/hordó árat.",
+  "hypothesis": "A nyersolaj határidős ára kedden New Yorkban minden idők legmagasabb szintjére, 42 dollárra emelkedett hordónként.",
+  "label": "0"
+ },
+ {
+  "id": "202",
+  "premise": "A Schroder Befektetéskezelő jelezte, hogy el kívánja fogadni a Revival ajánlatát a Marks & Spencer kiskereskedelmi vállalat megvásárlására.",
+  "hypothesis": "A Revival megpróbálja átvenni a Marks & Spencer Csoportot.",
+  "label": "1"
+ },
+ {
+  "id": "203",
+  "premise": "Dick Lugar szenátor, a Szenátus Külügyi Bizottságának rangidős republikánus tagja a törvényjavaslat mellett szólalt fel, mondván, hogy az Egyesült Államok Kubával szembeni embargója \"nem érte el a kitűzött célját, hogy demokráciát hozzon a kubai népnek.\" Bob Menendez New Jersey-i demokrata szenátor, aki második generációs kubai-amerikai, ellenzi a törvényjavaslatot, azzal érvelve, hogy az európaiak, kanadaiak és más latin-amerikai országok állampolgárainak szabad utazása nem járult hozzá a szigetország demokratizálódásához. \"A rezsim nem nyílt meg\" - mondta Menendez szenátor. \"Éppen ellenkezőleg, az erőforrásokat arra használta fel, hogy még elnyomóbbá váljon.\"",
+  "hypothesis": "Dick Lugar a kubai-amerikai közösség tagja.",
+  "label": "0"
+ },
+ {
+  "id": "204",
+  "premise": "A kaliforniai választók leváltják Gray Davist, és Arnold Schwarzeneggert választják kormányzónak.",
+  "hypothesis": "A kaliforniai választók menesztették Gray Davis kormányzót, és helyére Arnold Schwarzenegger került.",
+  "label": "1"
+ },
+ {
+  "id": "205",
+  "premise": "Az Egyesült Államok június 30-án átadta a hatalmat az ENSZ és Paul Bremer, Irak korábbi kormányzója által választott ideiglenes iraki kormánynak.",
+  "hypothesis": "Az ENSZ hivatalosan átadta a hatalmat Iraknak.",
+  "label": "0"
+ },
+ {
+  "id": "206",
+  "premise": "A Rolling Stone, a zeneipar egyik legfontosabb kiadványa hamis híreket közölt egy Wikipedia-cikkből. A magazin Rock & Roll Daily online kiadásában megjelent egy cikk \"Halle Berry sorozata hírnevének tönkretételére...\" címmel december 11-én, amely arról a hírről számolt be, hogy a színész bejelentette, hogy szándékában áll kiadni egy zenei albumot. A történetet hamar felkapta a Washington Post, az All Headline News és más hírügynökségek, akik égtek a vágytól, hogy tudósítsanak az Oscar-díjas színésznő betöréséről a zenei világba. Az egyetlen baj az, hogy az album egyik állítólagos producere, Scott Storch szerint nincs ilyen album... és határozottan nem készített három dalt bele.",
+  "hypothesis": "Halle Berry Scott Storchhal dolgozik együtt.",
+  "label": "0"
+ },
+ {
+  "id": "207",
+  "premise": "Kevin Whitaker, aki a Külügyminisztérium kubai ügyekkel foglalkozó irodáját vezeti, két alkalommal is beszélt Lazóval a fiai vízumának megszerzésére tett erőfeszítésekről.",
+  "hypothesis": "Kevin Whitaker a Külügyminisztérium egyik vezetője.",
+  "label": "1"
+ },
+ {
+  "id": "208",
+  "premise": "Az Earth Island Institute cáfolatának támogatására a Greenpeace alapítója, Don White a következő - sajnos prófétai - nyilvános nyilatkozatot tette 1993. augusztus 18-án.",
+  "hypothesis": "Don White a Greenpeace alapítója.",
+  "label": "1"
+ },
+ {
+  "id": "209",
+  "premise": "Úgy tűnik, hogy a szupravezető mágnesvasútrendszer technikailag készen áll arra, hogy kereskedelmi forgalomban nagyon nagy sebességű, nagy kapacitású közlekedési rendszerként használják.",
+  "hypothesis": "A lebegő mágnesvasutat kereskedelmi forgalomban használják.",
+  "label": "0"
+ },
+ {
+  "id": "210",
+  "premise": "Thaiföld hivatalos vallása a buddhizmus, amely a thai emberek hűségét megköveteli. Kulturális identitásuk szinte elválaszthatatlanul összefonódik a buddhista hagyományokkal. Az emberek a népi buddhizmust gyakorolják, amely magában foglalja a szellemimádatnak egy kidolgozott rendszerét.",
+  "hypothesis": "Thaiföld hivatalos vallása a théraváda buddhizmus.",
+  "label": "0"
+ },
+ {
+  "id": "211",
+  "premise": "A Tata csoporthoz tartozó indiai Tata Steel acélgyártó 6,7 milliárd fontért (12 milliárd dollárért) megvásárolja az angol-holland Corus Group acélóriást, és ezzel a világ ötödik legnagyobb acélgyártójává válik. Az India egyik legismertebb üzleti családjából származó 70 éves Ratan Tata, a Tata csoport elnöke nyerte a versenyt az 52 éves Benjamin Steinbruch, egy híres brazil vezetővel szemben, aki a Companhia Siderurgica Nacional (CSN) vezetője és fő tulajdonosa. A Tata részvényenként 608 pennyt fizetett a befektetőknek, míg a brazilok végső ajánlata az Egyesült Királyság Felvásárlási Bizottságának árverésén 603 penny volt. Az ügylet megháromszorozza a Tata Steel kapacitását, és közel évi 28 millió tonnára növeli azt. Tata: \"Ez az első lépés, amely megmutatja, hogy az indiai ipar képes kilépni a határain kívülre, a nemzetközi piacra, globális szereplőként.\" A Corus, amely a British Steel és a Hoogovens egyesüléséből jött létre, jelenleg 47 300 embert foglalkoztat világszerte. Tavaly a vállalat a világ kilencedik legnagyobb acélgyártója volt. A felvásárlás a széttagolt acélágazatban konszolidációs kört indíthat el.",
+  "hypothesis": "A CSN évente 28 millió tonna acélt állít elő.",
+  "label": "0"
+ },
+ {
+  "id": "212",
+  "premise": "New York büszkélkedhet a legtöbb milliárdossal, akik közül 40 a Big Apple-ben lakik. A világ legfiatalabb milliárdosa a 22 éves Hind Hariri, a meggyilkolt Rafik Hariri volt libanoni miniszterelnök lánya.",
+  "hypothesis": "A milliárdosok száma növekszik.",
+  "label": "0"
+ },
+ {
+  "id": "213",
+  "premise": "Kofi Annan ENSZ-főtitkár megjegyezte, hogy az irakiak nagy számban vettek részt a január 30-i szavazáson.",
+  "hypothesis": "Kofi Annant a január 30-i választáson választották meg.",
+  "label": "0"
+ },
+ {
+  "id": "214",
+  "premise": "Mivel Dél-Karolina Jesse Jackson szülőállama, a fekete közösség nagyon ösztönző volt.",
+  "hypothesis": "Jesse Jackson Dél-Karolinában született.",
+  "label": "1"
+ },
+ {
+  "id": "215",
+  "premise": "A NASA hétfői becslése szerint 104 milliárd dollárba fog kerülni az űrhajósok 2018-ig történő visszatérése a Holdra egy új rakétával, amely az űrsiklót és egy korábbi NASA-korszak kapszuláját kombinálja.",
+  "hypothesis": "Az új űrjárműdizájn űrsiklórakéta-alkatrészeket és egy Apollo-stílusú kapszulát tartalmaz.",
+  "label": "0"
+ },
+ {
+  "id": "216",
+  "premise": "A legtöbb kereskedelmi faanyagot Hondurasban termesztik.",
+  "hypothesis": "A növényeket vízben vagy más, a talajtól eltérő anyagokban termesztik.",
+  "label": "0"
+ },
+ {
+  "id": "217",
+  "premise": "Arlene Blum minden szempontból legendás úttörő. Az 1970-es évek hegymászó létesítményével dacolva az első női csapatokat vezette a McKinley és Annapurna hegység sikeres megmászásán, és az első amerikai nő volt, aki megkísérelte megmászni a Mt. Everestet. Hosszú, kalandos karrierje során vezető szerepet játszott több mint húsz expedícióban és egy helyet szerzett a nőknek a magaslati hegymászás veszélyes arénájában.",
+  "hypothesis": "Egy nőnek sikerül egyedül megmásznia az Everestet.",
+  "label": "0"
+ },
+ {
+  "id": "218",
+  "premise": "Gabriel Garcia Marquez a \"Száz év magány\", \"A pátriárka ősze\" és más regények szerzője.",
+  "hypothesis": "Gabriel Garcia Marquez regényíró és író.",
+  "label": "1"
+ },
+ {
+  "id": "219",
+  "premise": "A Mr. Lopezt és három társát érintő nyomozás elsősorban a titkok szisztematikus ellopásának gyanújával foglalkozik.",
+  "hypothesis": "Hét másik GM-vezető alkalmazott távozott Lopezzel.",
+  "label": "0"
+ },
+ {
+  "id": "220",
+  "premise": "Az étrendből, a gyümölcsökből és zöldségekből származó magas káliumbevitel egész életen át segít megőrizni a csonttömeget, ezáltal megakadályozva a csontvesztést, amely csontritkuláshoz vezethet.",
+  "hypothesis": "A kálium étrendi bevitele megakadályozza a csontritkulás kialakulását.",
+  "label": "1"
+ },
+ {
+  "id": "221",
+  "premise": "Monica Meadows-t, egy 22 éves atlantai modellt vállon lőttek egy New York-i metrókocsin.",
+  "hypothesis": "A 23 éves Monica Meadowst vállon lőtték egy New York-i metrókocsiban.",
+  "label": "0"
+ },
+ {
+  "id": "222",
+  "premise": "Phish feloszlik egy utolsó koncert után Vermontban aug. 15-én.",
+  "hypothesis": "A Phish rockegyüttes utolsó koncertjét Vermontban tartja.",
+  "label": "1"
+ },
+ {
+  "id": "223",
+  "premise": "Terveket dolgoztak ki a - Charles Darwint a világ minden tájára elvivő - hajó 3,3 millió fontos replikájának a megépítésére a pembrokeshire-i Milford Havenben. A projekt finanszírozása, amely 2009-ben Darwin születésének 200. évfordulóját ünnepelné, folyamatban van. A cél az, hogy egy a HMS Beagle-lel azonos, működő hajót építsenek. Darwin, aki megmutatta, hogy a természetes szelekció hogyan magyarázza az evolúciót, 1831 és 1836 között hajózott a Beagle-en.",
+  "hypothesis": "Charles Darwin a HMS Beagle nevű hajón utazott.",
+  "label": "1"
+ },
+ {
+  "id": "224",
+  "premise": "A legkeresettebb és legdrágább darab Spencer Tracy bronz mellszobra volt, amelyet Hepburn készített az 1960-as években.",
+  "hypothesis": "A legmagasabb áron eladott darab egy bronz mellszobor volt, amit Hepburn készített színész kedveséről, Spencer Tracyről az 1960-as években.",
+  "label": "1"
+ },
+ {
+  "id": "225",
+  "premise": "Hadley azt mondta, hogy azért választották Jordániát a Bush és al-Maliki közötti találkozó helyszínéül, mert Jordánia támogatta az iraki egységkormányt, és mert Bush ebben a régióban tartózkodik.",
+  "hypothesis": "Bush Hadley-ben fog találkozni Al-Malikival.",
+  "label": "0"
+ },
+ {
+  "id": "226",
+  "premise": "Egy magas rangú iraki koalíciós tisztviselő szerint a holttestet, melyet az amerikai katonai rendőrség talált Bagdadtól nyugatra, egy járműből dobták ki.",
+  "hypothesis": "Egy holttestet talált az amerikai katonai rendőrség.",
+  "label": "1"
+ },
+ {
+  "id": "227",
+  "premise": "Oqueli azért repült Nicaraguába, hogy csatlakozzon egy nemzetközi szocialista delegációhoz, amely a nicaraguai választási kampányt fogja megfigyelni.",
+  "hypothesis": "Nicaraguában választási kampányt tartanak.",
+  "label": "1"
+ },
+ {
+  "id": "228",
+  "premise": "JERUSALEM (AP) -- 22 éves pápaságának lelki csúcspontján II. János Pál pápa kedden megkezdte az első hivatalos látogatást, melyet római katolikus pápa tesz Izraelben, beteljesítve azon álmát, hogy meglátogassa azt a földet, ahol Krisztus született és meghalt.",
+  "hypothesis": "II. János Pál pápa Lengyelországban született.",
+  "label": "0"
+ },
+ {
+  "id": "229",
+  "premise": "Aiszkhülosz Kr. e. 525-ben született, és fiatalkorát az athéni hadsereg katonájaként töltötte. 53 évesen írta a Perzsákat, ami a legkorábbi fennmaradt műve.",
+  "hypothesis": "A Perzsákat Aiszkhülosz írta.",
+  "label": "1"
+ },
+ {
+  "id": "230",
+  "premise": "A horvát szándék még problematikusabb, ugyanis a szlovén és horvát felségvizek közötti határt még nem jelölték ki. A határvita 1991-ben kezdődött, amikor a két ország elnyerte függetlenségét.",
+  "hypothesis": "Vita folyik a felségvizekkel kapcsolatban.",
+  "label": "1"
+ },
+ {
+  "id": "231",
+  "premise": "A Katrina hurrikán kőolajellátási kilátásai némileg javultak tegnap, mivel az Egyesült Államok és az európai kormányok megállapodtak abban, hogy napi 2 millió hordó olajat és finomított terméket bocsátanak rendelkezésre tartalékaikból.",
+  "hypothesis": "60 millió hordó olaj és benzin lesz elérhető a piacon.",
+  "label": "0"
+ },
+ {
+  "id": "232",
+  "premise": "Ms. Bhutto csütörtöki meggyilkolása sokak szerint válságos helyzetbe hozta a pakisztáni nemzetet, erőszakos tüntetések vannak szerte az országban. Tisztviselők szerint az erőszakos cselekedetek által okozott kár több tízmillió dollárra rúg. A legtöbb haláleset Sindh tartomány déli részén történt, ami Ms. Bhutto politikai bázisának számít. A biztonsági helyzet romlása arra sarkallta Musharraf elnököt szombaton, hogy utasítsa biztonsági vezetőit, hogy határozottan lépjenek fel az erőszakos tüntetőkkel szemben.",
+  "hypothesis": "Musharraf parancsba adta a felkelőknek, hogy határozottan lépjenek fel a biztonsági erők ellen.",
+  "label": "0"
+ },
+ {
+  "id": "233",
+  "premise": "1865-ben John Wilkes Booth-t, Abraham Lincoln elnök merénylőjét szövetségi csapatok vették körül a virginiai Bowling Green közelében, és megölték.",
+  "hypothesis": "John Wilkes Booth ölte meg Abraham Lincoln elnököt.",
+  "label": "1"
+ },
+ {
+  "id": "234",
+  "premise": "A levelet, amelyet a Syracuse TV csatorna, a News 10 Now kapott, még mindig elemzik, de a rendőrség úgy véli, hogy a 41 éves Jiverly Wong írta - mondta Joseph Zikuski rendőrfőnök egy tájékoztatón. \"Nincs okunk azt hinni, hogy nem,\" - mondta Zikuski. \"Ez egy újabb bizonyíték egy nagyon összetett kirakós játékban, amelyről hetekbe és hónapokba fog telni, hogy kiderítsük, mi is folyik benne. Ez segíteni fog nekünk.\" A terjengős, összefüggéstelen levélben, amelyet aznap küldött el, amikor 13 embert gyilkolt meg, mielőtt végzett volna magával , Wong a rendőrséget okolta, és esküdözött, hogy legalább két embert fog magával vinni, amikor \"visszatér a föld porába\". A nagybetűkkel, rendezetten írt levelet egy dermesztő megjegyzéssel fejezte be: \"És szép napot!\"",
+  "hypothesis": "Jiverly Won rendőrfőnök volt.",
+  "label": "0"
+ },
+ {
+  "id": "235",
+  "premise": "Ennek eredményeképpen a gyomorfekély már nem egy krónikus, sok esetben különösen hátrányos betegség, hanem már gyógyítható egy rövid antibiotikumos kezeléssel vagy más gyógyszerekkel.",
+  "hypothesis": "Antibiotikumokat alkalmaznak gyomorfekély ellen.",
+  "label": "1"
+ },
+ {
+  "id": "236",
+  "premise": "A művészettörténetben az őskori művészet az irodalom előtti kultúrákban (őstörténetben) megalkotott művészet, amely valamikor a nagyon késői geológiai történelemben kezdődött.",
+  "hypothesis": "Őskori művészeti leleteket találtak Dél-Afrikában.",
+  "label": "0"
+ },
+ {
+  "id": "237",
+  "premise": "Szlovénia fővárosa a 270 000 lakost számláló Ljubljana.",
+  "hypothesis": "Szlovéniának 270 000 lakosa van.",
+  "label": "0"
+ },
+ {
+  "id": "238",
+  "premise": "A Swansea-i csatár, Lee Trundle egy jövedelmező imázsjogról tárgyalt a League One klubbal.",
+  "hypothesis": "Lee Trundle üzletel a League One klubbal.",
+  "label": "1"
+ },
+ {
+  "id": "239",
+  "premise": "II. János Pál pápa egykori világoskék 1975-ös Ford Escortját 690 000 dollárért adták el szombaton egy houstoni multimilliomosnak, aki azt mondta, azt tervezi, hogy egy múzeumot akar építeni a szülővárosában, és ott fogja kiállítani az autót.",
+  "hypothesis": "Egy houstoni multimilliomos megveszi a pápa Ford Escortját.",
+  "label": "1"
+ },
+ {
+  "id": "240",
+  "premise": "2001. október 1-jén az EU és más országok bevezették azt a lehetőséget, hogy a kisállatok tulajdonosai útlevelet igényelhessenek kisállataiknak az állatutaztatási rendszerben (angolul: PETS), ha vissza akarják őket vinni az Egyesült Királyságba. Ez a módszer felváltotta a régi rendszert, amely során minden háziállatnak karanténban kellett lennie 6 hónapig.",
+  "hypothesis": "2001-ben az EU bevezette a háziállatok útlevelét.",
+  "label": "1"
+ },
+ {
+  "id": "241",
+  "premise": "Kozlowskit és a cég korábbi pénzügyi igazgatóját, Mark Swartzot hétfőn 25 év börtönbüntetésre ítélték.",
+  "hypothesis": "Kozlowskit hétfőn 25 év börtönbüntetésre ítélték.",
+  "label": "1"
+ },
+ {
+  "id": "242",
+  "premise": "Danny Kennedy, a Greenpeace kampányigazgatója a következőket mondta: „A Scott Parkin-féle kiutasítási ügyben a bizonyítási teher erkölcsileg a Nemzetközösségen múlik, hogy bebizonyítsák, a férfi veszélyt jelent. Amikor a kormány bevezette a terrorizmus elleni törvényeket, megígérték a nyilvánosságnak, hogy ezeket a törvényeket csak arra fogják használni, hogy szembenézzenek egy valós és jelenlegi terrortámadás kockázatával, és nem fogják minden állampolgárra kiterjeszteni. A béke nem jelent veszélyt a nemzetbiztonságra. Egyetlen demokratikus kormány sem utasíthat ki egy külföldi állampolgárt azért, mert ellenzi annak politikai nézeteit.”",
+  "hypothesis": "A Greenpeace igazgatója szerint a béke: terrorizmus.",
+  "label": "0"
+ }
+]
