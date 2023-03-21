@@ -1,0 +1,1 @@
+{"py/object": "pet.wrapper.WrapperConfig", "cache_dir": "", "label_list": ["False", "True"], "max_seq_length": 200, "model_name_or_path": "bert-base-uncased", "model_type": "bert", "pattern_id": 0, "task_name": "boolq", "verbalizer_file": null, "wrapper_type": "sequence_classifier"}

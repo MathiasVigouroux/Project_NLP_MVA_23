@@ -1,0 +1,1 @@
+{"device": "cuda", "n_gpu": 1, "per_gpu_eval_batch_size": 8, "metrics": ["acc"], "decoding_strategy": "default", "priming": false}
