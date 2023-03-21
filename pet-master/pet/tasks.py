@@ -947,20 +947,26 @@ class HuRteProcessor(DataProcessor):
     def _create_examples(self, path: str, set_type: str, hypothesis_name: str = "hypothesis",
                          premise_name: str = "premise") -> List[InputExample]:
         examples = []
+
+                    
+
         with open(path, encoding='utf8') as json_file:
             json_data = json.load(json_file)
-            for example_json in json_data:
+            for line_idx, example_json in enumerate(json_data):
                 idx = example_json['id']
                 if isinstance(idx, str):
                     try:
                         idx = int(idx)
                     except ValueError:
                         idx = line_idx
-                label = example_json.get('label')
+                        raise ValueError("CHECK the processor")
+                        
+            #for example_json in json_data:
+                idx = example_json['id']
+                label = example_json['label'] if 'label' in example_json else None
                 guid = "%s-%s" % (set_type, idx)
                 text_a = example_json[premise_name]
                 text_b = example_json[hypothesis_name]
-
                 example = InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label, idx=idx)
                 examples.append(example)
 
