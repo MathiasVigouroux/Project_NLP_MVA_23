@@ -673,9 +673,9 @@ class HuSSTPVP(PVP):
 
     TASK_NAME = "husst"
     VERBALIZER = {
-        "negative": ["negatív","rossz"], #["mauvais"], pour le moment ... AssertionError: Verbalization "mauvais" does not correspond to a single token, got ['ma', '##u', '##va', '##is']
-        "neutral": ["semleges"],
-        "positive":["positív", "jó"]
+        "negative": ["negatív","rossz", "szar"], 
+        "neutral": ["semleges", "átlag"],
+        "positive":["positív", "jó", "remek"]
     }
 
     def get_parts(self, example: InputExample)  -> FilledPattern:
@@ -683,10 +683,10 @@ class HuSSTPVP(PVP):
 
         if self.pattern_id == 0:
             # this corresponds to the pattern : a En résumé, ce film est [MASK]
-            return [text, 'Röviden, ez a mondat :', self.mask], []
+            return [text, 'Röviden, ez a film', self.mask], []
         elif self.pattern_id == 1:
             # this corresponds to the pattern : a En résumé, ce film est [MASK]
-            return [text, 'Összefoglalva, ez a mondat :', self.mask], []
+            return [text, 'Összefoglalva, ez a film', self.mask], []
         else:
             raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
 
