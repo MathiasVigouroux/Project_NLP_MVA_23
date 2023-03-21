@@ -674,7 +674,7 @@ class HuSSTPVP(PVP):
     TASK_NAME = "husst"
     VERBALIZER = {
         "negative": ["negatív","rossz", "szar"], 
-        "neutral": ["semleges", "átlag"],
+        "neutral": [ "átlag", "ok", "oké"], #"semleges"  ->  ['▁sem', 'leges']
         "positive":["jó", "remek"] #"positív", is a not really frequent word in hunagrain, not correspond to a single token, got ['▁posi', 'tív'] 
     }
 
