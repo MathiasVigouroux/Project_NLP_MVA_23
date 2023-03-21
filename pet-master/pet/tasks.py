@@ -881,7 +881,7 @@ class HuSSTProcessor(DataProcessor):
     TRAIN_FILE_NAME = "sst_train.json"
     DEV_FILE_NAME = "sst_dev.json"    
     TEST_FILE_NAME = "sst_test.json"   
-    UNLABELED_FILE_NAME = "sst_unlabeled.json"
+    UNLABELED_FILE_NAME = "sst_unlabelled.json"
 
     LABELS = ["positive", "neutral","negative"]
  
