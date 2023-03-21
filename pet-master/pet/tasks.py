@@ -909,7 +909,7 @@ class HuSST(DataProcessor):
             for example_json in json_data:
                 idx = example_json['id']
                 guid = "%s-%s" % (set_type, idx)
-                label = example_json['label']
+                label = example_json['label'] if 'label' in example_json else None
                 text = example_json['Sent']
                 text_b=None
                 example = InputExample(guid=guid, text_a=text, text_b = text_b, label=label)
