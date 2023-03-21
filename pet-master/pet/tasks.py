@@ -914,11 +914,59 @@ class HuSSTProcessor(DataProcessor):
                 text_b=None
                 example = InputExample(guid=guid, text_a=text, text_b = text_b, label=label)
                 examples.append(example)
+        return examples
 
+class HuRteProcessor(DataProcessor):
+    """Processor for the RTE data set."""
+    TASK_NAME = "hurte"
+    TRAIN_FILE_NAME = "rte_train.json"
+    DEV_FILE_NAME = "rte_dev.json"    
+    TEST_FILE_NAME = "rte_test.json"   
+    UNLABELED_FILE_NAME = "rte_unlabelled.json"
 
+    LABELS = ["0","1"]
+
+    def __init__(self):
+        self.mnli_processor = MnliProcessor()
+
+    def get_train_examples(self, data_dir):
+        return self._create_examples(os.path.join(data_dir, HuRteProcessor.TRAIN_FILE_NAME), "train")
+
+    def get_dev_examples(self, data_dir):
+        return self._create_examples(os.path.join(data_dir, HuRteProcessor.DEV_FILE_NAME), "dev")
+
+    def get_test_examples(self, data_dir):
+        return self._create_examples(os.path.join(data_dir,HuRteProcessor.TEST_FILE_NAME), "test")
+
+    def get_unlabeled_examples(self, data_dir):
+        return self._create_examples(os.path.join(data_dir, HuRteProcessor.UNLABELED_FILE_NAME), "unlabeled")
+
+    def get_labels(self):
+        return HuRteProcessor.LABELS
+
+    def _create_examples(self, path: str, set_type: str, hypothesis_name: str = "hypothesis",
+                         premise_name: str = "premise") -> List[InputExample]:
+        examples = []
+        with open(path, encoding='utf8') as json_file:
+            json_data = json.load(json_file)
+            for example_json in json_data:
+                idx = example_json['id']
+                if isinstance(idx, str):
+                    try:
+                        idx = int(idx)
+                    except ValueError:
+                        idx = line_idx
+                label = example_json.get('label')
+                guid = "%s-%s" % (set_type, idx)
+                text_a = example_json[premise_name]
+                text_b = example_json[hypothesis_name]
+
+                example = InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label, idx=idx)
+                examples.append(example)
 
         return examples
-    
+
+
 PROCESSORS = {
     "mnli": MnliProcessor,
     "mnli-mm": MnliMismatchedProcessor,
@@ -940,7 +988,8 @@ PROCESSORS = {
     "ax-g": AxGProcessor,
     "ax-b": AxBProcessor,
     "allocine": AllocineProcessor,
-    "husst": HuSSTProcessor
+    "husst" : HuSSTProcessor,
+    "hurte" : HuRteProcessor
 }  # type: Dict[str,Callable[[],DataProcessor]]
 
 TASK_HELPERS = {
