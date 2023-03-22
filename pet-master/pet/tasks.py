@@ -983,7 +983,7 @@ class HuCopaProcessor(DataProcessor):
         return self._create_examples(os.path.join(data_dir, "test.json"), "test")
 
     def get_unlabeled_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "unlabeled.json"), "unlabeled")
+        return self._create_examples(os.path.join(data_dir, "unlabelled.json"), "unlabeled")
 
     def get_labels(self):
         return ["1", "2"]
@@ -991,12 +991,12 @@ class HuCopaProcessor(DataProcessor):
     @staticmethod
     def _create_examples(path: str, set_type: str) -> List[InputExample]:
         examples = []
-
-        with open(path, encoding='utf8') as f:
-            for line in f:
-                example_json = json.loads(line)
+        with open(path, encoding='utf8') as json_file:
+            json_data = json.load(json_file)
+            for line_idx, example_json in enumerate(json_data):
                 label = str(example_json['label']) if 'label' in example_json else None
-                idx = example_json['id']
+                idx = line_idx
+                #idx = example_json['id']
                 guid = "%s-%s" % (set_type, idx)
                 text_a = example_json['premise']
                 meta = {
