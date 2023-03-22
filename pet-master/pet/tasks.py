@@ -917,7 +917,7 @@ class HuSSTProcessor(DataProcessor):
         return examples
 
 class HuRteProcessor(DataProcessor):
-    """Processor for the RTE data set."""
+    """Processor for the HuRTE data set."""
     TASK_NAME = "hurte"
     TRAIN_FILE_NAME = "rte_train.json"
     DEV_FILE_NAME = "rte_dev.json"    
@@ -969,6 +969,59 @@ class HuRteProcessor(DataProcessor):
                 examples.append(example)
 
         return examples
+    
+class HuCopaProcessor(DataProcessor):
+    """Processor for the HuCOPA data set."""
+
+    def get_train_examples(self, data_dir):
+        return self._create_examples(os.path.join(data_dir, "train.jsonl"), "train")
+
+    def get_dev_examples(self, data_dir):
+        return self._create_examples(os.path.join(data_dir, "val.jsonl"), "dev")
+
+    def get_test_examples(self, data_dir):
+        return self._create_examples(os.path.join(data_dir, "test.jsonl"), "test")
+
+    def get_unlabeled_examples(self, data_dir):
+        return self._create_examples(os.path.join(data_dir, "unlabeled.jsonl"), "unlabeled")
+
+    def get_labels(self):
+        return ["1", "2"]
+
+    @staticmethod
+    def _create_examples(path: str, set_type: str) -> List[InputExample]:
+        examples = []
+
+        with open(path, encoding='utf8') as f:
+            for line in f:
+                example_json = json.loads(line)
+                label = str(example_json['label']) if 'label' in example_json else None
+                idx = example_json['idx']
+                guid = "%s-%s" % (set_type, idx)
+                text_a = example_json['premise']
+                meta = {
+                    'choice1': example_json['choice1'],
+                    'choice2': example_json['choice2'],
+                    'question': example_json['question']
+                }
+                example = InputExample(guid=guid, text_a=text_a, label=label, meta=meta, idx=idx)
+                examples.append(example)
+
+        if set_type == 'train' or set_type == 'unlabeled':
+            mirror_examples = []
+            for ex in examples:
+                label = "2" if ex.label == "1" else "1"
+                meta = {
+                    'choice1': ex.meta['choice2'],
+                    'choice2': ex.meta['choice1'],
+                    'question': ex.meta['question']
+                }
+                mirror_example = InputExample(guid=ex.guid + 'm', text_a=ex.text_a, label=label, meta=meta)
+                mirror_examples.append(mirror_example)
+            examples += mirror_examples
+            logger.info(f"Added {len(mirror_examples)} mirror examples, total size is {len(examples)}...")
+        return examples
+
 
 
 PROCESSORS = {
@@ -993,7 +1046,8 @@ PROCESSORS = {
     "ax-b": AxBProcessor,
     "allocine": AllocineProcessor,
     "husst" : HuSSTProcessor,
-    "hurte" : HuRteProcessor
+    "hurte" : HuRteProcessor,
+    "hucopa" : HuCopaProcessor
 }  # type: Dict[str,Callable[[],DataProcessor]]
 
 TASK_HELPERS = {
