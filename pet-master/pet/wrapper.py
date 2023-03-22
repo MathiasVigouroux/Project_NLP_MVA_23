@@ -32,7 +32,7 @@ from transformers import InputExample, AdamW, get_linear_schedule_with_warmup, P
     GPT2Config, GPT2LMHeadModel, GPT2Tokenizer,CamembertForMaskedLM,CamembertConfig, CamembertForSequenceClassification, CamembertTokenizer
 
 
-
+from transformers import AutoModel
 from transformers import __version__ as transformers_version
 
 import log
@@ -54,7 +54,7 @@ PREPROCESSORS = {
     MLM_WRAPPER: preprocessor.MLMPreprocessor,
     PLM_WRAPPER: preprocessor.PLMPreprocessor,
 }
-
+huBERT_model_name = "SZTAKI-HLT/hubert-base-cc"
 MODEL_CLASSES = {
     'bert': {
         'config': BertConfig,
@@ -96,6 +96,12 @@ MODEL_CLASSES = {
         'tokenizer': CamembertTokenizer,
         SEQUENCE_CLASSIFIER_WRAPPER: CamembertForSequenceClassification,
         MLM_WRAPPER: CamembertForMaskedLM
+    },
+    'huBERT': {
+        'config': BertConfig.from_pretrained(huBERT_model_name),
+        'tokenizer': BertTokenizer.from_pretrained(huBERT_model_name),
+        SEQUENCE_CLASSIFIER_WRAPPER: BertForSequenceClassification.from_pretrained(huBERT_model_name),
+        MLM_WRAPPER: BertForMaskedLM.from_pretrained(huBERT_model_name)
     }
 }
 
