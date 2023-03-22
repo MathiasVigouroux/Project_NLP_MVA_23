@@ -96,9 +96,7 @@ MODEL_CLASSES = {
         'tokenizer': CamembertTokenizer,
         SEQUENCE_CLASSIFIER_WRAPPER: CamembertForSequenceClassification,
         MLM_WRAPPER: CamembertForMaskedLM
-    },
-
-
+    }
 }
 
 EVALUATION_STEP_FUNCTIONS = {
