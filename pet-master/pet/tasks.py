@@ -960,9 +960,6 @@ class HuRteProcessor(DataProcessor):
                     except ValueError:
                         idx = line_idx
                         raise ValueError("CHECK the processor")
-                        
-            #for example_json in json_data:
-                idx = example_json['id']
                 label = example_json['label'] if 'label' in example_json else None
                 guid = "%s-%s" % (set_type, idx)
                 text_a = example_json[premise_name]
