@@ -953,13 +953,14 @@ class HuRteProcessor(DataProcessor):
         with open(path, encoding='utf8') as json_file:
             json_data = json.load(json_file)
             for line_idx, example_json in enumerate(json_data):
-                idx = example_json['id']
-                if isinstance(idx, str):
-                    try:
-                        idx = int(idx)
-                    except ValueError:
-                        idx = line_idx
-                        raise ValueError("CHECK the processor")
+                idx = line_idx
+                #idx = example_json['id']
+                #if isinstance(idx, str):
+                    #try:
+                    #    idx = int(idx)
+                    #except ValueError:
+                    #    idx = line_idx
+                    #    raise ValueError("CHECK the processor")
                 label = example_json['label'] if 'label' in example_json else None
                 guid = "%s-%s" % (set_type, idx)
                 text_a = example_json[premise_name]
