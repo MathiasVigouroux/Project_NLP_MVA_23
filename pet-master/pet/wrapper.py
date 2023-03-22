@@ -29,7 +29,7 @@ from transformers import InputExample, AdamW, get_linear_schedule_with_warmup, P
     XLNetLMHeadModel, BertConfig, BertForSequenceClassification, BertTokenizer, RobertaConfig, \
     RobertaForSequenceClassification, RobertaTokenizer, XLMRobertaConfig, XLMRobertaForSequenceClassification, \
     XLMRobertaTokenizer, AlbertForSequenceClassification, AlbertForMaskedLM, AlbertTokenizer, AlbertConfig, \
-    GPT2Config, GPT2LMHeadModel, GPT2Tokenizer,HubertForMaskedLM,HubertConfig, HubertForSequenceClassification, HubertTokenizer
+    GPT2Config, GPT2LMHeadModel, GPT2Tokenizer,CamembertForMaskedLM,CamembertConfig, CamembertForSequenceClassification, CamembertTokenizer
 
 
 
@@ -91,11 +91,11 @@ MODEL_CLASSES = {
         'tokenizer': GPT2Tokenizer,
         MLM_WRAPPER: GPT2LMHeadModel
     },
-    'bert': {
-        'config': HubertConfig,
-        'tokenizer': HubertTokenizer,
-        SEQUENCE_CLASSIFIER_WRAPPER: HubertForSequenceClassification,
-        MLM_WRAPPER: HubertForMaskedLM
+    'camembert': {
+        'config': CamembertConfig,
+        'tokenizer': CamembertTokenizer,
+        SEQUENCE_CLASSIFIER_WRAPPER: CamembertForSequenceClassification,
+        MLM_WRAPPER: CamembertForMaskedLM
     },
 
 
