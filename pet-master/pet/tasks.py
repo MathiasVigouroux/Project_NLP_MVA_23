@@ -974,16 +974,16 @@ class HuCopaProcessor(DataProcessor):
     """Processor for the HuCOPA data set."""
 
     def get_train_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "train.jsonl"), "train")
+        return self._create_examples(os.path.join(data_dir, "train.json"), "train")
 
     def get_dev_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "val.jsonl"), "dev")
+        return self._create_examples(os.path.join(data_dir, "val.json"), "dev")
 
     def get_test_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "test.jsonl"), "test")
+        return self._create_examples(os.path.join(data_dir, "test.json"), "test")
 
     def get_unlabeled_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "unlabeled.jsonl"), "unlabeled")
+        return self._create_examples(os.path.join(data_dir, "unlabeled.json"), "unlabeled")
 
     def get_labels(self):
         return ["1", "2"]
