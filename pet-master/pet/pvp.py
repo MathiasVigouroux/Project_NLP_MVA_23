@@ -720,7 +720,35 @@ class HuSSTPVP(PVP):
 
     def verbalize(self, label) -> List[str]:
         return HuSSTPVP.VERBALIZER[label]
+    
 
+class HuCopaPVP(PVP):
+
+    def get_parts(self, example: InputExample) -> FilledPattern:
+
+        premise = self.remove_final_punc(self.shortenable(example.text_a))
+        choice1 = self.remove_final_punc(self.lowercase_first(example.meta['choice1']))
+        choice2 = self.remove_final_punc(self.lowercase_first(example.meta['choice2']))
+
+        question = example.meta['question']
+        assert question in ['cause', 'effect']
+
+        example.meta['choice1'], example.meta['choice2'] = choice1, choice2
+        num_masks = max(len(get_verbalization_ids(c, self.wrapper.tokenizer, False)) for c in [choice1, choice2])
+
+        if question == 'cause':
+            if self.pattern_id == 0:
+                return ['"', choice1, '" vagy "', choice2, '"?', premise, 'mert', self.mask * num_masks, '.'], []
+            elif self.pattern_id == 1:
+                return [choice1, 'vagy', choice2, '?', premise, 'mert', self.mask * num_masks, '.'], []
+        else:
+            if self.pattern_id == 0:
+                return ['"', choice1, '" vagy "', choice2, '"?', premise, ', ezért', self.mask * num_masks, '.'], []
+            elif self.pattern_id == 1:
+                return [choice1, 'vagy', choice2, '?', premise, ',  ezért', self.mask * num_masks, '.'], []
+
+    def verbalize(self, label) -> List[str]:
+        return []
 
 
 PVPS = {
@@ -744,5 +772,6 @@ PVPS = {
     'ax-g': RtePVP,
     'allocine': AllocinePVP,
     'husst':HuSSTPVP,
-    'hurte':HuRtePVP
+    'hurte':HuRtePVP,
+    'hucopa':HuCopaPVP
 }

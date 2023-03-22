@@ -996,7 +996,7 @@ class HuCopaProcessor(DataProcessor):
             for line in f:
                 example_json = json.loads(line)
                 label = str(example_json['label']) if 'label' in example_json else None
-                idx = example_json['idx']
+                idx = example_json['id']
                 guid = "%s-%s" % (set_type, idx)
                 text_a = example_json['premise']
                 meta = {
