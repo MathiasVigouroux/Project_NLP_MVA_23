@@ -1,0 +1,32 @@
+{"id": "36", "question": "effect", "label": "1", "premise": "Fizettem a vámszedőnek.", "choice1": "Átengedett a fizetőkapun.", "choice2": "Őrizetbe vett a fizetőkapunál."}
+{"id": "178", "question": "effect", "label": "2", "premise": "Cukrot tettem a kávéba.", "choice1": "A kávénak erős illata lett.", "choice2": "A kávénak édes íze lett."}
+{"id": "251", "question": "effect", "label": "2", "premise": "A férfi beverte a fejét.", "choice1": "Elmerült a gondolataiban.", "choice2": "Agyrázkódása lett."}
+{"id": "288", "question": "effect", "label": "2", "premise": "A lány talált egy bogarat a müzlijében.", "choice1": "Tejet öntött a tálba.", "choice2": "Elment az étvágya."}
+{"id": "319", "question": "cause", "label": "1", "premise": "Az anya szemmagasságba került a fiával.", "choice1": "Leguggolt.", "choice2": "Fogta a kezét."}
+{"id": "283", "question": "effect", "label": "2", "premise": "A gyermek panaszkodott, hogy ki kell mennie a mosdóba.", "choice1": "Az apja üdítőt adott neki inni.", "choice2": "Az apja megállt a benzinkútnál."}
+{"id": "90", "question": "effect", "label": "2", "premise": "A férfi és a nő egymásba szerettek.", "choice1": "Főiskolára jártak.", "choice2": "Összeházasodtak."}
+{"id": "270", "question": "cause", "label": "1", "premise": "A férfi felfigyelt a nőre.", "choice1": "Beleszagolt a parfümjébe.", "choice2": "Hátat fordított neki."}
+{"id": "375", "question": "effect", "label": "2", "premise": "A fiú egész éjjel tanult.", "choice1": "Kihagyta a vizsgát.", "choice2": "Átment a vizsgán."}
+{"id": "82", "question": "effect", "label": "2", "premise": "Ügyetlenül belebotlottam az idegenbe.", "choice1": "Elfutottam.", "choice2": "Bocsánatot kértem tőle."}
+{"id": "31", "question": "effect", "label": "1", "premise": "A barátok úgy döntöttek, hogy megosztják a hamburgert.", "choice1": "Félbevágták a hamburgert.", "choice2": "Sült krumplit rendeltek a hamburgerhez."}
+{"id": "46", "question": "cause", "label": "2", "premise": "A szék nyikorgott.", "choice1": "A férfi az irodájába vitte a széket.", "choice2": "A férfi közelebb húzta a széket az asztalhoz."}
+{"id": "284", "question": "cause", "label": "1", "premise": "A csillár összetört a padlón.", "choice1": "A csillár leesett a mennyezetről.", "choice2": "A csillár villódzott."}
+{"id": "63", "question": "cause", "label": "2", "premise": "Összepakoltam a holmimat.", "choice1": "Új lakást kerestem.", "choice2": "Kiköltöztem a lakásomból."}
+{"id": "78", "question": "cause", "label": "2", "premise": "A férfi egy cigarettára vágyott.", "choice1": "Családja arra ösztönözte, hogy szokjon le a dohányzásról.", "choice2": "Nikotinfüggő volt."}
+{"id": "72", "question": "cause", "label": "1", "premise": "A férfi haja kiszőkült.", "choice1": "Hajszőkítőt kent rá.", "choice2": "Besamponozta."}
+{"id": "217", "question": "cause", "label": "2", "premise": "A férfi meglátta a tükörképét.", "choice1": "Ott állt a terebélyes fa alatt.", "choice2": "Ott állt a nyugodt tó felett."}
+{"id": "176", "question": "effect", "label": "1", "premise": "A lány meg akarta ismerni a Naprendszert.", "choice1": "Elment a könyvtárba.", "choice2": "Nézte a csillagokat."}
+{"id": "163", "question": "cause", "label": "1", "premise": "A városban romlott a légszennyezés.", "choice1": "A gyárak növelték a termelést.", "choice2": "A gyárak leálltak."}
+{"id": "240", "question": "effect", "label": "1", "premise": "A lány rajtakapta a bátyját, hogy a naplóját olvassa.", "choice1": "Elkezdte rejtegetni a naplót.", "choice2": "Új naplót kapott."}
+{"id": "227", "question": "cause", "label": "1", "premise": "Korgott a gyomrom.", "choice1": "Elfelejtettem reggelizni.", "choice2": "Jól bereggeliztem."}
+{"id": "150", "question": "cause", "label": "1", "premise": "A gyerek gyorsan visszarántotta a kezét.", "choice1": "Megérintette a forró tűzhelyet.", "choice2": "Megsimogatta a kiskutya fejét."}
+{"id": "25", "question": "effect", "label": "2", "premise": "Egyre nagyobb lett a tömeg.", "choice1": "Az apa pénzt adott a fiának.", "choice2": "Az apa megfogta a fia kezét."}
+{"id": "293", "question": "effect", "label": "2", "premise": "A lány hibázott a vizsgán.", "choice1": "Megtippelte a választ.", "choice2": "Kitörölte a válaszát."}
+{"id": "20", "question": "cause", "label": "1", "premise": "A kisfiú sírt a bébiszitterének.", "choice1": "Hiányoztak neki a szülei.", "choice2": "Uzsonnaidő volt."}
+{"id": "107", "question": "cause", "label": "1", "premise": "Az orvos diagnosztizálta a beteget.", "choice1": "Azonosította a beteg tüneteit.", "choice2": "Gyógyszereket írt fel a betegnek."}
+{"id": "295", "question": "cause", "label": "1", "premise": "A vonat lassított.", "choice1": "Közeledett az állomáshoz.", "choice2": "Késésben volt."}
+{"id": "155", "question": "cause", "label": "2", "premise": "A nő külföldre utazott.", "choice1": "Meg akart tanulni rajzolni.", "choice2": "Más kultúrákról akart tanulni."}
+{"id": "64", "question": "cause", "label": "1", "premise": "A lánynak fájt a szája.", "choice1": "Kiesett egy foga.", "choice2": "Lenyelte a rágóját."}
+{"id": "197", "question": "cause", "label": "1", "premise": "Ittam az ivókútból.", "choice1": "Szomjas voltam.", "choice2": "Hányingerem volt."}
+{"id": "372", "question": "effect", "label": "2", "premise": "A hegymászók elérték a hegycsúcsot.", "choice1": "Lavinába keveredtek.", "choice2": "Gratuláltak egymásnak."}
+{"id": "95", "question": "effect", "label": "2", "premise": "A lány nem volt hajlandó megenni a zöldségeket.", "choice1": "Az apja mondta neki, hogy igya meg a tejét.", "choice2": "Az apja elvette a desszertjét."}
