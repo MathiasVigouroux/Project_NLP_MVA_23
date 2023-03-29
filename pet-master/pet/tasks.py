@@ -1053,6 +1053,7 @@ PROCESSORS = {
     "allocine": AllocineProcessor,
     "husst" : HuSSTProcessor,
     "hurte" : HuRteProcessor,
+    "copa" : CopaProcessor,
 }  # type: Dict[str,Callable[[],DataProcessor]]
 
 TASK_HELPERS = {
