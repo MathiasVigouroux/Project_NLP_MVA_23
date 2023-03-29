@@ -708,10 +708,10 @@ class AllocinePVP(PVP):
         # can also be empty).
         if self.pattern_id == 0:
             # this corresponds to the pattern : [MASK] ! a
-            return [self.mask, self.mask, '!', text], []
+            return [self.mask*2, '!', text], []
         elif self.pattern_id == 1:
             # this corresponds to the pattern : a En résumé, ce film est [MASK]
-            return [text, 'En résumé, ce film est :', self.mask, self.mask], []
+            return [text, 'En résumé, ce film est :', self.mask*2], []
         else:
             raise ValueError("No pattern implemented for id {}".format(self.pattern_id))
 
