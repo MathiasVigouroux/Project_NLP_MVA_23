@@ -930,7 +930,7 @@ class AllocineProcessor(DataProcessor):
 #PROCESSORS[AllocineProcessor.TASK_NAME] = AllocineProcessor
 
 # optional: if you have to use verbalizers that correspond to multiple tokens, uncomment the following line
-TASK_HELPERS[MyTaskDataProcessor.TASK_NAME] = MultiMaskTaskHelper
+TASK_HELPERS['allocine'] = MultiMaskTaskHelper
     
     
 
