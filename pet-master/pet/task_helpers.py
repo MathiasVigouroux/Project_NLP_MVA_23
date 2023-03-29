@@ -283,6 +283,113 @@ class MultiRcTaskHelper(TaskHelper):
 
         return self.wrapper.tokenizer.encode_plus(text_a, text_b, add_special_tokens=True,
                                                   max_length=self.wrapper.config.max_seq_length)
+class CopaTaskHelper(TaskHelper):
+    """A custom task helper for the COPA dataset."""
+
+    def get_sequence_classifier_inputs(self, example: InputExample) -> Dict[str, Any]:
+        premise = remove_final_punc(example.text_a)
+        choice1, choice2 = lowercase_first(example.meta['choice1']), lowercase_first(example.meta['choice2'])
+        question = example.meta['question']
+        joiner = 'because' if question == 'cause' else 'so'
+        text_a, text_b = ' '.join([premise, joiner, choice1]), ' '.join([premise, joiner, choice2])
+        return self.wrapper.tokenizer.encode_plus(text_a, text_b, add_special_tokens=True,
+                                                  max_length=self.wrapper.config.max_seq_length)
+
+    def train_step(self, batch, **kwargs) -> Optional[torch.Tensor]:
+        if self.wrapper.config.wrapper_type == 'sequence_classifier':
+            return
+
+        assert self.wrapper.config.wrapper_type == 'mlm', 'train_step() for COPA is only implemented for MLM models'
+
+        inputs = self.wrapper.generate_default_inputs(batch)
+        mask = batch['labels'].unsqueeze(1)
+        correct_targets = batch['choice1_token_ids'] * (1 - mask) + batch['choice2_token_ids'] * mask
+        wrong_targets = batch['choice1_token_ids'] * mask + batch['choice2_token_ids'] * (1 - mask)
+
+        prediction_scores = self.wrapper.model(**inputs)[0].view(-1, self.wrapper.model.config.vocab_size)
+        loss_fct = CrossEntropyLoss()
+
+        loss_correct_label = loss_fct(prediction_scores, correct_targets.view(-1))
+        loss_wrong_label = loss_fct(prediction_scores, wrong_targets.view(-1))
+        loss = 1 + loss_correct_label - loss_wrong_label
+        loss[loss < 0] = 0
+        return loss
+
+    def eval_step(self, batch: Dict[str, torch.Tensor], decoding_strategy: str = 'default', **kwargs):
+        if self.wrapper.config.wrapper_type == 'sequence_classifier':
+            return
+
+        assert self.wrapper.config.wrapper_type == 'mlm', 'eval_step() for COPA is only implemented for MLM models'
+        assert batch['input_ids'].shape[0] == 1, 'eval_step() for COPA is only implemented for batch_size=1'
+
+        log_probs = []
+        for choice in ['choice1', 'choice2']:
+            labels = batch[f'{choice}_token_ids']
+            log_prob = self._get_choice_log_probability(batch, labels, decoding_strategy=decoding_strategy)
+            log_probs.append(log_prob)
+
+        return torch.tensor([log_probs])
+
+    def _get_choice_log_probability(self, batch, target_sequence, decoding_strategy: str = 'default'):
+        # adjust the number of masks
+        num_masks = sum(1 for tok_id in target_sequence[0] if tok_id != -100)
+        input_ids = trim_input_ids(batch['input_ids'], num_masks=num_masks,
+                                   pad_token_id=self.wrapper.tokenizer.pad_token_id,
+                                   mask_token_id=self.wrapper.tokenizer.mask_token_id)
+
+        log_probabilities = []
+
+        while True:
+            masks = [(idx, tok_id) for idx, tok_id in enumerate(target_sequence[0]) if tok_id != -100]
+            if not masks:  # there are no masks left to process, we are done
+                break
+
+            outputs = self.wrapper.model(input_ids)
+            next_token_logits = torch.nn.Softmax(dim=2)(outputs[0])[0]
+
+            if decoding_strategy == 'ltr':
+                mask_pos, masked_id = masks[0]
+                max_prob = next_token_logits[mask_pos][masked_id].item()
+            elif decoding_strategy == 'parallel':
+                for m_pos, m_id in masks:
+                    log_probabilities.append(math.log(next_token_logits[m_pos][m_id].item()))
+                break
+            else:
+                mask_pos, masked_id = None, None
+                max_prob = None
+                for m_pos, m_id in masks:
+                    m_prob = next_token_logits[m_pos][m_id].item()
+                    if max_prob is None or m_prob > max_prob:
+                        max_prob = m_prob
+                        mask_pos, masked_id = m_pos, m_id
+
+            log_probabilities.append(math.log(max_prob))
+            input_ids[0][mask_pos] = masked_id
+            target_sequence[0][mask_pos] = -100
+
+        return sum(log_probabilities)
+
+    def add_special_input_features(self, input_example: InputExample, input_features: InputFeatures) -> None:
+        if self.wrapper.config.wrapper_type == 'sequence_classifier':
+            return
+
+        mask_start = input_features.input_ids.index(self.wrapper.tokenizer.mask_token_id)
+
+        for choice in ['choice1', 'choice2']:
+            choice_text = input_example.meta[choice]
+            choice_token_ids = get_verbalization_ids(choice_text, self.wrapper.tokenizer, force_single_token=False)
+            mask_end = mask_start + len(choice_token_ids)
+            input_features.meta[f'{choice}_token_ids'] = [-100] * len(input_features.input_ids)
+            input_features.meta[f'{choice}_token_ids'][mask_start:mask_end] = choice_token_ids
+
+    def add_features_to_dict(self, features: List[InputFeatures], feature_dict: Dict[str, torch.Tensor]) -> None:
+        if self.wrapper.config.wrapper_type == 'sequence_classifier':
+            return
+
+        for choice in ['choice1', 'choice2']:
+            feature_dict[f'{choice}_token_ids'] = torch.tensor(
+                [f.meta[f'{choice}_token_ids'] for f in features], dtype=torch.long)
+
 
 
 class HuCopaTaskHelper(TaskHelper):
