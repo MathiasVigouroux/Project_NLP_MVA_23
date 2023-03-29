@@ -285,8 +285,8 @@ class MultiRcTaskHelper(TaskHelper):
                                                   max_length=self.wrapper.config.max_seq_length)
 
 
-class CopaTaskHelper(TaskHelper):
-    """A custom task helper for the COPA dataset."""
+class HuCopaTaskHelper(TaskHelper):
+    """A custom task helper for the HuCOPA dataset."""
 
     def get_sequence_classifier_inputs(self, example: InputExample) -> Dict[str, Any]:
         premise = remove_final_punc(example.text_a)

@@ -562,8 +562,8 @@ class BoolQProcessor(DataProcessor):
         return examples
 
 
-class CopaProcessor(DataProcessor):
-    """Processor for the COPA data set."""
+class HuCopaProcessor(DataProcessor):
+    """Processor for the huCOPA data set."""
 
     def get_train_examples(self, data_dir):
         return self._create_examples(os.path.join(data_dir, "train.jsonl"), "train")
@@ -578,17 +578,22 @@ class CopaProcessor(DataProcessor):
         return self._create_examples(os.path.join(data_dir, "unlabeled.jsonl"), "unlabeled")
 
     def get_labels(self):
-        return ["0", "1"]
+        return ["1", "2"]
 
     @staticmethod
     def _create_examples(path: str, set_type: str) -> List[InputExample]:
         examples = []
 
         with open(path, encoding='utf8') as f:
-            for line in f:
+            for line_idx, line in enumerate(f):
+
+            #for line in f:
                 example_json = json.loads(line)
+                #example_json = example_json
+                #print(example_json)
                 label = str(example_json['label']) if 'label' in example_json else None
-                idx = example_json['idx']
+                idx=line_idx
+                #idx = example_json['id']
                 guid = "%s-%s" % (set_type, idx)
                 text_a = example_json['premise']
                 meta = {
@@ -602,7 +607,7 @@ class CopaProcessor(DataProcessor):
         if set_type == 'train' or set_type == 'unlabeled':
             mirror_examples = []
             for ex in examples:
-                label = "1" if ex.label == "0" else "0"
+                label = "2" if ex.label == "1" else "1"
                 meta = {
                     'choice1': ex.meta['choice2'],
                     'choice2': ex.meta['choice1'],
@@ -970,57 +975,7 @@ class HuRteProcessor(DataProcessor):
 
         return examples
     
-class HuCopaProcessor(DataProcessor):
-    """Processor for the HuCOPA data set."""
 
-    def get_train_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "train.json"), "train")
-
-    def get_dev_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "val.json"), "dev")
-
-    def get_test_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "test.json"), "test")
-
-    def get_unlabeled_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "unlabelled.json"), "unlabeled")
-
-    def get_labels(self):
-        return ["1", "2"]
-
-    @staticmethod
-    def _create_examples(path: str, set_type: str) -> List[InputExample]:
-        examples = []
-        with open(path, encoding='utf8') as json_file:
-            json_data = json.load(json_file)
-            for line_idx, example_json in enumerate(json_data):
-                label = str(example_json['label']) if 'label' in example_json else None
-                idx = line_idx
-                #idx = example_json['id']
-                guid = "%s-%s" % (set_type, idx)
-                text_a = example_json['premise']
-                meta = {
-                    'choice1': example_json['choice1'],
-                    'choice2': example_json['choice2'],
-                    'question': example_json['question']
-                }
-                example = InputExample(guid=guid, text_a=text_a, label=label, meta=meta, idx=idx)
-                examples.append(example)
-
-        if set_type == 'train' or set_type == 'unlabeled':
-            mirror_examples = []
-            for ex in examples:
-                label = "2" if ex.label == "1" else "1"
-                meta = {
-                    'choice1': ex.meta['choice2'],
-                    'choice2': ex.meta['choice1'],
-                    'question': ex.meta['question']
-                }
-                mirror_example = InputExample(guid=ex.guid + 'm', text_a=ex.text_a, label=label, meta=meta)
-                mirror_examples.append(mirror_example)
-            examples += mirror_examples
-            logger.info(f"Added {len(mirror_examples)} mirror examples, total size is {len(examples)}...")
-        return examples
 
 
 
@@ -1039,7 +994,7 @@ PROCESSORS = {
     "cb": CbProcessor,
     "wsc": WscProcessor,
     "boolq": BoolQProcessor,
-    "copa": CopaProcessor,
+    "hucopa": HuCopaProcessor,
     "multirc": MultiRcProcessor,
     "record": RecordProcessor,
     "ax-g": AxGProcessor,
@@ -1047,13 +1002,12 @@ PROCESSORS = {
     "allocine": AllocineProcessor,
     "husst" : HuSSTProcessor,
     "hurte" : HuRteProcessor,
-    "hucopa" : HuCopaProcessor
 }  # type: Dict[str,Callable[[],DataProcessor]]
 
 TASK_HELPERS = {
     "wsc": task_helpers.WscTaskHelper,
     "multirc": task_helpers.MultiRcTaskHelper,
-    "copa": task_helpers.CopaTaskHelper,
+    "hucopa": task_helpers.HuCopaTaskHelper,
     "record": task_helpers.RecordTaskHelper,
 }
 
