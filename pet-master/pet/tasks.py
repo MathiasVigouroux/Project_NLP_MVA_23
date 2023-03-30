@@ -24,6 +24,7 @@ from typing import List, Dict, Callable
 
 import log
 from pet import task_helpers
+from pet.task_helpers import MultiMaskTaskHelper
 from pet.utils import InputExample
 
 
