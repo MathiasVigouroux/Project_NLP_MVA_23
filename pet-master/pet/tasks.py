@@ -927,11 +927,11 @@ class AllocineProcessor(DataProcessor):
 
 
 # register the processor for this task with its name
-#PROCESSORS[AllocineProcessor.TASK_NAME] = AllocineProcessor
+PROCESSORS[AllocineProcessor.TASK_NAME] = AllocineProcessor
 #from pet.tasks import TASK_HELPERS
 #from pet.task_helpers import MultiMaskTaskHelper
 # optional: if you have to use verbalizers that correspond to multiple tokens, uncomment the following line
-TASK_HELPERS['allocine'] = MultiMaskTaskHelper
+#TASK_HELPERS['allocine'] = MultiMaskTaskHelper
     
     
 
