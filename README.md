@@ -4,7 +4,7 @@ Repository for the Project of Algorithms for Speech and Natural Language Process
 
 
 
-#Liste des choses qui restent à faire : 
+# Liste des choses qui restent à faire : 
 
 
 - Faire tourner le code sur tout ce qui reste 
