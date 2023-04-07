@@ -49,13 +49,3 @@ https://www.youtube.com/watch?v=P7Rav5tK3Y0
 Autre vidéo importante : 
 
 https://youtu.be/01jRE9noSWw
-
-# Une approche naive utilisation du PET avec BERT comme PLM (pck l'on sait que BERT marche ... XLM-roberta non).
-
-# Très important :
-
-On a voulu testé dans le verbalizer le mot "mauvais". Or le mot "mauvais est enfaite tokenizé en plusieurs bouts. AssertionError: Verbalization "mauvais" does not correspond to a single token, got ['ma', '##u', '##va', '##is']
-
-
-
-Je décide dopnc d'utilise le mot 'nul'
