@@ -3,6 +3,26 @@ Repository for the Project of Algorithms for Speech and Natural Language Process
 
 
 
+
+#Liste des choses qui restent à faire : 
+
+
+- Faire tourner le code sur tout ce qui reste 
+   - chaque tache hongroise avec un des différents LLM 
+   - Pareil pour les tâches françaises
+   - Faire un tableau des résultats
+- Finir de modifier le rapport pour inclure les valeurs quyantitatives de performance par exemple.
+- Clean le github et y insérer tout les résultats 
+
+
+
+
+
+
+
+
+
+
 lien de l’article : https://arxiv.org/pdf/2001.07676.pdf
 Ok en faite l’article au dessus est juste la verion précédente de notre article.
 Je ne comprends pas pourquoi c’est cet article qui est utilisé ? On fait pas justement : 
