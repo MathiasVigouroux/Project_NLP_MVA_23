@@ -726,9 +726,9 @@ class HuSSTPVP(PVP):
 
     TASK_NAME = "husst"
     VERBALIZER = {
-        "negative": ["negatív","rossz", "szar"], 
-        "neutral": [ "átlag", "ok"], #"semleges", "oké"  ->  ['▁sem', 'leges'], ['▁o', 'ké']
-        "positive":["jó", "remek"] #"positív", is a not really frequent word in hunagrain, not correspond to a single token, got ['▁posi', 'tív'] 
+        "negative": ["negatív"], #,"rossz", "szar"],
+        "neutral": [ "átlag"],#, "ok"], #"semleges", "oké"  ->  ['▁sem', 'leges'], ['▁o', 'ké']
+        "positive":["jó"],#, "remek"] #"positív", is a not really frequent word in hunagrain, not correspond to a single token, got ['▁posi', 'tív'] 
     }
 
     def get_parts(self, example: InputExample)  -> FilledPattern:
