@@ -12,9 +12,9 @@ contains the differents datasets used to train our models
 
 
 # Code 👩‍💻 
-Outputs
-speed_test
-content/Project_NLP_MVA_23
+Outputs ; 
+speed_test ; 
+content/Project_NLP_MVA_23 ; 
 pet-master
 
 
