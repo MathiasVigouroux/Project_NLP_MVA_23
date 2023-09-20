@@ -12,6 +12,11 @@ This section contains various datasets utilized for training our models.
   - [speed_test](#)
   - [content/Project_NLP_MVA_23](#)
   - [pet-master](#)
+ 
+
+## Final report 
+  - [NLPMVA23](#)
+
 
 ## Pattern Exploitation Training (PET) 🧠
 
